@@ -79,4 +79,3 @@ window.createDoughnutChart = function (canvasId, labels, data) {
 };
 
 window.destroyChart = destroyChart;
-
