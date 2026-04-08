@@ -27,7 +27,7 @@ public class TranscriptData
 
     // Convenience property to access active certifications
     [JsonIgnore]
-    public List<Certification> Certifications => CertificationData?.ActiveCertifications ?? [];
+    public IReadOnlyList<Certification> Certifications => CertificationData?.ActiveCertifications ?? Array.Empty<Certification>();
 }
 
 public class CompletedModule
