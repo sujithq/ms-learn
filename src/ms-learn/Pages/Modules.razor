@@ -1,0 +1,264 @@
+@page "/modules"
+@inject TranscriptService TranscriptSvc
+
+<PageTitle>Modules – MS Learn Dashboard</PageTitle>
+
+<div class="d-flex align-items-center gap-2 py-3 mb-3">
+    <i class="bi bi-collection-fill text-primary fs-4"></i>
+    <h1 class="h3 mb-0 fw-bold">Completed Modules</h1>
+</div>
+
+@if (_loading)
+{
+    <div class="text-center p-5">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3 text-muted">Loading modules...</p>
+    </div>
+}
+else if (_transcript == null)
+{
+    <div class="alert alert-warning">No transcript data available.</div>
+}
+else
+{
+    <!-- Filters -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <div class="row g-2">
+                <div class="col-12 col-md-4">
+                    <input type="search" class="form-control" placeholder="Search modules..." 
+                           @bind="_search" @bind:event="oninput" />
+                </div>
+                <div class="col-6 col-md-2">
+                    <select class="form-select" @bind="_filterProduct">
+                        <option value="">All Products</option>
+                        @foreach (var product in _allProducts)
+                        {
+                            <option value="@product">@product</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-6 col-md-2">
+                    <select class="form-select" @bind="_filterRole">
+                        <option value="">All Roles</option>
+                        @foreach (var role in _allRoles)
+                        {
+                            <option value="@role">@role</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-6 col-md-2">
+                    <select class="form-select" @bind="_filterLevel">
+                        <option value="">All Levels</option>
+                        @foreach (var level in _allLevels)
+                        {
+                            <option value="@level">@level</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-6 col-md-2">
+                    <select class="form-select" @bind="_sortBy">
+                        <option value="date-desc">Newest First</option>
+                        <option value="date-asc">Oldest First</option>
+                        <option value="title-asc">Title A–Z</option>
+                        <option value="title-desc">Title Z–A</option>
+                        <option value="xp-desc">Most XP</option>
+                        <option value="duration-desc">Longest</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results summary -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <p class="text-muted small mb-0">
+            Showing @PagedModules.Count() of @FilteredModules.Count() modules
+            @if (FilteredModules.Count() != _transcript.ModulesCompleted.Count)
+            {
+                <span>(filtered from @_transcript.ModulesCompleted.Count total)</span>
+            }
+        </p>
+        @if (!string.IsNullOrEmpty(_search) || !string.IsNullOrEmpty(_filterProduct) ||
+             !string.IsNullOrEmpty(_filterRole) || !string.IsNullOrEmpty(_filterLevel))
+        {
+            <button class="btn btn-sm btn-outline-secondary" @onclick="ClearFilters">
+                <i class="bi bi-x-circle me-1"></i>Clear Filters
+            </button>
+        }
+    </div>
+
+    <!-- Module list -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="list-group list-group-flush">
+            @foreach (var module in PagedModules)
+            {
+                <a href="@module.LearnUrl" target="_blank" rel="noopener"
+                   class="list-group-item list-group-item-action px-4 py-3">
+                    <div class="d-flex align-items-start gap-3">
+                        @if (!string.IsNullOrEmpty(module.IconUrl))
+                        {
+                            <img src="@module.IconUrl" alt="" width="48" height="48"
+                                 class="rounded flex-shrink-0" style="object-fit:contain;" />
+                        }
+                        else
+                        {
+                            <div class="module-icon-placeholder rounded flex-shrink-0">
+                                <i class="bi bi-book-fill text-primary"></i>
+                            </div>
+                        }
+                        <div class="flex-grow-1 min-width-0">
+                            <div class="fw-semibold mb-1">@module.Title</div>
+                            <div class="small text-muted mb-2">
+                                @if (module.CompletionDate.HasValue)
+                                {
+                                    <span class="me-3">
+                                        <i class="bi bi-calendar3 me-1"></i>@module.CompletionDate.Value.ToString("MMM d, yyyy")
+                                    </span>
+                                }
+                                <span class="me-3"><i class="bi bi-clock me-1"></i>@module.Duration min</span>
+                                <span><i class="bi bi-star me-1"></i>@module.Xp XP</span>
+                            </div>
+                            <div class="d-flex flex-wrap gap-1">
+                                @foreach (var level in module.Levels)
+                                {
+                                    <span class="badge @LevelBadgeClass(level)">@level</span>
+                                }
+                                @foreach (var role in module.Roles.Take(3))
+                                {
+                                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle">@role</span>
+                                }
+                                @foreach (var product in module.Products.Take(3))
+                                {
+                                    <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">@product</span>
+                                }
+                            </div>
+                        </div>
+                        <i class="bi bi-box-arrow-up-right text-muted flex-shrink-0 mt-1"></i>
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    @if (TotalPages > 1)
+    {
+        <nav aria-label="Module pagination" class="mb-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(_currentPage == 1 ? "disabled" : "")">
+                    <button class="page-link" @onclick="PrevPage">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                </li>
+                @for (int p = Math.Max(1, _currentPage - 2); p <= Math.Min(TotalPages, _currentPage + 2); p++)
+                {
+                    var page = p;
+                    <li class="page-item @(page == _currentPage ? "active" : "")">
+                        <button class="page-link" @onclick="() => GoToPage(page)">@(page)</button>
+                    </li>
+                }
+                <li class="page-item @(_currentPage == TotalPages ? "disabled" : "")">
+                    <button class="page-link" @onclick="NextPage">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    }
+}
+
+@code {
+    private bool _loading = true;
+    private TranscriptData? _transcript;
+
+    private string _search = "";
+    private string _filterProduct = "";
+    private string _filterRole = "";
+    private string _filterLevel = "";
+    private string _sortBy = "date-desc";
+    private int _currentPage = 1;
+    private const int PageSize = 20;
+
+    private IEnumerable<string> _allProducts = [];
+    private IEnumerable<string> _allRoles = [];
+    private IEnumerable<string> _allLevels = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        _transcript = await TranscriptSvc.GetTranscriptAsync();
+        if (_transcript != null)
+        {
+            _allProducts = _transcript.ModulesCompleted
+                .SelectMany(m => m.Products).Distinct().OrderBy(p => p);
+            _allRoles = _transcript.ModulesCompleted
+                .SelectMany(m => m.Roles).Distinct().OrderBy(r => r);
+            _allLevels = _transcript.ModulesCompleted
+                .SelectMany(m => m.Levels).Distinct().OrderBy(l => l);
+        }
+        _loading = false;
+    }
+
+    private IEnumerable<CompletedModule> FilteredModules
+    {
+        get
+        {
+            if (_transcript == null) return [];
+            var q = _transcript.ModulesCompleted.AsEnumerable();
+
+            if (!string.IsNullOrWhiteSpace(_search))
+                q = q.Where(m => m.Title != null &&
+                    m.Title.Contains(_search, StringComparison.OrdinalIgnoreCase));
+
+            if (!string.IsNullOrEmpty(_filterProduct))
+                q = q.Where(m => m.Products.Contains(_filterProduct));
+
+            if (!string.IsNullOrEmpty(_filterRole))
+                q = q.Where(m => m.Roles.Contains(_filterRole));
+
+            if (!string.IsNullOrEmpty(_filterLevel))
+                q = q.Where(m => m.Levels.Contains(_filterLevel));
+
+            q = _sortBy switch
+            {
+                "date-asc"      => q.OrderBy(m => m.CompletionDate),
+                "title-asc"     => q.OrderBy(m => m.Title),
+                "title-desc"    => q.OrderByDescending(m => m.Title),
+                "xp-desc"       => q.OrderByDescending(m => m.Xp),
+                "duration-desc" => q.OrderByDescending(m => m.Duration),
+                _               => q.OrderByDescending(m => m.CompletionDate)
+            };
+
+            return q;
+        }
+    }
+
+    private IEnumerable<CompletedModule> PagedModules =>
+        FilteredModules.Skip((_currentPage - 1) * PageSize).Take(PageSize);
+
+    private int TotalPages =>
+        (int)Math.Ceiling(FilteredModules.Count() / (double)PageSize);
+
+    private void PrevPage() { if (_currentPage > 1) _currentPage--; }
+    private void NextPage() { if (_currentPage < TotalPages) _currentPage++; }
+    private void GoToPage(int page) => _currentPage = page;
+
+    private void ClearFilters()
+    {
+        _search = "";
+        _filterProduct = "";
+        _filterRole = "";
+        _filterLevel = "";
+        _currentPage = 1;
+    }
+
+    private static string LevelBadgeClass(string level) => level.ToLower() switch
+    {
+        "beginner"     => "bg-success-subtle text-success border border-success-subtle",
+        "intermediate" => "bg-warning-subtle text-warning border border-warning-subtle",
+        "advanced"     => "bg-danger-subtle text-danger border border-danger-subtle",
+        _              => "bg-secondary-subtle text-secondary border border-secondary-subtle"
+    };
+}

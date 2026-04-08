@@ -1,0 +1,54 @@
+## .NET gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docview
+
+# Rider
+.idea/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+NuGet.Config
+
+# Build tools
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish
+publish/
+release/
+
+# OS generated files
+.DS_Store
+Thumbs.db

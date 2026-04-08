@@ -1,0 +1,293 @@
+@page "/"
+@inject TranscriptService TranscriptSvc
+@inject IJSRuntime JS
+
+<PageTitle>MS Learn Dashboard</PageTitle>
+
+@if (_loading)
+{
+    <div class="text-center p-5">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3 text-muted">Loading transcript data...</p>
+    </div>
+}
+else if (_error != null)
+{
+    <div class="alert alert-danger mt-4">
+        <h4><i class="bi bi-exclamation-triangle-fill"></i> Error Loading Data</h4>
+        <p class="mb-0">@_error</p>
+    </div>
+}
+else if (_transcript == null)
+{
+    <div class="alert alert-warning mt-4">No transcript data available.</div>
+}
+else
+{
+    <div class="dashboard-header py-4 mb-4">
+        <div class="d-flex align-items-center gap-3">
+            <div class="ms-learn-logo">
+                <i class="bi bi-mortarboard-fill fs-1 text-primary"></i>
+            </div>
+            <div>
+                <h1 class="mb-0 fw-bold">@_transcript.UserDisplayName</h1>
+                <p class="text-muted mb-0">@@_transcript.UserName &nbsp;·&nbsp;
+                    <a href="https://learn.microsoft.com/en-us/users/@_transcript.UserName/" target="_blank" rel="noopener">
+                        View on MS Learn <i class="bi bi-box-arrow-up-right small"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="row g-3 mb-4">
+        <div class="col-6 col-lg-3">
+            <div class="card stat-card h-100 border-0 shadow-sm">
+                <div class="card-body text-center py-4">
+                    <div class="stat-icon bg-primary-subtle rounded-circle mx-auto mb-3">
+                        <i class="bi bi-collection-fill text-primary fs-4"></i>
+                    </div>
+                    <h2 class="fw-bold mb-1">@_transcript.TotalModulesCompleted</h2>
+                    <p class="text-muted small mb-0">Modules Completed</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="card stat-card h-100 border-0 shadow-sm">
+                <div class="card-body text-center py-4">
+                    <div class="stat-icon bg-success-subtle rounded-circle mx-auto mb-3">
+                        <i class="bi bi-clock-fill text-success fs-4"></i>
+                    </div>
+                    <h2 class="fw-bold mb-1">@(_transcript.TotalTrainingMinutes / 60)</h2>
+                    <p class="text-muted small mb-0">Training Hours</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="card stat-card h-100 border-0 shadow-sm">
+                <div class="card-body text-center py-4">
+                    <div class="stat-icon bg-warning-subtle rounded-circle mx-auto mb-3">
+                        <i class="bi bi-star-fill text-warning fs-4"></i>
+                    </div>
+                    <h2 class="fw-bold mb-1">@_transcript.ModulesCompleted.Sum(m => m.Xp).ToString("N0")</h2>
+                    <p class="text-muted small mb-0">Total XP</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3">
+            <div class="card stat-card h-100 border-0 shadow-sm">
+                <div class="card-body text-center py-4">
+                    <div class="stat-icon bg-danger-subtle rounded-circle mx-auto mb-3">
+                        <i class="bi bi-patch-check-fill text-danger fs-4"></i>
+                    </div>
+                    <h2 class="fw-bold mb-1">@_transcript.Certifications.Count</h2>
+                    <p class="text-muted small mb-0">Certifications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Monthly Progress Chart -->
+    <div class="row g-3 mb-4">
+        <div class="col-12 col-lg-8">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-header bg-transparent border-0 pt-3 pb-0">
+                    <h5 class="fw-semibold mb-0"><i class="bi bi-bar-chart-fill text-primary me-2"></i>Monthly Progress</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="monthlyChart" style="max-height:280px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-header bg-transparent border-0 pt-3 pb-0">
+                    <h5 class="fw-semibold mb-0"><i class="bi bi-pie-chart-fill text-success me-2"></i>By Role</h5>
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <canvas id="roleChart" style="max-height:260px;"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Modules -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-transparent border-0 pt-3 pb-0 d-flex justify-content-between align-items-center">
+            <h5 class="fw-semibold mb-0"><i class="bi bi-clock-history text-primary me-2"></i>Recent Modules</h5>
+            <a href="modules" class="btn btn-sm btn-outline-primary">View All</a>
+        </div>
+        <div class="card-body p-0">
+            <div class="list-group list-group-flush">
+                @foreach (var module in _transcript.ModulesCompleted
+                    .OrderByDescending(m => m.CompletionDate)
+                    .Take(10))
+                {
+                    <a href="@module.LearnUrl" target="_blank" rel="noopener" class="list-group-item list-group-item-action px-4 py-3">
+                        <div class="d-flex align-items-center gap-3">
+                            @if (!string.IsNullOrEmpty(module.IconUrl))
+                            {
+                                <img src="@module.IconUrl" alt="" width="40" height="40" class="rounded" style="object-fit:contain;" />
+                            }
+                            else
+                            {
+                                <div class="module-icon-placeholder rounded">
+                                    <i class="bi bi-book-fill text-primary"></i>
+                                </div>
+                            }
+                            <div class="flex-grow-1 min-width-0">
+                                <div class="fw-semibold text-truncate">@module.Title</div>
+                                <div class="small text-muted">
+                                    @if (module.CompletionDate.HasValue)
+                                    {
+                                        <span><i class="bi bi-calendar3 me-1"></i>@module.CompletionDate.Value.ToString("MMM d, yyyy")</span>
+                                    }
+                                    <span class="ms-2"><i class="bi bi-clock me-1"></i>@module.Duration min</span>
+                                    <span class="ms-2"><i class="bi bi-star me-1"></i>@module.Xp XP</span>
+                                </div>
+                            </div>
+                            @foreach (var level in module.Levels.Take(1))
+                            {
+                                <span class="badge @LevelBadgeClass(level) d-none d-sm-inline">@level</span>
+                            }
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Certifications preview -->
+    @if (_transcript.Certifications.Any())
+    {
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-transparent border-0 pt-3 pb-0 d-flex justify-content-between align-items-center">
+                <h5 class="fw-semibold mb-0"><i class="bi bi-patch-check-fill text-danger me-2"></i>Certifications</h5>
+                <a href="achievements" class="btn btn-sm btn-outline-primary">View All</a>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    @foreach (var cert in _transcript.Certifications.Take(4))
+                    {
+                        <div class="col-12 col-md-6">
+                            <div class="cert-card d-flex align-items-center gap-3 p-3 rounded border">
+                                @if (!string.IsNullOrEmpty(cert.IconUrl))
+                                {
+                                    <img src="@cert.IconUrl" alt="" width="50" height="50" style="object-fit:contain;" />
+                                }
+                                <div>
+                                    <div class="fw-semibold small">@cert.Title</div>
+                                    @if (cert.DateEarned.HasValue)
+                                    {
+                                        <div class="text-muted x-small">Earned: @cert.DateEarned.Value.ToString("MMM yyyy")</div>
+                                    }
+                                    @if (cert.ExpirationDate.HasValue)
+                                    {
+                                        var expired = cert.ExpirationDate.Value < DateTime.UtcNow;
+                                        <div class="@(expired ? "text-danger" : "text-success") x-small">
+                                            @(expired ? "Expired" : "Valid until"): @cert.ExpirationDate.Value.ToString("MMM yyyy")
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <p class="text-muted small text-end">
+        <i class="bi bi-arrow-clockwise me-1"></i>Data refreshed daily via GitHub Actions
+    </p>
+}
+
+@code {
+    private bool _loading = true;
+    private string? _error;
+    private TranscriptData? _transcript;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _transcript = await TranscriptSvc.GetTranscriptAsync();
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+        finally
+        {
+            _loading = false;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && _transcript != null)
+        {
+            await RenderChartsAsync();
+        }
+    }
+
+    private async Task RenderChartsAsync()
+    {
+        if (_transcript == null) return;
+
+        // Monthly chart: modules per month for the last 12 months
+        var monthly = _transcript.ModulesCompleted
+            .Where(m => m.CompletionDate.HasValue)
+            .GroupBy(m => new { m.CompletionDate!.Value.Year, Month = m.CompletionDate.Value.Month })
+            .OrderBy(g => g.Key.Year).ThenBy(g => g.Key.Month)
+            .TakeLast(12)
+            .ToList();
+
+        var monthLabels = monthly.Select(g => new DateTime(g.Key.Year, g.Key.Month, 1).ToString("MMM yy")).ToArray();
+        var monthData = monthly.Select(g => (object)g.Count()).ToArray();
+
+        await JS.InvokeVoidAsync("createBarChart", "monthlyChart", monthLabels, monthData,
+            "Modules Completed", "rgba(13, 110, 253, 0.8)");
+
+        // Role distribution
+        var roles = _transcript.ModulesCompleted
+            .SelectMany(m => m.Roles)
+            .GroupBy(r => r)
+            .OrderByDescending(g => g.Count())
+            .Take(6)
+            .ToList();
+
+        if (roles.Any())
+        {
+            var roleLabels = roles.Select(g => FormatRole(g.Key)).ToArray();
+            var roleData = roles.Select(g => (object)g.Count()).ToArray();
+            await JS.InvokeVoidAsync("createDoughnutChart", "roleChart", roleLabels, roleData);
+        }
+    }
+
+    private static string LevelBadgeClass(string level) => level.ToLower() switch
+    {
+        "beginner" => "bg-success-subtle text-success border border-success-subtle",
+        "intermediate" => "bg-warning-subtle text-warning border border-warning-subtle",
+        "advanced" => "bg-danger-subtle text-danger border border-danger-subtle",
+        _ => "bg-secondary-subtle text-secondary border border-secondary-subtle"
+    };
+
+    private static string FormatRole(string role) => role switch
+    {
+        "administrator" => "Admin",
+        "developer" => "Developer",
+        "business-analyst" => "Business Analyst",
+        "data-engineer" => "Data Engineer",
+        "data-scientist" => "Data Scientist",
+        "database-administrator" => "DBA",
+        "devops-engineer" => "DevOps",
+        "security-engineer" => "Security",
+        "solution-architect" => "Architect",
+        "student" => "Student",
+        _ => role
+    };
+}
