@@ -1,0 +1,131 @@
+/* Loading progress */
+.loading-progress {
+    position: relative;
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    margin: 20vh auto 1rem;
+}
+
+.loading-progress circle {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 0.6rem;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
+
+.loading-progress circle:last-child {
+    stroke: #0d6efd;
+    stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+    transition: stroke-dasharray 0.05s ease-in-out;
+}
+
+.loading-progress-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    inset: calc(20vh + 3.25rem) 0 auto;
+    font-size: 1.2em;
+}
+
+.loading-progress-text:after {
+    content: var(--blazor-load-percentage-text, "Loading");
+}
+
+/* Blazor error UI */
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+/* Dashboard specific styles */
+.stat-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.stat-icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module-icon-placeholder {
+    width: 48px;
+    height: 48px;
+    background: #f0f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.cert-icon-placeholder {
+    width: 72px;
+    height: 72px;
+    background: #fff0f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cert-card {
+    background: #fafbfc;
+    transition: background 0.15s ease;
+}
+
+.cert-card:hover {
+    background: #f0f4ff;
+}
+
+.dashboard-header {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.x-small {
+    font-size: 0.75rem;
+}
+
+.min-width-0 {
+    min-width: 0;
+}
+
+/* List group hover state for modules */
+.list-group-item-action:hover {
+    background-color: #f8f9ff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 575.98px) {
+    .stat-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    h2.fw-bold {
+        font-size: 1.6rem;
+    }
+}

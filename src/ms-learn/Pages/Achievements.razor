@@ -1,0 +1,177 @@
+@page "/achievements"
+@inject TranscriptService TranscriptSvc
+
+<PageTitle>Achievements – MS Learn Dashboard</PageTitle>
+
+<div class="d-flex align-items-center gap-2 py-3 mb-3">
+    <i class="bi bi-trophy-fill text-warning fs-4"></i>
+    <h1 class="h3 mb-0 fw-bold">Achievements</h1>
+</div>
+
+@if (_loading)
+{
+    <div class="text-center p-5">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3 text-muted">Loading achievements...</p>
+    </div>
+}
+else if (_transcript == null)
+{
+    <div class="alert alert-warning">No transcript data available.</div>
+}
+else
+{
+    <!-- Certifications -->
+    <section class="mb-5">
+        <h2 class="h4 fw-semibold mb-3">
+            <i class="bi bi-patch-check-fill text-danger me-2"></i>
+            Certifications
+            <span class="badge bg-secondary ms-2">@_transcript.Certifications.Count</span>
+        </h2>
+
+        @if (!_transcript.Certifications.Any())
+        {
+            <div class="alert alert-secondary">No certifications yet.</div>
+        }
+        else
+        {
+            <div class="row g-3">
+                @foreach (var cert in _transcript.Certifications.OrderByDescending(c => c.DateEarned))
+                {
+                    var isExpired = cert.ExpirationDate.HasValue && cert.ExpirationDate.Value < DateTime.UtcNow;
+                    var expiresIn = cert.ExpirationDate.HasValue
+                        ? (cert.ExpirationDate.Value - DateTime.UtcNow).TotalDays
+                        : (double?)null;
+                    var expiringSoon = expiresIn.HasValue && expiresIn.Value > 0 && expiresIn.Value < 90;
+
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="card h-100 border-0 shadow-sm @(isExpired ? "opacity-75" : "")">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    @if (!string.IsNullOrEmpty(cert.IconUrl))
+                                    {
+                                        <img src="@cert.IconUrl" alt="" width="72" height="72"
+                                             class="flex-shrink-0" style="object-fit:contain;" />
+                                    }
+                                    else
+                                    {
+                                        <div class="cert-icon-placeholder flex-shrink-0">
+                                            <i class="bi bi-award-fill text-danger fs-2"></i>
+                                        </div>
+                                    }
+                                    <div class="flex-grow-1 min-width-0">
+                                        <h6 class="fw-semibold mb-2">@cert.Title</h6>
+                                        @if (!string.IsNullOrEmpty(cert.CertificationNumber))
+                                        {
+                                            <p class="text-muted small mb-1">
+                                                <i class="bi bi-hash me-1"></i>@cert.CertificationNumber
+                                            </p>
+                                        }
+                                        @if (cert.DateEarned.HasValue)
+                                        {
+                                            <p class="text-muted small mb-1">
+                                                <i class="bi bi-calendar-check me-1"></i>
+                                                Earned: @cert.DateEarned.Value.ToString("MMMM d, yyyy")
+                                            </p>
+                                        }
+                                        @if (cert.ExpirationDate.HasValue)
+                                        {
+                                            <p class="small mb-0 @(isExpired ? "text-danger" : expiringSoon ? "text-warning" : "text-success")">
+                                                <i class="bi bi-@(isExpired ? "x-circle-fill" : "check-circle-fill") me-1"></i>
+                                                @if (isExpired)
+                                                {
+                                                    <span>Expired @cert.ExpirationDate.Value.ToString("MMMM d, yyyy")</span>
+                                                }
+                                                else if (expiringSoon)
+                                                {
+                                                    <span>Expires in @((int)expiresIn!.Value) days</span>
+                                                }
+                                                else
+                                                {
+                                                    <span>Valid until @cert.ExpirationDate.Value.ToString("MMMM d, yyyy")</span>
+                                                }
+                                            </p>
+                                        }
+                                        else
+                                        {
+                                            <p class="small text-success mb-0">
+                                                <i class="bi bi-infinity me-1"></i>Does not expire
+                                            </p>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            @if (isExpired)
+                            {
+                                <div class="card-footer bg-danger-subtle border-0 py-1 text-center">
+                                    <small class="text-danger fw-semibold">EXPIRED</small>
+                                </div>
+                            }
+                            else if (expiringSoon)
+                            {
+                                <div class="card-footer bg-warning-subtle border-0 py-1 text-center">
+                                    <small class="text-warning fw-semibold">EXPIRING SOON</small>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </section>
+
+    <!-- Trophies -->
+    <section class="mb-4">
+        <h2 class="h4 fw-semibold mb-3">
+            <i class="bi bi-trophy-fill text-warning me-2"></i>
+            Trophies
+            <span class="badge bg-secondary ms-2">@_transcript.Trophies.Count</span>
+        </h2>
+
+        @if (!_transcript.Trophies.Any())
+        {
+            <div class="alert alert-secondary">No trophies yet.</div>
+        }
+        else
+        {
+            <div class="row g-3">
+                @foreach (var trophy in _transcript.Trophies.OrderByDescending(t => t.EarnedDate))
+                {
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="card h-100 border-0 shadow-sm text-center">
+                            <div class="card-body p-3">
+                                @if (!string.IsNullOrEmpty(trophy.IconUrl))
+                                {
+                                    <img src="@trophy.IconUrl" alt="@trophy.Title"
+                                         width="64" height="64" class="mb-2" style="object-fit:contain;" />
+                                }
+                                else
+                                {
+                                    <i class="bi bi-trophy-fill text-warning fs-2 d-block mb-2"></i>
+                                }
+                                <p class="small fw-semibold mb-1 text-truncate" title="@trophy.Title">@trophy.Title</p>
+                                @if (trophy.EarnedDate.HasValue)
+                                {
+                                    <p class="x-small text-muted mb-0">@trophy.EarnedDate.Value.ToString("MMM yyyy")</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </section>
+}
+
+@code {
+    private bool _loading = true;
+    private TranscriptData? _transcript;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _transcript = await TranscriptSvc.GetTranscriptAsync();
+        _loading = false;
+    }
+}

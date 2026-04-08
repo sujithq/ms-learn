@@ -1,0 +1,65 @@
+name: Deploy MS Learn Dashboard
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch transcript data
+        run: python scripts/fetch_transcript.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/ms-learn/wwwroot/data/transcript.json
+          if git diff --staged --quiet; then
+            echo "No changes to transcript data"
+          else
+            git commit -m "chore: update transcript data [skip ci]"
+            git push
+          fi
+
+  deploy:
+    needs: fetch-data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Publish
+        run: dotnet publish src/ms-learn/ms-learn.csproj -c Release -o release --nologo
+
+      - name: Fix base path for GitHub Pages
+        run: |
+          sed -i 's|<base href="/" />|<base href="/ms-learn/" />|' release/wwwroot/index.html
+          cp release/wwwroot/index.html release/wwwroot/404.html
+          touch release/wwwroot/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f
+        with:
+          BRANCH: gh-pages
+          FOLDER: release/wwwroot
