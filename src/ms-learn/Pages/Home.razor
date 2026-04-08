@@ -90,6 +90,21 @@ else
         </div>
     </div>
 
+    <!-- Secondary Stats Row -->
+    <div class="row g-3 mb-4">
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card stat-card h-100 border-0 shadow-sm">
+                <div class="card-body text-center py-4">
+                    <div class="stat-icon bg-info-subtle rounded-circle mx-auto mb-3">
+                        <i class="bi bi-mortarboard-fill text-info fs-4"></i>
+                    </div>
+                    <h2 class="fw-bold mb-1">@_transcript.AppliedSkills.Count</h2>
+                    <p class="text-muted small mb-0">Applied Skills</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Monthly Progress Chart -->
     <div class="row g-3 mb-4">
         <div class="col-12 col-lg-8">
@@ -190,6 +205,38 @@ else
                                         <div class="@(expired ? "text-danger" : "text-success") x-small">
                                             @(expired ? "Expired" : "Valid until"): @cert.ExpirationDate.Value.ToString("MMM yyyy")
                                         </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Applied Skills preview -->
+    @if (_transcript.AppliedSkills.Any())
+    {
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-transparent border-0 pt-3 pb-0 d-flex justify-content-between align-items-center">
+                <h5 class="fw-semibold mb-0"><i class="bi bi-mortarboard-fill text-info me-2"></i>Applied Skills</h5>
+                <a href="achievements" class="btn btn-sm btn-outline-primary">View All</a>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    @foreach (var skill in _transcript.AppliedSkills.OrderByDescending(s => s.AwardedOn).Take(4))
+                    {
+                        <div class="col-12 col-md-6">
+                            <div class="cert-card d-flex align-items-center gap-3 p-3 rounded border">
+                                <div class="cert-icon-placeholder flex-shrink-0" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-award-fill text-info"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-semibold small">@skill.Title</div>
+                                    @if (skill.AwardedOn.HasValue)
+                                    {
+                                        <div class="text-muted x-small">Awarded: @skill.AwardedOn.Value.ToString("MMM yyyy")</div>
                                     }
                                 </div>
                             </div>
