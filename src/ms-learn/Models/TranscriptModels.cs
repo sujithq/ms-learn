@@ -1,4 +1,4 @@
-namespace MsLearn.Models;
+c# namespace MsLearn.Models;
 
 using System.Text.Json.Serialization;
 
@@ -27,7 +27,7 @@ public class TranscriptData
 
     // Convenience property to access active certifications
     [JsonIgnore]
-    public IReadOnlyList<Certification> Certifications => CertificationData?.ActiveCertifications ?? Array.Empty<Certification>();
+    public IReadOnlyList<Certification> Certifications => CertificationData?.ActiveCertifications ?? new List<Certification>();
 }
 
 public class CompletedModule
