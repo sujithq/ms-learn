@@ -1,4 +1,4 @@
-c# namespace MsLearn.Models;
+namespace MsLearn.Models;
 
 using System.Text.Json.Serialization;
 
