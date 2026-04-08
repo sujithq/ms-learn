@@ -25,9 +25,16 @@ public class TranscriptData
     [JsonPropertyName("certificationData")]
     public CertificationData? CertificationData { get; set; }
 
+    [JsonPropertyName("appliedSkillsData")]
+    public AppliedSkillsData? AppliedSkillsData { get; set; }
+
     // Convenience property to access active certifications
     [JsonIgnore]
     public IReadOnlyList<Certification> Certifications => CertificationData?.ActiveCertifications ?? new List<Certification>();
+
+    // Convenience property to access applied skills credentials
+    [JsonIgnore]
+    public IReadOnlyList<AppliedSkillCredential> AppliedSkills => AppliedSkillsData?.AppliedSkillsCredentials ?? new List<AppliedSkillCredential>();
 }
 
 public class CompletedModule
@@ -139,4 +146,25 @@ public class Certification
     // Uid is not in the API response, but keep for compatibility
     [JsonPropertyName("uid")]
     public string? Uid { get; set; }
+}
+
+public class AppliedSkillsData
+{
+    [JsonPropertyName("totalAppliedSkills")]
+    public int TotalAppliedSkills { get; set; }
+
+    [JsonPropertyName("appliedSkillsCredentials")]
+    public List<AppliedSkillCredential> AppliedSkillsCredentials { get; set; } = [];
+}
+
+public class AppliedSkillCredential
+{
+    [JsonPropertyName("credentialId")]
+    public string? CredentialId { get; set; }
+
+    [JsonPropertyName("title")]
+    public string? Title { get; set; }
+
+    [JsonPropertyName("awardedOn")]
+    public DateTime? AwardedOn { get; set; }
 }
