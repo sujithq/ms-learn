@@ -16,9 +16,13 @@ public class TranscriptService(HttpClient httpClient)
         {
             _transcript = await httpClient.GetFromJsonAsync<TranscriptData>("data/transcript.json");
         }
-        catch
+        catch (HttpRequestException ex)
         {
-            _transcript = null;
+            Console.Error.WriteLine($"Failed to fetch transcript: {ex.Message}");
+        }
+        catch (System.Text.Json.JsonException ex)
+        {
+            Console.Error.WriteLine($"Failed to parse transcript JSON: {ex.Message}");
         }
 
         return _transcript;

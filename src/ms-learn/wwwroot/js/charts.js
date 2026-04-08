@@ -1,6 +1,13 @@
 // Chart registry: maps canvasId -> Chart instance
 const _charts = {};
 
+function destroyChart(canvasId) {
+    if (_charts[canvasId]) {
+        _charts[canvasId].destroy();
+        delete _charts[canvasId];
+    }
+}
+
 window.createBarChart = function (canvasId, labels, data, label, color) {
     destroyChart(canvasId);
     const ctx = document.getElementById(canvasId);
@@ -71,9 +78,5 @@ window.createDoughnutChart = function (canvasId, labels, data) {
     });
 };
 
-window.destroyChart = function (canvasId) {
-    if (_charts[canvasId]) {
-        _charts[canvasId].destroy();
-        delete _charts[canvasId];
-    }
-};
+window.destroyChart = destroyChart;
+

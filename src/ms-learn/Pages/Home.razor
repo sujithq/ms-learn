@@ -241,7 +241,7 @@ else
         // Monthly chart: modules per month for the last 12 months
         var monthly = _transcript.ModulesCompleted
             .Where(m => m.CompletionDate.HasValue)
-            .GroupBy(m => new { m.CompletionDate!.Value.Year, m.CompletionDate.Value.Month })
+            .GroupBy(m => new { m.CompletionDate!.Value.Year, Month = m.CompletionDate.Value.Month })
             .OrderBy(g => g.Key.Year).ThenBy(g => g.Key.Month)
             .TakeLast(12)
             .ToList();
