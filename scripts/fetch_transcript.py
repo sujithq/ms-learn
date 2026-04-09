@@ -17,7 +17,11 @@ HEADERS = {
 
 CATALOG_LEARNING_PATHS_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=learningPaths"
 CATALOG_MODULES_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=modules"
+CATALOG_CERTIFICATIONS_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=certifications"
 GENERIC_TROPHY_ICON_URL = "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg"
+OFFICIAL_APPLIED_SKILL_ICON_URL = (
+    "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
+)
 
 
 def fetch_json(url):
@@ -58,6 +62,75 @@ def fetch_catalog_icon_map():
 
     print(f"Catalog icon map entries: {len(icon_map)}")
     return icon_map
+
+
+def normalize_text(value):
+    """Normalize text values for resilient catalog matching."""
+    if not value:
+        return ""
+    # Some transcript values may contain replacement characters from encoding.
+    return " ".join(value.replace("�", "").split()).strip().lower()
+
+
+def fetch_certification_icon_map():
+    """Fetch title->icon URL mappings for certifications from the catalog."""
+    icon_map = {}
+    try:
+        data = fetch_json(CATALOG_CERTIFICATIONS_URL)
+        items = data.get("certifications", []) if isinstance(data, dict) else []
+        for item in items:
+            title = normalize_text(item.get("title"))
+            icon_url = item.get("icon_url")
+            if title and icon_url and title not in icon_map:
+                icon_map[title] = icon_url
+    except Exception as exc:
+        print(f"Could not fetch certification icon map from catalog: {exc}")
+
+    print(f"Certification icon map entries: {len(icon_map)}")
+    return icon_map
+
+
+def enrich_certification_icons(data, certification_icon_map):
+    """Populate official certification icon URLs when available."""
+    certification_data = data.get("certificationData")
+    if not isinstance(certification_data, dict):
+        return
+
+    updated = 0
+    for key in ("activeCertifications", "historicalCertifications"):
+        certs = certification_data.get(key, [])
+        if not isinstance(certs, list):
+            continue
+
+        for cert in certs:
+            if not isinstance(cert, dict):
+                continue
+            title_key = normalize_text(cert.get("name"))
+            if not title_key:
+                continue
+            icon_url = certification_icon_map.get(title_key)
+            if icon_url:
+                cert["iconUrl"] = icon_url
+                updated += 1
+
+    print(f"Certification icons applied: {updated}")
+
+
+def enrich_applied_skill_icons(data):
+    """Populate official applied skills icon URLs."""
+    applied_data = data.get("appliedSkillsData")
+    if not isinstance(applied_data, dict):
+        return
+
+    skills = applied_data.get("appliedSkillsCredentials", [])
+    if not isinstance(skills, list):
+        return
+
+    for skill in skills:
+        if isinstance(skill, dict):
+            skill["iconUrl"] = OFFICIAL_APPLIED_SKILL_ICON_URL
+
+    print(f"Applied skill icons applied: {len(skills)}")
 
 
 def fetch_trophies(username, docs_id):
@@ -136,6 +209,11 @@ def main():
         trophies = derive_trophies_from_learning_paths(learning_paths, icon_map)
         data["trophies"] = trophies
         print(f"Total trophies: {len(trophies)}")
+
+        # Populate official icons for certifications and applied skills.
+        certification_icon_map = fetch_certification_icon_map()
+        enrich_certification_icons(data, certification_icon_map)
+        enrich_applied_skill_icons(data)
 
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_PATH, "w", encoding="utf-8") as f:

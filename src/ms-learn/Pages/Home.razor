@@ -240,9 +240,16 @@ else
                     {
                         <div class="col-12 col-md-6">
                             <div class="cert-card d-flex align-items-center gap-3 p-3 rounded border">
-                                <div class="cert-icon-placeholder flex-shrink-0" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                                    <i class="bi bi-award-fill text-info"></i>
-                                </div>
+                                @if (!string.IsNullOrEmpty(skill.IconUrl))
+                                {
+                                    <img src="@skill.IconUrl" alt="" width="50" height="50" style="object-fit:contain;" />
+                                }
+                                else
+                                {
+                                    <div class="cert-icon-placeholder flex-shrink-0" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="bi bi-award-fill text-info"></i>
+                                    </div>
+                                }
                                 <div>
                                     <div class="fw-semibold small">@skill.Title</div>
                                     @if (skill.AwardedOn.HasValue)

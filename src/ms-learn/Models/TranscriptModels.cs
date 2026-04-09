@@ -167,4 +167,7 @@ public class AppliedSkillCredential
 
     [JsonPropertyName("awardedOn")]
     public DateTime? AwardedOn { get; set; }
+
+    [JsonPropertyName("iconUrl")]
+    public string? IconUrl { get; set; }
 }

@@ -143,9 +143,17 @@ else
                         <div class="card h-100 border-0 shadow-sm">
                             <div class="card-body">
                                 <div class="d-flex gap-3">
-                                    <div class="cert-icon-placeholder flex-shrink-0">
-                                        <i class="bi bi-award-fill text-primary fs-2"></i>
-                                    </div>
+                                    @if (!string.IsNullOrEmpty(skill.IconUrl))
+                                    {
+                                        <img src="@skill.IconUrl" alt="" width="72" height="72"
+                                             class="flex-shrink-0" style="object-fit:contain;" />
+                                    }
+                                    else
+                                    {
+                                        <div class="cert-icon-placeholder flex-shrink-0">
+                                            <i class="bi bi-award-fill text-primary fs-2"></i>
+                                        </div>
+                                    }
                                     <div class="flex-grow-1 min-width-0">
                                         <h6 class="fw-semibold mb-2">@skill.Title</h6>
                                         @if (!string.IsNullOrEmpty(skill.CredentialId))
