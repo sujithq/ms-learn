@@ -1,9 +1,31 @@
 {
-  "totalModulesCompleted": 1210,
-  "totalLearningPathsCompleted": 290,
-  "totalTrainingMinutes": 53411,
+  "totalModulesCompleted": 1211,
+  "totalLearningPathsCompleted": 291,
+  "totalTrainingMinutes": 53443,
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
+    {
+      "uid": "learn.introduction-to-azure-machine-learning-monitoring",
+      "title": "Introduction to Azure Machine Learning monitoring",
+      "description": "An introduction to what you need to know about monitoring Azure Machine Learning deployments",
+      "durationInMinutes": 32,
+      "completedOn": "2026-04-09T15:09:45.2443812+00:00",
+      "url": "/training/modules/monitor-azure-machine-learning/",
+      "completionDate": "2026-04-09T15:09:45.2443812+00:00",
+      "duration": 32,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure"
+      ],
+      "locale": "en-us"
+    },
     {
       "uid": "learn.wwl.evaluate-models-azure-ai-studio",
       "title": "Evaluate the performance of your custom copilot in the Azure AI Studio",
@@ -24551,6 +24573,13 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.monitor-ai-workloads-on-azure",
+      "title": "Monitor AI workloads on Azure",
+      "description": "Optimize your AI operations with the \"Monitor AI Workloads on Azure\" learning path. Through targeted modules, you learn to monitor Azure AI services, evaluate the performance of AI applications with Azure Monitor, and explore the fundamentals of monitoring AI models with Azure AI Foundry. This path equips professionals with the skills to ensure efficient, reliable, and high-performing AI workloads on Azure's robust platform. Start mastering AI monitoring strategies today!",
+      "durationInMinutes": 70,
+      "completedOn": "2026-04-09T15:09:45.244383+00:00"
+    },
+    {
       "uid": "learn.github.github-administration-products-2",
       "title": "GitHub fundamentals - Administration basics and product features Part 2 of 2",
       "description": "In this learning path, learn the basics of GitHub administration and discover the products that GitHub offers. This is the second learning path in a two part series.",
@@ -27144,6 +27173,12 @@
     ]
   },
   "trophies": [
+    {
+      "uid": "learn.monitor-ai-workloads-on-azure",
+      "title": "Monitor AI workloads on Azure",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-09T15:09:45.244383+00:00"
+    },
     {
       "uid": "learn.github.github-administration-products-2",
       "title": "GitHub fundamentals - Administration basics and product features Part 2 of 2",
