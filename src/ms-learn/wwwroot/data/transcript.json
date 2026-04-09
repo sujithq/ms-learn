@@ -1,9 +1,37 @@
 {
-  "totalModulesCompleted": 1209,
+  "totalModulesCompleted": 1210,
   "totalLearningPathsCompleted": 290,
-  "totalTrainingMinutes": 53373,
+  "totalTrainingMinutes": 53411,
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
+    {
+      "uid": "learn.wwl.evaluate-models-azure-ai-studio",
+      "title": "Evaluate the performance of your custom copilot in the Azure AI Studio",
+      "description": "Evaluating copilots is essential to ensure your custom copilots meet user needs, provide accurate responses, and continuously improve over time. Discover how to assess and optimize the performance of your custom copilot using the tools and features available in the Azure AI Studio.",
+      "durationInMinutes": 38,
+      "completedOn": "2026-04-09T15:03:29.6091287+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-09T15:03:24.4659162+00:00",
+        "moduleAssessmentUrl": "/training/modules/evaluate-models-azure-ai-studio/6-knowledge-check/"
+      },
+      "url": "/training/modules/evaluate-models-azure-ai-studio/",
+      "completionDate": "2026-04-09T15:03:29.6091287+00:00",
+      "duration": 38,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "data-scientist",
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
     {
       "uid": "learn.wwl.spec-driven-development-github-spec-kit-greenfield-intro",
       "title": "Get started with spec-driven development and GitHub Spec Kit",
