@@ -58,7 +58,11 @@ def fetch_trophies(username, docs_id):
 def derive_trophies_from_learning_paths(learning_paths):
     """Derive trophy data from completed learning paths as a fallback.
 
-    Each completed learning path in MS Learn awards a trophy/badge.
+    Each completed learning path in MS Learn awards a trophy/badge. A trophy
+    entry is created for every learning path using the standardized MS Learn
+    badge URL pattern (https://learn.microsoft.com/training/achievements/{uid}-badge.svg).
+    The 'completedOn' field from each learning path is mapped to 'earnedDate'
+    on the resulting trophy object.
     """
     trophies = []
     for lp in learning_paths:
