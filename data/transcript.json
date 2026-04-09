@@ -12181,5 +12181,1747 @@
         "awardedOn": "2023-10-27T12:26:14+00:00"
       }
     ]
-  }
+  },
+  "trophies": [
+    {
+      "uid": "learn.github.github-administration-products-2",
+      "title": "GitHub fundamentals - Administration basics and product features Part 2 of 2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github.github-administration-products-2-badge.svg",
+      "earnedDate": "2026-03-31T09:24:26.4456874+00:00"
+    },
+    {
+      "uid": "learn.github-foundations-2",
+      "title": "GitHub Foundations Part 2 of 2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-foundations-2-badge.svg",
+      "earnedDate": "2026-03-31T09:20:40.0293258+00:00"
+    },
+    {
+      "uid": "learn.github-foundations",
+      "title": "GitHub Foundations",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-foundations-badge.svg",
+      "earnedDate": "2026-03-31T09:16:15.8541072+00:00"
+    },
+    {
+      "uid": "learn.wwl.perform-code-maintenance-tasks-github-copilot-agent",
+      "title": "Perform code maintenance tasks using GitHub Copilot Agent",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.perform-code-maintenance-tasks-github-copilot-agent-badge.svg",
+      "earnedDate": "2026-03-31T09:05:02.2797249+00:00"
+    },
+    {
+      "uid": "learn.wwl.apl-2015-github-secret-scanning",
+      "title": "Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.apl-2015-github-secret-scanning-badge.svg",
+      "earnedDate": "2026-03-31T09:05:02.2797222+00:00"
+    },
+    {
+      "uid": "learn.wwl.apl-2014-github-issues",
+      "title": "Resolve GitHub issues using GitHub Copilot Agent",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.apl-2014-github-issues-badge.svg",
+      "earnedDate": "2026-03-31T09:01:22.3127935+00:00"
+    },
+    {
+      "uid": "learn.philanthropies.introduction-to-ai-skills-for-nonprofits",
+      "title": "Introduction to AI Skills for nonprofits",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.philanthropies.introduction-to-ai-skills-for-nonprofits-badge.svg",
+      "earnedDate": "2026-03-10T16:24:44.4884127+00:00"
+    },
+    {
+      "uid": "learn.wwl.transform-your-business-with-microsoft-ai",
+      "title": "Transform your business with Microsoft AI",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.transform-your-business-with-microsoft-ai-badge.svg",
+      "earnedDate": "2026-03-02T14:14:19.046827+00:00"
+    },
+    {
+      "uid": "learn.github.responsible-ai",
+      "title": "GitHub responsible AI",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github.responsible-ai-badge.svg",
+      "earnedDate": "2026-03-02T14:10:28.9523384+00:00"
+    },
+    {
+      "uid": "learn.wwl.drive-value-generative-ai-solutions",
+      "title": "Drive business value with AI solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.drive-value-generative-ai-solutions-badge.svg",
+      "earnedDate": "2026-03-02T13:45:13.3592515+00:00"
+    },
+    {
+      "uid": "learn.wwl.explore-business-value-generative-ai-solutions",
+      "title": "Explore the business value of generative AI solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.explore-business-value-generative-ai-solutions-badge.svg",
+      "earnedDate": "2026-03-02T13:12:05.2721935+00:00"
+    },
+    {
+      "uid": "learn.wwl.explore-microsoft-365-copilot-agent-administration",
+      "title": "Explore Microsoft 365 Copilot and agent administration",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.explore-microsoft-365-copilot-agent-administration-badge.svg",
+      "earnedDate": "2026-03-02T12:22:42.7844843+00:00"
+    },
+    {
+      "uid": "learn.wwl.explore-microsoft-365-administration",
+      "title": "Explore Microsoft 365 administration",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.explore-microsoft-365-administration-badge.svg",
+      "earnedDate": "2026-03-02T11:23:28.1703136+00:00"
+    },
+    {
+      "uid": "learn.github-github-advanced-security-2",
+      "title": "GitHub Advanced Security Part 2 of 2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-github-advanced-security-2-badge.svg",
+      "earnedDate": "2026-02-16T12:05:39.855919+00:00"
+    },
+    {
+      "uid": "learn.github-actions-2",
+      "title": "Automate your workflow with GitHub Actions Part 2 of 2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-actions-2-badge.svg",
+      "earnedDate": "2026-02-16T11:52:49.8442458+00:00"
+    },
+    {
+      "uid": "learn.wwl.get-started-with-microsoft-365-copilot",
+      "title": "Get started with Microsoft 365 Copilot",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.get-started-with-microsoft-365-copilot-badge.svg",
+      "earnedDate": "2026-02-10T14:27:24.6821221+00:00"
+    },
+    {
+      "uid": "learn-m365.wwl.transform-business-workflows-with-ai",
+      "title": "Transform business workflows with generative AI",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.wwl.transform-business-workflows-with-ai-badge.svg",
+      "earnedDate": "2026-02-02T08:03:41.155878+00:00"
+    },
+    {
+      "uid": "learn.wwl.develop-ai-agent-on-azure",
+      "title": "Develop AI agents on Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.develop-ai-agent-on-azure-badge.svg",
+      "earnedDate": "2026-01-30T14:07:22.3465916+00:00"
+    },
+    {
+      "uid": "learn.wwl.apl-3031-create-ai-agent-foundry",
+      "title": "Create an AI agent with Microsoft Foundry",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.apl-3031-create-ai-agent-foundry-badge.svg",
+      "earnedDate": "2026-01-30T09:48:00.0803816+00:00"
+    },
+    {
+      "uid": "learn.philanthropies.ai-fluency",
+      "title": "AI Fluency",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.philanthropies.ai-fluency-badge.svg",
+      "earnedDate": "2026-01-30T09:39:41.3737773+00:00"
+    },
+    {
+      "uid": "learn.maximize-cost-efficiency-ai-agents",
+      "title": "Maximize the Cost Efficiency of AI Agents on Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.maximize-cost-efficiency-ai-agents-badge.svg",
+      "earnedDate": "2026-01-27T14:37:58.4865304+00:00"
+    },
+    {
+      "uid": "learn.introduction-ai-azure",
+      "title": "Introduction to AI in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.introduction-ai-azure-badge.svg",
+      "earnedDate": "2026-01-27T13:47:21.9719327+00:00"
+    },
+    {
+      "uid": "learn.ai-technical-concepts",
+      "title": "AI concepts for developers and technology professionals",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.ai-technical-concepts-badge.svg",
+      "earnedDate": "2026-01-27T13:47:21.9719297+00:00"
+    },
+    {
+      "uid": "learn.wwl.get-started-ai-apps-agents",
+      "title": "Get started with AI apps and agents on Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.get-started-ai-apps-agents-badge.svg",
+      "earnedDate": "2026-01-27T13:32:32.777618+00:00"
+    },
+    {
+      "uid": "learn.wwl.copilot-foundations",
+      "title": "Foundations of copilots with Copilot Studio and Azure AI Studio",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.copilot-foundations-badge.svg",
+      "earnedDate": "2026-01-27T08:55:35.0982837+00:00"
+    },
+    {
+      "uid": "learn.wwl.optimize-business-processes-ai",
+      "title": "Optimize business processes with Microsoft 365 Copilot",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.optimize-business-processes-ai-badge.svg",
+      "earnedDate": "2026-01-27T08:41:08.6263641+00:00"
+    },
+    {
+      "uid": "learn.github-github-advanced-security",
+      "title": "GitHub Advanced Security",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-github-advanced-security-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6534023+00:00"
+    },
+    {
+      "uid": "learn.wwl.configure-manage-entitlement-microsoft-entra-id",
+      "title": "Configure and govern entitlement with Microsoft Entra ID",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.configure-manage-entitlement-microsoft-entra-id-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6533507+00:00"
+    },
+    {
+      "uid": "learn.researcher-cloud-security-cost-management",
+      "title": "Azure for Researchers part 2: Cloud Security and Cost Management",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.researcher-cloud-security-cost-management-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6533482+00:00"
+    },
+    {
+      "uid": "learn.azure-common-linux-server-configurations",
+      "title": "Common Linux server configurations",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-common-linux-server-configurations-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6533388+00:00"
+    },
+    {
+      "uid": "learn.wwl.advanced-canvas-app-development-mastering-formulas-techniques",
+      "title": "Advanced Canvas App Development in Power Apps: Mastering Formulas and Development Techniques",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.advanced-canvas-app-development-mastering-formulas-techniques-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6533287+00:00"
+    },
+    {
+      "uid": "learn.researcher-introduction-to-cloud-computing",
+      "title": "Azure for Researchers part 1: Introduction to Cloud Computing",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.researcher-introduction-to-cloud-computing-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6532945+00:00"
+    },
+    {
+      "uid": "learn.github-actions",
+      "title": "Automate your workflow with GitHub Actions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-actions-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6532237+00:00"
+    },
+    {
+      "uid": "learn-m365.cybersecurity-secure-software",
+      "title": "Learn how Microsoft supports secure software development as part of a cybersecurity solution",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.cybersecurity-secure-software-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6532223+00:00"
+    },
+    {
+      "uid": "learn.github.github-administration-products-1",
+      "title": "GitHub fundamentals - Administration basics and product features Part 1 of 2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github.github-administration-products-1-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6532113+00:00"
+    },
+    {
+      "uid": "learn.monitor-hybrid-virtual-machines-containers-network",
+      "title": "Monitor hybrid virtual machines, containers, and network resources",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.monitor-hybrid-virtual-machines-containers-network-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6532025+00:00"
+    },
+    {
+      "uid": "learn.wwl.apl-3030-build-ai-app-foundry",
+      "title": "Build a generative AI chat app",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.apl-3030-build-ai-app-foundry-badge.svg",
+      "earnedDate": "2026-01-20T07:22:41.6531796+00:00"
+    },
+    {
+      "uid": "learn.wwl.automate-azure-load-testing-github",
+      "title": "Automate Azure Load Testing by using GitHub",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.automate-azure-load-testing-github-badge.svg",
+      "earnedDate": "2025-11-26T08:59:22.4011286+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-100-design-operations-identity-compliance-capabilities",
+      "title": "SC-100: Design security operations, identity, and compliance capabilities",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-100-design-operations-identity-compliance-capabilities-badge.svg",
+      "earnedDate": "2025-09-15T07:30:07.7692479+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-100-design-solutions-best-practices-priorities",
+      "title": "SC-100: Design solutions that align with security best practices and priorities",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-100-design-solutions-best-practices-priorities-badge.svg",
+      "earnedDate": "2025-09-13T21:04:32.5860707+00:00"
+    },
+    {
+      "uid": "learn.wwl.accelerate-app-development-using-github-copilot",
+      "title": "APL-2007: Accelerate app development by using GitHub Copilot",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.accelerate-app-development-using-github-copilot-badge.svg",
+      "earnedDate": "2025-07-18T12:56:23.4888961+00:00"
+    },
+    {
+      "uid": "learn.github-copilot-2",
+      "title": "GitHub Copilot Fundamentals Part 2 of 2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-copilot-2-badge.svg",
+      "earnedDate": "2025-07-14T09:30:20.945125+00:00"
+    },
+    {
+      "uid": "learn.github-copilot",
+      "title": "GitHub Copilot Fundamentals - Understand the AI pair programmer",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github-copilot-badge.svg",
+      "earnedDate": "2023-12-31T01:01:17.1590931+00:00"
+    },
+    {
+      "uid": "learn.github.get-started-github-and-visual-studio-code",
+      "title": "Get started with GitHub and Visual Studio Code",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github.get-started-github-and-visual-studio-code-badge.svg",
+      "earnedDate": "2023-12-31T00:43:40.9614905+00:00"
+    },
+    {
+      "uid": "learn.wwl.deploy-manage-containers-azure-kubernetes-service",
+      "title": "Deploy containers by using Azure Kubernetes Service (AKS)",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.deploy-manage-containers-azure-kubernetes-service-badge.svg",
+      "earnedDate": "2023-10-26T12:06:30.8828564+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-400-implement-ci-azure-pipelines-github-actions",
+      "title": "AZ-400: Implement CI with Azure Pipelines and GitHub Actions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-400-implement-ci-azure-pipelines-github-actions-badge.svg",
+      "earnedDate": "2023-03-23T07:10:57.4956091+00:00"
+    },
+    {
+      "uid": "learn.wwl.azure-fundamentals-describe-azure-architecture-services",
+      "title": "Azure Fundamentals: Describe Azure architecture and services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.azure-fundamentals-describe-azure-architecture-services-badge.svg",
+      "earnedDate": "2023-03-23T07:05:38.374187+00:00"
+    },
+    {
+      "uid": "learn.wwl.describe-azure-management-governance",
+      "title": "Azure Fundamentals: Describe Azure management and governance",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.describe-azure-management-governance-badge.svg",
+      "earnedDate": "2023-03-23T06:53:57.3792659+00:00"
+    },
+    {
+      "uid": "learn.wwl.introduction-to-azure-database-administration",
+      "title": "Introduction to Azure database administration",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.introduction-to-azure-database-administration-badge.svg",
+      "earnedDate": "2023-03-21T18:10:30.3540586+00:00"
+    },
+    {
+      "uid": "learn.wwl.describe-concepts-of-security-compliance-identity",
+      "title": "Microsoft Security, Compliance, and Identity Fundamentals: Describe the concepts of security, compliance, and identity",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.describe-concepts-of-security-compliance-identity-badge.svg",
+      "earnedDate": "2023-03-21T17:35:38.6393093+00:00"
+    },
+    {
+      "uid": "learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts",
+      "title": "Microsoft Azure Fundamentals: Describe cloud concepts",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts-badge.svg",
+      "earnedDate": "2023-03-05T12:09:28.0517856+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-400-work-git-for-enterprise-devops",
+      "title": "AZ-400: Work with Git for enterprise DevOps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-400-work-git-for-enterprise-devops-badge.svg",
+      "earnedDate": "2022-10-13T10:17:04.3282982+00:00"
+    },
+    {
+      "uid": "learn.wwl.manage-governance-compliance-features-microsoft-365",
+      "title": "MS-500 part 4: Manage Governance and Compliance Features in Microsoft 365",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.manage-governance-compliance-features-microsoft-365-badge.svg",
+      "earnedDate": "2022-09-01T13:32:46.4469105+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-manage-threat-protection",
+      "title": "MS-500 part 2 - Implement and manage threat protection",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-manage-threat-protection-badge.svg",
+      "earnedDate": "2022-08-12T07:41:38.051455+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-100-design-security-for-infrastructure",
+      "title": "SC-100: Design security for infrastructure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-100-design-security-for-infrastructure-badge.svg",
+      "earnedDate": "2022-07-24T23:26:18.374615+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-100-design-strategy-for-data-applications",
+      "title": "SC-100: Design a strategy for data and applications",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-100-design-strategy-for-data-applications-badge.svg",
+      "earnedDate": "2022-07-23T07:33:41.0607632+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-100-evaluate-governance-risk-compliance",
+      "title": "SC-100: Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-100-evaluate-governance-risk-compliance-badge.svg",
+      "earnedDate": "2022-07-23T07:13:29.1691193+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-100-design-zero-trust-strategy-architecture",
+      "title": "SC-100: Design a Zero Trust strategy and architecture",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-100-design-zero-trust-strategy-architecture-badge.svg",
+      "earnedDate": "2022-07-22T22:59:01.0393482+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-language-understanding-solution",
+      "title": "Create a Language Understanding solution",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-language-understanding-solution-badge.svg",
+      "earnedDate": "2022-07-17T10:48:22.068352+00:00"
+    },
+    {
+      "uid": "learn.wwl.prepare-for-ai-engineering",
+      "title": "Prepare for AI engineering",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.prepare-for-ai-engineering-badge.svg",
+      "earnedDate": "2022-07-17T10:44:45.5207936+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-conversational-ai-solutions",
+      "title": "Create conversational AI solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-conversational-ai-solutions-badge.svg",
+      "earnedDate": "2022-07-16T13:32:26.1788623+00:00"
+    },
+    {
+      "uid": "learn.aspnet-core-web-app",
+      "title": "Build web apps with ASP.NET Core for beginners",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.aspnet-core-web-app-badge.svg",
+      "earnedDate": "2022-06-14T14:49:25.197415+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-400-get-started-devops-transformation-journey",
+      "title": "AZ-400: Get started on a DevOps transformation journey",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-400-get-started-devops-transformation-journey-badge.svg",
+      "earnedDate": "2022-06-07T02:36:31.1275945+00:00"
+    },
+    {
+      "uid": "learn.aks-cluster-scalability",
+      "title": "Azure Kubernetes Service (AKS) application and cluster scalability",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.aks-cluster-scalability-badge.svg",
+      "earnedDate": "2022-05-31T15:22:07.2608982+00:00"
+    },
+    {
+      "uid": "learn.aks-cluster-architecture",
+      "title": "Azure Kubernetes Service (AKS) cluster architecture and operations",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.aks-cluster-architecture-badge.svg",
+      "earnedDate": "2022-05-31T15:02:16.7715004+00:00"
+    },
+    {
+      "uid": "learn.manage-hybrid-infrastructure-with-azure-arc",
+      "title": "Manage hybrid infrastructure with Azure Arc",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.manage-hybrid-infrastructure-with-azure-arc-badge.svg",
+      "earnedDate": "2022-05-31T14:13:04.3788743+00:00"
+    },
+    {
+      "uid": "learn.bicep-deploy-manage",
+      "title": "Fundamentals of Bicep",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.bicep-deploy-manage-badge.svg",
+      "earnedDate": "2022-05-31T13:13:57.0816489+00:00"
+    },
+    {
+      "uid": "learn.react",
+      "title": "Creating your first web apps with React",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.react-badge.svg",
+      "earnedDate": "2022-05-31T10:41:44.3696801+00:00"
+    },
+    {
+      "uid": "learn.azure.cna-architect-modern-apps",
+      "title": "Create cloud native apps with Azure and open-source software",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure.cna-architect-modern-apps-badge.svg",
+      "earnedDate": "2022-05-31T09:03:44.7375177+00:00"
+    },
+    {
+      "uid": "learn.wwl.manage-content-search-investigations-microsoft-365",
+      "title": "Manage content search and investigations in Microsoft 365",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.manage-content-search-investigations-microsoft-365-badge.svg",
+      "earnedDate": "2022-05-31T08:04:16.0746062+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-200-mitigate-threats-using-microsoft-365-defender",
+      "title": "SC-200: Mitigate threats using Microsoft 365 Defender",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-200-mitigate-threats-using-microsoft-365-defender-badge.svg",
+      "earnedDate": "2022-05-31T07:38:05.0524194+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-200-create-detections-perform-investigations-azure-sentinel",
+      "title": "SC-200: Create detections and perform investigations using Microsoft Sentinel",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-200-create-detections-perform-investigations-azure-sentinel-badge.svg",
+      "earnedDate": "2022-05-31T06:14:34.6680337+00:00"
+    },
+    {
+      "uid": "learn.wwl.sc-200-mitigate-threats-using-azure-defender",
+      "title": "SC-200: Mitigate threats using Microsoft Defender for Cloud",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.sc-200-mitigate-threats-using-azure-defender-badge.svg",
+      "earnedDate": "2022-05-30T14:22:15.6771493+00:00"
+    },
+    {
+      "uid": "learn.wwl.manage-iot-devices-by-using-iot-hub-apps",
+      "title": "Manage IoT devices by using IoT Hub and apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.manage-iot-devices-by-using-iot-hub-apps-badge.svg",
+      "earnedDate": "2022-05-30T12:46:17.0337983+00:00"
+    },
+    {
+      "uid": "learn.wwl.develop-deploy-custom-iot-edge-modules",
+      "title": "Develop and deploy custom IoT Edge modules",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.develop-deploy-custom-iot-edge-modules-badge.svg",
+      "earnedDate": "2022-05-30T09:20:00.8932928+00:00"
+    },
+    {
+      "uid": "learn.wwl.deploy-azure-iot-edge-devices-modules",
+      "title": "Deploy Azure IoT Edge devices and modules",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.deploy-azure-iot-edge-devices-modules-badge.svg",
+      "earnedDate": "2022-05-30T06:09:10.1562808+00:00"
+    },
+    {
+      "uid": "learn.wwl.provision-iot-devices-at-scale-by-using-device",
+      "title": "Provision IoT devices at scale by using the Device Provisioning Service",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.provision-iot-devices-at-scale-by-using-device-badge.svg",
+      "earnedDate": "2022-05-27T10:23:45.2100882+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-iot-device-communication-by-using-azure-iot-sdks",
+      "title": "Implement IoT device communication by using the Azure IoT SDKs",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-iot-device-communication-by-using-azure-iot-sdks-badge.svg",
+      "earnedDate": "2022-05-27T05:11:22.4833811+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-azure-iot-services-azure-portal",
+      "title": "Create Azure IoT services in the Azure portal",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-azure-iot-services-azure-portal-badge.svg",
+      "earnedDate": "2022-05-26T06:58:31.6034706+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-integrate-caching-content-delivery-within-solutions",
+      "title": "AZ-204: Integrate caching and content delivery within solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-integrate-caching-content-delivery-within-solutions-badge.svg",
+      "earnedDate": "2022-05-25T10:24:31.7468073+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging",
+      "title": "AZ-204: Instrument solutions to support monitoring and logging",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging-badge.svg",
+      "earnedDate": "2022-05-25T10:21:53.9318813+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-develop-message-based-solutions",
+      "title": "AZ-204: Develop message-based solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-develop-message-based-solutions-badge.svg",
+      "earnedDate": "2022-05-25T10:20:00.5817375+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-develop-event-based-solutions",
+      "title": "AZ-204: Develop event-based solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-develop-event-based-solutions-badge.svg",
+      "earnedDate": "2022-05-25T10:15:01.6157876+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-implement-api-management",
+      "title": "AZ-204: Implement API Management",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-implement-api-management-badge.svg",
+      "earnedDate": "2022-05-25T06:48:14.5069184+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-implement-secure-cloud-solutions",
+      "title": "AZ-204: Implement secure cloud solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-implement-secure-cloud-solutions-badge.svg",
+      "earnedDate": "2022-05-25T06:36:47.5789093+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-implement-authentication-authorization",
+      "title": "AZ-204: Implement user authentication and authorization",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-implement-authentication-authorization-badge.svg",
+      "earnedDate": "2022-05-25T06:21:11.4235252+00:00"
+    },
+    {
+      "uid": "learn.monitor-usage-performance-availability-resources-azure-monitor",
+      "title": "Monitor the usage, performance, and availability of resources with Azure Monitor",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.monitor-usage-performance-availability-resources-azure-monitor-badge.svg",
+      "earnedDate": "2022-02-15T17:02:39.6804404+00:00"
+    },
+    {
+      "uid": "learn.wwl.design-infranstructure-solutions",
+      "title": "AZ-305: Design infrastructure solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.design-infranstructure-solutions-badge.svg",
+      "earnedDate": "2022-01-11T16:31:21.0503796+00:00"
+    },
+    {
+      "uid": "learn.wwl.design-business-continuity-solutions",
+      "title": "AZ-305: Design business continuity solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.design-business-continuity-solutions-badge.svg",
+      "earnedDate": "2022-01-03T09:43:31.3991771+00:00"
+    },
+    {
+      "uid": "learn.wwl.design-data-storage-solutions",
+      "title": "AZ-305: Design data storage solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.design-data-storage-solutions-badge.svg",
+      "earnedDate": "2022-01-03T09:24:31.6275327+00:00"
+    },
+    {
+      "uid": "learn.wwl.design-identity-governance-monitor-solutions",
+      "title": "AZ-305: Design identity, governance, and monitor solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.design-identity-governance-monitor-solutions-badge.svg",
+      "earnedDate": "2022-01-03T08:41:40.0306802+00:00"
+    },
+    {
+      "uid": "learn.wwl.design-implement-replication-strategy-cosmos-db-sql-api",
+      "title": "Design and implement a replication strategy for Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.design-implement-replication-strategy-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-20T21:27:52.942535+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-server-side-programming-azure-cosmos-db-sql-api",
+      "title": "Create server-side programming constructs in Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-server-side-programming-azure-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-09T13:11:35.6944351+00:00"
+    },
+    {
+      "uid": "learn.wwl.manage-cosmos-db-sql-api-solution-using-devops-practices",
+      "title": "Manage an Azure Cosmos DB SQL API solution using DevOps practices",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.manage-cosmos-db-sql-api-solution-using-devops-practices-badge.svg",
+      "earnedDate": "2021-12-09T12:56:27.6209071+00:00"
+    },
+    {
+      "uid": "learn.wwl.monitor-troubleshoot-azure-cosmos-db-sql-api-solution",
+      "title": "Monitor and troubleshoot an Azure Cosmos DB SQL API solution",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.monitor-troubleshoot-azure-cosmos-db-sql-api-solution-badge.svg",
+      "earnedDate": "2021-12-04T22:24:52.7770959+00:00"
+    },
+    {
+      "uid": "learn.wwl.optimize-query-performance-azure-cosmos-db-sql-api",
+      "title": "Optimize query and operation performance in Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.optimize-query-performance-azure-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-04T21:35:22.0334646+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-modeling-partitioning-azure-cosmos-db-sql-api",
+      "title": "Implement a data modeling and partitioning strategy for Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-modeling-partitioning-azure-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-04T12:46:41.9220014+00:00"
+    },
+    {
+      "uid": "learn.wwl.integrate-azure-cosmos-db-sql-api-azure-services",
+      "title": "Integrate Azure Cosmos DB SQL API with Azure services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.integrate-azure-cosmos-db-sql-api-azure-services-badge.svg",
+      "earnedDate": "2021-12-04T12:28:06.8548981+00:00"
+    },
+    {
+      "uid": "learn.wwl.define-implement-indexing-strategy-cosmos-db-sql-api",
+      "title": "Define and implement an indexing strategy for Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.define-implement-indexing-strategy-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-04T12:06:50.7060609+00:00"
+    },
+    {
+      "uid": "learn.wwl.execute-queries-azure-cosmos-db-sql-api",
+      "title": "Execute queries in Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.execute-queries-azure-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-04T11:54:51.7204051+00:00"
+    },
+    {
+      "uid": "learn.wwl.access-manage-data-azure-cosmos-db-sql-api-sdks",
+      "title": "Access and manage data with the Azure Cosmos DB SQL API SDKs",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.access-manage-data-azure-cosmos-db-sql-api-sdks-badge.svg",
+      "earnedDate": "2021-12-04T09:23:51.0409303+00:00"
+    },
+    {
+      "uid": "learn.wwl.connect-to-azure-cosmos-db-sql-api-sdk",
+      "title": "Connect to Azure Cosmos DB SQL API with the SDK",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.connect-to-azure-cosmos-db-sql-api-sdk-badge.svg",
+      "earnedDate": "2021-12-04T08:54:43.8783649+00:00"
+    },
+    {
+      "uid": "learn.wwl.plan-implement-azure-cosmos-db-sql-api",
+      "title": "Plan and implement Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.plan-implement-azure-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-03T16:47:41.1414379+00:00"
+    },
+    {
+      "uid": "learn.wwl.get-started-azure-cosmos-db-sql-api",
+      "title": "Get started with Azure Cosmos DB SQL API",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.get-started-azure-cosmos-db-sql-api-badge.svg",
+      "earnedDate": "2021-12-03T16:18:00.6447249+00:00"
+    },
+    {
+      "uid": "learn.wwl.manage-security-operation",
+      "title": "AZ-500 part 4: Manage security operation",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.manage-security-operation-badge.svg",
+      "earnedDate": "2021-11-14T11:52:01.6914751+00:00"
+    },
+    {
+      "uid": "learn.wwl.secure-your-data-applications",
+      "title": "AZ-500 part 3: Secure your data and applications",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.secure-your-data-applications-badge.svg",
+      "earnedDate": "2021-11-14T11:42:22.8801554+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-platform-protection",
+      "title": "AZ-500 part2: Implement platform protection",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-platform-protection-badge.svg",
+      "earnedDate": "2021-11-14T11:23:01.993546+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-manage-identity-access",
+      "title": "MS-500 part 1 - Implement and manage identity and access",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-manage-identity-access-badge.svg",
+      "earnedDate": "2021-11-14T10:55:14.7437013+00:00"
+    },
+    {
+      "uid": "learn.wwl.manage-identity-access",
+      "title": "AZ-500 part-1: Manage Identity and Access",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.manage-identity-access-badge.svg",
+      "earnedDate": "2021-11-14T10:48:33.7912503+00:00"
+    },
+    {
+      "uid": "learn.wwl.monitor-optimize-operational-resources-sql-server",
+      "title": "Monitor and optimize operational resources in SQL Server",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.monitor-optimize-operational-resources-sql-server-badge.svg",
+      "earnedDate": "2021-11-05T05:40:37.6929613+00:00"
+    },
+    {
+      "uid": "learn-m365.cybersecurity-data",
+      "title": "Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.cybersecurity-data-badge.svg",
+      "earnedDate": "2021-11-03T14:32:12.8387268+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-implement-iaas-solutions",
+      "title": "AZ-204: Implement infrastructure as a service solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-implement-iaas-solutions-badge.svg",
+      "earnedDate": "2021-11-03T08:47:51.0860428+00:00"
+    },
+    {
+      "uid": "learn.wwl.develop-solutions-that-use-blob-storage",
+      "title": "AZ-204: Develop solutions that use Blob storage",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.develop-solutions-that-use-blob-storage-badge.svg",
+      "earnedDate": "2021-11-03T06:39:46.763763+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db",
+      "title": "AZ-204: Develop solutions that use Azure Cosmos DB",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db-badge.svg",
+      "earnedDate": "2021-11-02T21:53:19.224314+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-azure-functions",
+      "title": "AZ-204: Implement Azure Functions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-azure-functions-badge.svg",
+      "earnedDate": "2021-11-02T20:22:50.1625885+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-azure-app-service-web-apps",
+      "title": "AZ-204: Create Azure App Service web apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-azure-app-service-web-apps-badge.svg",
+      "earnedDate": "2021-11-02T19:58:54.1451555+00:00"
+    },
+    {
+      "uid": "learn.student-evangelism.tech-resilience",
+      "title": "Build your tech resilience",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.student-evangelism.tech-resilience-badge.svg",
+      "earnedDate": "2021-09-23T11:37:05.0453631+00:00"
+    },
+    {
+      "uid": "learn.build-serverless-full-stack-apps-azure",
+      "title": "Build serverless, full stack applications in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.build-serverless-full-stack-apps-azure-badge.svg",
+      "earnedDate": "2021-09-14T05:18:08.6458453+00:00"
+    },
+    {
+      "uid": "learn.dotnet.create-microservices-with-dotnet",
+      "title": "Create microservices with .NET and ASP.NET Core",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.dotnet.create-microservices-with-dotnet-badge.svg",
+      "earnedDate": "2021-09-13T13:35:04.9611618+00:00"
+    },
+    {
+      "uid": "learn.languages.csharp-data",
+      "title": "Work with data in C#",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.languages.csharp-data-badge.svg",
+      "earnedDate": "2021-09-13T13:12:04.0733471+00:00"
+    },
+    {
+      "uid": "learn.languages.csharp-logic",
+      "title": "Add logic to your applications with C#",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.languages.csharp-logic-badge.svg",
+      "earnedDate": "2021-09-13T12:59:32.7713318+00:00"
+    },
+    {
+      "uid": "learn.wwl.process-translate-text-azure-cognitive-services",
+      "title": "Process and translate text with Azure Cognitive Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.process-translate-text-azure-cognitive-services-badge.svg",
+      "earnedDate": "2021-09-07T19:50:21.9241964+00:00"
+    },
+    {
+      "uid": "learn.wwl.designing-implementing-microsoft-azure-networking-solutions-az-700",
+      "title": "AZ-700 Designing and Implementing Microsoft Azure Networking Solutions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.designing-implementing-microsoft-azure-networking-solutions-az-700-badge.svg",
+      "earnedDate": "2021-08-18T13:30:47.909925+00:00"
+    },
+    {
+      "uid": "learn-dynamics.use-power-apps-component-framework",
+      "title": "Create components with Power Apps Component Framework",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-dynamics.use-power-apps-component-framework-badge.svg",
+      "earnedDate": "2021-05-26T19:18:47.6509149+00:00"
+    },
+    {
+      "uid": "learn-bizapps.transform-with-fusion-dev",
+      "title": "Transform your business applications with fusion development",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.transform-with-fusion-dev-badge.svg",
+      "earnedDate": "2021-05-26T19:09:30.2232459+00:00"
+    },
+    {
+      "uid": "learn-windows.develop-windows-apps",
+      "title": "Develop Windows 10 applications",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-windows.develop-windows-apps-badge.svg",
+      "earnedDate": "2021-05-26T15:04:48.6737424+00:00"
+    },
+    {
+      "uid": "learn.languages.rust-first-steps",
+      "title": "Take your first steps with Rust",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.languages.rust-first-steps-badge.svg",
+      "earnedDate": "2021-05-25T19:35:40.9145306+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-azure-migrate-virtual-machine",
+      "title": "Migrate virtual machines and apps using Azure Migrate",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-azure-migrate-virtual-machine-badge.svg",
+      "earnedDate": "2021-05-18T11:13:55.6843263+00:00"
+    },
+    {
+      "uid": "learn.wwl.data-integration-scale-azure-data-factory",
+      "title": "Data integration at scale with Azure Data Factory or Azure Synapse Pipeline",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.data-integration-scale-azure-data-factory-badge.svg",
+      "earnedDate": "2021-05-17T07:52:58.1548817+00:00"
+    },
+    {
+      "uid": "learn.wwl.work-with-data-warehouses-using-azure-synapse-analytics",
+      "title": "Work with Data Warehouses using Azure Synapse Analytics",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.work-with-data-warehouses-using-azure-synapse-analytics-badge.svg",
+      "earnedDate": "2021-05-17T07:42:49.5883808+00:00"
+    },
+    {
+      "uid": "learn.introduction-python-space-exploration-nasa",
+      "title": "Discover the role of Python in space exploration",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.introduction-python-space-exploration-nasa-badge.svg",
+      "earnedDate": "2021-05-11T07:16:28.1854605+00:00"
+    },
+    {
+      "uid": "learn.wwl.work-with-hybrid-transactional-analytical-processing-solutions",
+      "title": "Work with Hybrid Transactional and Analytical Processing Solutions using Azure Synapse Analytics",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.work-with-hybrid-transactional-analytical-processing-solutions-badge.svg",
+      "earnedDate": "2021-05-07T13:52:26.0123152+00:00"
+    },
+    {
+      "uid": "learn.wwl.perform-data-engineering-with-azure-synapse-apache-spark-pools",
+      "title": "Perform data engineering with Azure Synapse Apache Spark Pools",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.perform-data-engineering-with-azure-synapse-apache-spark-pools-badge.svg",
+      "earnedDate": "2021-05-07T12:59:08.3141947+00:00"
+    },
+    {
+      "uid": "learn.wwl.build-data-analytics-solutions-using-azure-synapse-serverless-sql-pools",
+      "title": "Build data analytics solutions using Azure Synapse serverless SQL pools",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.build-data-analytics-solutions-using-azure-synapse-serverless-sql-pools-badge.svg",
+      "earnedDate": "2021-05-07T09:05:17.5984827+00:00"
+    },
+    {
+      "uid": "learn.wwl.realize-integrated-analytical-solutions-with-azure-synapse-analytics",
+      "title": "Realize Integrated Analytical Solutions with Azure Synapse Analytics",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.realize-integrated-analytical-solutions-with-azure-synapse-analytics-badge.svg",
+      "earnedDate": "2021-05-07T07:24:27.8630816+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-knowledge-mining-azure-cognitive-search",
+      "title": "Implement knowledge mining with Azure Cognitive Search",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-knowledge-mining-azure-cognitive-search-badge.svg",
+      "earnedDate": "2021-04-13T11:51:20.4189653+00:00"
+    },
+    {
+      "uid": "learn.build-workflows-with-logic-apps",
+      "title": "Build automated workflows to integrate data and apps with Azure Logic Apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.build-workflows-with-logic-apps-badge.svg",
+      "earnedDate": "2021-04-13T11:34:34.620263+00:00"
+    },
+    {
+      "uid": "learn.wwl.provision-manage-azure-cognitive-services",
+      "title": "Provision and manage Azure Cognitive Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.provision-manage-azure-cognitive-services-badge.svg",
+      "earnedDate": "2021-04-13T11:04:38.5289342+00:00"
+    },
+    {
+      "uid": "learn.migrate-aspnet-web-application",
+      "title": "Migrate an ASP.NET web application to Azure with Visual Studio",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.migrate-aspnet-web-application-badge.svg",
+      "earnedDate": "2021-04-13T10:57:12.228266+00:00"
+    },
+    {
+      "uid": "learn.build-dotnet-applications-csharp",
+      "title": "Build .NET applications with C#",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.build-dotnet-applications-csharp-badge.svg",
+      "earnedDate": "2021-03-30T12:38:25.0518743+00:00"
+    },
+    {
+      "uid": "learn.languages.csharp-first-steps",
+      "title": "Take your first steps with C#",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.languages.csharp-first-steps-badge.svg",
+      "earnedDate": "2021-03-30T12:13:07.4621026+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-information-governance",
+      "title": "SC-400: Implement Information Governance in Microsoft 365",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-information-governance-badge.svg",
+      "earnedDate": "2021-03-16T13:13:01.2078671+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-data-loss-prevention",
+      "title": "SC-400: Implement Data Loss Prevention",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-data-loss-prevention-badge.svg",
+      "earnedDate": "2021-03-16T13:11:10.0004693+00:00"
+    },
+    {
+      "uid": "learn.cmu-cloud-computing.cloud-storage",
+      "title": "Cloud storage",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.cmu-cloud-computing.cloud-storage-badge.svg",
+      "earnedDate": "2021-03-16T13:08:01.1191566+00:00"
+    },
+    {
+      "uid": "learn.az-400-develop-sre-strategy",
+      "title": "AZ-400: Develop a Site Reliability Engineering (SRE) strategy",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-400-develop-sre-strategy-badge.svg",
+      "earnedDate": "2021-03-16T12:45:40.1934031+00:00"
+    },
+    {
+      "uid": "learn.security.secure-your-cloud-apps",
+      "title": "Secure your cloud applications in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.secure-your-cloud-apps-badge.svg",
+      "earnedDate": "2021-03-16T12:34:38.4244609+00:00"
+    },
+    {
+      "uid": "learn.az-400-develop-security-compliance-plan",
+      "title": "AZ-400: Develop a security and compliance plan",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-400-develop-security-compliance-plan-badge.svg",
+      "earnedDate": "2021-03-16T12:29:16.1682947+00:00"
+    },
+    {
+      "uid": "learn.architect-secure-infrastructure",
+      "title": "Architect secure infrastructure in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-secure-infrastructure-badge.svg",
+      "earnedDate": "2021-03-16T11:16:38.9734207+00:00"
+    },
+    {
+      "uid": "learn.wwl.process-natural-language-azure-cognitive-language-services",
+      "title": "Process natural language with Azure Cognitive Language Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.process-natural-language-azure-cognitive-language-services-badge.svg",
+      "earnedDate": "2021-03-16T10:24:59.9628489+00:00"
+    },
+    {
+      "uid": "learn.ai-edge-engineer",
+      "title": "AI edge engineer",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.ai-edge-engineer-badge.svg",
+      "earnedDate": "2021-03-16T10:06:09.1802893+00:00"
+    },
+    {
+      "uid": "learn.security.tm-threat-modeling-fundamentals",
+      "title": "Threat Modeling Security Fundamentals",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.tm-threat-modeling-fundamentals-badge.svg",
+      "earnedDate": "2021-03-16T07:57:43.756842+00:00"
+    },
+    {
+      "uid": "learn.security.manage-security-operations",
+      "title": "Manage security operations in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.manage-security-operations-badge.svg",
+      "earnedDate": "2021-03-16T07:34:20.8734479+00:00"
+    },
+    {
+      "uid": "learn.security.implement-host-security",
+      "title": "Implement virtual machine host security in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.implement-host-security-badge.svg",
+      "earnedDate": "2021-03-16T07:22:47.0795527+00:00"
+    },
+    {
+      "uid": "learn.improve-reliability-modern-operations",
+      "title": "Improve your reliability with modern operations practices",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.improve-reliability-modern-operations-badge.svg",
+      "earnedDate": "2021-03-15T17:30:06.5798563+00:00"
+    },
+    {
+      "uid": "learn.student-evangelism.optimize-basketball-games-with-machine-learning",
+      "title": "Use basketball stats to optimize game play with Visual Studio Code, inspired by SPACE JAM: A NEW LEGACY",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.student-evangelism.optimize-basketball-games-with-machine-learning-badge.svg",
+      "earnedDate": "2021-03-15T16:24:51.2979374+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-information-protection",
+      "title": "SC-400: Implement Information Protection in Microsoft 365",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-information-protection-badge.svg",
+      "earnedDate": "2021-03-15T10:30:43.0148872+00:00"
+    },
+    {
+      "uid": "learn.wwl.plan-implement-identity-governance-strategy",
+      "title": "SC-300: Plan and implement an identity governance strategy",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.plan-implement-identity-governance-strategy-badge.svg",
+      "earnedDate": "2021-03-15T10:14:52.8261482+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-access-management-for-apps",
+      "title": "SC-300: Implement Access Management for Apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-access-management-for-apps-badge.svg",
+      "earnedDate": "2021-03-11T19:48:22.8577232+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-authentication-access-management-solution",
+      "title": "SC-300: Implement an Authentication and Access Management solution",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-authentication-access-management-solution-badge.svg",
+      "earnedDate": "2021-03-03T08:37:48.4064826+00:00"
+    },
+    {
+      "uid": "learn.azdo.capture-feedback-monitoring",
+      "title": "Capture feedback and monitoring data to continuously improve your software learning path",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azdo.capture-feedback-monitoring-badge.svg",
+      "earnedDate": "2021-03-03T07:56:47.1157419+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-identity-management-solution",
+      "title": "SC-300: Implement an identity management solution",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-identity-management-solution-badge.svg",
+      "earnedDate": "2021-03-03T07:32:21.3840019+00:00"
+    },
+    {
+      "uid": "learn.security.implement-network-security",
+      "title": "Implement network security in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.implement-network-security-badge.svg",
+      "earnedDate": "2021-03-02T15:03:53.4568747+00:00"
+    },
+    {
+      "uid": "learn.architect-compute-infrastructure",
+      "title": "Architect compute infrastructure in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-compute-infrastructure-badge.svg",
+      "earnedDate": "2021-03-02T14:56:59.3080852+00:00"
+    },
+    {
+      "uid": "learn.architect-storage-infrastructure",
+      "title": "Architect storage infrastructure in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-storage-infrastructure-badge.svg",
+      "earnedDate": "2021-03-02T13:48:14.6847076+00:00"
+    },
+    {
+      "uid": "learn.azure-admin-manage-virtual-networks",
+      "title": "Configure and manage virtual networks for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-admin-manage-virtual-networks-badge.svg",
+      "earnedDate": "2021-03-02T13:40:58.6545803+00:00"
+    },
+    {
+      "uid": "learn.azure-admin-manage-storage",
+      "title": "Implement and manage storage for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-admin-manage-storage-badge.svg",
+      "earnedDate": "2021-03-02T13:37:18.8780812+00:00"
+    },
+    {
+      "uid": "learn.administer-infrastructure-resources-in-azure",
+      "title": "Administer infrastructure resources in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.administer-infrastructure-resources-in-azure-badge.svg",
+      "earnedDate": "2021-03-02T13:37:18.8780785+00:00"
+    },
+    {
+      "uid": "learn.az-104-manage-storage",
+      "title": "AZ-104: Implement and manage storage in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-104-manage-storage-badge.svg",
+      "earnedDate": "2021-03-02T13:34:37.4070144+00:00"
+    },
+    {
+      "uid": "learn.az-104-manage-compute-resources",
+      "title": "AZ-104: Deploy and manage Azure compute resources",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-104-manage-compute-resources-badge.svg",
+      "earnedDate": "2021-03-01T15:56:14.9062367+00:00"
+    },
+    {
+      "uid": "learn.azure-admin-manage-compute-resources",
+      "title": "Deploy and manage compute resources for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-admin-manage-compute-resources-badge.svg",
+      "earnedDate": "2021-03-01T15:56:14.9062343+00:00"
+    },
+    {
+      "uid": "learn.az-104-manage-virtual-networks",
+      "title": "AZ-104: Configure and manage virtual networks for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-104-manage-virtual-networks-badge.svg",
+      "earnedDate": "2021-03-01T15:37:04.1567996+00:00"
+    },
+    {
+      "uid": "learn.control-spending-manage-bills",
+      "title": "Control Azure spending and manage bills with Azure Cost Management + Billing",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.control-spending-manage-bills-badge.svg",
+      "earnedDate": "2021-03-01T14:19:52.495694+00:00"
+    },
+    {
+      "uid": "learn.azure-admin-manage-identities-governance",
+      "title": "Manage identities and governance for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-admin-manage-identities-governance-badge.svg",
+      "earnedDate": "2021-03-01T13:53:14.9524106+00:00"
+    },
+    {
+      "uid": "learn.security.manage-identity-and-access",
+      "title": "Manage identity and access in Azure Active Directory",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.manage-identity-and-access-badge.svg",
+      "earnedDate": "2021-03-01T13:47:42.4742503+00:00"
+    },
+    {
+      "uid": "learn.az-104-manage-identities-governance",
+      "title": "AZ-104: Manage identities and governance in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-104-manage-identities-governance-badge.svg",
+      "earnedDate": "2021-03-01T13:17:02.4051173+00:00"
+    },
+    {
+      "uid": "learn.manage-resources-in-azure",
+      "title": "Manage resources in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.manage-resources-in-azure-badge.svg",
+      "earnedDate": "2021-03-01T12:09:36.9833312+00:00"
+    },
+    {
+      "uid": "learn.azure-admin-prerequisites",
+      "title": "Prerequisites for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-admin-prerequisites-badge.svg",
+      "earnedDate": "2021-02-22T19:55:49.085178+00:00"
+    },
+    {
+      "uid": "learn.az104-admin-prerequisites",
+      "title": "AZ-104: Prerequisites for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az104-admin-prerequisites-badge.svg",
+      "earnedDate": "2021-02-22T19:55:49.0851754+00:00"
+    },
+    {
+      "uid": "learn.azure-admin-monitor-backup-resources",
+      "title": "Monitor and back up resources for Azure administrators",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-admin-monitor-backup-resources-badge.svg",
+      "earnedDate": "2021-02-22T19:03:07.149778+00:00"
+    },
+    {
+      "uid": "learn.az-104-monitor-backup-resources",
+      "title": "AZ-104: Monitor and back up Azure resources",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-104-monitor-backup-resources-badge.svg",
+      "earnedDate": "2021-02-22T19:03:07.1497758+00:00"
+    },
+    {
+      "uid": "learn.azure.migrate-dotnet-apps-azure",
+      "title": "Migrate ASP.NET Apps to Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure.migrate-dotnet-apps-azure-badge.svg",
+      "earnedDate": "2021-02-22T12:40:03.2782023+00:00"
+    },
+    {
+      "uid": "learn.develop-deploy-applications-kubernetes",
+      "title": "Develop and deploy applications on Kubernetes",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.develop-deploy-applications-kubernetes-badge.svg",
+      "earnedDate": "2021-02-22T10:42:03.4269738+00:00"
+    },
+    {
+      "uid": "learn.intro-to-kubernetes-on-azure",
+      "title": "Introduction to Kubernetes on Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.intro-to-kubernetes-on-azure-badge.svg",
+      "earnedDate": "2021-02-22T10:35:12.0207789+00:00"
+    },
+    {
+      "uid": "learn.administer-containers-in-azure",
+      "title": "Administer containers in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.administer-containers-in-azure-badge.svg",
+      "earnedDate": "2021-02-22T10:11:03.6569807+00:00"
+    },
+    {
+      "uid": "learn.azure.azure-database-for-postgresql",
+      "title": "Azure Database for PostgreSQL",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure.azure-database-for-postgresql-badge.svg",
+      "earnedDate": "2021-02-22T09:56:38.2609032+00:00"
+    },
+    {
+      "uid": "learn.security.implement-resource-mgmt-security",
+      "title": "Implement resource management security in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.security.implement-resource-mgmt-security-badge.svg",
+      "earnedDate": "2021-02-22T09:18:09.5358097+00:00"
+    },
+    {
+      "uid": "learn.az-400-define-implement-continuous-integration",
+      "title": "AZ-400: Define and implement continuous integration",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-400-define-implement-continuous-integration-badge.svg",
+      "earnedDate": "2021-02-22T09:09:33.9818119+00:00"
+    },
+    {
+      "uid": "learn.azure.enterprise-scale-architecture",
+      "title": "Create an enterprise-scale architecture in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure.enterprise-scale-architecture-badge.svg",
+      "earnedDate": "2021-02-21T23:45:45.4361604+00:00"
+    },
+    {
+      "uid": "learn.architect-network-infrastructure",
+      "title": "Architect network infrastructure in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-network-infrastructure-badge.svg",
+      "earnedDate": "2021-02-21T19:15:56.8585059+00:00"
+    },
+    {
+      "uid": "learn.azure-static-web-apps",
+      "title": "Azure Static Web Apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-static-web-apps-badge.svg",
+      "earnedDate": "2021-02-20T19:26:36.7267606+00:00"
+    },
+    {
+      "uid": "learn-bizapps.work-power-virtual-agents",
+      "title": "Create bots with Power Virtual Agents",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.work-power-virtual-agents-badge.svg",
+      "earnedDate": "2021-02-19T22:49:47.4319979+00:00"
+    },
+    {
+      "uid": "learn.az-900-describe-identity-governance-privacy-compliance-features",
+      "title": "Azure Fundamentals part 5: Describe identity, governance, privacy, and compliance features",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-900-describe-identity-governance-privacy-compliance-features-badge.svg",
+      "earnedDate": "2021-02-11T15:49:33.1043044+00:00"
+    },
+    {
+      "uid": "learn.az-900-describe-general-security-network-security-features",
+      "title": "Azure Fundamentals part 4: Describe general security and network security features",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-900-describe-general-security-network-security-features-badge.svg",
+      "earnedDate": "2021-02-11T15:36:53.4106105+00:00"
+    },
+    {
+      "uid": "learn.az-900-describe-core-solutions-management-tools-azure",
+      "title": "Azure Fundamentals part 3: Describe core solutions and management tools on Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-900-describe-core-solutions-management-tools-azure-badge.svg",
+      "earnedDate": "2021-02-11T15:26:21.1957906+00:00"
+    },
+    {
+      "uid": "learn.az-900-describe-core-azure-services",
+      "title": "Azure Fundamentals part 2: Describe core Azure services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-900-describe-core-azure-services-badge.svg",
+      "earnedDate": "2021-02-11T15:13:38.8413147+00:00"
+    },
+    {
+      "uid": "learn.az-900-describe-azure-cost-management-service-level-agreements",
+      "title": "Azure Fundamentals part 6: Describe Azure cost management and service level agreements",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-900-describe-azure-cost-management-service-level-agreements-badge.svg",
+      "earnedDate": "2021-02-11T14:43:32.0542719+00:00"
+    },
+    {
+      "uid": "learn.az-900-describe-cloud-concepts",
+      "title": "Azure Fundamentals part 1: Describe core Azure concepts",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-900-describe-cloud-concepts-badge.svg",
+      "earnedDate": "2021-02-11T14:43:32.0542693+00:00"
+    },
+    {
+      "uid": "learn.azure-stack-hci-foundations",
+      "title": "Azure Stack HCI foundations",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-stack-hci-foundations-badge.svg",
+      "earnedDate": "2021-02-11T14:32:19.7116234+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-extend-fundamental",
+      "title": "Extend Microsoft 365 – Fundamental",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-extend-fundamental-badge.svg",
+      "earnedDate": "2021-02-11T13:32:35.4281028+00:00"
+    },
+    {
+      "uid": "learn-m365.msgraph-associate",
+      "title": "Build apps with Microsoft Graph – Associate",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.msgraph-associate-badge.svg",
+      "earnedDate": "2021-02-11T13:23:30.4456784+00:00"
+    },
+    {
+      "uid": "learn-m365.identity-associate",
+      "title": "Implement Microsoft identity – Associate",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.identity-associate-badge.svg",
+      "earnedDate": "2021-02-11T11:06:31.0879856+00:00"
+    },
+    {
+      "uid": "learn-develop-solutions-with-azure-iot-central",
+      "title": "Develop IoT solutions with Azure IoT Central",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-develop-solutions-with-azure-iot-central-badge.svg",
+      "earnedDate": "2021-02-01T08:43:15.2075576+00:00"
+    },
+    {
+      "uid": "learn.securely-connect-iot-devices-to-cloud",
+      "title": "Securely connect IoT devices to the cloud",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.securely-connect-iot-devices-to-cloud-badge.svg",
+      "earnedDate": "2021-02-01T08:27:21.0772041+00:00"
+    },
+    {
+      "uid": "learn.introduction-to-azure-iot",
+      "title": "Introduction to Azure IoT",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.introduction-to-azure-iot-badge.svg",
+      "earnedDate": "2021-02-01T08:03:33.0518111+00:00"
+    },
+    {
+      "uid": "learn.build-intelligent-edge-with-azure-iot-edge",
+      "title": "Build the intelligent edge with Azure IoT Edge",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.build-intelligent-edge-with-azure-iot-edge-badge.svg",
+      "earnedDate": "2021-01-26T11:29:11.0424086+00:00"
+    },
+    {
+      "uid": "learn.wwl.explore-natural-language-processing",
+      "title": "Microsoft Azure AI Fundamentals: Explore natural language processing",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.explore-natural-language-processing-badge.svg",
+      "earnedDate": "2021-01-25T15:39:10.2878213+00:00"
+    },
+    {
+      "uid": "learn.wwl.explore-computer-vision-microsoft-azure",
+      "title": "Microsoft Azure AI Fundamentals: Explore computer vision",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.explore-computer-vision-microsoft-azure-badge.svg",
+      "earnedDate": "2021-01-25T15:29:25.8180207+00:00"
+    },
+    {
+      "uid": "learn.wwl.get-started-with-artificial-intelligence-on-azure",
+      "title": "Microsoft Azure AI Fundamentals: Get started with artificial intelligence",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.get-started-with-artificial-intelligence-on-azure-badge.svg",
+      "earnedDate": "2021-01-25T15:16:14.2891528+00:00"
+    },
+    {
+      "uid": "learn.create-serverless-applications",
+      "title": "Create serverless applications",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.create-serverless-applications-badge.svg",
+      "earnedDate": "2021-01-25T14:25:16.9467131+00:00"
+    },
+    {
+      "uid": "learn.secure-your-cloud-data",
+      "title": "Secure your cloud data",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.secure-your-cloud-data-badge.svg",
+      "earnedDate": "2021-01-25T14:12:18.8108223+00:00"
+    },
+    {
+      "uid": "learn.deploy-a-website-with-azure-app-service",
+      "title": "Deploy a website to Azure with Azure App Service",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.deploy-a-website-with-azure-app-service-badge.svg",
+      "earnedDate": "2021-01-25T14:04:01.8371237+00:00"
+    },
+    {
+      "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
+      "title": "Migrate open-source databases to Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.migrating-open-source-workloads-to-azure-badge.svg",
+      "earnedDate": "2021-01-25T13:59:08.3248833+00:00"
+    },
+    {
+      "uid": "learn.azure-linux",
+      "title": "Linux on Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-linux-badge.svg",
+      "earnedDate": "2021-01-25T13:44:33.1368694+00:00"
+    },
+    {
+      "uid": "learn.deploy-a-website-with-azure-virtual-machines",
+      "title": "Deploy a website with Azure virtual machines",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.deploy-a-website-with-azure-virtual-machines-badge.svg",
+      "earnedDate": "2021-01-25T12:57:15.213526+00:00"
+    },
+    {
+      "uid": "learn.az-400-develop-instrumentation-strategy",
+      "title": "AZ-400: Develop an instrumentation strategy",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-400-develop-instrumentation-strategy-badge.svg",
+      "earnedDate": "2021-01-25T10:47:14.4339746+00:00"
+    },
+    {
+      "uid": "learn.azure-well-architected-framework",
+      "title": "Build great solutions with the Microsoft Azure Well-Architected Framework",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-well-architected-framework-badge.svg",
+      "earnedDate": "2021-01-25T07:39:58.0163425+00:00"
+    },
+    {
+      "uid": "learn.wwl.perform-data-science-azure-databricks",
+      "title": "Perform data science with Azure Databricks",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.perform-data-science-azure-databricks-badge.svg",
+      "earnedDate": "2021-01-21T16:10:24.091586+00:00"
+    },
+    {
+      "uid": "learn.data-ai.build-ai-solutions-with-azure-ml-service",
+      "title": "Build and operate machine learning solutions with Azure Machine Learning",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.build-ai-solutions-with-azure-ml-service-badge.svg",
+      "earnedDate": "2021-01-21T15:39:31.2492898+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-no-code-predictive-models-with-azure-machine-learning",
+      "title": "Microsoft Azure AI Fundamentals: Explore visual tools for machine learning",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-no-code-predictive-models-with-azure-machine-learning-badge.svg",
+      "earnedDate": "2021-01-19T14:10:47.250335+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-machine-learn-models",
+      "title": "Create machine learning models",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.create-machine-learn-models-badge.svg",
+      "earnedDate": "2021-01-19T13:54:42.0535747+00:00"
+    },
+    {
+      "uid": "learn.architect-api-integration",
+      "title": "Architect API integration in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-api-integration-badge.svg",
+      "earnedDate": "2021-01-18T20:37:43.2858608+00:00"
+    },
+    {
+      "uid": "learn.architect-modern-apps",
+      "title": "Architect modern applications in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-modern-apps-badge.svg",
+      "earnedDate": "2021-01-18T20:26:40.3422111+00:00"
+    },
+    {
+      "uid": "learn.architect-messaging-serverless",
+      "title": "Architect message brokering and serverless applications in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-messaging-serverless-badge.svg",
+      "earnedDate": "2021-01-18T20:18:36.2959611+00:00"
+    },
+    {
+      "uid": "learn.connect-your-services-together",
+      "title": "Connect your services together",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.connect-your-services-together-badge.svg",
+      "earnedDate": "2021-01-18T19:07:25.2791872+00:00"
+    },
+    {
+      "uid": "learn.architect-migration-bcdr",
+      "title": "Architect migration, business continuity, and disaster recovery in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-migration-bcdr-badge.svg",
+      "earnedDate": "2021-01-18T09:51:59.8230586+00:00"
+    },
+    {
+      "uid": "learn.architect-infrastructure-operations",
+      "title": "Architect infrastructure operations in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-infrastructure-operations-badge.svg",
+      "earnedDate": "2021-01-16T18:54:37.7838874+00:00"
+    },
+    {
+      "uid": "learn-bizapps.create-use-analytics-reports-power-bi",
+      "title": "Create and use analytics reports with Power BI",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.create-use-analytics-reports-power-bi-badge.svg",
+      "earnedDate": "2021-01-15T13:15:05.9165287+00:00"
+    },
+    {
+      "uid": "learn.wwl.power-platform-introduction",
+      "title": "Learn the basics of Power BI Desktop, Power Automate, and PowerApps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.power-platform-introduction-badge.svg",
+      "earnedDate": "2021-01-15T13:01:23.6393732+00:00"
+    },
+    {
+      "uid": "learn-bizapps.ui-controls-canvas-app-powerapps",
+      "title": "Use the UI and controls in a canvas app in Power Apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.ui-controls-canvas-app-powerapps-badge.svg",
+      "earnedDate": "2021-01-15T12:44:08.2221309+00:00"
+    },
+    {
+      "uid": "learn-bizapps.understand-advanced-topics",
+      "title": "Master advanced formula techniques and custom updates",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.understand-advanced-topics-badge.svg",
+      "earnedDate": "2021-01-14T10:52:49.4542903+00:00"
+    },
+    {
+      "uid": "learn-dynamics.get-started-using-common-data-service",
+      "title": "Get started using Dataverse",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-dynamics.get-started-using-common-data-service-badge.svg",
+      "earnedDate": "2021-01-14T10:33:04.4695109+00:00"
+    },
+    {
+      "uid": "learn-dynamics.manage-permissions-and-administration-for-common-data-service",
+      "title": "Manage permissions and administration for Dataverse",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-dynamics.manage-permissions-and-administration-for-common-data-service-badge.svg",
+      "earnedDate": "2021-01-13T10:56:35.7190164+00:00"
+    },
+    {
+      "uid": "learn-bizapps.improve-business-performance-ai-builder",
+      "title": "Improve business performance with AI Builder",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.improve-business-performance-ai-builder-badge.svg",
+      "earnedDate": "2021-01-13T10:48:38.6296736+00:00"
+    },
+    {
+      "uid": "learn-bizapps.automate-process-using-flow",
+      "title": "Automate a business process using Power Automate",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.automate-process-using-flow-badge.svg",
+      "earnedDate": "2021-01-13T08:41:24.1872626+00:00"
+    },
+    {
+      "uid": "learn-m365.msteams-associate",
+      "title": "Develop apps for Microsoft Teams – Associate",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.msteams-associate-badge.svg",
+      "earnedDate": "2021-01-08T08:15:52.6870471+00:00"
+    },
+    {
+      "uid": "learn.wwl.explore-conversational-ai",
+      "title": "Microsoft Azure AI Fundamentals: Explore conversational AI",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.explore-conversational-ai-badge.svg",
+      "earnedDate": "2021-01-08T07:29:01.9020477+00:00"
+    },
+    {
+      "uid": "learn.wwl.process-classify-images-with-azure-cognitive-vision-services",
+      "title": "Process and classify images with the Azure cognitive vision services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.process-classify-images-with-azure-cognitive-vision-services-badge.svg",
+      "earnedDate": "2021-01-08T07:26:30.9792815+00:00"
+    },
+    {
+      "uid": "learn.wwl.process-translate-speech-azure-cognitive-speech-services",
+      "title": "Process and Translate Speech with Azure Cognitive Speech Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.process-translate-speech-azure-cognitive-speech-services-badge.svg",
+      "earnedDate": "2021-01-08T07:21:43.6161247+00:00"
+    },
+    {
+      "uid": "learn.student-evangelism.intro-to-vc-git",
+      "title": "Introduction to version control with Git",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.student-evangelism.intro-to-vc-git-badge.svg",
+      "earnedDate": "2020-12-08T14:42:06.3780917+00:00"
+    },
+    {
+      "uid": "learn.github.github-administration-products",
+      "title": "GitHub fundamentals - Administration basics and product features.",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.github.github-administration-products-badge.svg",
+      "earnedDate": "2020-12-08T14:40:17.5835327+00:00"
+    },
+    {
+      "uid": "learn.az-400-facilitate-communication-collaboration",
+      "title": "AZ-400: Facilitate communication and collaboration",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-400-facilitate-communication-collaboration-badge.svg",
+      "earnedDate": "2020-11-30T11:58:51.0426681+00:00"
+    },
+    {
+      "uid": "learn.wwl.devops-dojo-white-belt-foundation",
+      "title": "Introduce DevOps Dojo: Create efficiencies that support your business",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.devops-dojo-white-belt-foundation-badge.svg",
+      "earnedDate": "2020-11-30T11:55:07.6500351+00:00"
+    },
+    {
+      "uid": "learn-m365.windows-virtual-desktop",
+      "title": "Deliver remote desktops and apps with Azure Virtual Desktop",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.windows-virtual-desktop-badge.svg",
+      "earnedDate": "2020-11-09T10:16:00.9703727+00:00"
+    },
+    {
+      "uid": "learn-bizapps.bring-ai",
+      "title": "Bring AI to your business with AI Builder",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.bring-ai-badge.svg",
+      "earnedDate": "2020-09-24T12:53:43.3125614+00:00"
+    },
+    {
+      "uid": "learn-bizapps.create-app-models-business-processes",
+      "title": "Create a model-driven application in Power Apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.create-app-models-business-processes-badge.svg",
+      "earnedDate": "2020-09-24T12:44:04.4949608+00:00"
+    },
+    {
+      "uid": "learn-bizapps.create-powerapps",
+      "title": "Create a canvas app in Power Apps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.create-powerapps-badge.svg",
+      "earnedDate": "2020-09-24T11:56:17.9250365+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-teams-upgrade",
+      "title": "Upgrade to Microsoft Teams",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-teams-upgrade-badge.svg",
+      "earnedDate": "2020-09-24T10:49:26.5502353+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-manage-team-collaboration",
+      "title": "Manage team collaboration with Microsoft Teams",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-manage-team-collaboration-badge.svg",
+      "earnedDate": "2020-09-24T10:34:43.9551825+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-compliance-information",
+      "title": "Manage information protection and governance",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-compliance-information-badge.svg",
+      "earnedDate": "2020-09-22T19:15:19.3454801+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-compliance-insider",
+      "title": "Manage insider risk in Microsoft 365",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-compliance-insider-badge.svg",
+      "earnedDate": "2020-09-22T18:56:19.1551362+00:00"
+    },
+    {
+      "uid": "learn-m365.m365-security-threat-protection",
+      "title": "Defend against threats with Microsoft 365",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.m365-security-threat-protection-badge.svg",
+      "earnedDate": "2020-09-22T18:34:30.8808545+00:00"
+    },
+    {
+      "uid": "learn-m365.identity-and-access",
+      "title": "Protect identity and access with Azure Active Directory",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-m365.identity-and-access-badge.svg",
+      "earnedDate": "2020-09-22T18:24:46.4704735+00:00"
+    },
+    {
+      "uid": "learn.wwl.build-oss-analytical-solutions-az-hdinsight",
+      "title": "Building Open Source Software (OSS) Analytics Solutions with Azure HDInsight",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.build-oss-analytical-solutions-az-hdinsight-badge.svg",
+      "earnedDate": "2020-09-08T11:21:19.1059587+00:00"
+    },
+    {
+      "uid": "learn.wwl.data-engineer-azure-databricks",
+      "title": "Data engineering with Azure Databricks",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.data-engineer-azure-databricks-badge.svg",
+      "earnedDate": "2020-09-07T14:34:45.8475209+00:00"
+    },
+    {
+      "uid": "learn.wwl.plan-implement-ha-dr-environment",
+      "title": "Plan and implement a high availability and disaster recovery environment",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.plan-implement-ha-dr-environment-badge.svg",
+      "earnedDate": "2020-09-04T13:17:00.3073826+00:00"
+    },
+    {
+      "uid": "learn.wwl.optimize-query-performance-sql-server",
+      "title": "Optimize query performance in SQL Server",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.optimize-query-performance-sql-server-badge.svg",
+      "earnedDate": "2020-09-04T12:34:00.7234316+00:00"
+    },
+    {
+      "uid": "learn.wwl.automate-tasks-sql-server",
+      "title": "Automate tasks in SQL Server",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.automate-tasks-sql-server-badge.svg",
+      "earnedDate": "2020-09-04T12:11:24.0223233+00:00"
+    },
+    {
+      "uid": "learn.work-with-nosql-data-in-azure-cosmos-db",
+      "title": "Work with NoSQL data in Azure Cosmos DB",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.work-with-nosql-data-in-azure-cosmos-db-badge.svg",
+      "earnedDate": "2020-09-04T11:57:44.2129873+00:00"
+    },
+    {
+      "uid": "learn.architect-data-platform",
+      "title": "Architect a data platform in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.architect-data-platform-badge.svg",
+      "earnedDate": "2020-09-04T11:57:44.2129849+00:00"
+    },
+    {
+      "uid": "learn.wwl.implement-secure-environment-database-service",
+      "title": "Implement a secure environment for a database service",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.implement-secure-environment-database-service-badge.svg",
+      "earnedDate": "2020-09-04T11:34:30.2376993+00:00"
+    },
+    {
+      "uid": "learn.wwl.plan-implement-data-platform-resources",
+      "title": "Plan and implement data platform resources",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.plan-implement-data-platform-resources-badge.svg",
+      "earnedDate": "2020-09-03T06:37:07.0538077+00:00"
+    },
+    {
+      "uid": "learn.wwl.migrate-application-workloads-data-azure",
+      "title": "Migrate application workloads and data to Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.migrate-application-workloads-data-azure-badge.svg",
+      "earnedDate": "2020-09-02T16:16:59.9763735+00:00"
+    },
+    {
+      "uid": "learn.data-ai.implement-sql-data-warehouse",
+      "title": "Implement a Data Warehouse with Azure Synapse Analytics",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.implement-sql-data-warehouse-badge.svg",
+      "earnedDate": "2020-09-02T15:54:33.6298092+00:00"
+    },
+    {
+      "uid": "learn.data-ai.data-processing-with-azure-adls",
+      "title": "Large-Scale Data Processing with Azure Data Lake Storage Gen2",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.data-processing-with-azure-adls-badge.svg",
+      "earnedDate": "2020-09-02T15:32:21.5269813+00:00"
+    },
+    {
+      "uid": "learn.work-with-relational-data-in-azure",
+      "title": "Work with relational data in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.work-with-relational-data-in-azure-badge.svg",
+      "earnedDate": "2020-09-02T15:25:58.7874998+00:00"
+    },
+    {
+      "uid": "learn.data-ai.implement-data-streaming-with-asa",
+      "title": "Implement a Data Streaming Solution with Azure Streaming Analytics",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.implement-data-streaming-with-asa-badge.svg",
+      "earnedDate": "2020-09-02T14:50:48.7071967+00:00"
+    },
+    {
+      "uid": "learn.store-data-in-azure",
+      "title": "Store data in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.store-data-in-azure-badge.svg",
+      "earnedDate": "2020-09-02T14:47:29.2657006+00:00"
+    },
+    {
+      "uid": "learn.data-ai.azure-for-the-data-engineer",
+      "title": "Azure for the Data Engineer",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.azure-for-the-data-engineer-badge.svg",
+      "earnedDate": "2020-09-02T12:34:51.6926565+00:00"
+    },
+    {
+      "uid": "learn.cloud-foundations",
+      "title": "Azure fundamentals learning path",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.cloud-foundations-badge.svg",
+      "earnedDate": "2020-09-02T09:57:49.4102715+00:00"
+    },
+    {
+      "uid": "learn-bizapps.get-started-data-analytics",
+      "title": "Get started with Microsoft data analytics",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-bizapps.get-started-data-analytics-badge.svg",
+      "earnedDate": "2020-09-02T09:19:54.6180124+00:00"
+    },
+    {
+      "uid": "learn.wwl.azure-data-fundamentals-explore-data-warehouse-analytics",
+      "title": "Microsoft Azure Data Fundamentals: Explore modern data warehouse analytics in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.azure-data-fundamentals-explore-data-warehouse-analytics-badge.svg",
+      "earnedDate": "2020-09-02T09:07:18.3342955+00:00"
+    },
+    {
+      "uid": "learn.wwl.azure-data-fundamentals-explore-non-relational-data",
+      "title": "Microsoft Azure Data Fundamentals: Explore non-relational data in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.azure-data-fundamentals-explore-non-relational-data-badge.svg",
+      "earnedDate": "2020-09-02T07:48:44.8862162+00:00"
+    },
+    {
+      "uid": "learn.wwl.azure-data-fundamentals-explore-relational-data",
+      "title": "Microsoft Azure Data Fundamentals: Explore relational data in Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.azure-data-fundamentals-explore-relational-data-badge.svg",
+      "earnedDate": "2020-09-02T07:36:08.5504023+00:00"
+    },
+    {
+      "uid": "learn.wwl.azure-data-fundamentals-explore-core-data-concepts",
+      "title": "Microsoft Azure Data Fundamentals: Explore core data concepts",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.wwl.azure-data-fundamentals-explore-core-data-concepts-badge.svg",
+      "earnedDate": "2020-09-02T06:12:42.0364779+00:00"
+    },
+    {
+      "uid": "learn.azure-sql-fundamentals",
+      "title": "Azure SQL fundamentals",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azure-sql-fundamentals-badge.svg",
+      "earnedDate": "2020-08-24T13:47:41.4795385+00:00"
+    },
+    {
+      "uid": "learn.build-community-driven-projects-github",
+      "title": "Build community-driven software projects on GitHub",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.build-community-driven-projects-github-badge.svg",
+      "earnedDate": "2020-08-11T10:59:08.158263+00:00"
+    },
+    {
+      "uid": "learn.az-400-manage-source-control",
+      "title": "AZ-400: Manage source control",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.az-400-manage-source-control-badge.svg",
+      "earnedDate": "2020-08-11T10:59:08.150513+00:00"
+    },
+    {
+      "uid": "learn.manage-project-lifecycle-github",
+      "title": "Manage the lifecycle of your projects on GitHub",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.manage-project-lifecycle-github-badge.svg",
+      "earnedDate": "2020-08-11T10:39:40.5543863+00:00"
+    },
+    {
+      "uid": "learn.collaborate-markdown-github-pages",
+      "title": "Collaborate with others with Markdown and GitHub Pages",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.collaborate-markdown-github-pages-badge.svg",
+      "earnedDate": "2020-08-03T12:15:52.5834848+00:00"
+    },
+    {
+      "uid": "learn.automate-workflow-github-actions",
+      "title": "Automate your workflow with GitHub Actions",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.automate-workflow-github-actions-badge.svg",
+      "earnedDate": "2020-08-03T10:50:50.9365907+00:00"
+    },
+    {
+      "uid": "learn-wwl.learn-business-value-of-azure-v1-1",
+      "title": "Learn the business value of Microsoft Azure",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn-wwl.learn-business-value-of-azure-v1-1-badge.svg",
+      "earnedDate": "2020-01-09T15:03:06.9518849+00:00"
+    },
+    {
+      "uid": "learn.data-ai.create-bots-with-the-azure-bot-service",
+      "title": "Create Intelligent Bots with the Azure Bot Service",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.create-bots-with-the-azure-bot-service-badge.svg",
+      "earnedDate": "2020-01-08T10:40:22.2371841+00:00"
+    },
+    {
+      "uid": "learn.data-ai.evaluate-text-with-language-services",
+      "title": "Evaluate text with Azure Cognitive Language Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.evaluate-text-with-language-services-badge.svg",
+      "earnedDate": "2020-01-08T10:33:35.7615105+00:00"
+    },
+    {
+      "uid": "learn.data-ai.classify-images-with-vision-services",
+      "title": "Process and classify images with the Azure Cognitive Vision Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.classify-images-with-vision-services-badge.svg",
+      "earnedDate": "2020-01-08T08:49:34.6731009+00:00"
+    },
+    {
+      "uid": "learn.data-ai.translate-speech-with-speech-services",
+      "title": "Process and translate speech with Azure Cognitive Speech Services",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.translate-speech-with-speech-services-badge.svg",
+      "earnedDate": "2020-01-08T07:59:01.9387905+00:00"
+    },
+    {
+      "uid": "learn.data-ai.publish-experiment-with-ml-studio",
+      "title": "Publish a Machine Learning Experiment with Microsoft Azure Machine Learning Studio",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.data-ai.publish-experiment-with-ml-studio-badge.svg",
+      "earnedDate": "2019-12-13T14:33:20.9226241+00:00"
+    },
+    {
+      "uid": "learn.azdo.automate-deployments-azure-devops",
+      "title": "Automate your deployments with Azure DevOps learning path",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azdo.automate-deployments-azure-devops-badge.svg",
+      "earnedDate": "2019-12-13T12:25:24.2114049+00:00"
+    },
+    {
+      "uid": "learn.azdo.deploy-applications-with-azure-devops",
+      "title": "Deploy applications with Azure DevOps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azdo.deploy-applications-with-azure-devops-badge.svg",
+      "earnedDate": "2019-12-13T11:48:44.1318401+00:00"
+    },
+    {
+      "uid": "learn.azdo.build-applications-with-azure-devops",
+      "title": "Build applications with Azure DevOps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azdo.build-applications-with-azure-devops-badge.svg",
+      "earnedDate": "2019-12-13T10:38:07.6008449+00:00"
+    },
+    {
+      "uid": "learn.azdo.evolve-your-devops-practices",
+      "title": "Get started with Azure DevOps",
+      "iconUrl": "https://learn.microsoft.com/training/achievements/learn.azdo.evolve-your-devops-practices-badge.svg",
+      "earnedDate": "2019-12-13T09:13:54.1533697+00:00"
+    }
+  ]
 }
