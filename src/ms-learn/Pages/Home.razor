@@ -26,6 +26,9 @@ else if (_transcript == null)
 }
 else
 {
+    var activeCertifications = _transcript.CertificationData?.ActiveCertifications ?? new List<Certification>();
+    var historicalCertifications = _transcript.CertificationData?.HistoricalCertifications ?? new List<Certification>();
+
     <div class="dashboard-header py-4 mb-4">
         <div class="d-flex align-items-center gap-3">
             <div class="ms-learn-logo">
@@ -83,8 +86,8 @@ else
                     <div class="stat-icon bg-danger-subtle rounded-circle mx-auto mb-3">
                         <i class="bi bi-patch-check-fill text-danger fs-4"></i>
                     </div>
-                    <h2 class="fw-bold mb-1">@_transcript.Certifications.Count</h2>
-                    <p class="text-muted small mb-0">Certifications</p>
+                    <h2 class="fw-bold mb-1">@activeCertifications.Count</h2>
+                    <p class="text-muted small mb-0">Active Certifications</p>
                 </div>
             </div>
         </div>
@@ -187,16 +190,55 @@ else
     </div>
 
     <!-- Certifications preview -->
-    @if (_transcript.Certifications.Any())
+    @if (activeCertifications.Any())
     {
         <div class="card border-0 shadow-sm mb-4">
             <div class="card-header bg-transparent border-0 pt-3 pb-0 d-flex justify-content-between align-items-center">
-                <h5 class="fw-semibold mb-0"><i class="bi bi-patch-check-fill text-danger me-2"></i>Certifications</h5>
+                <h5 class="fw-semibold mb-0"><i class="bi bi-patch-check-fill text-danger me-2"></i>Active Certifications</h5>
                 <a href="achievements" class="btn btn-sm btn-outline-primary">View All</a>
             </div>
             <div class="card-body">
                 <div class="row g-3">
-                    @foreach (var cert in _transcript.Certifications.Take(4))
+                    @foreach (var cert in activeCertifications.Take(4))
+                    {
+                        <div class="col-12 col-md-6">
+                            <div class="cert-card d-flex align-items-center gap-3 p-3 rounded border">
+                                @if (!string.IsNullOrEmpty(cert.IconUrl))
+                                {
+                                    <img src="@cert.IconUrl" alt="" width="50" height="50" style="object-fit:contain;" />
+                                }
+                                <div>
+                                    <div class="fw-semibold small">@cert.Title</div>
+                                    @if (cert.DateEarned.HasValue)
+                                    {
+                                        <div class="text-muted x-small">Earned: @cert.DateEarned.Value.ToString("MMM yyyy")</div>
+                                    }
+                                    @if (cert.ExpirationDate.HasValue)
+                                    {
+                                        var expired = cert.ExpirationDate.Value < DateTime.UtcNow;
+                                        <div class="@(expired ? "text-danger" : "text-success") x-small">
+                                            @(expired ? "Expired" : "Valid until"): @cert.ExpirationDate.Value.ToString("MMM yyyy")
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (historicalCertifications.Any())
+    {
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-transparent border-0 pt-3 pb-0 d-flex justify-content-between align-items-center">
+                <h5 class="fw-semibold mb-0"><i class="bi bi-clock-history text-secondary me-2"></i>Historical Certifications</h5>
+                <a href="achievements" class="btn btn-sm btn-outline-primary">View All</a>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    @foreach (var cert in historicalCertifications.Take(4))
                     {
                         <div class="col-12 col-md-6">
                             <div class="cert-card d-flex align-items-center gap-3 p-3 rounded border">
