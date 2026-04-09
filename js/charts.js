@@ -78,4 +78,42 @@ window.createDoughnutChart = function (canvasId, labels, data) {
     });
 };
 
+window.createSparklineChart = function (canvasId, labels, data, color) {
+    destroyChart(canvasId);
+    const ctx = document.getElementById(canvasId);
+    if (!ctx) return;
+    _charts[canvasId] = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: data,
+                borderColor: color || 'rgba(13, 110, 253, 1)',
+                backgroundColor: 'rgba(13, 110, 253, 0.12)',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.35,
+                pointRadius: 2,
+                pointHoverRadius: 3,
+                pointBackgroundColor: color || 'rgba(13, 110, 253, 1)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: { enabled: true }
+            },
+            scales: {
+                x: { display: false },
+                y: { display: false, beginAtZero: true }
+            },
+            elements: {
+                line: { capBezierPoints: true }
+            }
+        }
+    });
+};
+
 window.destroyChart = destroyChart;
