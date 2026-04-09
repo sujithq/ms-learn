@@ -64,6 +64,57 @@ def fetch_catalog_icon_map():
     return icon_map
 
 
+def fetch_catalog_module_map():
+    """Fetch UID->module metadata from the MS Learn catalog."""
+    module_map = {}
+    try:
+        data = fetch_json(CATALOG_MODULES_URL)
+        modules = data.get("modules", []) if isinstance(data, dict) else []
+        for module in modules:
+            uid = module.get("uid")
+            if uid and uid not in module_map:
+                module_map[uid] = module
+    except Exception as exc:
+        print(f"Could not fetch module catalog map from {CATALOG_MODULES_URL}: {exc}")
+
+    print(f"Module catalog entries: {len(module_map)}")
+    return module_map
+
+
+def enrich_completed_modules(data, module_map):
+    """Normalize and enrich completed modules for UI filtering and display."""
+    modules = data.get("modulesCompleted")
+    if not isinstance(modules, list):
+        return
+
+    enriched_count = 0
+    for module in modules:
+        if not isinstance(module, dict):
+            continue
+
+        uid = module.get("uid")
+        catalog_module = module_map.get(uid, {}) if uid else {}
+
+        # Keep UI-consumed fields populated even if transcript payload is sparse.
+        module["completionDate"] = module.get("completionDate") or module.get("completedOn")
+        module["duration"] = (
+            module.get("duration")
+            or module.get("durationInMinutes")
+            or catalog_module.get("duration_in_minutes")
+            or 0
+        )
+        module["xp"] = module.get("xp") or 0
+        module["iconUrl"] = module.get("iconUrl") or catalog_module.get("icon_url")
+        module["roles"] = module.get("roles") or catalog_module.get("roles") or []
+        module["levels"] = module.get("levels") or catalog_module.get("levels") or []
+        module["products"] = module.get("products") or catalog_module.get("products") or []
+        module["locale"] = module.get("locale") or catalog_module.get("locale")
+
+        enriched_count += 1
+
+    print(f"Modules enriched: {enriched_count}")
+
+
 def normalize_text(value):
     """Normalize text values for resilient catalog matching."""
     if not value:
@@ -201,6 +252,10 @@ def main():
     try:
         data = fetch_transcript()
         print(f"Fetched data: {data.get('totalModulesCompleted', 0)} modules completed")
+
+        # Normalize/enrich module metadata used by filters and badges.
+        module_map = fetch_catalog_module_map()
+        enrich_completed_modules(data, module_map)
 
         # Populate trophies from the transcript learning paths.
         learning_paths = data.get("learningPathsCompleted", [])
