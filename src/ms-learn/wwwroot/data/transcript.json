@@ -11671,96 +11671,110 @@
         "certificationNumber": "A19CY6-365231",
         "status": "Active",
         "dateEarned": "2021-01-11T14:56:44+00:00",
-        "expiration": "2027-01-11T23:59:59+00:00"
+        "expiration": "2027-01-11T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
         "certificationNumber": "AE53F7-479AFP",
         "status": "Active",
         "dateEarned": "2022-03-10T00:00:00+00:00",
-        "expiration": "2027-03-10T23:59:59+00:00"
+        "expiration": "2027-03-10T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Security Engineer Associate",
         "certificationNumber": "892C07-EE9C31",
         "status": "Active",
         "dateEarned": "2020-04-23T14:09:27+00:00",
-        "expiration": "2027-04-23T23:59:59+00:00"
+        "expiration": "2027-04-23T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Network Engineer Associate",
         "certificationNumber": "14D1CA-66FF48",
         "status": "Active",
         "dateEarned": "2022-06-24T10:44:11+00:00",
-        "expiration": "2027-06-24T23:59:59+00:00"
+        "expiration": "2027-06-24T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "Microsoft Certified: Identity and Access Administrator Associate",
         "certificationNumber": "EB7C4E-8Z1500",
         "status": "Active",
         "dateEarned": "2022-07-07T08:57:45+00:00",
-        "expiration": "2027-07-07T23:59:59+00:00"
+        "expiration": "2027-07-07T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "GitHub Copilot",
         "certificationNumber": "50R549-801AA9",
         "status": "Active",
         "dateEarned": "2025-07-17T07:49:42+00:00",
-        "expiration": "2027-07-17T23:59:59+00:00"
+        "expiration": "2027-07-17T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-copilot.svg"
       },
       {
         "name": "Microsoft Certified: Cybersecurity Architect Expert",
         "certificationNumber": "V6F0EF-D050C8",
         "status": "Active",
         "dateEarned": "2022-07-28T08:19:51+00:00",
-        "expiration": "2027-07-28T23:59:59+00:00"
+        "expiration": "2027-07-28T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Administrator Associate",
         "certificationNumber": "CBK9CA-40CF3F",
         "status": "Active",
         "dateEarned": "2020-08-06T13:37:51+00:00",
-        "expiration": "2027-08-06T23:59:59+00:00"
+        "expiration": "2027-08-06T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Solutions Architect Expert",
         "certificationNumber": "3539CC-BDEC67",
         "status": "Active",
         "dateEarned": "2020-08-08T23:59:59+00:00",
-        "expiration": "2027-08-08T23:59:59+00:00"
+        "expiration": "2027-08-08T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
         "name": "Microsoft Certified: DevOps Engineer Expert",
         "certificationNumber": "0BF84B-E3BE08",
         "status": "Active",
         "dateEarned": "2020-08-12T13:41:46+00:00",
-        "expiration": "2027-08-12T23:59:59+00:00"
+        "expiration": "2027-08-12T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Developer Associate",
         "certificationNumber": "416F81-4BASF1",
         "status": "Active",
         "dateEarned": "2020-08-26T13:54:29+00:00",
-        "expiration": "2027-08-26T23:59:59+00:00"
+        "expiration": "2027-08-26T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "GitHub Actions",
         "certificationNumber": "6U3493-9B2936",
         "status": "Active",
         "dateEarned": "2026-02-20T09:26:55+00:00",
-        "expiration": "2028-02-20T23:59:59+00:00"
+        "expiration": "2028-02-20T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-actions.svg"
       },
       {
         "name": "Microsoft Certified: Azure AI Fundamentals",
         "certificationNumber": "248D2F-652L5B",
         "status": "Active",
-        "dateEarned": "2024-06-21T13:59:18+00:00"
+        "dateEarned": "2024-06-21T13:59:18+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure Fundamentals",
         "certificationNumber": "1F37B4-XC995C",
         "status": "Active",
-        "dateEarned": "2024-05-02T06:10:02+00:00"
+        "dateEarned": "2024-05-02T06:10:02+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
       },
       {
         "name": "Microsoft® Certified Solutions Expert: Cloud Platform and Infrastructure",
@@ -11784,7 +11798,8 @@
         "name": "MCSD: App Builder",
         "certificationNumber": "Y8D7F6-7A080C",
         "status": "Active",
-        "dateEarned": "2017-05-18T07:10:21+00:00"
+        "dateEarned": "2017-05-18T07:10:21+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/mcsd-badge.svg"
       },
       {
         "name": "Microsoft Specialist: Implementing Microsoft Azure Infrastructure Solutions",
@@ -11796,7 +11811,8 @@
         "name": "MCSA: Web Applications",
         "certificationNumber": "24E3B5-C54FUF",
         "status": "Active",
-        "dateEarned": "2016-09-26T00:00:00+00:00"
+        "dateEarned": "2016-09-26T00:00:00+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/mcsa-badge.svg"
       },
       {
         "name": "Microsoft Certified Solutions Developer: App Builder Charter Member",
@@ -12038,7 +12054,8 @@
         "certificationNumber": "221JC5-885D53",
         "status": "Expired",
         "dateEarned": "2019-02-08T10:17:31+00:00",
-        "expiration": "2022-08-08T23:59:59+00:00"
+        "expiration": "2022-08-08T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
         "name": "Microsoft® Certified Professional Developer: Windows Phone Developer",
@@ -12108,77 +12125,92 @@
       {
         "credentialId": "1221041DED706015",
         "title": "Microsoft Applied Skills: Get started with Azure management tasks",
-        "awardedOn": "2026-04-05T05:09:59+00:00"
+        "awardedOn": "2026-04-05T05:09:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "8E8FFD9C94585006",
         "title": "Microsoft Applied Skills: Get started with classes, properties, and methods in C#",
-        "awardedOn": "2026-04-05T04:05:09+00:00"
+        "awardedOn": "2026-04-05T04:05:09+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "C44552EEC8624C1B",
         "title": "Microsoft Applied Skills: Generate reports with AI research agents",
-        "awardedOn": "2026-04-05T03:26:59+00:00"
+        "awardedOn": "2026-04-05T03:26:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "BD80A9A8C1535B75",
         "title": "Microsoft Applied Skills: Streamline business workflows with AI chat",
-        "awardedOn": "2026-04-05T02:51:32+00:00"
+        "awardedOn": "2026-04-05T02:51:32+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "DE9C2B2AEE86809B",
         "title": "Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot",
-        "awardedOn": "2025-07-18T13:46:26+00:00"
+        "awardedOn": "2025-07-18T13:46:26+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "BAFE8995F6D16FE0",
         "title": "Microsoft Applied Skills: Migrate SQL Server workloads to Azure SQL Database",
-        "awardedOn": "2024-07-06T12:39:31+00:00"
+        "awardedOn": "2024-07-06T12:39:31+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "52634899052A0752",
         "title": "Microsoft Applied Skills: Deploy cloud-native apps using Azure Container Apps",
-        "awardedOn": "2024-02-12T14:35:29+00:00"
+        "awardedOn": "2024-02-12T14:35:29+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "78424700D5CCDF7",
         "title": "Microsoft Applied Skills: Build an Azure AI Vision solution",
-        "awardedOn": "2023-12-04T11:08:50+00:00"
+        "awardedOn": "2023-12-04T11:08:50+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "DD793FB62E19C2AA",
         "title": "Microsoft Applied Skills: Deploy and configure Azure Monitor",
-        "awardedOn": "2023-11-20T15:14:17+00:00"
+        "awardedOn": "2023-11-20T15:14:17+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "36CC4D565FA0900B",
         "title": "Microsoft Applied Skills: Create an intelligent document processing solution with Azure AI Document Intelligence",
-        "awardedOn": "2023-11-20T11:59:18+00:00"
+        "awardedOn": "2023-11-20T11:59:18+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "8975AA062F21AEE2",
         "title": "Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language",
-        "awardedOn": "2023-11-20T10:41:28+00:00"
+        "awardedOn": "2023-11-20T10:41:28+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "B8BA947FCE07FE20",
         "title": "Microsoft Applied Skills: Secure storage for Azure Files and Azure Blob Storage",
-        "awardedOn": "2023-11-14T08:30:49+00:00"
+        "awardedOn": "2023-11-14T08:30:49+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "D2A5F7C1E7A3804B",
         "title": "Microsoft Applied Skills: Configure secure access to your workloads using Azure networking",
-        "awardedOn": "2023-11-13T15:28:41+00:00"
+        "awardedOn": "2023-11-13T15:28:41+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "24CCA82D9F5E4E74",
         "title": "Microsoft Applied Skills: Develop an ASP.NET Core web app that consumes an API",
-        "awardedOn": "2023-11-13T13:24:48+00:00"
+        "awardedOn": "2023-11-13T13:24:48+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       },
       {
         "credentialId": "318752898E087DD5",
         "title": "Microsoft Applied Skills: Deploy containers by using Azure Kubernetes Service",
-        "awardedOn": "2023-10-27T12:26:14+00:00"
+        "awardedOn": "2023-10-27T12:26:14+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
       }
     ]
   },
