@@ -28,6 +28,11 @@ else
 {
     var activeCertifications = _transcript.CertificationData?.ActiveCertifications ?? new List<Certification>();
     var historicalCertifications = _transcript.CertificationData?.HistoricalCertifications ?? new List<Certification>();
+    var momentum = BuildMomentumInsight(_transcript.ModulesCompleted);
+    var roleFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Roles, FormatRole);
+    var productFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Products, FormatProduct);
+    var levelMix = BuildLevelMix(_transcript.ModulesCompleted, 90);
+    var milestones = BuildMilestones(activeCertifications, historicalCertifications, _transcript.AppliedSkills, _transcript.Trophies);
 
     <div class="dashboard-header py-4 mb-4">
         <div class="d-flex align-items-center gap-3">
@@ -126,6 +131,123 @@ else
                     <h2 class="fw-bold mb-1">@_transcript.Trophies.Count</h2>
                     <p class="text-muted small mb-0">Trophies</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Momentum and Focus -->
+    <div class="card border-0 shadow-sm mb-4 momentum-card">
+        <div class="card-header bg-transparent border-0 pt-3 pb-0">
+            <h5 class="fw-semibold mb-0"><i class="bi bi-graph-up-arrow text-primary me-2"></i>Momentum and Focus</h5>
+        </div>
+        <div class="card-body">
+            <div class="row g-3">
+                <div class="col-12 col-lg-4">
+                    <div class="insight-panel h-100">
+                        <p class="text-uppercase x-small text-muted mb-1">Learning Momentum</p>
+                        <div class="d-flex align-items-baseline gap-2 mb-2">
+                            <h2 class="fw-bold mb-0">@momentum.Score</h2>
+                            <span class="badge @(momentum.Delta30 >= 0 ? "bg-success-subtle text-success" : "bg-danger-subtle text-danger")">
+                                @((momentum.Delta30 >= 0 ? "+" : "") + momentum.Delta30) vs prior 30d
+                            </span>
+                        </div>
+                        <p class="small text-muted mb-2">@momentum.Summary</p>
+                        <div class="small">
+                            <div class="d-flex justify-content-between"><span>Last 30 days</span><strong>@momentum.Last30 modules</strong></div>
+                            <div class="d-flex justify-content-between"><span>Previous 30 days</span><strong>@momentum.Previous30 modules</strong></div>
+                            <div class="d-flex justify-content-between"><span>Last 90 days</span><strong>@momentum.Last90 modules</strong></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="insight-panel h-100">
+                        <p class="text-uppercase x-small text-muted mb-2">Focus Shift (90d vs prior 90d)</p>
+                        <p class="fw-semibold small mb-2">Roles</p>
+                        @if (roleFocus.Any())
+                        {
+                            @foreach (var item in roleFocus.Take(4))
+                            {
+                                <div class="d-flex justify-content-between align-items-center focus-row">
+                                    <span class="small">@item.Name</span>
+                                    <span class="small @(item.Delta >= 0 ? "text-success" : "text-danger")">
+                                        <i class="bi bi-@(item.Delta >= 0 ? "arrow-up-right" : "arrow-down-right")"></i>
+                                        @((item.Delta >= 0 ? "+" : "") + item.Delta)
+                                    </span>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p class="small text-muted mb-2">Not enough recent role data.</p>
+                        }
+
+                        <p class="fw-semibold small mt-3 mb-2">Products</p>
+                        @if (productFocus.Any())
+                        {
+                            @foreach (var item in productFocus.Take(4))
+                            {
+                                <div class="d-flex justify-content-between align-items-center focus-row">
+                                    <span class="small">@item.Name</span>
+                                    <span class="small @(item.Delta >= 0 ? "text-success" : "text-danger")">
+                                        <i class="bi bi-@(item.Delta >= 0 ? "arrow-up-right" : "arrow-down-right")"></i>
+                                        @((item.Delta >= 0 ? "+" : "") + item.Delta)
+                                    </span>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p class="small text-muted mb-0">Not enough recent product data.</p>
+                        }
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="insight-panel h-100">
+                        <p class="text-uppercase x-small text-muted mb-2">Level Mix (Last 90 Days)</p>
+                        @if (levelMix.Any())
+                        {
+                            @foreach (var level in levelMix)
+                            {
+                                <div class="mb-2">
+                                    <div class="d-flex justify-content-between small mb-1">
+                                        <span>@level.Name</span>
+                                        <span>@level.Percent% (@level.Count)</span>
+                                    </div>
+                                    <div class="progress" style="height: 8px;">
+                                        <div class="progress-bar @level.BarClass" role="progressbar" style="width: @level.Percent%;" aria-valuenow="@level.Percent" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p class="small text-muted mb-0">No level data in the selected period.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-3 pt-3 border-top">
+                <p class="text-uppercase x-small text-muted mb-2">Recent Milestones</p>
+                @if (milestones.Any())
+                {
+                    <div class="d-flex flex-wrap gap-2">
+                        @foreach (var milestone in milestones)
+                        {
+                            <div class="milestone-pill">
+                                <span class="badge @milestone.BadgeClass me-2">@milestone.Type</span>
+                                <span class="small fw-semibold">@milestone.Title</span>
+                                <span class="x-small text-muted ms-2">@milestone.Date.ToString("MMM d, yyyy")</span>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="small text-muted mb-0">No recent milestones found.</p>
+                }
             </div>
         </div>
     </div>
@@ -360,6 +482,11 @@ else
 }
 
 @code {
+    private sealed record MomentumInsight(int Score, int Last30, int Previous30, int Last90, int Delta30, string Summary);
+    private sealed record FocusShiftItem(string Name, int CurrentCount, int PreviousCount, int Delta);
+    private sealed record LevelMixItem(string Name, int Count, int Percent, string BarClass);
+    private sealed record MilestoneItem(DateTime Date, string Type, string Title, string BadgeClass);
+
     private bool _loading = true;
     private string? _error;
     private TranscriptData? _transcript;
@@ -430,6 +557,135 @@ else
         _ => "bg-secondary-subtle text-secondary border border-secondary-subtle"
     };
 
+    private static MomentumInsight BuildMomentumInsight(IEnumerable<CompletedModule> modules)
+    {
+        var now = DateTime.UtcNow;
+        var last30Start = now.AddDays(-30);
+        var prev30Start = now.AddDays(-60);
+        var last90Start = now.AddDays(-90);
+        var prev90Start = now.AddDays(-180);
+
+        var dated = modules.Where(m => m.CompletionDate.HasValue).Select(m => m.CompletionDate!.Value).ToList();
+        var last30 = dated.Count(d => d >= last30Start);
+        var previous30 = dated.Count(d => d >= prev30Start && d < last30Start);
+        var last90 = dated.Count(d => d >= last90Start);
+        var previous90 = dated.Count(d => d >= prev90Start && d < last90Start);
+
+        var delta30 = last30 - previous30;
+        var delta90 = last90 - previous90;
+
+        var score = 50
+            + Math.Clamp(delta30 * 3, -20, 20)
+            + Math.Clamp(delta90, -15, 15)
+            + Math.Min(15, last30 / 2);
+        score = Math.Clamp(score, 0, 100);
+
+        var summary = delta30 switch
+        {
+            > 3 => "Your learning pace is accelerating.",
+            < -3 => "Your recent pace cooled compared to the previous month.",
+            _ => "Your learning pace is steady month-over-month."
+        };
+
+        return new MomentumInsight(score, last30, previous30, last90, delta30, summary);
+    }
+
+    private static List<FocusShiftItem> BuildFocusShift(
+        IEnumerable<CompletedModule> modules,
+        Func<CompletedModule, IEnumerable<string>> selector,
+        Func<string, string> formatter)
+    {
+        var now = DateTime.UtcNow;
+        var currentStart = now.AddDays(-90);
+        var previousStart = now.AddDays(-180);
+
+        var current = modules
+            .Where(m => m.CompletionDate.HasValue && m.CompletionDate.Value >= currentStart)
+            .SelectMany(selector)
+            .Where(v => !string.IsNullOrWhiteSpace(v))
+            .GroupBy(v => v.Trim().ToLowerInvariant())
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        var previous = modules
+            .Where(m => m.CompletionDate.HasValue && m.CompletionDate.Value >= previousStart && m.CompletionDate.Value < currentStart)
+            .SelectMany(selector)
+            .Where(v => !string.IsNullOrWhiteSpace(v))
+            .GroupBy(v => v.Trim().ToLowerInvariant())
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        return current
+            .Select(kvp =>
+            {
+                previous.TryGetValue(kvp.Key, out var previousCount);
+                var delta = kvp.Value - previousCount;
+                return new FocusShiftItem(formatter(kvp.Key), kvp.Value, previousCount, delta);
+            })
+            .OrderByDescending(i => i.CurrentCount)
+            .ThenByDescending(i => i.Delta)
+            .ToList();
+    }
+
+    private static List<LevelMixItem> BuildLevelMix(IEnumerable<CompletedModule> modules, int days)
+    {
+        var start = DateTime.UtcNow.AddDays(-days);
+        var levels = modules
+            .Where(m => m.CompletionDate.HasValue && m.CompletionDate.Value >= start)
+            .SelectMany(m => m.Levels)
+            .Where(l => !string.IsNullOrWhiteSpace(l))
+            .GroupBy(l => l.Trim().ToLowerInvariant())
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        var total = levels.Values.Sum();
+        if (total == 0)
+            return [];
+
+        var order = new[] { "beginner", "intermediate", "advanced" };
+        return order
+            .Where(levels.ContainsKey)
+            .Select(level => new LevelMixItem(
+                level[..1].ToUpperInvariant() + level[1..],
+                levels[level],
+                (int)Math.Round(levels[level] * 100d / total),
+                level switch
+                {
+                    "beginner" => "bg-success",
+                    "intermediate" => "bg-warning",
+                    "advanced" => "bg-danger",
+                    _ => "bg-secondary"
+                }))
+            .ToList();
+    }
+
+    private static List<MilestoneItem> BuildMilestones(
+        IEnumerable<Certification> activeCertifications,
+        IEnumerable<Certification> historicalCertifications,
+        IEnumerable<AppliedSkillCredential> appliedSkills,
+        IEnumerable<Trophy> trophies)
+    {
+        var milestones = new List<MilestoneItem>();
+
+        milestones.AddRange(activeCertifications
+            .Where(c => c.DateEarned.HasValue)
+            .Select(c => new MilestoneItem(c.DateEarned!.Value, "Active Cert", c.Title ?? "Certification", "bg-danger-subtle text-danger")));
+
+        milestones.AddRange(historicalCertifications
+            .Where(c => c.DateEarned.HasValue)
+            .Select(c => new MilestoneItem(c.DateEarned!.Value, "Historical Cert", c.Title ?? "Certification", "bg-secondary-subtle text-secondary")));
+
+        milestones.AddRange(appliedSkills
+            .Where(s => s.AwardedOn.HasValue)
+            .Select(s => new MilestoneItem(s.AwardedOn!.Value, "Applied Skill", s.Title ?? "Applied Skill", "bg-info-subtle text-info")));
+
+        milestones.AddRange(trophies
+            .Where(t => t.EarnedDate.HasValue)
+            .Select(t => new MilestoneItem(t.EarnedDate!.Value, "Trophy", t.Title ?? "Trophy", "bg-warning-subtle text-warning")));
+
+        return milestones
+            .OrderByDescending(m => m.Date)
+            .Take(8)
+            .ToList();
+    }
+
     private static string FormatRole(string role) => role switch
     {
         "administrator" => "Admin",
@@ -444,4 +700,22 @@ else
         "student" => "Student",
         _ => role
     };
+
+    private static string FormatProduct(string product)
+    {
+        return product switch
+        {
+            "m365" => "M365",
+            "dotnet" => ".NET",
+            "entra-id" => "Entra ID",
+            _ => string.Join(" ", product
+                .Split('-', StringSplitOptions.RemoveEmptyEntries)
+                .Select(p => p.Length switch
+                {
+                    0 => p,
+                    1 => p.ToUpperInvariant(),
+                    _ => char.ToUpperInvariant(p[0]) + p[1..]
+                }))
+        };
+    }
 }
