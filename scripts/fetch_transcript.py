@@ -15,6 +15,10 @@ HEADERS = {
     "Accept": "application/json",
 }
 
+CATALOG_LEARNING_PATHS_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=learningPaths"
+CATALOG_MODULES_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=modules"
+GENERIC_TROPHY_ICON_URL = "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg"
+
 
 def fetch_json(url):
     """Fetch JSON data from a URL."""
@@ -26,6 +30,34 @@ def fetch_json(url):
 def fetch_transcript():
     """Fetch the transcript data from MS Learn API."""
     return fetch_json(API_URL)
+
+
+def fetch_catalog_icon_map():
+    """Fetch UID->icon URL mappings from the MS Learn catalog.
+
+    Learning path UIDs are the primary source for trophies. Modules are also
+    loaded as a secondary source for UIDs that might overlap or be reclassified.
+    """
+    icon_map = {}
+    sources = [
+        (CATALOG_LEARNING_PATHS_URL, "learningPaths"),
+        (CATALOG_MODULES_URL, "modules"),
+    ]
+
+    for url, collection_key in sources:
+        try:
+            data = fetch_json(url)
+            items = data.get(collection_key, []) if isinstance(data, dict) else []
+            for item in items:
+                uid = item.get("uid")
+                icon_url = item.get("icon_url")
+                if uid and icon_url and uid not in icon_map:
+                    icon_map[uid] = icon_url
+        except Exception as exc:
+            print(f"Could not fetch catalog icon map from {url}: {exc}")
+
+    print(f"Catalog icon map entries: {len(icon_map)}")
+    return icon_map
 
 
 def fetch_trophies(username, docs_id):
@@ -55,26 +87,36 @@ def fetch_trophies(username, docs_id):
     return None
 
 
-def derive_trophies_from_learning_paths(learning_paths):
+def fetch_trophy_icon_url(uid, icon_map):
+    """Resolve a trophy icon URL by achievement UID.
+
+    Uses the MS Learn catalog icon map keyed by UID. Falls back to a generic
+    trophy icon when no UID match exists.
+    """
+    if not uid:
+        return GENERIC_TROPHY_ICON_URL
+
+    return icon_map.get(uid, GENERIC_TROPHY_ICON_URL)
+
+
+def derive_trophies_from_learning_paths(learning_paths, icon_map):
     """Derive trophy data from completed learning paths as a fallback.
 
     Each completed learning path in MS Learn awards a trophy/badge. A trophy
-    entry is created for every learning path using the standardized MS Learn
-    badge URL pattern (https://learn.microsoft.com/training/achievements/{uid}-badge.svg).
+    entry is created for every learning path. The script resolves icon URLs
+    from each UID via the MS Learn catalog icon map.
     The 'completedOn' field from each learning path is mapped to 'earnedDate'
     on the resulting trophy object.
     """
     trophies = []
     for lp in learning_paths:
         uid = lp.get("uid", "")
+        icon_url = lp.get("iconUrl") or fetch_trophy_icon_url(uid, icon_map)
+
         trophy = {
             "uid": uid,
             "title": lp.get("title", ""),
-            "iconUrl": (
-                f"https://learn.microsoft.com/training/achievements/{uid}-badge.svg"
-                if uid
-                else None
-            ),
+            "iconUrl": icon_url,
             "earnedDate": lp.get("completedOn"),
         }
         trophies.append(trophy)
@@ -87,18 +129,11 @@ def main():
         data = fetch_transcript()
         print(f"Fetched data: {data.get('totalModulesCompleted', 0)} modules completed")
 
-        # Populate trophies: try the achievements API first, then fall back to
-        # deriving them from the learning paths already present in the transcript.
-        username = data.get("userName", "")
-        docs_id = data.get("docsId", "")
-        trophies = fetch_trophies(username, docs_id)
-        if trophies is None:
-            learning_paths = data.get("learningPathsCompleted", [])
-            print(
-                f"Falling back to deriving {len(learning_paths)} trophies "
-                "from learningPathsCompleted"
-            )
-            trophies = derive_trophies_from_learning_paths(learning_paths)
+        # Populate trophies from the transcript learning paths.
+        learning_paths = data.get("learningPathsCompleted", [])
+        icon_map = fetch_catalog_icon_map()
+        print(f"Deriving {len(learning_paths)} trophies from learningPathsCompleted")
+        trophies = derive_trophies_from_learning_paths(learning_paths, icon_map)
         data["trophies"] = trophies
         print(f"Total trophies: {len(trophies)}")
 
