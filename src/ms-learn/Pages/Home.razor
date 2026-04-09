@@ -498,6 +498,7 @@ else
     private bool _loading = true;
     private string? _error;
     private TranscriptData? _transcript;
+    private bool _chartsRendered;
 
     protected override async Task OnInitializedAsync()
     {
@@ -517,8 +518,9 @@ else
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        if (firstRender && _transcript != null)
+        if (!_chartsRendered && _transcript != null)
         {
+            _chartsRendered = true;
             await RenderChartsAsync();
         }
     }
