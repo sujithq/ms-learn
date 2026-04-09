@@ -143,6 +143,10 @@
     max-width: 100%;
 }
 
+.momentum-sparkline-wrap {
+    height: 52px;
+}
+
 /* List group hover state for modules */
 .list-group-item-action:hover {
     background-color: #f8f9ff;

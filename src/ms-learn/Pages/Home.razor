@@ -152,6 +152,14 @@ else
                             </span>
                         </div>
                         <p class="small text-muted mb-2">@momentum.Summary</p>
+                        <div class="momentum-sparkline-wrap mb-2">
+                            <canvas id="momentumSparkline"></canvas>
+                        </div>
+                        <div class="d-flex justify-content-between x-small text-muted mb-2">
+                            <span>7d</span>
+                            <span>30d</span>
+                            <span>90d</span>
+                        </div>
                         <div class="small">
                             <div class="d-flex justify-content-between"><span>Last 30 days</span><strong>@momentum.Last30 modules</strong></div>
                             <div class="d-flex justify-content-between"><span>Previous 30 days</span><strong>@momentum.Previous30 modules</strong></div>
@@ -547,6 +555,22 @@ else
             var roleData = roles.Select(g => (object)g.Count()).ToArray();
             await JS.InvokeVoidAsync("createDoughnutChart", "roleChart", roleLabels, roleData);
         }
+
+        // Momentum sparkline: cumulative modules in trailing 7/30/90 day windows
+        var now = DateTime.UtcNow;
+        var dated = _transcript.ModulesCompleted
+            .Where(m => m.CompletionDate.HasValue)
+            .Select(m => m.CompletionDate!.Value)
+            .ToList();
+        var sparklineLabels = new[] { "7d", "30d", "90d" };
+        var sparklineData = new object[]
+        {
+            dated.Count(d => d >= now.AddDays(-7)),
+            dated.Count(d => d >= now.AddDays(-30)),
+            dated.Count(d => d >= now.AddDays(-90)),
+        };
+        await JS.InvokeVoidAsync("createSparklineChart", "momentumSparkline", sparklineLabels, sparklineData,
+            "rgba(13, 110, 253, 1)");
     }
 
     private static string LevelBadgeClass(string level) => level.ToLower() switch
