@@ -2,7 +2,7 @@
 
 A Blazor WebAssembly dashboard that visualises my [Microsoft Learn](https://learn.microsoft.com) transcript — modules completed, trophies earned, and certifications achieved.
 
-🔗 **Live site:** <https://sujithq.github.io/ms-learn/>
+🔗 **Live site:** <https://quintelier.dev/ms-learn/>
 
 ## Features
 
