@@ -29,6 +29,19 @@ def main():
         data = fetch_transcript()
         print(f"Fetched data: {data.get('totalModulesCompleted', 0)} modules completed")
 
+        # Log all top-level keys to help debug what's available
+        print(f"Available keys in response: {', '.join(data.keys())}")
+
+        # Check for trophies specifically
+        if 'trophies' in data:
+            trophies_count = len(data['trophies']) if isinstance(data['trophies'], list) else 0
+            print(f"Trophies found: {trophies_count}")
+        else:
+            print("Warning: No 'trophies' field in API response")
+            # Add empty trophies array if not present to match the model
+            data['trophies'] = []
+            print("Added empty 'trophies' array to match model structure")
+
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)

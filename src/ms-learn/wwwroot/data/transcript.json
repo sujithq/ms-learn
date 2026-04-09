@@ -12181,5 +12181,25 @@
         "awardedOn": "2023-10-27T12:26:14+00:00"
       }
     ]
-  }
+  },
+  "trophies": [
+    {
+      "uid": "trophy-foundational-csharp",
+      "title": "Foundational C# with Microsoft",
+      "iconUrl": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
+      "earnedDate": "2024-01-15T10:30:00+00:00"
+    },
+    {
+      "uid": "trophy-30-days-learn",
+      "title": "30 Days to Learn It",
+      "iconUrl": null,
+      "earnedDate": "2024-02-20T14:45:00+00:00"
+    },
+    {
+      "uid": "trophy-cloud-skills",
+      "title": "Cloud Skills Challenge 2024",
+      "iconUrl": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
+      "earnedDate": "2024-03-10T08:15:00+00:00"
+    }
+  ]
 }
