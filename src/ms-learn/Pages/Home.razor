@@ -29,7 +29,7 @@ else
     var activeCertifications = _transcript.CertificationData?.ActiveCertifications ?? new List<Certification>();
     var historicalCertifications = _transcript.CertificationData?.HistoricalCertifications ?? new List<Certification>();
     var momentum = BuildMomentumInsight(_transcript.ModulesCompleted);
-    var roleFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Roles, FormatRole);
+    var roleFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Roles.Select(GroupRole), roleGroup => roleGroup);
     var productFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Products, FormatProduct);
     var levelMix = BuildLevelMix(_transcript.ModulesCompleted, 90);
     var milestones = BuildMilestones(activeCertifications, historicalCertifications, _transcript.AppliedSkills, _transcript.Trophies);
@@ -546,14 +546,15 @@ else
         // Role distribution
         var roles = _transcript.ModulesCompleted
             .SelectMany(m => m.Roles)
-            .GroupBy(r => r)
+            .Select(GroupRole)
+            .GroupBy(roleGroup => roleGroup)
             .OrderByDescending(g => g.Count())
             .Take(6)
             .ToList();
 
         if (roles.Any())
         {
-            var roleLabels = roles.Select(g => FormatRole(g.Key)).ToArray();
+            var roleLabels = roles.Select(g => g.Key).ToArray();
             var roleData = roles.Select(g => (object)g.Count()).ToArray();
             await JS.InvokeVoidAsync("createDoughnutChart", "roleChart", roleLabels, roleData);
         }
@@ -712,20 +713,52 @@ else
             .ToList();
     }
 
-    private static string FormatRole(string role) => role switch
+    private static string GroupRole(string role)
     {
-        "administrator" => "Admin",
-        "developer" => "Developer",
-        "business-analyst" => "Business Analyst",
-        "data-engineer" => "Data Engineer",
-        "data-scientist" => "Data Scientist",
-        "database-administrator" => "DBA",
-        "devops-engineer" => "DevOps",
-        "security-engineer" => "Security",
-        "solution-architect" => "Architect",
-        "student" => "Student",
-        _ => role
-    };
+        var normalizedRole = role.Trim().ToLowerInvariant();
+        return normalizedRole switch
+        {
+            "ai-edge-engineer" or
+            "ai-engineer" or
+            "developer" or
+            "devops-engineer" or
+            "data-engineer" or
+            "platform-engineer" or
+            "network-engineer" or
+            "security-engineer" or
+            "security-operations-analyst" => "Engineering",
+
+            "data-analyst" or
+            "data-scientist" or
+            "database-administrator" => "Data and AI",
+
+            "solution-architect" or
+            "administrator" or
+            "identity-access-admin" or
+            "ip-admin" or
+            "technology-manager" => "Architecture and IT Ops",
+
+            "business-analyst" or
+            "business-leader" or
+            "business-owner" or
+            "business-user" or
+            "startup-founder" or
+            "maker" => "Business and Product",
+
+            "auditor" or
+            "privacy-manager" or
+            "risk-practitioner" => "Governance and Risk",
+
+            "student" or
+            "k-12-educator" or
+            "higher-ed-educator" or
+            "school-leader" or
+            "functional-consultant" or
+            "service-adoption-specialist" => "Education and Adoption",
+
+            _ => "Other"
+        };
+    }
 
     private static string FormatProduct(string product)
     {
