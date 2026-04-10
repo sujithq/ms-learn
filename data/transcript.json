@@ -1,9 +1,158 @@
 {
-  "totalModulesCompleted": 1227,
-  "totalLearningPathsCompleted": 295,
-  "totalTrainingMinutes": 54327,
+  "totalModulesCompleted": 1232,
+  "totalLearningPathsCompleted": 296,
+  "totalTrainingMinutes": 54570,
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
+    {
+      "uid": "learn.wwl.get-started-with-computer-vision-in-azure",
+      "title": "Get started with computer vision in Azure",
+      "description": "Vision-enabled models in Foundry enable developers to create intelligent solutions that analysis images, and generate images and video.",
+      "completedOn": "2026-04-10T07:15:08.9785072+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:15:03.3490639+00:00",
+        "moduleAssessmentUrl": "/training/modules/get-started-vision-azure/6-knowledge-check/"
+      },
+      "url": "/training/modules/get-started-vision-azure/",
+      "completionDate": "2026-04-10T07:15:08.9785072+00:00",
+      "duration": 50,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "data-scientist",
+        "developer",
+        "solution-architect",
+        "student"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.get-started-with-speech-in-azure",
+      "title": "Get started with speech in Azure",
+      "description": "Learn how to use Azure Speech in Foundry Tools to recognize and synthesize speech.",
+      "completedOn": "2026-04-10T07:12:46.78995+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:12:42.3280727+00:00",
+        "moduleAssessmentUrl": "/training/modules/get-started-speech-azure/6-knowledge-check/"
+      },
+      "url": "/training/modules/get-started-speech-azure/",
+      "completionDate": "2026-04-10T07:12:46.78995+00:00",
+      "duration": 47,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "student"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.get-started-with-text-analysis-in-azure",
+      "title": "Get started with text analysis in Azure",
+      "description": "Get started with text analysis in Azure",
+      "completedOn": "2026-04-10T07:11:03.6399835+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:10:58.807026+00:00",
+        "moduleAssessmentUrl": "/training/modules/get-started-text-analysis-azure/6-knowledge-check/"
+      },
+      "url": "/training/modules/get-started-text-analysis-azure/",
+      "completionDate": "2026-04-10T07:11:03.6399835+00:00",
+      "duration": 43,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "data-scientist",
+        "developer",
+        "solution-architect",
+        "student"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.get-started-with-generative-ai-and-agents",
+      "title": "Get started with generative AI and agents in Azure",
+      "description": "Learn how to use generative AI models and agents with Microsoft Foundry.",
+      "completedOn": "2026-04-10T07:09:18.1326357+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:09:12.9750449+00:00",
+        "moduleAssessmentUrl": "/training/modules/get-started-with-generative-ai-and-agents/7-knowledge-check/"
+      },
+      "url": "/training/modules/get-started-with-generative-ai-and-agents/",
+      "completionDate": "2026-04-10T07:09:18.1326357+00:00",
+      "duration": 58,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "data-scientist",
+        "developer",
+        "solution-architect",
+        "student"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.responsible-ai-studio",
+      "title": "Responsible generative AI in AI Studio",
+      "description": "A practical approach to implementing generative AI responsibly, and exploring content filters in AI Studio.",
+      "completedOn": "2026-04-10T05:43:28.222791+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T05:43:24.2082397+00:00",
+        "moduleAssessmentUrl": "/training/modules/responsible-ai-studio/8-knowledge-check/"
+      },
+      "url": "/training/modules/responsible-ai-studio/",
+      "completionDate": "2026-04-10T05:43:28.222791+00:00",
+      "duration": 45,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer",
+        "solution-architect",
+        "student"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
     {
       "uid": "learn.wwl.optimize-generative-ai-model-performance",
       "title": "Optimize generative AI model performance with Microsoft Foundry",
@@ -23801,6 +23950,14 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.develop-generative-ai-apps",
+      "title": "Develop generative AI apps in Azure",
+      "description": "Learn how to develop generative AI apps in Microsoft Foundry. (AI-3016)",
+      "completedOn": "2026-04-10T05:43:28.2227931+00:00",
+      "passedOn": "2026-04-10T05:43:24.2992558+00:00",
+      "duration": 412
+    },
+    {
       "uid": "learn.wwl.develop-computer-vision-with-foundry",
       "title": "Develop computer vision solutions with Microsoft Foundry",
       "description": "Learn how to develop computer vision solutions on Azure using Microsoft Foundry.",
@@ -26434,6 +26591,12 @@
   },
   "trophies": [
     {
+      "uid": "learn.wwl.develop-generative-ai-apps",
+      "title": "Develop generative AI apps in Azure",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "earnedDate": "2026-04-10T05:43:28.2227931+00:00"
+    },
+    {
       "uid": "learn.wwl.develop-computer-vision-with-foundry",
       "title": "Develop computer vision solutions with Microsoft Foundry",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
@@ -28204,5 +28367,5 @@
       "earnedDate": "2019-12-13T09:13:54.1533697+00:00"
     }
   ],
-  "totalXp": 1855950
+  "totalXp": 1863100
 }
