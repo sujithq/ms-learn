@@ -1,9 +1,343 @@
 {
-  "totalModulesCompleted": 1232,
-  "totalLearningPathsCompleted": 296,
-  "totalTrainingMinutes": 54570,
+  "totalModulesCompleted": 1243,
+  "totalLearningPathsCompleted": 299,
+  "totalTrainingMinutes": 55268,
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
+    {
+      "uid": "learn.wwl.implement-security-controls-azure-ai-ready-infrastructure",
+      "title": "Implement security controls for Azure AI-ready infrastructure",
+      "description": "This module equips you to configure Azure's foundational security controls for AI workloads. You'll start by configuring Microsoft Entra ID security principals that define *who* and *what* can access your AI resources—from data scientists needing interactive workspace access to managed identities enabling secure service-to-service communication.",
+      "completedOn": "2026-04-10T08:27:40.9638415+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:27:26.3382146+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-security-controls-azure-ai-ready-infrastructure/6-knowledge-check/"
+      },
+      "url": "/training/modules/implement-security-controls-azure-ai-ready-infrastructure/",
+      "completionDate": "2026-04-10T08:27:40.9638415+00:00",
+      "duration": 63,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "data-scientist",
+        "database-administrator",
+        "business-owner",
+        "administrator",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-machine-learning",
+        "azure-machine-learning-studio",
+        "azure-machine-learning-designer",
+        "azure-data-science-vm"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-identity-based-security-azure-machine-learning",
+      "title": "Implement identity-based security for Azure Machine Learning workspaces",
+      "description": "This course teaches how to govern AI platforms using Microsoft Entra and Azure Machine Learning, covering security groups, Conditional Access, managed identities, enterprise application integration, and audit logging to continuously monitor, enforce, and improve identity‑centric security for AI workloads.",
+      "completedOn": "2026-04-10T08:24:37.9945022+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:24:26.8605625+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-identity-based-security-azure-machine-learning/7-knowledge-check/"
+      },
+      "url": "/training/modules/implement-identity-based-security-azure-machine-learning/",
+      "completionDate": "2026-04-10T08:24:37.9945022+00:00",
+      "duration": 73,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "data-scientist",
+        "data-analyst",
+        "database-administrator",
+        "business-analyst"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-rbac",
+        "azure-policy",
+        "azure-managed-applications",
+        "azure-information-protection"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.secure-azure-openai-content-safety-controls",
+      "title": "Secure Azure OpenAI with content safety controls",
+      "description": "This course explains how to design secure AI platforms using Microsoft Foundry, applying centralized governance, managed identities, private networking, Azure OpenAI security controls, and container image protection to ensure compliant, production‑ready AI workloads across enterprise environments.",
+      "completedOn": "2026-04-10T08:18:14.1910768+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:17:53.6975199+00:00",
+        "moduleAssessmentUrl": "/training/modules/secure-azure-openai-content-safety-controls/5-knowledge-check/"
+      },
+      "url": "/training/modules/secure-azure-openai-content-safety-controls/",
+      "completionDate": "2026-04-10T08:18:14.1910768+00:00",
+      "duration": 57,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "security-engineer",
+        "administrator",
+        "database-administrator",
+        "security-operations-analyst",
+        "devops-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-ai-foundry-sdk",
+        "azure-openai",
+        "azure-sdks",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-secure-ai-ready-infrastructure-azure-services",
+      "title": "1-Implement secure AI-ready infrastructure with Azure services",
+      "description": "This course explains how to design secure AI platforms using Microsoft Foundry, applying centralized governance, managed identities, private networking, Azure OpenAI security controls, and container image protection to ensure compliant, production‑ready AI workloads across enterprise environments.",
+      "completedOn": "2026-04-10T08:13:56.2249589+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:13:42.0081704+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-secure-ai-ready-infrastructure-azure-services/6-knowledge-check/"
+      },
+      "url": "/training/modules/implement-secure-ai-ready-infrastructure-azure-services/",
+      "completionDate": "2026-04-10T08:13:56.2249589+00:00",
+      "duration": 61,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "security-engineer",
+        "administrator",
+        "database-administrator",
+        "data-scientist",
+        "security-operations-analyst"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-openai",
+        "azure-container-registry",
+        "microsoft-foundry",
+        "azure-machine-learning"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.choose-ai-agent-development-path",
+      "title": "Choose a custom AI agent development path",
+      "description": "Explore development paths for building custom AI agents for internal use or commercial applications. Compare tools and services like Copilot Studio, Azure AI Foundry, Microsoft 365 Agents SDK, and Teams AI Library.",
+      "completedOn": "2026-04-10T08:08:33.669359+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:08:29.2139362+00:00",
+        "moduleAssessmentUrl": "/training/modules/choose-ai-agent-development-path/8-knowledge-check/"
+      },
+      "url": "/training/modules/choose-ai-agent-development-path/",
+      "completionDate": "2026-04-10T08:08:33.669359+00:00",
+      "duration": 30,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer",
+        "maker"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.choose-microsoft-365-copilot-extensibility-path",
+      "title": "Choose the best Microsoft 365 Copilot extensibility path for your scenario",
+      "description": "Explore development options for extending Microsoft 365 Copilot with custom data, logic, and actions. Determine the best approach for your scenario.",
+      "completedOn": "2026-04-10T08:05:32.6523829+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:05:27.7110748+00:00",
+        "moduleAssessmentUrl": "/training/modules/choose-microsoft-365-copilot-extensibility-path/8-knowledge-check/"
+      },
+      "url": "/training/modules/choose-microsoft-365-copilot-extensibility-path/",
+      "completionDate": "2026-04-10T08:05:32.6523829+00:00",
+      "duration": 29,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer",
+        "maker"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure",
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.introduction-microsoft-ai-agent-solutions",
+      "title": "Introduction to Microsoft AI agent solutions",
+      "description": "Explore Microsoft AI agent solutions and gain clarity on when to adopt, extend, or develop custom agent solutions based on your scenario and objectives.",
+      "completedOn": "2026-04-10T08:03:09.2686561+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:03:04.4177041+00:00",
+        "moduleAssessmentUrl": "/training/modules/introduction-microsoft-ai-agent-solutions/7-knowledge-check/"
+      },
+      "url": "/training/modules/introduction-microsoft-ai-agent-solutions/",
+      "completionDate": "2026-04-10T08:03:09.2686561+00:00",
+      "duration": 27,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer",
+        "maker"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure",
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.introduction-develop-ai-agents",
+      "title": "Introduction to developing AI agents",
+      "description": "Explore what AI agents are, understand their core components, and discover a range of impactful use cases driving AI-powered transformation.",
+      "completedOn": "2026-04-10T08:01:26.9410583+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T08:01:23.786863+00:00",
+        "moduleAssessmentUrl": "/training/modules/introduction-develop-ai-agents/5-knowledge-check/"
+      },
+      "url": "/training/modules/introduction-develop-ai-agents/",
+      "completionDate": "2026-04-10T08:01:26.9410583+00:00",
+      "duration": 18,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer",
+        "maker"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-ai-enabled-apps-using-github-copilot-sdk",
+      "title": "Develop AI-enabled apps using the GitHub Copilot SDK",
+      "description": "This module covers how to develop AI-enabled applications using the GitHub Copilot SDK. You install the SDK, explore its features, and build AI agents that can be integrated into your applications to automate tasks and enhance functionality.",
+      "completedOn": "2026-04-10T07:58:29.407967+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:58:21.1687931+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-ai-enabled-apps-using-github-copilot-sdk/9-knowledge-check/"
+      },
+      "url": "/training/modules/develop-ai-enabled-apps-using-github-copilot-sdk/",
+      "completionDate": "2026-04-10T07:58:29.407967+00:00",
+      "duration": 117,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "github",
+        "vs-code"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.spec-driven-development-github-spec-kit-microsoft-internal",
+      "title": "Implement spec-driven development using the GitHub Spec Kit",
+      "description": "Apply the Spec-Driven Development approach with GitHub Spec Kit and GitHub Copilot in Visual Studio Code. Training covers the complete workflow from writing AI-consumable specifications to generating code, emphasizing intent-first philosophy with living specifications.",
+      "completedOn": "2026-04-10T07:34:02.9661865+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:33:55.4158931+00:00",
+        "moduleAssessmentUrl": "/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/12-knowledge-check/"
+      },
+      "url": "/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/",
+      "completionDate": "2026-04-10T07:34:02.9661865+00:00",
+      "duration": 180,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "github",
+        "vs-code"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.get-started-information-extraction",
+      "title": "Get started with AI-powered information extraction in Azure",
+      "description": "Learn how to use Azure Content Understanding in Foundry Tools to extract information from content.",
+      "completedOn": "2026-04-10T07:18:07.4193352+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T07:18:03.1042687+00:00",
+        "moduleAssessmentUrl": "/training/modules/get-started-information-extraction/5-knowledge-check/"
+      },
+      "url": "/training/modules/get-started-information-extraction/",
+      "completionDate": "2026-04-10T07:18:07.4193352+00:00",
+      "duration": 43,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
     {
       "uid": "learn.wwl.get-started-with-computer-vision-in-azure",
       "title": "Get started with computer vision in Azure",
@@ -23950,6 +24284,30 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.secure-ai-ready-infrastructure",
+      "title": "Secure AI-ready infrastructure",
+      "description": "This course teaches how to build production‑ready AI infrastructure using Microsoft Foundry Hubs and Projects, applying enterprise security controls, network isolation, managed identities, and container governance to enable compliant, scalable AI development across organizations.",
+      "completedOn": "2026-04-10T08:27:40.9638441+00:00",
+      "passedOn": "2026-04-10T08:27:26.4468995+00:00",
+      "duration": 254
+    },
+    {
+      "uid": "learn.wwl.build-foundation-extend-microsoft-365-copilot",
+      "title": "Build a foundation to extend Microsoft 365 Copilot",
+      "description": "Build a foundation to extend Microsoft 365 Copilot.",
+      "completedOn": "2026-04-10T08:08:33.6693608+00:00",
+      "passedOn": "2026-04-10T08:08:29.3049821+00:00",
+      "duration": 104
+    },
+    {
+      "uid": "learn.wwl.create-embed-custom-code-agents",
+      "title": "Develop agents and applications using agentic programming tools",
+      "description": "Learn how to develop applications using agentic programming tools and techniques. This training covers how to configure custom agents in the development environment, how to develop or update apps using the GitHub Spec Kit, and how to create AI-enabled apps with embedded agents using the GitHub Copilot SDK.",
+      "completedOn": "2026-04-10T07:58:29.4079689+00:00",
+      "passedOn": "2026-04-10T07:58:21.271715+00:00",
+      "duration": 490
+    },
+    {
       "uid": "learn.wwl.develop-generative-ai-apps",
       "title": "Develop generative AI apps in Azure",
       "description": "Learn how to develop generative AI apps in Microsoft Foundry. (AI-3016)",
@@ -24178,6 +24536,7 @@
       "title": "Get started with AI apps and agents on Azure",
       "description": "Learn how to get started with AI workloads and solutions in Microsoft Foundry.",
       "completedOn": "2026-01-27T13:32:32.777618+00:00",
+      "passedOn": "2026-04-10T07:18:03.1897789+00:00",
       "duration": 313
     },
     {
@@ -26591,6 +26950,24 @@
   },
   "trophies": [
     {
+      "uid": "learn.wwl.secure-ai-ready-infrastructure",
+      "title": "Secure AI-ready infrastructure",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-10T08:27:40.9638441+00:00"
+    },
+    {
+      "uid": "learn.wwl.build-foundation-extend-microsoft-365-copilot",
+      "title": "Build a foundation to extend Microsoft 365 Copilot",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-10T08:08:33.6693608+00:00"
+    },
+    {
+      "uid": "learn.wwl.create-embed-custom-code-agents",
+      "title": "Develop agents and applications using agentic programming tools",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-10T07:58:29.4079689+00:00"
+    },
+    {
       "uid": "learn.wwl.develop-generative-ai-apps",
       "title": "Develop generative AI apps in Azure",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
@@ -28367,5 +28744,5 @@
       "earnedDate": "2019-12-13T09:13:54.1533697+00:00"
     }
   ],
-  "totalXp": 1863100
+  "totalXp": 1879300
 }
