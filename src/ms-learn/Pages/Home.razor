@@ -28,6 +28,7 @@ else
 {
     var activeCertifications = _transcript.CertificationData?.ActiveCertifications ?? new List<Certification>();
     var historicalCertifications = _transcript.CertificationData?.HistoricalCertifications ?? new List<Certification>();
+    var totalXp = _transcript.TotalXp > 0 ? _transcript.TotalXp : _transcript.ModulesCompleted.Sum(m => m.Xp);
     var momentum = BuildMomentumInsight(_transcript.ModulesCompleted);
     var roleFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Roles.Select(GroupRole), roleGroup => roleGroup);
     var productFocus = BuildFocusShift(_transcript.ModulesCompleted, m => m.Products, FormatProduct);
@@ -80,7 +81,7 @@ else
                     <div class="stat-icon bg-warning-subtle rounded-circle mx-auto mb-3">
                         <i class="bi bi-star-fill text-warning fs-4"></i>
                     </div>
-                    <h2 class="fw-bold mb-1">@_transcript.ModulesCompleted.Sum(m => m.Xp).ToString("N0")</h2>
+                    <h2 class="fw-bold mb-1">@totalXp.ToString("N0")</h2>
                     <p class="text-muted small mb-0">Total XP</p>
                 </div>
             </div>

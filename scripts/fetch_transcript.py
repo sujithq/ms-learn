@@ -24,6 +24,22 @@ OFFICIAL_APPLIED_SKILL_ICON_URL = (
 )
 
 
+def fetch_xp_summary(docs_id):
+    """Fetch profile XP summary from the achievements API."""
+    if not docs_id:
+        return None
+
+    xp_url = f"https://learn.microsoft.com/api/achievements/xp/{docs_id}"
+    try:
+        xp_data = fetch_json(xp_url)
+        if isinstance(xp_data, dict) and isinstance(xp_data.get("totalXp"), int):
+            return xp_data
+    except Exception as exc:
+        print(f"Could not fetch XP summary from {xp_url}: {exc}")
+
+    return None
+
+
 def fetch_json(url):
     """Fetch JSON data from a URL."""
     req = urllib.request.Request(url, headers=HEADERS)
@@ -81,13 +97,61 @@ def fetch_catalog_module_map():
     return module_map
 
 
-def enrich_completed_modules(data, module_map):
+def load_existing_xp_map(output_path):
+    """Load existing non-zero XP values from the previous output file."""
+    if not output_path.exists():
+        return {}
+
+    try:
+        with open(output_path, encoding="utf-8") as f:
+            existing = json.load(f)
+    except Exception as exc:
+        print(f"Could not read existing transcript for XP fallback: {exc}")
+        return {}
+
+    modules = existing.get("modulesCompleted", []) if isinstance(existing, dict) else []
+    xp_by_uid = {}
+    for module in modules:
+        if not isinstance(module, dict):
+            continue
+        uid = module.get("uid")
+        xp = module.get("xp")
+        if uid and isinstance(xp, int) and xp > 0:
+            xp_by_uid[uid] = xp
+
+    print(f"Existing non-zero XP entries loaded: {len(xp_by_uid)}")
+    return xp_by_uid
+
+
+def extract_module_xp(module, catalog_module, existing_xp_by_uid):
+    """Resolve module XP from transcript, catalog, or previous output fallback."""
+    xp_keys = ("xp", "points", "rewardPoints", "experiencePoints", "earnedXp")
+
+    for key in xp_keys:
+        value = module.get(key)
+        if isinstance(value, int) and value > 0:
+            return value
+
+    for key in xp_keys:
+        value = catalog_module.get(key)
+        if isinstance(value, int) and value > 0:
+            return value
+
+    uid = module.get("uid")
+    if uid and uid in existing_xp_by_uid:
+        return existing_xp_by_uid[uid]
+
+    return 0
+
+
+def enrich_completed_modules(data, module_map, existing_xp_by_uid):
     """Normalize and enrich completed modules for UI filtering and display."""
     modules = data.get("modulesCompleted")
     if not isinstance(modules, list):
         return
 
     enriched_count = 0
+    non_zero_xp_count = 0
     for module in modules:
         if not isinstance(module, dict):
             continue
@@ -103,7 +167,10 @@ def enrich_completed_modules(data, module_map):
             or catalog_module.get("duration_in_minutes")
             or 0
         )
-        module["xp"] = module.get("xp") or 0
+        module.pop("durationInMinutes", None)
+        module["xp"] = extract_module_xp(module, catalog_module, existing_xp_by_uid)
+        if module["xp"] > 0:
+            non_zero_xp_count += 1
         module["iconUrl"] = module.get("iconUrl") or catalog_module.get("icon_url")
         module["roles"] = module.get("roles") or catalog_module.get("roles") or []
         module["levels"] = module.get("levels") or catalog_module.get("levels") or []
@@ -113,6 +180,27 @@ def enrich_completed_modules(data, module_map):
         enriched_count += 1
 
     print(f"Modules enriched: {enriched_count}")
+    print(f"Modules with non-zero XP: {non_zero_xp_count}")
+    if enriched_count > 0 and non_zero_xp_count == 0:
+        print("Warning: XP is missing from upstream data; kept as 0 where no fallback exists.")
+
+
+def normalize_learning_path_durations(data):
+    """Normalize learning path duration field naming to 'duration'."""
+    learning_paths = data.get("learningPathsCompleted")
+    if not isinstance(learning_paths, list):
+        return
+
+    for learning_path in learning_paths:
+        if not isinstance(learning_path, dict):
+            continue
+
+        learning_path["duration"] = (
+            learning_path.get("duration")
+            or learning_path.get("durationInMinutes")
+            or 0
+        )
+        learning_path.pop("durationInMinutes", None)
 
 
 def normalize_text(value):
@@ -255,7 +343,11 @@ def main():
 
         # Normalize/enrich module metadata used by filters and badges.
         module_map = fetch_catalog_module_map()
-        enrich_completed_modules(data, module_map)
+        existing_xp_by_uid = load_existing_xp_map(OUTPUT_PATH)
+        enrich_completed_modules(data, module_map, existing_xp_by_uid)
+
+        # Keep duration field naming consistent across payload sections.
+        normalize_learning_path_durations(data)
 
         # Populate trophies from the transcript learning paths.
         learning_paths = data.get("learningPathsCompleted", [])
@@ -269,6 +361,19 @@ def main():
         certification_icon_map = fetch_certification_icon_map()
         enrich_certification_icons(data, certification_icon_map)
         enrich_applied_skill_icons(data)
+
+        # Add profile-level XP summary (available even when module XP is missing).
+        xp_summary = fetch_xp_summary(data.get("docsId"))
+        if xp_summary:
+            data["totalXp"] = xp_summary.get("totalXp", 0)
+            print(f"Total XP from profile endpoint: {data['totalXp']}")
+        else:
+            data["totalXp"] = sum(
+                module.get("xp", 0)
+                for module in data.get("modulesCompleted", [])
+                if isinstance(module, dict)
+            )
+            print(f"Total XP fallback from module XP: {data['totalXp']}")
 
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_PATH, "w", encoding="utf-8") as f:

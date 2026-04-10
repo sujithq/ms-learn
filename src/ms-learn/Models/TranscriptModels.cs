@@ -16,6 +16,9 @@ public class TranscriptData
     [JsonPropertyName("totalTrainingMinutes")]
     public int TotalTrainingMinutes { get; set; }
 
+    [JsonPropertyName("totalXp")]
+    public int TotalXp { get; set; }
+
     [JsonPropertyName("modulesCompleted")]
     public List<CompletedModule> ModulesCompleted { get; set; } = [];
 
