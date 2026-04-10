@@ -1,9 +1,448 @@
 {
-  "totalModulesCompleted": 1211,
-  "totalLearningPathsCompleted": 291,
-  "totalTrainingMinutes": 53443,
+  "totalModulesCompleted": 1227,
+  "totalLearningPathsCompleted": 295,
+  "totalTrainingMinutes": 54327,
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
+    {
+      "uid": "learn.wwl.optimize-generative-ai-model-performance",
+      "title": "Optimize generative AI model performance with Microsoft Foundry",
+      "description": "Explore complementary strategies to optimize generative AI model performance, including prompt engineering, system messages, model parameters, Retrieval Augmented Generation (RAG), and fine-tuning. Learn when to use each strategy and how to combine them.",
+      "completedOn": "2026-04-10T05:37:27.4063067+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T05:37:21.736122+00:00",
+        "moduleAssessmentUrl": "/training/modules/optimize-generative-ai-model-performance/7-knowledge-check/"
+      },
+      "url": "/training/modules/optimize-generative-ai-model-performance/",
+      "completionDate": "2026-04-10T05:37:27.4063067+00:00",
+      "duration": 131,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "data-scientist",
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.generative-ai-tools",
+      "title": "Develop generative AI apps that use tools",
+      "description": "Tools enable models to perform tasks and interact with external systems, enabling them to extend their capabilities beyond basic chat interactions.",
+      "completedOn": "2026-04-10T05:00:12.8610298+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T05:00:09.4171287+00:00",
+        "moduleAssessmentUrl": "/training/modules/use-generative-ai-tools/08-knowledge-check/"
+      },
+      "url": "/training/modules/use-generative-ai-tools/",
+      "completionDate": "2026-04-10T05:00:12.8610298+00:00",
+      "duration": 60,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.foundry-sdk",
+      "title": "Develop an AI app with the Microsoft Foundry SDK",
+      "description": "Use the Microsoft Foundry SDK to develop AI applications with projects and the Responses API.",
+      "completedOn": "2026-04-10T04:57:53.3245101+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:57:48.7377114+00:00",
+        "moduleAssessmentUrl": "/training/modules/foundry-sdk/07-knowledge-check/"
+      },
+      "url": "/training/modules/foundry-sdk/",
+      "completionDate": "2026-04-10T04:57:53.3245101+00:00",
+      "duration": 53,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.model-catalog-evaluate",
+      "title": "Select, deploy, and evaluate models from the catalog in Microsoft Foundry portal",
+      "description": "Explore how to select appropriate models from the model catalog using benchmarks, deploy them to endpoints, and evaluate their performance using manual and automated approaches in Microsoft Foundry portal.",
+      "completedOn": "2026-04-10T04:53:26.5177341+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:53:21.5069586+00:00",
+        "moduleAssessmentUrl": "/training/modules/model-catalog-evaluate/7-knowledge-check/"
+      },
+      "url": "/training/modules/model-catalog-evaluate/",
+      "completionDate": "2026-04-10T04:53:26.5177341+00:00",
+      "duration": 63,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "data-scientist",
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.analyze-images-with-content-understanding",
+      "title": "Analyze images with Content Understanding",
+      "description": "Learn how to analyze images with Azure Content Understanding.",
+      "completedOn": "2026-04-10T04:50:45.0969506+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:50:38.0879617+00:00",
+        "moduleAssessmentUrl": "/training/modules/analyze-images-with-content-understanding/5-knowledge-check/"
+      },
+      "url": "/training/modules/analyze-images-with-content-understanding/",
+      "completionDate": "2026-04-10T04:50:45.0969506+00:00",
+      "duration": 43,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.generate-video-with-foundry",
+      "title": "Generate videos with Microsoft Foundry",
+      "description": "Learn how to generate videos from text prompts with Sora 2 in Microsoft Foundry.",
+      "completedOn": "2026-04-10T04:48:41.2717657+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:48:34.6564794+00:00",
+        "moduleAssessmentUrl": "/training/modules/generate-video-with-foundry/6-knowledge-check/"
+      },
+      "url": "/training/modules/generate-video-with-foundry/",
+      "completionDate": "2026-04-10T04:48:41.2717657+00:00",
+      "duration": 48,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.generate-images-azure-openai",
+      "title": "Generate images with Azure OpenAI Service",
+      "description": "Use DALL-E in Azure OpenAI service to generate images",
+      "completedOn": "2026-04-10T04:45:43.9322317+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:45:40.3732631+00:00",
+        "moduleAssessmentUrl": "/training/modules/generate-images-azure-openai/6-knowledge-check/"
+      },
+      "url": "/training/modules/generate-images-azure-openai/",
+      "completionDate": "2026-04-10T04:45:43.9322317+00:00",
+      "duration": 33,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry",
+        "azure-openai"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-generative-ai-vision-apps",
+      "title": "Develop a vision-enabled generative AI application",
+      "description": "A picture says a thousand words, and multimodal generative AI models can interpret images to respond to visual prompts. Learn how to build vision-enabled chat apps.",
+      "completedOn": "2026-04-10T04:44:13.2036685+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:44:07.5894054+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-generative-ai-vision-apps/5-knowledge-check/"
+      },
+      "url": "/training/modules/develop-generative-ai-vision-apps/",
+      "completionDate": "2026-04-10T04:44:13.2036685+00:00",
+      "duration": 43,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.measure-mitigate-risks-azure-ai-studio",
+      "title": "Measure and mitigate risks for a generative AI app in Azure AI Studio",
+      "description": "Learn how to measure and mitigate risks for a generative AI app leveraging responsible AI tools and features within Azure AI Studio.",
+      "completedOn": "2026-04-10T04:41:35.7902169+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:41:29.4498343+00:00",
+        "moduleAssessmentUrl": "/training/modules/measure-mitigate-risks-azure-ai-studio/9-knowledge-check/"
+      },
+      "url": "/training/modules/measure-mitigate-risks-azure-ai-studio/",
+      "completionDate": "2026-04-10T04:41:35.7902169+00:00",
+      "duration": 75,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.moderate-content-detect-harm-azure-ai-content-safety",
+      "title": "Moderate Content and Detect Harm with Azure AI Content Safety",
+      "description": "Learn how to choose and build a content moderation system with Azure AI Content Safety.",
+      "completedOn": "2026-04-10T04:38:36.0408334+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:38:30.6225684+00:00",
+        "moduleAssessmentUrl": "/training/modules/moderate-content-detect-harm-azure-ai-content-safety/10-knowledge-check/"
+      },
+      "url": "/training/modules/moderate-content-detect-harm-azure-ai-content-safety/",
+      "completionDate": "2026-04-10T04:38:36.0408334+00:00",
+      "duration": 38,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.moderate-content-detect-harm-azure-ai-content-safety-studio",
+      "title": "Moderate content and detect harm with Azure AI Content Safety Studio",
+      "description": "Learn how to choose and build a content moderation system in the Azure AI Content Safety Studio.",
+      "completedOn": "2026-04-10T04:36:10.3743864+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:36:05.4300362+00:00",
+        "moduleAssessmentUrl": "/training/modules/moderate-content-detect-harm-azure-ai-content-safety-studio/10-knowledge-check/"
+      },
+      "url": "/training/modules/moderate-content-detect-harm-azure-ai-content-safety-studio/",
+      "completionDate": "2026-04-10T04:36:10.3743864+00:00",
+      "duration": 40,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.azure-ai-foundry-secure-environment",
+      "title": "Secure Azure AI Foundry environments",
+      "description": "Secure Azure AI Foundry environments by applying layered protections across identity, secrets, networks, and diagnostics. This module explains how to manage access with Microsoft Entra ID and project roles, protect credentials with Key Vault, and isolate workloads through private network connections. It also covers enabling diagnostic logging to strengthen visibility and auditing. These practices help you build trusted, compliant AI environments that support collaboration safely.",
+      "completedOn": "2026-04-10T04:31:41.9016478+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:31:34.976848+00:00",
+        "moduleAssessmentUrl": "/training/modules/azure-ai-foundry-secure-environment/knowledge-check/"
+      },
+      "url": "/training/modules/azure-ai-foundry-secure-environment/",
+      "completionDate": "2026-04-10T04:31:41.9016478+00:00",
+      "duration": 50,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "security-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "microsoft-foundry",
+        "defender-for-cloud"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.azure-ai-foundry-configure-manage-guardrails",
+      "title": "Configure and manage guardrails in Azure AI Foundry",
+      "description": "Safeguard your AI workloads with Azure AI Foundry guardrails. Discover how to configure and validate content filters, blocklists, and Prompt Shields to protect sensitive data, ensure responsible model behavior, and continuously improve AI safety.",
+      "completedOn": "2026-04-10T04:27:59.6711724+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:27:51.9478343+00:00",
+        "moduleAssessmentUrl": "/training/modules/azure-ai-foundry-configure-manage-guardrails/knowledge-check/"
+      },
+      "url": "/training/modules/azure-ai-foundry-configure-manage-guardrails/",
+      "completionDate": "2026-04-10T04:27:59.6711724+00:00",
+      "duration": 48,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "security-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "microsoft-foundry",
+        "defender-for-cloud"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.defender-for-cloud-ai-protect-workloads",
+      "title": "Protect AI workloads with Microsoft Defender for Cloud",
+      "description": "Learn how Microsoft Defender for Cloud extends protection to AI workloads across Azure. See how it discovers AI resources, assesses configuration risks, detects active threats, and integrates with Microsoft Defender XDR for unified investigation and response.",
+      "completedOn": "2026-04-10T04:23:29.8054085+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:23:12.6852812+00:00",
+        "moduleAssessmentUrl": "/training/modules/defender-for-cloud-ai-protect-workloads/knowledge-check/"
+      },
+      "url": "/training/modules/defender-for-cloud-ai-protect-workloads/",
+      "completionDate": "2026-04-10T04:23:29.8054085+00:00",
+      "duration": 38,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "security-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "microsoft-foundry",
+        "defender-for-cloud",
+        "entra-id",
+        "defender-xdr"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.defender-for-cloud-ai-understand-protections",
+      "title": "Understand how Microsoft Defender for Cloud supports AI security and governance in Azure",
+      "description": "Understand how Microsoft Defender for Cloud strengthens AI security in Azure through posture management and integration with key governance and identity services.",
+      "completedOn": "2026-04-10T04:18:42.4736137+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:18:35.4371361+00:00",
+        "moduleAssessmentUrl": "/training/modules/defender-for-cloud-ai-understand-protections/knowledge-check/"
+      },
+      "url": "/training/modules/defender-for-cloud-ai-understand-protections/",
+      "completionDate": "2026-04-10T04:18:42.4736137+00:00",
+      "duration": 26,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "security-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "microsoft-foundry",
+        "defender-for-cloud",
+        "entra-id"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-ai-agents-azure-vs-code",
+      "title": "Develop AI agents with Microsoft Foundry and Visual Studio Code",
+      "description": "Learn how to build, test, and deploy AI agents using Microsoft Foundry Agent Service through both the Azure portal and Visual Studio Code extension.",
+      "completedOn": "2026-04-10T04:13:12.3292044+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-10T04:13:05.4469493+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-ai-agents-azure-vs-code/10-knowledge-check/"
+      },
+      "url": "/training/modules/develop-ai-agents-azure-vs-code/",
+      "completionDate": "2026-04-10T04:13:12.3292044+00:00",
+      "duration": 95,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer",
+        "data-scientist",
+        "solution-architect"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry",
+        "foundry-agent-service"
+      ],
+      "locale": "en-us"
+    },
     {
       "uid": "learn.introduction-to-azure-machine-learning-monitoring",
       "title": "Introduction to Azure Machine Learning monitoring",
@@ -23362,6 +23801,38 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.develop-computer-vision-with-foundry",
+      "title": "Develop computer vision solutions with Microsoft Foundry",
+      "description": "Learn how to develop computer vision solutions on Azure using Microsoft Foundry.",
+      "completedOn": "2026-04-10T04:50:45.0969523+00:00",
+      "passedOn": "2026-04-10T04:50:38.1751931+00:00",
+      "duration": 167
+    },
+    {
+      "uid": "learn.azure.operationalize-ai-responsibly",
+      "title": "Operationalize AI responsibly with Azure AI Studio",
+      "description": "Explore Azure AI Studio’s tools for generative AI security, privacy, and quality. Shift from reactive risk management to agile, responsible-by-design governance for better observability and efficiency.",
+      "completedOn": "2026-04-10T04:41:35.7902187+00:00",
+      "passedOn": "2026-04-10T04:41:29.5759621+00:00",
+      "duration": 153
+    },
+    {
+      "uid": "learn.wwl.defender-for-cloud-ai-foundry-protect",
+      "title": "Protect Azure AI Foundry solutions by using Microsoft Defender for Cloud",
+      "description": "Learn how to secure Azure AI Foundry workloads by using Microsoft Defender for Cloud. Discover AI resources across Azure, assess their security posture, protect against runtime threats, and configure model guardrails in Azure AI Foundry to prevent unsafe or policy-violating content.",
+      "completedOn": "2026-04-10T04:31:41.9016495+00:00",
+      "passedOn": "2026-04-10T04:31:35.0760789+00:00",
+      "duration": 162
+    },
+    {
+      "uid": "learn.wwl.develop-ai-agents-azure",
+      "title": "Develop AI agents on Azure",
+      "description": "Learn how to develop AI agents on Azure using the Microsoft Foundry Agent Service and Microsoft Agent Framework. AI-3026",
+      "completedOn": "2026-04-10T04:13:12.3292065+00:00",
+      "passedOn": "2026-04-10T04:13:05.5370674+00:00",
+      "duration": 592
+    },
+    {
       "uid": "learn.monitor-ai-workloads-on-azure",
       "title": "Monitor AI workloads on Azure",
       "description": "Optimize your AI operations with the \"Monitor AI Workloads on Azure\" learning path. Through targeted modules, you learn to monitor Azure AI services, evaluate the performance of AI applications with Azure Monitor, and explore the fundamentals of monitoring AI models with Azure AI Foundry. This path equips professionals with the skills to ensure efficient, reliable, and high-performing AI workloads on Azure's robust platform. Start mastering AI monitoring strategies today!",
@@ -25963,6 +26434,30 @@
   },
   "trophies": [
     {
+      "uid": "learn.wwl.develop-computer-vision-with-foundry",
+      "title": "Develop computer vision solutions with Microsoft Foundry",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "earnedDate": "2026-04-10T04:50:45.0969523+00:00"
+    },
+    {
+      "uid": "learn.azure.operationalize-ai-responsibly",
+      "title": "Operationalize AI responsibly with Azure AI Studio",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-10T04:41:35.7902187+00:00"
+    },
+    {
+      "uid": "learn.wwl.defender-for-cloud-ai-foundry-protect",
+      "title": "Protect Azure AI Foundry solutions by using Microsoft Defender for Cloud",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-10T04:31:41.9016495+00:00"
+    },
+    {
+      "uid": "learn.wwl.develop-ai-agents-azure",
+      "title": "Develop AI agents on Azure",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "earnedDate": "2026-04-10T04:13:12.3292065+00:00"
+    },
+    {
       "uid": "learn.monitor-ai-workloads-on-azure",
       "title": "Monitor AI workloads on Azure",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -27709,5 +28204,5 @@
       "earnedDate": "2019-12-13T09:13:54.1533697+00:00"
     }
   ],
-  "totalXp": 1831150
+  "totalXp": 1855950
 }
