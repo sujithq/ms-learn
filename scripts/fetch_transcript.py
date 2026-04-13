@@ -2,12 +2,16 @@
 """Fetch MS Learn transcript data and save to JSON file."""
 
 import json
+import os
 import sys
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
-TRANSCRIPT_ID = "71pnqhwmx5xn8ww"
-API_URL = f"https://learn.microsoft.com/api/profiles/transcript/share/{TRANSCRIPT_ID}?locale=en-us&isModuleAssessment=true"
+DEFAULT_TRANSCRIPT_IDS = [
+    "71pnqhwmx5xn8ww",
+    "vn932i8ggjenlx9",
+]
 OUTPUT_PATH = Path(__file__).parent.parent / "src" / "ms-learn" / "wwwroot" / "data" / "transcript.json"
 
 HEADERS = {
@@ -22,6 +26,24 @@ GENERIC_TROPHY_ICON_URL = "https://learn.microsoft.com/en-us/training/achievemen
 OFFICIAL_APPLIED_SKILL_ICON_URL = (
     "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
 )
+
+
+def build_transcript_api_url(transcript_id):
+    """Build transcript API URL for a share id."""
+    return (
+        "https://learn.microsoft.com/api/profiles/transcript/share/"
+        f"{transcript_id}?locale=en-us&isModuleAssessment=true"
+    )
+
+
+def get_configured_transcript_ids():
+    """Read transcript IDs from env var or fall back to defaults."""
+    configured = os.getenv("MS_LEARN_TRANSCRIPT_IDS", "")
+    if configured.strip():
+        ids = [value.strip() for value in configured.split(",") if value.strip()]
+        if ids:
+            return ids
+    return DEFAULT_TRANSCRIPT_IDS
 
 
 def fetch_xp_summary(docs_id):
@@ -47,9 +69,350 @@ def fetch_json(url):
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_transcript():
-    """Fetch the transcript data from MS Learn API."""
-    return fetch_json(API_URL)
+def fetch_transcript(transcript_id):
+    """Fetch transcript data for one MS Learn transcript share id."""
+    return fetch_json(build_transcript_api_url(transcript_id))
+
+
+def parse_iso_datetime(value):
+    """Parse ISO date/time strings in transcript payloads."""
+    if not isinstance(value, str) or not value.strip():
+        return None
+
+    normalized = value.strip()
+    if normalized.endswith("Z"):
+        normalized = normalized[:-1] + "+00:00"
+
+    try:
+        dt = datetime.fromisoformat(normalized)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except ValueError:
+        return None
+
+
+def item_is_active(item):
+    """Best-effort check for active status across different item shapes."""
+    if not isinstance(item, dict):
+        return False
+
+    status = str(item.get("status", "")).strip().lower()
+    if status:
+        if "active" in status and "inactive" not in status:
+            return True
+        if "expired" in status or "retired" in status or "inactive" in status:
+            return False
+
+    expiration = parse_iso_datetime(item.get("expiration"))
+    if expiration:
+        return expiration >= datetime.now(timezone.utc)
+
+    return False
+
+
+def item_latest_date(item, date_fields):
+    """Return latest date found in known date fields for an item."""
+    latest = None
+    for field in date_fields:
+        dt = parse_iso_datetime(item.get(field)) if isinstance(item, dict) else None
+        if dt and (latest is None or dt > latest):
+            latest = dt
+    return latest
+
+
+def non_empty_field_count(item):
+    """Count non-empty fields to break ties while deduplicating."""
+    if not isinstance(item, dict):
+        return 0
+
+    count = 0
+    for value in item.values():
+        if value in (None, "", [], {}):
+            continue
+        count += 1
+    return count
+
+
+def choose_better_item(existing, candidate, date_fields):
+    """Choose better duplicate candidate by active status, recency, then completeness."""
+    existing_active = item_is_active(existing)
+    candidate_active = item_is_active(candidate)
+    if existing_active != candidate_active:
+        return candidate if candidate_active else existing
+
+    existing_date = item_latest_date(existing, date_fields)
+    candidate_date = item_latest_date(candidate, date_fields)
+    if existing_date != candidate_date:
+        if candidate_date and (existing_date is None or candidate_date > existing_date):
+            return candidate
+        return existing
+
+    if non_empty_field_count(candidate) > non_empty_field_count(existing):
+        return candidate
+
+    return existing
+
+
+def dedupe_items(items, key_fn, date_fields):
+    """Deduplicate items using a key and selection policy."""
+    deduped = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+
+        key = key_fn(item)
+        if not key:
+            continue
+
+        existing = deduped.get(key)
+        if existing is None:
+            deduped[key] = item
+        else:
+            deduped[key] = choose_better_item(existing, item, date_fields)
+
+    return list(deduped.values())
+
+
+def first_non_empty(transcripts, field_name):
+    """Return first non-empty top-level field value across transcripts."""
+    for transcript in transcripts:
+        value = transcript.get(field_name) if isinstance(transcript, dict) else None
+        if value not in (None, "", [], {}):
+            return value
+    return None
+
+
+def first_non_empty_normalized(item, fields):
+    """Get first non-empty normalized value from a list of fields."""
+    if not isinstance(item, dict):
+        return ""
+
+    for field in fields:
+        value = normalize_text(item.get(field))
+        if value:
+            return value
+
+    return ""
+
+
+def combined_normalized_key(item, fields):
+    """Build a stable dedupe key by combining normalized field values."""
+    if not isinstance(item, dict):
+        return ""
+
+    parts = [normalize_text(item.get(field)) for field in fields]
+    parts = [part for part in parts if part]
+    if not parts:
+        return ""
+
+    return "|".join(parts)
+
+
+def merge_certification_data(transcripts):
+    """Merge active/historical certifications and prefer active + recent duplicates."""
+    all_certs = []
+    for transcript in transcripts:
+        cert_data = transcript.get("certificationData") if isinstance(transcript, dict) else None
+        if not isinstance(cert_data, dict):
+            continue
+
+        for key in ("activeCertifications", "historicalCertifications"):
+            certs = cert_data.get(key, [])
+            if isinstance(certs, list):
+                all_certs.extend(certs)
+
+    deduped = dedupe_items(
+        all_certs,
+        key_fn=lambda cert: first_non_empty_normalized(
+            cert,
+            ("certificationNumber", "credentialId", "name", "title", "description"),
+        ),
+        date_fields=("dateEarned", "expiration"),
+    )
+
+    active = [cert for cert in deduped if item_is_active(cert)]
+    historical = [cert for cert in deduped if cert not in active]
+
+    return {
+        "mcid": first_non_empty(
+            [t.get("certificationData", {}) for t in transcripts if isinstance(t, dict)], "mcid"
+        ),
+        "legalName": first_non_empty(
+            [t.get("certificationData", {}) for t in transcripts if isinstance(t, dict)], "legalName"
+        ),
+        "totalActiveCertifications": len(active),
+        "totalHistoricalCertifications": len(historical),
+        "totalExamsPassed": max(
+            [
+                t.get("certificationData", {}).get("totalExamsPassed", 0)
+                for t in transcripts
+                if isinstance(t, dict) and isinstance(t.get("certificationData"), dict)
+            ]
+            or [0]
+        ),
+        "totalQualificationsEarned": max(
+            [
+                t.get("certificationData", {}).get("totalQualificationsEarned", 0)
+                for t in transcripts
+                if isinstance(t, dict) and isinstance(t.get("certificationData"), dict)
+            ]
+            or [0]
+        ),
+        "activeCertifications": active,
+        "historicalCertifications": historical,
+    }
+
+
+def merge_applied_skills_data(transcripts):
+    """Merge applied skill credentials and keep latest for duplicates."""
+    all_skills = []
+    for transcript in transcripts:
+        applied_data = transcript.get("appliedSkillsData") if isinstance(transcript, dict) else None
+        if not isinstance(applied_data, dict):
+            continue
+
+        skills = applied_data.get("appliedSkillsCredentials", [])
+        if isinstance(skills, list):
+            all_skills.extend(skills)
+
+    deduped = dedupe_items(
+        all_skills,
+        key_fn=lambda skill: first_non_empty_normalized(
+            skill,
+            ("credentialId", "uid", "title", "name", "description"),
+        ),
+        date_fields=("awardedOn",),
+    )
+
+    return {
+        "totalAppliedSkills": len(deduped),
+        "appliedSkillsCredentials": deduped,
+    }
+
+
+def merge_transcripts(transcripts):
+    """Merge transcript payloads into one object with deduped collections."""
+    modules = []
+    learning_paths = []
+
+    for transcript in transcripts:
+        if not isinstance(transcript, dict):
+            continue
+        if isinstance(transcript.get("modulesCompleted"), list):
+            modules.extend(transcript.get("modulesCompleted", []))
+        if isinstance(transcript.get("learningPathsCompleted"), list):
+            learning_paths.extend(transcript.get("learningPathsCompleted", []))
+
+    deduped_modules = dedupe_items(
+        modules,
+        key_fn=lambda module: first_non_empty_normalized(module, ("uid", "id", "url"))
+        or combined_normalized_key(module, ("title", "description"))
+        or first_non_empty_normalized(module, ("title", "description")),
+        date_fields=("completionDate", "completedOn"),
+    )
+    deduped_learning_paths = dedupe_items(
+        learning_paths,
+        key_fn=lambda lp: first_non_empty_normalized(lp, ("uid", "id", "url"))
+        or combined_normalized_key(lp, ("title", "description"))
+        or first_non_empty_normalized(lp, ("title", "description")),
+        date_fields=("completedOn", "completionDate"),
+    )
+
+    merged = {
+        "userName": first_non_empty(transcripts, "userName"),
+        "userDisplayName": first_non_empty(transcripts, "userDisplayName"),
+        "docsId": first_non_empty(transcripts, "docsId"),
+        "modulesCompleted": deduped_modules,
+        "learningPathsCompleted": deduped_learning_paths,
+        "certificationData": merge_certification_data(transcripts),
+        "appliedSkillsData": merge_applied_skills_data(transcripts),
+    }
+
+    return merged
+
+
+def recalculate_totals(data):
+    """Recalculate totals from merged list data after all enrichment steps."""
+    modules = data.get("modulesCompleted", [])
+    learning_paths = data.get("learningPathsCompleted", [])
+
+    if not isinstance(modules, list):
+        modules = []
+    if not isinstance(learning_paths, list):
+        learning_paths = []
+
+    data["totalModulesCompleted"] = len(modules)
+    data["totalLearningPathsCompleted"] = len(learning_paths)
+
+    # Derive total training minutes from merged module durations.
+    data["totalTrainingMinutes"] = sum(
+        module.get("duration", 0)
+        for module in modules
+        if isinstance(module, dict) and isinstance(module.get("duration"), int)
+    )
+
+    certification_data = data.get("certificationData")
+    if isinstance(certification_data, dict):
+        active = certification_data.get("activeCertifications", [])
+        historical = certification_data.get("historicalCertifications", [])
+        if isinstance(active, list):
+            certification_data["totalActiveCertifications"] = len(active)
+        if isinstance(historical, list):
+            certification_data["totalHistoricalCertifications"] = len(historical)
+
+    applied_data = data.get("appliedSkillsData")
+    if isinstance(applied_data, dict):
+        skills = applied_data.get("appliedSkillsCredentials", [])
+        if isinstance(skills, list):
+            applied_data["totalAppliedSkills"] = len(skills)
+
+
+def fetch_all_transcripts(transcript_ids):
+    """Fetch all transcript payloads for configured share ids."""
+    transcripts = []
+    for transcript_id in transcript_ids:
+        api_url = build_transcript_api_url(transcript_id)
+        try:
+            print(f"Fetching transcript from: {api_url}")
+            transcript = fetch_transcript(transcript_id)
+            if isinstance(transcript, dict):
+                transcripts.append(transcript)
+                print(
+                    "  Fetched: "
+                    f"{transcript.get('totalModulesCompleted', 0)} modules completed"
+                )
+            else:
+                print(f"  Skipped transcript id {transcript_id}: payload was not an object")
+        except Exception as exc:
+            print(f"  Could not fetch transcript id {transcript_id}: {exc}")
+
+    if not transcripts:
+        raise RuntimeError("No transcript payloads could be fetched.")
+
+    return transcripts
+
+
+def fetch_best_xp_summary(transcripts):
+    """Fetch XP summary for available docs IDs and keep the highest total XP."""
+    best_summary = None
+    best_total_xp = -1
+    docs_ids = {
+        transcript.get("docsId")
+        for transcript in transcripts
+        if isinstance(transcript, dict) and transcript.get("docsId")
+    }
+
+    for docs_id in docs_ids:
+        summary = fetch_xp_summary(docs_id)
+        if not summary:
+            continue
+        total_xp = summary.get("totalXp", 0)
+        if isinstance(total_xp, int) and total_xp > best_total_xp:
+            best_total_xp = total_xp
+            best_summary = summary
+
+    return best_summary
 
 
 def fetch_catalog_icon_map():
@@ -336,10 +699,16 @@ def derive_trophies_from_learning_paths(learning_paths, icon_map):
 
 
 def main():
-    print(f"Fetching transcript from: {API_URL}")
     try:
-        data = fetch_transcript()
-        print(f"Fetched data: {data.get('totalModulesCompleted', 0)} modules completed")
+        transcript_ids = get_configured_transcript_ids()
+        print(f"Transcript share IDs configured: {len(transcript_ids)}")
+        transcripts = fetch_all_transcripts(transcript_ids)
+        data = merge_transcripts(transcripts)
+        merged_module_count = len(data.get("modulesCompleted", []))
+        print(
+            "Merged transcript payload: "
+            f"{merged_module_count} unique modules completed"
+        )
 
         # Normalize/enrich module metadata used by filters and badges.
         module_map = fetch_catalog_module_map()
@@ -363,7 +732,7 @@ def main():
         enrich_applied_skill_icons(data)
 
         # Add profile-level XP summary (available even when module XP is missing).
-        xp_summary = fetch_xp_summary(data.get("docsId"))
+        xp_summary = fetch_best_xp_summary(transcripts)
         if xp_summary:
             data["totalXp"] = xp_summary.get("totalXp", 0)
             print(f"Total XP from profile endpoint: {data['totalXp']}")
@@ -374,6 +743,9 @@ def main():
                 if isinstance(module, dict)
             )
             print(f"Total XP fallback from module XP: {data['totalXp']}")
+
+        # Ensure top-level and nested totals are derived from final merged lists.
+        recalculate_totals(data)
 
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
