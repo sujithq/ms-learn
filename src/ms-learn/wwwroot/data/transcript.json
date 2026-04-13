@@ -1,9 +1,198 @@
 {
-  "totalModulesCompleted": 1243,
-  "totalLearningPathsCompleted": 299,
-  "totalTrainingMinutes": 55268,
+  "totalModulesCompleted": 1250,
+  "totalLearningPathsCompleted": 300,
+  "totalTrainingMinutes": 55616,
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
+    {
+      "uid": "learn.mec.embed-21st-century-skills-21st-century-learning-design",
+      "title": "Embed 21st century skills with 21st century learning design",
+      "description": "Implement 21st century skills and learning into classes using 21CLD for lesson design. Practical activities help educators reflect on their practice and that of other educators.",
+      "completedOn": "2026-04-13T13:39:51.0558238+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T13:39:43.7465442+00:00",
+        "moduleAssessmentUrl": "/training/modules/embed-21st-century-skills-21st-century-learning-design/knowledge-check/"
+      },
+      "url": "/training/modules/embed-21st-century-skills-21st-century-learning-design/",
+      "completionDate": "2026-04-13T13:39:51.0558238+00:00",
+      "duration": 29,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/embed-21st-century-skills-21st-century-learning-design.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.mec.deepen-educational-experiences",
+      "title": "Deepen educational experiences with the 21CLD ICT for learning dimension",
+      "description": "This module highlights for educators the need to use information and communication technologies (ICT) to transform learning experiences and create and design new information and ICT products.",
+      "completedOn": "2026-04-13T13:37:20.3524692+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T13:37:15.135983+00:00",
+        "moduleAssessmentUrl": "/training/modules/deepen-educational-experiences/knowledge-check/"
+      },
+      "url": "/training/modules/deepen-educational-experiences/",
+      "completionDate": "2026-04-13T13:37:20.3524692+00:00",
+      "duration": 51,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/deepen-educational-experiences.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.mec.develop-learner-executive-function",
+      "title": "Develop learner executive function with the 21CLD self-regulation dimension  ",
+      "description": "This module introduces the concept of self-regulation and teaches educators how to design learning activities to help learners develop this important skill.",
+      "completedOn": "2026-04-13T13:32:46.1407619+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T13:32:38.5879448+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-learner-executive-function/knowledge-check/"
+      },
+      "url": "/training/modules/develop-learner-executive-function/",
+      "completionDate": "2026-04-13T13:32:46.1407619+00:00",
+      "duration": 53,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/develop-learner-executive-function.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.mec.improve-communication-skills-21cld",
+      "title": "Improve communication skills with the 21CLD skilled communication dimension",
+      "description": "This module introduces the concept of skilled communication to educators and supports them in designing learning activities to help young people develop this important skill.",
+      "completedOn": "2026-04-13T13:25:30.9539832+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T13:25:20.4533445+00:00",
+        "moduleAssessmentUrl": "/training/modules/improve-communication-skills-21cld/knowledge-check/"
+      },
+      "url": "/training/modules/improve-communication-skills-21cld/",
+      "completionDate": "2026-04-13T13:25:30.9539832+00:00",
+      "duration": 51,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/improve-communication-skills-21cld.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.mec.innovate-learning-21cld",
+      "title": "Innovate learning with the 21CLD real-world problem solving and innovation dimension ",
+      "description": "This module defines real-world problem solving for educators and explains the dimensions that must be present in such classroom activities to prepare learners with 21st century skills.",
+      "completedOn": "2026-04-13T12:58:33.8482668+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T12:58:26.7556533+00:00",
+        "moduleAssessmentUrl": "/training/modules/innovate-learning-21cld/knowledge-check/"
+      },
+      "url": "/training/modules/innovate-learning-21cld/",
+      "completionDate": "2026-04-13T12:58:33.8482668+00:00",
+      "duration": 51,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/innovate-learning-21cld.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.mec.practice-collaborative-skills-21cld-collaboration",
+      "title": "Practice collaborative skills with the 21CLD collaboration dimension",
+      "description": "This module helps educators design learning activities for learners to develop collaboration skills. It introduces the levels of collaboration: sharing responsibility, making substantive decisions together, and working interdependently.",
+      "completedOn": "2026-04-13T12:30:39.9636233+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T12:30:19.4564972+00:00",
+        "moduleAssessmentUrl": "/training/modules/practice-collaborative-skills-21cld-collaboration/knowledge-check/"
+      },
+      "url": "/training/modules/practice-collaborative-skills-21cld-collaboration/",
+      "completionDate": "2026-04-13T12:30:39.9636233+00:00",
+      "duration": 60,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/practice-collaborative-skills-21cld-collaboration.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.mec.develop-critical-thinking-skills-with-21cld",
+      "title": "Develop critical thinking skills with the 21CLD knowledge construction dimension ",
+      "description": "This module introduces educators to the dimension of knowledge construction which helps learners build deep knowledge that they can transfer and apply in practice. ",
+      "completedOn": "2026-04-13T12:25:22.5893816+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T12:25:07.5923144+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-critical-thinking-skills-with-21cld/knowledge-check/"
+      },
+      "url": "/training/modules/develop-critical-thinking-skills-with-21cld/",
+      "completionDate": "2026-04-13T12:25:22.5893816+00:00",
+      "duration": 53,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/develop-critical-thinking-skills-with-21cld.svg",
+      "roles": [
+        "k-12-educator",
+        "school-leader"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365-education"
+      ],
+      "locale": "en-us"
+    },
     {
       "uid": "learn.wwl.implement-security-controls-azure-ai-ready-infrastructure",
       "title": "Implement security controls for Azure AI-ready infrastructure",
@@ -24284,6 +24473,13 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.mec.21st-century-learning-design",
+      "title": "21st century learning design",
+      "description": "21st Century Learning Design (21CLD) for Educators is a collection of eight courses. This learning path provides educators with clear and practical ways to develop 21st skills using digital technologies with their learners. ",
+      "completedOn": "2026-04-13T13:39:51.0558258+00:00",
+      "duration": 401
+    },
+    {
       "uid": "learn.wwl.secure-ai-ready-infrastructure",
       "title": "Secure AI-ready infrastructure",
       "description": "This course teaches how to build production‑ready AI infrastructure using Microsoft Foundry Hubs and Projects, applying enterprise security controls, network isolation, managed identities, and container governance to enable compliant, scalable AI development across organizations.",
@@ -26950,6 +27146,12 @@
   },
   "trophies": [
     {
+      "uid": "learn.mec.21st-century-learning-design",
+      "title": "21st century learning design",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/21st-century-learning-design.svg",
+      "earnedDate": "2026-04-13T13:39:51.0558258+00:00"
+    },
+    {
       "uid": "learn.wwl.secure-ai-ready-infrastructure",
       "title": "Secure AI-ready infrastructure",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -28744,5 +28946,5 @@
       "earnedDate": "2019-12-13T09:13:54.1533697+00:00"
     }
   ],
-  "totalXp": 1879300
+  "totalXp": 1888700
 }
