@@ -4,6 +4,37 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.make-your-meetings-more-productive-ai",
+      "title": "Make your meetings more productive with AI",
+      "description": "Learn how Copilot in Teams can amplify collaboration among your team members.",
+      "completedOn": "2026-04-13T20:29:53.2321978+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-13T20:29:49.9100615+00:00",
+        "moduleAssessmentUrl": "/training/modules/make-your-meetings-more-productive-ai/5-knowledge-check/"
+      },
+      "url": "/training/modules/make-your-meetings-more-productive-ai/",
+      "completionDate": "2026-04-13T20:29:53.2321978+00:00",
+      "duration": 36,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "business-user",
+        "functional-consultant",
+        "solution-architect",
+        "technology-manager"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365",
+        "office-365"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn-wwl.explore-security-practices-azure-sql-database",
       "title": "Explore security practices for Azure SQL Database",
       "description": "Learn how security works in Azure SQL Database, the key concepts, and practical examples to help developers effectively utilize Azure SQL Database in their cloud-based applications.",
@@ -33395,6 +33426,14 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.draft-analyze-present-microsoft-365-copilot",
+      "title": "Draft, analyze, and present with Microsoft 365 Copilot",
+      "description": "Draft, analyze, and present with Microsoft 365 Copilot.",
+      "completedOn": "2026-04-13T20:29:53.2322004+00:00",
+      "passedOn": "2026-04-13T20:29:50.0096356+00:00",
+      "duration": 244
+    },
+    {
       "uid": "learn.mec.21st-century-learning-design",
       "title": "21st century learning design",
       "description": "21st Century Learning Design (21CLD) for Educators is a collection of eight courses. This learning path provides educators with clear and practical ways to develop 21st skills using digital technologies with their learners. ",
@@ -36516,6 +36555,12 @@
   },
   "trophies": [
     {
+      "uid": "learn.wwl.draft-analyze-present-microsoft-365-copilot",
+      "title": "Draft, analyze, and present with Microsoft 365 Copilot",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-04-13T20:29:53.2322004+00:00"
+    },
+    {
       "uid": "learn.mec.21st-century-learning-design",
       "title": "21st century learning design",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/21st-century-learning-design.svg",
@@ -38820,8 +38865,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1892400,
-  "totalModulesCompleted": 1622,
-  "totalLearningPathsCompleted": 384,
-  "totalTrainingMinutes": 72923
+  "totalXp": 1894725,
+  "totalModulesCompleted": 1623,
+  "totalLearningPathsCompleted": 385,
+  "totalTrainingMinutes": 72959
 }
