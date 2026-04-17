@@ -14944,7 +14944,8 @@
       ],
       "products": [
         "microsoft-purview",
-        "m365"
+        "m365",
+        "power-bi"
       ],
       "locale": "en-us"
     },
