@@ -14737,8 +14737,7 @@
       "roles": [
         "administrator",
         "devops-engineer",
-        "solution-architect",
-        "technology-manager"
+        "solution-architect"
       ],
       "levels": [
         "beginner"
@@ -18240,23 +18239,14 @@
       "title": "Deploy Spring microservices to Azure",
       "description": "In this workshop, you'll go through tasks to deploy Spring Boot microservices to Azure Spring Cloud (ASC).",
       "completedOn": "2022-04-11T05:45:59.9352448+00:00",
-      "url": "/training/modules/azure-spring-cloud-workshop/",
       "completionDate": "2022-04-11T05:45:59.9352448+00:00",
       "duration": 38,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-spring-cloud-workshop.svg",
-      "roles": [
-        "developer",
-        "administrator"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-spring-apps"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.intro-to-app-center",
@@ -26555,21 +26545,14 @@
       "title": "Guided project - Accelerate app development using GitHub Copilot tools",
       "description": "This module explores using GitHub Copilot to accelerate development work during an end-to-end project. GitHub Copilot is used to explain an unfamiliar codebase, generate project documentation, develop a new app feature, develop unit tests, and implement improvements.",
       "completedOn": "2024-09-27T20:52:49.8267075+00:00",
-      "url": "/training/modules/guided-project-accelerate-app-development-using-github-copilot-tools/",
       "completionDate": "2024-09-27T20:52:49.8267075+00:00",
       "duration": 90,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "github"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn-wwl.perform-post-migration-tasks-azure-sql",
