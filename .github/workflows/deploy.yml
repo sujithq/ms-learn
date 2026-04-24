@@ -58,12 +58,12 @@ jobs:
         run: |
           if [ -n "$CUSTOM_DOMAIN" ]; then
             BASE_HREF="/"
-            printf '%s\n' "$CUSTOM_DOMAIN" > publish/wwwroot/CNAME
+            printf '%s\n' "$CUSTOM_DOMAIN" > release/wwwroot/CNAME
           else
             BASE_HREF="/${{ github.event.repository.name }}/"
-            rm -f publish/wwwroot/CNAME
+            rm -f release/wwwroot/CNAME
           fi
-          sed -i "s|<base href=\"/\" />|<base href=\"${BASE_HREF}\" />|g" publish/wwwroot/index.html
+          sed -i "s|<base href=\"/\" />|<base href=\"${BASE_HREF}\" />|g" release/wwwroot/index.html
           cp release/wwwroot/index.html release/wwwroot/404.html
           touch release/wwwroot/.nojekyll
 
