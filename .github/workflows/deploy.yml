@@ -53,8 +53,17 @@ jobs:
         run: dotnet publish src/ms-learn/ms-learn.csproj -c Release -o release --nologo
 
       - name: Fix base path for GitHub Pages
+        env:
+          CUSTOM_DOMAIN: ${{ vars.PAGES_CUSTOM_DOMAIN }}
         run: |
-          sed -i 's|<base href="/" />|<base href="/ms-learn/" />|' release/wwwroot/index.html
+          if [ -n "$CUSTOM_DOMAIN" ]; then
+            BASE_HREF="/"
+            printf '%s\n' "$CUSTOM_DOMAIN" > publish/wwwroot/CNAME
+          else
+            BASE_HREF="/${{ github.event.repository.name }}/"
+            rm -f publish/wwwroot/CNAME
+          fi
+          sed -i "s|<base href=\"/\" />|<base href=\"${BASE_HREF}\" />|g" publish/wwwroot/index.html
           cp release/wwwroot/index.html release/wwwroot/404.html
           touch release/wwwroot/.nojekyll
 
