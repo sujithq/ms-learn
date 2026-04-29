@@ -4,6 +4,34 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.introduction-agentic-devops-microsoft-tools-azure",
+      "title": "Introduction to agentic DevOps using Microsoft tools on Azure",
+      "description": "Describe the agentic DevOps model for Microsoft DevOps Engineers, identify high-value opportunities in daily DevOps work, and define safe operating boundaries for agentic actions on Azure.",
+      "completedOn": "2026-04-29T20:06:53.8642753+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-04-29T20:06:36.2560012+00:00",
+        "moduleAssessmentUrl": "/training/modules/introduction-agentic-devops-microsoft-tools-azure/6-knowledge-check/"
+      },
+      "url": "/training/modules/introduction-agentic-devops-microsoft-tools-azure/",
+      "completionDate": "2026-04-29T20:06:53.8642753+00:00",
+      "duration": 52,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "devops-engineer"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.make-your-meetings-more-productive-ai",
       "title": "Make your meetings more productive with AI",
       "description": "Learn how Copilot in Teams can amplify collaboration among your team members.",
@@ -38849,8 +38877,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1894825,
-  "totalModulesCompleted": 1623,
+  "totalXp": 1895725,
+  "totalModulesCompleted": 1624,
   "totalLearningPathsCompleted": 385,
-  "totalTrainingMinutes": 72959
+  "totalTrainingMinutes": 73011
 }
