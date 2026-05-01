@@ -13105,8 +13105,7 @@
         "intermediate"
       ],
       "products": [
-        "azure-data-factory",
-        "azure-synapse-analytics"
+        "azure-data-factory"
       ],
       "locale": "en-us"
     },
@@ -13174,8 +13173,7 @@
         "beginner"
       ],
       "products": [
-        "azure-data-factory",
-        "azure-synapse-analytics"
+        "azure-data-factory"
       ],
       "locale": "en-us"
     },
