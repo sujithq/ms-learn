@@ -4,6 +4,209 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.strategic-platform-road-mapping",
+      "title": "Strategic Platform Road Mapping",
+      "description": "This module covers the principles of strategic platform road mapping, including aligning platform initiatives with business objectives, preparing for technological advancements, and fostering innovation. Learners will understand how to develop actionable roadmaps that guide the platform’s evolution, ensuring it remains efficient, reliable, and capable of evolving with future innovations.",
+      "completedOn": "2026-05-06T12:12:19.9942163+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T12:11:19.3486623+00:00",
+        "moduleAssessmentUrl": "/training/modules/strategic-platform-road-mapping/10-knowledge-check/"
+      },
+      "url": "/training/modules/strategic-platform-road-mapping/",
+      "completionDate": "2026-05-06T12:12:19.9942163+00:00",
+      "duration": 70,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "developer",
+        "devops-engineer",
+        "network-engineer",
+        "security-engineer",
+        "solution-architect",
+        "startup-founder"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.observability-continuous-improvement",
+      "title": "Observability and Continuous Improvement",
+      "description": "Learners will discover the significance of observability in providing real-time insights into system performance and identifying inefficiencies. This module emphasizes the importance of continuous improvement through feedback loops, performance monitoring, and market analysis. Learners will explore strategies for adapting to market trends and fostering a culture of innovation within platform engineering teams.",
+      "completedOn": "2026-05-06T12:03:07.6725061+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T12:03:03.2178356+00:00",
+        "moduleAssessmentUrl": "/training/modules/observability-continuous-improvement/8-knowledge-check/"
+      },
+      "url": "/training/modules/observability-continuous-improvement/",
+      "completionDate": "2026-05-06T12:03:07.6725061+00:00",
+      "duration": 64,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "developer",
+        "devops-engineer",
+        "network-engineer",
+        "security-engineer",
+        "solution-architect",
+        "startup-founder"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-developer-self-service",
+      "title": "Implement Developer Self-Service",
+      "description": "This module focuses on enabling developers to independently manage their resources and workflows, fostering agility and innovation. Learners will understand the importance of combining flexibility with robust governance to ensure security, compliance, and operational consistency. The module also covers best practices for implementing and managing self-service capabilities within an organization.",
+      "completedOn": "2026-05-06T11:49:23.95757+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T11:49:16.4762468+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-developer-self-service/9-knowledge-check/"
+      },
+      "url": "/training/modules/implement-developer-self-service/",
+      "completionDate": "2026-05-06T11:49:23.95757+00:00",
+      "duration": 121,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "developer",
+        "devops-engineer",
+        "network-engineer",
+        "security-engineer",
+        "solution-architect",
+        "startup-founder"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-secure-scalable-platform-architectures",
+      "title": "Design Secure and Scalable Platform Architectures",
+      "description": "In this module, learners will gain insights into designing platform architectures that are secure, scalable, and compliant with regulatory standards. The module covers capacity planning, cost optimization, and the role of automation in maintaining consistency and reducing manual errors. Learners will also explore strategies for building scalable solutions that can handle increasing demand and complex workflows.",
+      "completedOn": "2026-05-06T11:35:30.6640293+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T11:35:25.7787423+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-secure-scalable-platform-architectures/6-knowledge-check/"
+      },
+      "url": "/training/modules/design-secure-scalable-platform-architectures/",
+      "completionDate": "2026-05-06T11:35:30.6640293+00:00",
+      "duration": 50,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "developer",
+        "devops-engineer",
+        "network-engineer",
+        "security-engineer",
+        "solution-architect",
+        "startup-founder"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.foundations-platform-engineering",
+      "title": "Foundations of Platform Engineering",
+      "description": "This module introduces the core concepts and importance of platform engineering. It explores how platform engineering enhances developer productivity, accelerates time to value, and supports digital transformation. Learners will understand the strategic value of platform engineering as the foundation for both technical success and alignment with broader business goals.",
+      "completedOn": "2026-05-06T11:22:36.2111391+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T11:22:32.2172458+00:00",
+        "moduleAssessmentUrl": "/training/modules/foundations-platform-engineering/6-knowledge-check/"
+      },
+      "url": "/training/modules/foundations-platform-engineering/",
+      "completionDate": "2026-05-06T11:22:36.2111391+00:00",
+      "duration": 57,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "developer",
+        "devops-engineer",
+        "network-engineer",
+        "security-engineer",
+        "solution-architect",
+        "startup-founder"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.introduction-to-azure-dns",
+      "title": "Introduction to Azure DNS",
+      "description": "Azure DNS is a cloud service that allows you to host and manage domain name system (DNS) domains, also known as DNS zones.",
+      "completedOn": "2026-05-06T11:11:58.3258571+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T11:11:45.0960272+00:00",
+        "moduleAssessmentUrl": "/training/modules/intro-to-azure-dns/5-knowledge-check/"
+      },
+      "url": "/training/modules/intro-to-azure-dns/",
+      "completionDate": "2026-05-06T11:11:58.3258571+00:00",
+      "duration": 28,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure",
+        "azure-dns"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.azure.intro-to-azure-network-watcher",
       "title": "Introduction to Azure Network Watcher",
       "description": "This module explains what Azure Network Watcher does, how it works, and when you should choose to use Network Watcher as a solution to meet your organization's needs.",
@@ -25433,181 +25636,6 @@
       "locale": "en-us"
     },
     {
-      "uid": "learn.wwl.strategic-platform-road-mapping",
-      "title": "Strategic Platform Road Mapping",
-      "description": "This module covers the principles of strategic platform road mapping, including aligning platform initiatives with business objectives, preparing for technological advancements, and fostering innovation. Learners will understand how to develop actionable roadmaps that guide the platform’s evolution, ensuring it remains efficient, reliable, and capable of evolving with future innovations.",
-      "completedOn": "2025-08-21T13:38:40.9624678+00:00",
-      "moduleAssessment": {
-        "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-08-21T13:38:33.8253674+00:00",
-        "moduleAssessmentUrl": "/training/modules/strategic-platform-road-mapping/10-knowledge-check/"
-      },
-      "url": "/training/modules/strategic-platform-road-mapping/",
-      "completionDate": "2025-08-21T13:38:40.9624678+00:00",
-      "duration": 70,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "developer",
-        "devops-engineer",
-        "network-engineer",
-        "security-engineer",
-        "solution-architect",
-        "startup-founder"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-devops",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.observability-continuous-improvement",
-      "title": "Observability and Continuous Improvement",
-      "description": "Learners will discover the significance of observability in providing real-time insights into system performance and identifying inefficiencies. This module emphasizes the importance of continuous improvement through feedback loops, performance monitoring, and market analysis. Learners will explore strategies for adapting to market trends and fostering a culture of innovation within platform engineering teams.",
-      "completedOn": "2025-08-21T13:17:11.0269437+00:00",
-      "moduleAssessment": {
-        "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-08-21T13:17:04.851833+00:00",
-        "moduleAssessmentUrl": "/training/modules/observability-continuous-improvement/8-knowledge-check/"
-      },
-      "url": "/training/modules/observability-continuous-improvement/",
-      "completionDate": "2025-08-21T13:17:11.0269437+00:00",
-      "duration": 64,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "developer",
-        "devops-engineer",
-        "network-engineer",
-        "security-engineer",
-        "solution-architect",
-        "startup-founder"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-devops",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.implement-developer-self-service",
-      "title": "Implement Developer Self-Service",
-      "description": "This module focuses on enabling developers to independently manage their resources and workflows, fostering agility and innovation. Learners will understand the importance of combining flexibility with robust governance to ensure security, compliance, and operational consistency. The module also covers best practices for implementing and managing self-service capabilities within an organization.",
-      "completedOn": "2025-08-21T13:09:30.2635459+00:00",
-      "moduleAssessment": {
-        "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-08-21T13:09:23.2589227+00:00",
-        "moduleAssessmentUrl": "/training/modules/implement-developer-self-service/9-knowledge-check/"
-      },
-      "url": "/training/modules/implement-developer-self-service/",
-      "completionDate": "2025-08-21T13:09:30.2635459+00:00",
-      "duration": 121,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "developer",
-        "devops-engineer",
-        "network-engineer",
-        "security-engineer",
-        "solution-architect",
-        "startup-founder"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-devops",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.design-secure-scalable-platform-architectures",
-      "title": "Design Secure and Scalable Platform Architectures",
-      "description": "In this module, learners will gain insights into designing platform architectures that are secure, scalable, and compliant with regulatory standards. The module covers capacity planning, cost optimization, and the role of automation in maintaining consistency and reducing manual errors. Learners will also explore strategies for building scalable solutions that can handle increasing demand and complex workflows.",
-      "completedOn": "2025-08-21T13:01:26.3687344+00:00",
-      "moduleAssessment": {
-        "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-08-21T13:01:20.2124083+00:00",
-        "moduleAssessmentUrl": "/training/modules/design-secure-scalable-platform-architectures/6-knowledge-check/"
-      },
-      "url": "/training/modules/design-secure-scalable-platform-architectures/",
-      "completionDate": "2025-08-21T13:01:26.3687344+00:00",
-      "duration": 50,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "developer",
-        "devops-engineer",
-        "network-engineer",
-        "security-engineer",
-        "solution-architect",
-        "startup-founder"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-devops",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.foundations-platform-engineering",
-      "title": "Foundations of Platform Engineering",
-      "description": "This module introduces the core concepts and importance of platform engineering. It explores how platform engineering enhances developer productivity, accelerates time to value, and supports digital transformation. Learners will understand the strategic value of platform engineering as the foundation for both technical success and alignment with broader business goals.",
-      "completedOn": "2025-08-21T12:04:46.4936621+00:00",
-      "moduleAssessment": {
-        "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-08-21T12:04:40.1931413+00:00",
-        "moduleAssessmentUrl": "/training/modules/foundations-platform-engineering/6-knowledge-check/"
-      },
-      "url": "/training/modules/foundations-platform-engineering/",
-      "completionDate": "2025-08-21T12:04:46.4936621+00:00",
-      "duration": 57,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "developer",
-        "devops-engineer",
-        "network-engineer",
-        "security-engineer",
-        "solution-architect",
-        "startup-founder"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-devops",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.govern-ai-services-azure-policy",
       "title": "Govern AI services with Azure Policy",
       "description": "Learn how to govern AI services using Azure Policy.",
@@ -33690,6 +33718,21 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.designing-implementing-platform-engineering",
+      "title": "Designing and Implementing Platform Engineering",
+      "description": "This learning path provides a comprehensive guide to designing and implementing platform engineering within modern enterprises. It covers the foundational principles, strategic alignment with business goals, and the practical aspects of building scalable, secure, and future-proof platforms. By following this path, learners will gain the knowledge and skills needed to enhance developer productivity, ensure operational excellence, and drive continuous innovation.",
+      "completedOn": "2026-05-06T12:12:19.9942178+00:00",
+      "passedOn": "2026-05-06T12:11:19.4297535+00:00",
+      "duration": 362
+    },
+    {
+      "uid": "learn.intro-to-azure-network-foundation-services",
+      "title": "Introduction to Azure network foundation services",
+      "description": "Learn to manage and diagnose a network with Azure network foundation services.",
+      "completedOn": "2026-05-06T11:11:58.3258586+00:00",
+      "duration": 116
+    },
+    {
       "uid": "learn.intro-to-azure-application-delivery-services",
       "title": "Introduction to Azure application delivery services",
       "description": "Learn to distribute network traffic to load balance workloads with Azure application delivery services.",
@@ -35874,14 +35917,6 @@
       "duration": 96
     },
     {
-      "uid": "learn.wwl.designing-implementing-platform-engineering",
-      "title": "Designing and Implementing Platform Engineering",
-      "description": "This learning path provides a comprehensive guide to designing and implementing platform engineering within modern enterprises. It covers the foundational principles, strategic alignment with business goals, and the practical aspects of building scalable, secure, and future-proof platforms. By following this path, learners will gain the knowledge and skills needed to enhance developer productivity, ensure operational excellence, and drive continuous innovation.",
-      "completedOn": "2025-08-21T13:38:40.9624697+00:00",
-      "passedOn": "2025-08-21T13:38:33.926861+00:00",
-      "duration": 362
-    },
-    {
       "uid": "learn.wwl.ai-workloads-governance",
       "title": "AI workload governance and DLP",
       "description": "Master the art of safeguarding sensitive data and enforcing governance for AI workloads on Azure. This learning path is crafted for IT and security professionals tasked with maintaining data protection and compliance in AI environments. Discover how to prevent data exfiltration and apply governance policies that ensure consistent, secure AI deployments. Learn to combine technical controls with strategic oversight to create resilient, policy-driven AI architectures that align with organizational and regulatory standards.",
@@ -36841,6 +36876,18 @@
     ]
   },
   "trophies": [
+    {
+      "uid": "learn.wwl.designing-implementing-platform-engineering",
+      "title": "Designing and Implementing Platform Engineering",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-06T12:12:19.9942178+00:00"
+    },
+    {
+      "uid": "learn.intro-to-azure-network-foundation-services",
+      "title": "Introduction to Azure network foundation services",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-06T11:11:58.3258586+00:00"
+    },
     {
       "uid": "learn.intro-to-azure-application-delivery-services",
       "title": "Introduction to Azure application delivery services",
@@ -38696,12 +38743,6 @@
       "earnedDate": "2025-08-28T13:00:01.3410669+00:00"
     },
     {
-      "uid": "learn.wwl.designing-implementing-platform-engineering",
-      "title": "Designing and Implementing Platform Engineering",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
-      "earnedDate": "2025-08-21T13:38:40.9624697+00:00"
-    },
-    {
       "uid": "learn.wwl.ai-workloads-governance",
       "title": "AI workload governance and DLP",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -39170,8 +39211,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1913950,
-  "totalModulesCompleted": 1635,
-  "totalLearningPathsCompleted": 388,
-  "totalTrainingMinutes": 73637
+  "totalXp": 1923350,
+  "totalModulesCompleted": 1636,
+  "totalLearningPathsCompleted": 389,
+  "totalTrainingMinutes": 73665
 }
