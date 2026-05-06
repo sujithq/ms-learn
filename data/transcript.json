@@ -4,6 +4,154 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.transition-traditional-ops-agent-automation",
+      "title": "Transition from traditional ops to agentic DevOps workflows",
+      "description": "Learn how to evolve traditional cloud administration and DevOps tasks into agentic AI workflows using agent instructions, skills, and multi-agent orchestration.",
+      "completedOn": "2026-05-05T15:57:25.2909704+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-05T15:57:21.6131366+00:00",
+        "moduleAssessmentUrl": "/training/modules/transition-traditional-ops-agent-automation/6-knowledge-check/"
+      },
+      "url": "/training/modules/transition-traditional-ops-agent-automation/",
+      "completionDate": "2026-05-05T15:57:25.2909704+00:00",
+      "duration": 86,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "devops-engineer",
+        "solution-architect"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.use-plan-mode-cloud-ops",
+      "title": "Use GitHub Copilot plan mode for cloud operations tasks",
+      "description": "Learn how to use GitHub Copilot plan mode to create structured implementation plans for cloud infrastructure changes and system administration tasks.",
+      "completedOn": "2026-05-05T15:52:34.5188781+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-05T15:52:29.741841+00:00",
+        "moduleAssessmentUrl": "/training/modules/use-plan-mode-cloud-ops/7-knowledge-check/"
+      },
+      "url": "/training/modules/use-plan-mode-cloud-ops/",
+      "completionDate": "2026-05-05T15:52:34.5188781+00:00",
+      "duration": 81,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "devops-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "github",
+        "azure"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.optimize-azure-reliability-using-sre-agent",
+      "title": "Optimize Azure reliability by using Azure SRE Agent",
+      "description": "Learn how to apply SRE (Site Reliability Engineering) principles and use Azure SRE Agent to improve incident response, reduce operational toil, and govern remediation workflows.",
+      "completedOn": "2026-05-05T15:48:30.6453178+00:00",
+      "url": "/training/modules/optimize-azure-reliability-with-sre-agent/",
+      "completionDate": "2026-05-05T15:48:30.6453178+00:00",
+      "duration": 93,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/azure-devops/capture-feedback-monitoring.svg",
+      "roles": [
+        "administrator",
+        "devops-engineer",
+        "support-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-app-service",
+        "azure-monitor"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.manage-ado-mcp-server",
+      "title": "Manage Azure DevOps by using MCP Server",
+      "description": "Use Azure DevOps MCP Server with GitHub Copilot to manage projects, work items, pull requests, and pipelines through natural language workflows.",
+      "completedOn": "2026-05-05T15:46:42.4898376+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-05T15:46:37.964386+00:00",
+        "moduleAssessmentUrl": "/training/modules/manage-ado-mcp-server/13-knowledge-check/"
+      },
+      "url": "/training/modules/manage-ado-mcp-server/",
+      "completionDate": "2026-05-05T15:46:42.4898376+00:00",
+      "duration": 127,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-devops/get-started-with-devops.svg",
+      "roles": [
+        "administrator",
+        "developer",
+        "devops-engineer",
+        "technology-manager"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "azure-boards",
+        "azure-pipelines",
+        "azure-repos",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.manage-azure-boards-using-github-copilot",
+      "title": "Manage Azure Boards by using GitHub Copilot integration",
+      "description": "Manage Azure Boards by using GitHub Copilot integration",
+      "completedOn": "2026-05-05T15:43:52.2609385+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-05T15:43:48.8767416+00:00",
+        "moduleAssessmentUrl": "/training/modules/manage-azure-boards-using-github-copilot/14-knowledge-check/"
+      },
+      "url": "/training/modules/manage-azure-boards-using-github-copilot/",
+      "completionDate": "2026-05-05T15:43:52.2609385+00:00",
+      "duration": 96,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-devops/choose-an-agile-approach-to-software-development.svg",
+      "roles": [
+        "administrator",
+        "developer",
+        "devops-engineer",
+        "technology-manager"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure",
+        "azure-boards",
+        "azure-devops",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.introduction-agentic-devops-microsoft-tools-azure",
       "title": "Introduction to agentic DevOps using Microsoft tools on Azure",
       "description": "Describe the agentic DevOps model for Microsoft DevOps Engineers, identify high-value opportunities in daily DevOps work, and define safe operating boundaries for agentic actions on Azure.",
@@ -5117,15 +5265,18 @@
       "completionDate": "2025-09-23T13:04:13.1548489+00:00",
       "duration": 55,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/kubernetes-module.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/intro-to-azure-kubernetes-service.svg",
       "roles": [
-        "administrator"
+        "administrator",
+        "developer",
+        "solution-architect"
       ],
       "levels": [
         "intermediate"
       ],
       "products": [
-        "azure"
+        "azure",
+        "azure-kubernetes-service"
       ],
       "locale": "en-us"
     },
@@ -14178,18 +14329,11 @@
       "completionDate": "2021-03-16T12:24:00.9079725+00:00",
       "duration": 30,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/run-petabyte-level-oss-nosql-databases-with-hdinsight-hbase.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.manage-secrets-with-azure-key-vault",
@@ -21796,18 +21940,11 @@
       "completionDate": "2020-09-08T11:21:19.1059568+00:00",
       "duration": 37,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/manage-enterprise-security-in-hdinsight.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.perform-zero-etl-analytics-hdinsight-interactive-query",
@@ -21817,18 +21954,11 @@
       "completionDate": "2020-09-08T11:17:23.7325725+00:00",
       "duration": 56,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/perform-zero-etl-analytics-with-hdinsights-interactive-query.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.perform-advanced-streaming-data-transformations-with-spark-kafka",
@@ -21838,18 +21968,11 @@
       "completionDate": "2020-09-08T09:49:55.382297+00:00",
       "duration": 46,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/perform-advanced-streaming-data-transformations.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.creating-and-configuring-hdinsight-cluster",
@@ -21859,18 +21982,11 @@
       "completionDate": "2020-09-08T06:16:18.1944463+00:00",
       "duration": 66,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/creating-and-configuring-a-hdinsight-cluster.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.hdinsight-configuration-to-build-open-source-analytical-solutions",
@@ -21880,18 +21996,11 @@
       "completionDate": "2020-09-08T05:35:25.8657746+00:00",
       "duration": 40,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/hdinsight-config-build-oss-analytical-solutions.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.introduction-open-source-analytics-offering",
@@ -21901,18 +22010,11 @@
       "completionDate": "2020-09-07T15:00:57.4411817+00:00",
       "duration": 31,
       "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-to-the-open-source-analytics-offering.svg",
-      "roles": [
-        "data-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-hdinsight"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.describe-azure-databricks-best-practices",
@@ -33429,6 +33531,13 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.optimize-devops-ai-agents-azure",
+      "title": "Optimize DevOps with AI agents on Azure",
+      "description": "Learn how to use GitHub Copilot, Azure DevOps MCP Server, and Azure SRE Agent to accelerate delivery, automate operations, and improve reliability across your DevOps workflows.",
+      "completedOn": "2026-05-05T15:57:25.2909724+00:00",
+      "duration": 535
+    },
+    {
       "uid": "learn.wwl.draft-analyze-present-microsoft-365-copilot",
       "title": "Draft, analyze, and present with Microsoft 365 Copilot",
       "description": "Draft, analyze, and present with Microsoft 365 Copilot.",
@@ -36558,6 +36667,12 @@
   },
   "trophies": [
     {
+      "uid": "learn.wwl.optimize-devops-ai-agents-azure",
+      "title": "Optimize DevOps with AI agents on Azure",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-05T15:57:25.2909724+00:00"
+    },
+    {
       "uid": "learn.wwl.draft-analyze-present-microsoft-365-copilot",
       "title": "Draft, analyze, and present with Microsoft 365 Copilot",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -38138,7 +38253,7 @@
     {
       "uid": "learn.wwl.build-oss-analytical-solutions-az-hdinsight",
       "title": "Building Open Source Software (OSS) Analytics Solutions with Azure HDInsight",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/building-oss-analytical-solutions-with-azure-hdinsight.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2020-09-08T11:21:19.1059587+00:00"
     },
     {
@@ -38868,8 +38983,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1896325,
-  "totalModulesCompleted": 1624,
-  "totalLearningPathsCompleted": 385,
-  "totalTrainingMinutes": 73011
+  "totalXp": 1904975,
+  "totalModulesCompleted": 1629,
+  "totalLearningPathsCompleted": 386,
+  "totalTrainingMinutes": 73494
 }
