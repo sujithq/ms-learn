@@ -4,6 +4,933 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.explore-package-dependencies",
+      "title": "Explore package dependencies",
+      "description": "Explore package dependencies",
+      "completedOn": "2026-05-06T15:58:08.0876228+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:58:05.0827599+00:00",
+        "moduleAssessmentUrl": "/training/modules/explore-package-dependencies/8-knowledge-check/"
+      },
+      "url": "/training/modules/explore-package-dependencies/",
+      "completionDate": "2026-05-06T15:58:08.0876228+00:00",
+      "duration": 29,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-package-dependencies.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-bicep",
+      "title": "Implement Bicep",
+      "description": "Implement Bicep",
+      "completedOn": "2026-05-06T15:54:20.3263661+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:54:16.6459925+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-bicep/9-knowledge-check/"
+      },
+      "url": "/training/modules/implement-bicep/",
+      "completionDate": "2026-05-06T15:54:20.3263661+00:00",
+      "duration": 92,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-bicep.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-desired-state-configuration-dsc",
+      "title": "Implement Desired State Configuration (DSC)",
+      "description": "Implement Desired State Configuration (DSC)",
+      "completedOn": "2026-05-06T15:52:05.1325105+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:51:48.1513053+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-desired-state-configuration-dsc/7-knowledge-check/"
+      },
+      "url": "/training/modules/implement-desired-state-configuration-dsc/",
+      "completionDate": "2026-05-06T15:52:05.1325105+00:00",
+      "duration": 28,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/5-implement-desired-state-configuration-dsc.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.explore-azure-automation-devops",
+      "title": "Explore Azure Automation with DevOps",
+      "description": "Explore Azure Automation with DevOps",
+      "completedOn": "2026-05-06T15:48:01.8113972+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:44:37.7628182+00:00",
+        "moduleAssessmentUrl": "/training/modules/explore-azure-automation-devops/12-knowledge-check/"
+      },
+      "url": "/training/modules/explore-azure-automation-devops/",
+      "completionDate": "2026-05-06T15:48:01.8113972+00:00",
+      "duration": 51,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/4-explore-azure-automation-with-devops.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.create-azure-resources-by-using-azure-cli",
+      "title": "Create Azure resources by using Azure CLI",
+      "description": "Create Azure resources by using Azure CLI",
+      "completedOn": "2026-05-06T15:40:52.0083858+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:40:45.9766324+00:00",
+        "moduleAssessmentUrl": "/training/modules/create-azure-resources-by-using-azure-cli/7-knowledge-check/"
+      },
+      "url": "/training/modules/create-azure-resources-by-using-azure-cli/",
+      "completionDate": "2026-05-06T15:40:52.0083858+00:00",
+      "duration": 37,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/3-create-azure-resources-by-using-azure-cli.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.create-azure-resources-using-azure-resource-manager-templates",
+      "title": "Create Azure resources using Azure Resource Manager templates",
+      "description": "Create Azure resources using Azure Resource Manager templates",
+      "completedOn": "2026-05-06T15:37:58.0289926+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:37:54.8071673+00:00",
+        "moduleAssessmentUrl": "/training/modules/create-azure-resources-using-azure-resource-manager-templates/7-knowledge-check/"
+      },
+      "url": "/training/modules/create-azure-resources-using-azure-resource-manager-templates/",
+      "completionDate": "2026-05-06T15:37:58.0289926+00:00",
+      "duration": 29,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-create-azure-resources-using-arm-templates.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.explore-infrastructure-as-code-configuration-management",
+      "title": "Explore infrastructure as code and configuration management",
+      "description": "Explore infrastructure as code and configuration management",
+      "completedOn": "2026-05-06T15:35:56.2350243+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:35:50.9812069+00:00",
+        "moduleAssessmentUrl": "/training/modules/explore-infrastructure-code-configuration-management/6-knowledge-check/"
+      },
+      "url": "/training/modules/explore-infrastructure-code-configuration-management/",
+      "completionDate": "2026-05-06T15:35:56.2350243+00:00",
+      "duration": 23,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-infrastructure-as-code-and-configuration-management.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.manage-application-configuration-data",
+      "title": "Manage application configuration data",
+      "description": "Manage application configuration data",
+      "completedOn": "2026-05-06T15:32:51.6282184+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:32:48.6460033+00:00",
+        "moduleAssessmentUrl": "/training/modules/manage-application-configuration-data/14-knowledge-check/"
+      },
+      "url": "/training/modules/manage-application-configuration-data/",
+      "completionDate": "2026-05-06T15:32:51.6282184+00:00",
+      "duration": 140,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/6-manage-application-configuration-data.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.automate-inspection-of-health",
+      "title": "Automate inspection of health",
+      "description": "Automate inspection of health",
+      "completedOn": "2026-05-06T15:30:45.058204+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:30:41.9468831+00:00",
+        "moduleAssessmentUrl": "/training/modules/automate-inspection-health/11-knowledge-check/"
+      },
+      "url": "/training/modules/automate-inspection-health/",
+      "completionDate": "2026-05-06T15:30:45.058204+00:00",
+      "duration": 29,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/4-automate-inspection-of-health.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.manage-modularize-tasks-templates",
+      "title": "Manage and modularize tasks and templates",
+      "description": "Manage and modularize tasks and templates",
+      "completedOn": "2026-05-06T15:29:16.6885347+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:29:13.1259462+00:00",
+        "moduleAssessmentUrl": "/training/modules/manage-modularize-tasks-templates/5-knowledge-check/"
+      },
+      "url": "/training/modules/manage-modularize-tasks-templates/",
+      "completionDate": "2026-05-06T15:29:16.6885347+00:00",
+      "duration": 41,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/3-manage-and-modularize-tasks-and-templates.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.configure-provision-environments",
+      "title": "Configure and provision environments",
+      "description": "Configure and provision environments",
+      "completedOn": "2026-05-06T15:26:54.8813567+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T15:26:25.7770757+00:00",
+        "moduleAssessmentUrl": "/training/modules/configure-provision-environments/9-knowledge-check/"
+      },
+      "url": "/training/modules/configure-provision-environments/",
+      "completionDate": "2026-05-06T15:26:54.8813567+00:00",
+      "duration": 120,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-configure-and-provision-environments.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.explore-release-strategy-recommendations",
+      "title": "Explore release strategy recommendations",
+      "description": "Explore release strategy recommendations",
+      "completedOn": "2026-05-06T14:44:10.359587+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:44:06.4469708+00:00",
+        "moduleAssessmentUrl": "/training/modules/explore-release-strategy-recommendations/8-knowledge-check/"
+      },
+      "url": "/training/modules/explore-release-strategy-recommendations/",
+      "completionDate": "2026-05-06T14:44:10.359587+00:00",
+      "duration": 97,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-explore-release-strategy-recommendations.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-responsible-ai-security-governance-risk-management-compliance",
+      "title": "Design responsible AI security, governance, risk management, and compliance",
+      "description": "Learn to design secure, governed, and compliant AI systems that align with organizational policies and Responsible AI principles.",
+      "completedOn": "2026-05-06T14:40:41.4884451+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:40:37.5713909+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-responsible-ai-security-governance-risk-management-compliance/10-knowledge-check/"
+      },
+      "url": "/training/modules/design-responsible-ai-security-governance-risk-management-compliance/",
+      "completionDate": "2026-05-06T14:40:41.4884451+00:00",
+      "duration": 53,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-alm-process-ai-powered-business-solutions",
+      "title": "Design ALM process for AI-powered business solutions",
+      "description": "Learn to design ALM processes for AI solutions, ensuring governance, security, and consistency across development, testing, and production.",
+      "completedOn": "2026-05-06T14:39:12.0935993+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:39:11.757814+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-alm-process-ai-powered-business-solutions/8-knowledge-check/"
+      },
+      "url": "/training/modules/design-alm-process-ai-powered-business-solutions/",
+      "completionDate": "2026-05-06T14:39:12.0935993+00:00",
+      "duration": 46,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "database-administrator",
+        "developer",
+        "administrator",
+        "solution-architect",
+        "technology-manager"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "m365",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.manage-testing-ai-powered-business-solutions",
+      "title": "Manage testing AI-powered business solutions",
+      "description": "Learn to validate and maintain AI-powered business solutions with structured testing frameworks, metrics, and governance for enterprise reliability.",
+      "completedOn": "2026-05-06T14:38:04.0441812+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:37:59.5993543+00:00",
+        "moduleAssessmentUrl": "/training/modules/manage-testing-ai-powered-business-solutions/7-knowledge-check/"
+      },
+      "url": "/training/modules/manage-testing-ai-powered-business-solutions/",
+      "completionDate": "2026-05-06T14:38:04.0441812+00:00",
+      "duration": 35,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.analyze-monitor-tune-ai-powered-business-solutions",
+      "title": "Monitor, analyze, and tune AI agents",
+      "description": "Learn to monitor, analyze, and tune AI agents for reliability, performance, and continuous improvement in enterprise environments.",
+      "completedOn": "2026-05-06T14:35:46.7430322+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:35:42.4894185+00:00",
+        "moduleAssessmentUrl": "/training/modules/analyze-monitor-tune-ai-powered-business-solutions/7-knowledge-check/"
+      },
+      "url": "/training/modules/analyze-monitor-tune-ai-powered-business-solutions/",
+      "completionDate": "2026-05-06T14:35:46.7430322+00:00",
+      "duration": 36,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "database-administrator",
+        "developer",
+        "administrator",
+        "solution-architect",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "m365",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.orchestrate-configuration-prebuilt-agents-apps",
+      "title": "Orchestrate configuration of prebuilt agents and apps",
+      "description": "Learn to orchestrate, configure, and extend AI-driven experiences in Dynamics 365 and Microsoft 365 Copilot for finance, supply chain, and customer service.",
+      "completedOn": "2026-05-06T14:31:59.8189831+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:31:55.1385212+00:00",
+        "moduleAssessmentUrl": "/training/modules/orchestrate-configuration-prebuilt-agents-apps/9-knowledge-check/"
+      },
+      "url": "/training/modules/orchestrate-configuration-prebuilt-agents-apps/",
+      "completionDate": "2026-05-06T14:31:59.8189831+00:00",
+      "duration": 57,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "database-administrator",
+        "developer",
+        "administrator",
+        "solution-architect",
+        "technology-manager"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "m365",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-extensibility-ai-solutions",
+      "title": "Design extensibility of AI solutions",
+      "description": "Learn to design scalable, secure, and customizable AI solutions using Microsoft platforms. Explore extensibility strategies for enterprise AI.",
+      "completedOn": "2026-05-06T14:29:43.906043+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:29:39.3043553+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-extensibility-ai-solutions/9-knowledge-check/"
+      },
+      "url": "/training/modules/design-extensibility-ai-solutions/",
+      "completionDate": "2026-05-06T14:29:43.906043+00:00",
+      "duration": 48,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-ai-agents-business-solutions",
+      "title": "Design AI agents for business solutions",
+      "description": "Learn to design AI agents tailored to business needs using Dynamics 365 and Copilot. Explore Responsible AI, custom connectors, and integration strategies.",
+      "completedOn": "2026-05-06T14:27:06.7506679+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:27:02.7601846+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-ai-agents-business-solutions/20-knowledge-check/"
+      },
+      "url": "/training/modules/design-ai-agents-business-solutions/",
+      "completionDate": "2026-05-06T14:27:06.7506679+00:00",
+      "duration": 161,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.evaluate-costs-benefits-ai-powered-business-solution",
+      "title": "Evaluate costs and benefits of AI solutions",
+      "description": "Learn to assess costs and benefits of AI solutions. Develop ROI analyses, evaluate TCO, and decide to build, buy, or extend AI components.",
+      "completedOn": "2026-05-06T14:21:33.1068823+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:21:22.0182577+00:00",
+        "moduleAssessmentUrl": "/training/modules/evaluate-costs-benefits-ai-powered-business-solution/6-knowledge-check/"
+      },
+      "url": "/training/modules/evaluate-costs-benefits-ai-powered-business-solution/",
+      "completionDate": "2026-05-06T14:21:33.1068823+00:00",
+      "duration": 34,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-overall-ai-strategy-business-solutions",
+      "title": "Design overall AI strategy for business solutions",
+      "description": "Learn to design an enterprise AI strategy using Azure's Cloud Adoption Framework. Align AI agent lifecycle with business goals for operational excellence.",
+      "completedOn": "2026-05-06T14:19:01.4978491+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:18:56.9469175+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-overall-ai-strategy-business-solutions/18-knowledge-check/"
+      },
+      "url": "/training/modules/design-overall-ai-strategy-business-solutions/",
+      "completionDate": "2026-05-06T14:19:01.4978491+00:00",
+      "duration": 165,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.analyze-requirements-ai-powered-business-solutions",
+      "title": "Analyze requirements for AI-powered business solutions",
+      "description": "Learn to analyze, design, and implement AI-powered business solutions using agents, generative AI, and Microsoft Copilot for productivity.",
+      "completedOn": "2026-05-06T14:15:04.0685916+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T14:14:58.6300369+00:00",
+        "moduleAssessmentUrl": "/training/modules/analyze-requirements-ai-powered-business-solutions/5-knowledge-check/"
+      },
+      "url": "/training/modules/analyze-requirements-ai-powered-business-solutions/",
+      "completionDate": "2026-05-06T14:15:04.0685916+00:00",
+      "duration": 25,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.introduction-agentic-ai-business-solution-architecture",
+      "title": "Introduction to agentic AI business solutions",
+      "description": "Learn how to align AI solutions with business goals, scale AI adoption, and use Microsoft AI technologies for enterprise success.",
+      "completedOn": "2026-05-06T13:07:26.8176632+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T13:07:22.7069178+00:00",
+        "moduleAssessmentUrl": "/training/modules/introduction-agentic-ai-business-solution-architecture/7-knowledge-check/"
+      },
+      "url": "/training/modules/introduction-agentic-ai-business-solution-architecture/",
+      "completionDate": "2026-05-06T13:07:26.8176632+00:00",
+      "duration": 24,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "solution-architect"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "microsoft-365-copilot",
+        "microsoft-365-copilot-chat",
+        "power-platform",
+        "microsoft-copilot-studio",
+        "dynamics-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.create-release-pipeline",
+      "title": "Create a release pipeline",
+      "description": "Create a release pipeline",
+      "completedOn": "2026-05-06T12:39:41.0180281+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T12:39:26.8325451+00:00",
+        "moduleAssessmentUrl": "/training/modules/create-release-pipeline-devops/12-knowledge-check/"
+      },
+      "url": "/training/modules/create-release-pipeline-devops/",
+      "completionDate": "2026-05-06T12:39:41.0180281+00:00",
+      "duration": 102,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-create-a-release-pipeline.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.strategic-platform-road-mapping",
       "title": "Strategic Platform Road Mapping",
       "description": "This module covers the principles of strategic platform road mapping, including aligning platform initiatives with business objectives, preparing for technological advancements, and fostering innovation. Learners will understand how to develop actionable roadmaps that guide the platform’s evolution, ensuring it remains efficient, reliable, and capable of evolving with future innovations.",
@@ -31100,46 +32027,6 @@
       "locale": "en-us"
     },
     {
-      "uid": "learn.wwl.implement-bicep",
-      "title": "Implement Bicep",
-      "description": "Implement Bicep",
-      "completedOn": "2023-05-24T06:03:03.9315533+00:00",
-      "url": "/training/modules/implement-bicep/",
-      "completionDate": "2023-05-24T06:03:03.9315533+00:00",
-      "duration": 24,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-bicep.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.wwl.continuous-deployment-for-machine-learning",
       "title": "Continuous deployment for machine learning",
       "description": "Learn about continuous development for machine learning, machine learning operations, and MLOps.",
@@ -32292,46 +33179,6 @@
       "locale": null
     },
     {
-      "uid": "learn.wwl.explore-infrastructure-as-code-configuration-management",
-      "title": "Explore infrastructure as code and configuration management",
-      "description": "Explore infrastructure as code and configuration management",
-      "completedOn": "2022-04-16T06:14:39.143742+00:00",
-      "url": "/training/modules/explore-infrastructure-code-configuration-management/",
-      "completionDate": "2022-04-16T06:14:39.143742+00:00",
-      "duration": 14,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-infrastructure-as-code-and-configuration-management.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.wwl.implement-terraform",
       "title": "Implement Terraform",
       "description": "Implement Terraform",
@@ -32372,206 +33219,6 @@
       "levels": [],
       "products": [],
       "locale": null
-    },
-    {
-      "uid": "learn.wwl.implement-desired-state-configuration-dsc",
-      "title": "Implement Desired State Configuration (DSC)",
-      "description": "Implement Desired State Configuration (DSC)",
-      "completedOn": "2022-04-16T05:59:48.0104372+00:00",
-      "url": "/training/modules/implement-desired-state-configuration-dsc/",
-      "completionDate": "2022-04-16T05:59:48.0104372+00:00",
-      "duration": 23,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/5-implement-desired-state-configuration-dsc.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.explore-azure-automation-devops",
-      "title": "Explore Azure Automation with DevOps",
-      "description": "Explore Azure Automation with DevOps",
-      "completedOn": "2022-04-16T05:56:22.2733629+00:00",
-      "url": "/training/modules/explore-azure-automation-devops/",
-      "completionDate": "2022-04-16T05:56:22.2733629+00:00",
-      "duration": 30,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/4-explore-azure-automation-with-devops.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.create-azure-resources-by-using-azure-cli",
-      "title": "Create Azure resources by using Azure CLI",
-      "description": "Create Azure resources by using Azure CLI",
-      "completedOn": "2022-04-16T05:51:39.8382689+00:00",
-      "url": "/training/modules/create-azure-resources-by-using-azure-cli/",
-      "completionDate": "2022-04-16T05:51:39.8382689+00:00",
-      "duration": 14,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/3-create-azure-resources-by-using-azure-cli.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.create-azure-resources-using-azure-resource-manager-templates",
-      "title": "Create Azure resources using Azure Resource Manager templates",
-      "description": "Create Azure resources using Azure Resource Manager templates",
-      "completedOn": "2022-04-16T05:49:09.0307132+00:00",
-      "url": "/training/modules/create-azure-resources-using-azure-resource-manager-templates/",
-      "completionDate": "2022-04-16T05:49:09.0307132+00:00",
-      "duration": 19,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-create-azure-resources-using-arm-templates.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.explore-package-dependencies",
-      "title": "Explore package dependencies",
-      "description": "Explore package dependencies",
-      "completedOn": "2022-04-16T05:44:54.637007+00:00",
-      "url": "/training/modules/explore-package-dependencies/",
-      "completionDate": "2022-04-16T05:44:54.637007+00:00",
-      "duration": 13,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-package-dependencies.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
     },
     {
       "uid": "learn.wwl.implement-versioning-strategy",
@@ -32964,86 +33611,6 @@
       "locale": null
     },
     {
-      "uid": "learn.wwl.explore-release-strategy-recommendations",
-      "title": "Explore release strategy recommendations",
-      "description": "Explore release strategy recommendations",
-      "completedOn": "2022-04-15T18:24:21.3369607+00:00",
-      "url": "/training/modules/explore-release-strategy-recommendations/",
-      "completionDate": "2022-04-15T18:24:21.3369607+00:00",
-      "duration": 37,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-explore-release-strategy-recommendations.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.create-release-pipeline",
-      "title": "Create a release pipeline",
-      "description": "Create a release pipeline",
-      "completedOn": "2022-04-15T18:17:14.093357+00:00",
-      "url": "/training/modules/create-release-pipeline-devops/",
-      "completionDate": "2022-04-15T18:17:14.093357+00:00",
-      "duration": 12,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-create-a-release-pipeline.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.wwl.implement-application-configuration",
       "title": "Implement application configuration",
       "description": "Implement application configuration",
@@ -33056,166 +33623,6 @@
       "levels": [],
       "products": [],
       "locale": null
-    },
-    {
-      "uid": "learn.wwl.manage-application-configuration-data",
-      "title": "Manage application configuration data",
-      "description": "Manage application configuration data",
-      "completedOn": "2022-04-15T17:53:08.861509+00:00",
-      "url": "/training/modules/manage-application-configuration-data/",
-      "completionDate": "2022-04-15T17:53:08.861509+00:00",
-      "duration": 19,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/6-manage-application-configuration-data.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.automate-inspection-of-health",
-      "title": "Automate inspection of health",
-      "description": "Automate inspection of health",
-      "completedOn": "2022-04-15T17:47:03.8023271+00:00",
-      "url": "/training/modules/automate-inspection-health/",
-      "completionDate": "2022-04-15T17:47:03.8023271+00:00",
-      "duration": 15,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/4-automate-inspection-of-health.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.manage-modularize-tasks-templates",
-      "title": "Manage and modularize tasks and templates",
-      "description": "Manage and modularize tasks and templates",
-      "completedOn": "2022-04-15T17:43:00.2730252+00:00",
-      "url": "/training/modules/manage-modularize-tasks-templates/",
-      "completionDate": "2022-04-15T17:43:00.2730252+00:00",
-      "duration": 18,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/3-manage-and-modularize-tasks-and-templates.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.configure-provision-environments",
-      "title": "Configure and provision environments",
-      "description": "Configure and provision environments",
-      "completedOn": "2022-04-15T17:37:25.2753606+00:00",
-      "url": "/training/modules/configure-provision-environments/",
-      "completionDate": "2022-04-15T17:37:25.2753606+00:00",
-      "duration": 23,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-configure-and-provision-environments.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
     },
     {
       "uid": "learn.wwl.monitor-manage-performance-health",
@@ -33717,6 +34124,37 @@
     }
   ],
   "learningPathsCompleted": [
+    {
+      "uid": "learn.wwl.az-400-manage-infrastructure-as-code-using-azure",
+      "title": "AZ-400: Manage infrastructure as code using Azure, DSC, and third-party tools",
+      "description": "AZ-400: Manage infrastructure as code using Azure, DSC, and third-party tools",
+      "completedOn": "2026-05-06T15:54:20.3263679+00:00",
+      "passedOn": "2026-05-06T15:54:16.7280251+00:00",
+      "duration": 260
+    },
+    {
+      "uid": "learn.wwl.az-400-implement-secure-continuous-deployment",
+      "title": "AZ-400: Implement a secure continuous deployment using Azure Pipelines",
+      "description": "AZ-400: Implement a secure continuous deployment using Azure Pipelines",
+      "completedOn": "2026-05-06T15:32:51.62822+00:00",
+      "duration": 253
+    },
+    {
+      "uid": "learn.wwl.az-400-design-implement-release-strategy",
+      "title": "AZ-400: Design and implement a release strategy",
+      "description": "AZ-400: Design and implement a release strategy",
+      "completedOn": "2026-05-06T15:30:45.0582054+00:00",
+      "passedOn": "2026-05-06T15:30:42.042258+00:00",
+      "duration": 389
+    },
+    {
+      "uid": "learn.wwl.architect-agentic-ai-business-solutions",
+      "title": "Architect AI solutions for business productivity",
+      "description": "Learn how to design AI-powered business solutions using agents, generative AI, and Microsoft Copilot to enhance productivity and efficiency.",
+      "completedOn": "2026-05-06T14:40:41.488447+00:00",
+      "passedOn": "2026-05-06T14:40:37.6506383+00:00",
+      "duration": 684
+    },
     {
       "uid": "learn.wwl.designing-implementing-platform-engineering",
       "title": "Designing and Implementing Platform Engineering",
@@ -36383,13 +36821,6 @@
       "duration": 80
     },
     {
-      "uid": "learn.wwl.az-400-manage-infrastructure-as-code-using-azure",
-      "title": "AZ-400: Manage infrastructure as code using Azure, DSC, and third-party tools",
-      "description": "AZ-400: Manage infrastructure as code using Azure, DSC, and third-party tools",
-      "completedOn": "2022-04-16T06:14:39.143744+00:00",
-      "duration": 167
-    },
-    {
       "uid": "learn.wwl.az-400-design-implement-dependency-management-strategy",
       "title": "AZ-400: Design and implement a dependency management strategy",
       "description": "AZ-400: Design and implement a dependency management strategy",
@@ -36402,20 +36833,6 @@
       "description": "AZ-400: Implement continuous feedback",
       "completedOn": "2022-04-16T05:35:24.7622553+00:00",
       "duration": 153
-    },
-    {
-      "uid": "learn.wwl.az-400-design-implement-release-strategy",
-      "title": "AZ-400: Design and implement a release strategy",
-      "description": "AZ-400: Design and implement a release strategy",
-      "completedOn": "2022-04-15T19:00:38.5455565+00:00",
-      "duration": 136
-    },
-    {
-      "uid": "learn.wwl.az-400-implement-secure-continuous-deployment",
-      "title": "AZ-400: Implement a secure continuous deployment using Azure Pipelines",
-      "description": "AZ-400: Implement a secure continuous deployment using Azure Pipelines",
-      "completedOn": "2022-04-15T18:17:14.0933592+00:00",
-      "duration": 116
     },
     {
       "uid": "learn.wwl.explore-fundamentals-of-knowledge-mining",
@@ -36876,6 +37293,30 @@
     ]
   },
   "trophies": [
+    {
+      "uid": "learn.wwl.az-400-manage-infrastructure-as-code-using-azure",
+      "title": "AZ-400: Manage infrastructure as code using Azure, DSC, and third-party tools",
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-manage-infrastructure-as-code-using-azure.svg",
+      "earnedDate": "2026-05-06T15:54:20.3263679+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-400-implement-secure-continuous-deployment",
+      "title": "AZ-400: Implement a secure continuous deployment using Azure Pipelines",
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-implement-a-secure-continuous-deployment-using-azure-pipelines.svg",
+      "earnedDate": "2026-05-06T15:32:51.62822+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-400-design-implement-release-strategy",
+      "title": "AZ-400: Design and implement a release strategy",
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-design-and-implement-a-release-strategy.svg",
+      "earnedDate": "2026-05-06T15:30:45.0582054+00:00"
+    },
+    {
+      "uid": "learn.wwl.architect-agentic-ai-business-solutions",
+      "title": "Architect AI solutions for business productivity",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-06T14:40:41.488447+00:00"
+    },
     {
       "uid": "learn.wwl.designing-implementing-platform-engineering",
       "title": "Designing and Implementing Platform Engineering",
@@ -39133,12 +39574,6 @@
       "earnedDate": "2022-04-16T06:28:05.0080153+00:00"
     },
     {
-      "uid": "learn.wwl.az-400-manage-infrastructure-as-code-using-azure",
-      "title": "AZ-400: Manage infrastructure as code using Azure, DSC, and third-party tools",
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-manage-infrastructure-as-code-using-azure.svg",
-      "earnedDate": "2022-04-16T06:14:39.143744+00:00"
-    },
-    {
       "uid": "learn.wwl.az-400-design-implement-dependency-management-strategy",
       "title": "AZ-400: Design and implement a dependency management strategy",
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-design-and-implement-a-dependency-management-strategy.svg",
@@ -39149,18 +39584,6 @@
       "title": "AZ-400: Implement continuous feedback",
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-implement-continuous-feedback.svg",
       "earnedDate": "2022-04-16T05:35:24.7622553+00:00"
-    },
-    {
-      "uid": "learn.wwl.az-400-design-implement-release-strategy",
-      "title": "AZ-400: Design and implement a release strategy",
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-design-and-implement-a-release-strategy.svg",
-      "earnedDate": "2022-04-15T19:00:38.5455565+00:00"
-    },
-    {
-      "uid": "learn.wwl.az-400-implement-secure-continuous-deployment",
-      "title": "AZ-400: Implement a secure continuous deployment using Azure Pipelines",
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-implement-a-secure-continuous-deployment-using-azure-pipelines.svg",
-      "earnedDate": "2022-04-15T18:17:14.0933592+00:00"
     },
     {
       "uid": "learn.wwl.explore-fundamentals-of-knowledge-mining",
@@ -39211,8 +39634,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1923350,
-  "totalModulesCompleted": 1636,
-  "totalLearningPathsCompleted": 389,
-  "totalTrainingMinutes": 73665
+  "totalXp": 1966350,
+  "totalModulesCompleted": 1647,
+  "totalLearningPathsCompleted": 390,
+  "totalTrainingMinutes": 74906
 }
