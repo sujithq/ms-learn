@@ -4,6 +4,165 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.azure.intro-to-azure-network-watcher",
+      "title": "Introduction to Azure Network Watcher",
+      "description": "This module explains what Azure Network Watcher does, how it works, and when you should choose to use Network Watcher as a solution to meet your organization's needs.",
+      "completedOn": "2026-05-06T10:05:50.41902+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T10:05:45.6623972+00:00",
+        "moduleAssessmentUrl": "/training/modules/intro-to-azure-network-watcher/5-knowledge-check/"
+      },
+      "url": "/training/modules/intro-to-azure-network-watcher/",
+      "completionDate": "2026-05-06T10:05:50.41902+00:00",
+      "duration": 18,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "solution-architect"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure-network-watcher"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.azure.intro-to-azure-application-gateway",
+      "title": "Introduction to Azure Application Gateway",
+      "description": "This module explains what Azure Application Gateway does, how it works, and when you should choose to use Application Gateway as a solution to meet your organization's needs.",
+      "completedOn": "2026-05-06T10:04:00.7603809+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T10:03:49.1386959+00:00",
+        "moduleAssessmentUrl": "/training/modules/intro-to-azure-application-gateway/5-knowledge-check/"
+      },
+      "url": "/training/modules/intro-to-azure-application-gateway/",
+      "completionDate": "2026-05-06T10:04:00.7603809+00:00",
+      "duration": 18,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "solution-architect"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure-application-gateway"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.azure.intro-to-azure-load-balancer",
+      "title": "Introduction to Azure Load Balancer",
+      "description": "This module explains what Azure Load Balancer does, how it works, and when you should choose to use Load Balancer as a solution to meet your organization's needs.",
+      "completedOn": "2026-05-06T10:02:02.8926175+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T10:01:59.9295543+00:00",
+        "moduleAssessmentUrl": "/training/modules/intro-to-azure-load-balancer/5-knowledge-check/"
+      },
+      "url": "/training/modules/intro-to-azure-load-balancer/",
+      "completionDate": "2026-05-06T10:02:02.8926175+00:00",
+      "duration": 18,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "solution-architect"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure-load-balancer"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.build-your-custom-agent-teams",
+      "title": "Build your custom agent for Teams",
+      "description": "By the end of this module, you are able to build your custom engine agent for Microsoft Teams.",
+      "completedOn": "2026-05-06T09:57:45.5879271+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T09:57:42.7083463+00:00",
+        "moduleAssessmentUrl": "/training/modules/build-your-custom-agent-teams/4-knowledge-check/"
+      },
+      "url": "/training/modules/build-your-custom-agent-teams/",
+      "completionDate": "2026-05-06T09:57:45.5879271+00:00",
+      "duration": 36,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "office-teams"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.utilize-azure-openai-model-create-app",
+      "title": "Utilize an Azure OpenAI model to create an app",
+      "description": "Upon completing this module, you'll be prepared to deploy an application to Microsoft Teams using Azure OpenAI resources.",
+      "completedOn": "2026-05-06T09:52:22.4435651+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T09:52:19.1611795+00:00",
+        "moduleAssessmentUrl": "/training/modules/utilize-azure-openai-model-create-app/7-knowledge-check/"
+      },
+      "url": "/training/modules/utilize-azure-openai-model-create-app/",
+      "completionDate": "2026-05-06T09:52:22.4435651+00:00",
+      "duration": 34,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "office-teams"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.explore-copilot-stack",
+      "title": "Explore the Copilot stack",
+      "description": "By the end of this module, you'll be able to classify the different copilot stacks suitable for your business needs.",
+      "completedOn": "2026-05-06T09:45:27.6895364+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-06T09:45:27.0155542+00:00",
+        "moduleAssessmentUrl": "/training/modules/explore-copilot-stack/5-knowledge-check/"
+      },
+      "url": "/training/modules/explore-copilot-stack/",
+      "completionDate": "2026-05-06T09:45:27.6895364+00:00",
+      "duration": 19,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "office-teams"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.transition-traditional-ops-agent-automation",
       "title": "Transition from traditional ops to agentic DevOps workflows",
       "description": "Learn how to evolve traditional cloud administration and DevOps tasks into agentic AI workflows using agent instructions, skills, and multi-agent orchestration.",
@@ -33531,6 +33690,22 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.intro-to-azure-application-delivery-services",
+      "title": "Introduction to Azure application delivery services",
+      "description": "Learn to distribute network traffic to load balance workloads with Azure application delivery services.",
+      "completedOn": "2026-05-06T10:04:00.7603824+00:00",
+      "passedOn": "2026-05-06T10:03:49.2214689+00:00",
+      "duration": 36
+    },
+    {
+      "uid": "learn.wwl.build-custom-copilots-microsoft-teams",
+      "title": "Build custom agents for Microsoft Teams",
+      "description": "Build custom agents for your Microsoft Teams environment for your business needs.",
+      "completedOn": "2026-05-06T09:57:45.5879288+00:00",
+      "passedOn": "2026-05-06T09:57:42.7907447+00:00",
+      "duration": 89
+    },
+    {
       "uid": "learn.wwl.optimize-devops-ai-agents-azure",
       "title": "Optimize DevOps with AI agents on Azure",
       "description": "Learn how to use GitHub Copilot, Azure DevOps MCP Server, and Azure SRE Agent to accelerate delivery, automate operations, and improve reliability across your DevOps workflows.",
@@ -36667,6 +36842,18 @@
   },
   "trophies": [
     {
+      "uid": "learn.intro-to-azure-application-delivery-services",
+      "title": "Introduction to Azure application delivery services",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-06T10:04:00.7603824+00:00"
+    },
+    {
+      "uid": "learn.wwl.build-custom-copilots-microsoft-teams",
+      "title": "Build custom agents for Microsoft Teams",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-06T09:57:45.5879288+00:00"
+    },
+    {
       "uid": "learn.wwl.optimize-devops-ai-agents-azure",
       "title": "Optimize DevOps with AI agents on Azure",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -38983,8 +39170,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1904975,
-  "totalModulesCompleted": 1629,
-  "totalLearningPathsCompleted": 386,
-  "totalTrainingMinutes": 73494
+  "totalXp": 1913950,
+  "totalModulesCompleted": 1635,
+  "totalLearningPathsCompleted": 388,
+  "totalTrainingMinutes": 73637
 }
