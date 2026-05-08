@@ -5217,10 +5217,8 @@
       "completedOn": "2026-01-27T09:05:23.8329978+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-27T09:05:19.8612455+00:00",
-        "moduleAssessmentUrl": "/training/modules/get-started-ai-in-foundry/8-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-27T09:05:19.8612455+00:00"
       },
-      "url": "/training/modules/get-started-ai-in-foundry/",
       "completionDate": "2026-01-27T09:05:23.8329978+00:00",
       "duration": 50,
       "xp": 0,
@@ -6771,7 +6769,7 @@
         "intermediate"
       ],
       "products": [
-        "azure"
+        "azure-container-registry"
       ],
       "locale": "en-us"
     },
