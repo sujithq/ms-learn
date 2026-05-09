@@ -4993,10 +4993,8 @@
       "completedOn": "2026-01-27T13:32:32.7776156+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-27T13:32:27.1176911+00:00",
-        "moduleAssessmentUrl": "/training/modules/ai-information-extraction/8-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-27T13:32:27.1176911+00:00"
       },
-      "url": "/training/modules/ai-information-extraction/",
       "completionDate": "2026-01-27T13:32:32.7776156+00:00",
       "duration": 60,
       "xp": 0,
@@ -5013,10 +5011,8 @@
       "completedOn": "2026-01-27T13:28:53.3706294+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-27T13:28:48.1644546+00:00",
-        "moduleAssessmentUrl": "/training/modules/get-started-computer-vision-azure/7-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-27T13:28:48.1644546+00:00"
       },
-      "url": "/training/modules/get-started-computer-vision-azure/",
       "completionDate": "2026-01-27T13:28:53.3706294+00:00",
       "duration": 50,
       "xp": 0,
@@ -5093,10 +5089,8 @@
       "completedOn": "2026-01-27T11:16:41.7479014+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-27T11:16:37.8832763+00:00",
-        "moduleAssessmentUrl": "/training/modules/get-started-language-azure/8-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-27T11:16:37.8832763+00:00"
       },
-      "url": "/training/modules/get-started-language-azure/",
       "completionDate": "2026-01-27T11:16:41.7479014+00:00",
       "duration": 45,
       "xp": 0,
@@ -5143,10 +5137,8 @@
       "completedOn": "2026-01-27T09:55:21.668346+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-27T09:55:16.4376449+00:00",
-        "moduleAssessmentUrl": "/training/modules/get-started-generative-ai-azure/8-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-27T09:55:16.4376449+00:00"
       },
-      "url": "/training/modules/get-started-generative-ai-azure/",
       "completionDate": "2026-01-27T09:55:21.668346+00:00",
       "duration": 67,
       "xp": 0,
@@ -19275,10 +19267,8 @@
       "completedOn": "2022-04-12T08:41:40.2814385+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-14T10:39:09.5947355+00:00",
-        "moduleAssessmentUrl": "/training/modules/recognize-synthesize-speech/5-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-14T10:39:09.5947355+00:00"
       },
-      "url": "/training/modules/recognize-synthesize-speech/",
       "completionDate": "2022-04-12T08:41:40.2814385+00:00",
       "duration": 29,
       "xp": 0,
