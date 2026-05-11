@@ -4,6 +4,137 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.streamline-nonprofit-program-management-with-microsoft-copilot",
+      "title": "Streamline nonprofit program management with Microsoft Copilot",
+      "description": "This module is aligned to program management and administrative task roles. Learn how AI tools such as Copilot can help to manage everyday tasks to increase efficiency, automate time-consuming tasks, and give time back to your team.",
+      "completedOn": "2026-05-11T00:21:22.6552751+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T00:21:19.6957902+00:00",
+        "moduleAssessmentUrl": "/training/modules/streamline-nonprofit-program-management-with-microsoft-copilot/6-knowledge-check/"
+      },
+      "url": "/training/modules/streamline-nonprofit-program-management-with-microsoft-copilot/",
+      "completionDate": "2026-05-11T00:21:22.6552751+00:00",
+      "duration": 25,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "functional-consultant",
+        "higher-ed-educator",
+        "school-leader",
+        "k-12-educator",
+        "business-user",
+        "business-owner"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "m365-apps",
+        "ms-copilot"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.empower-workforce-copilot-challenge",
+      "title": "Empower your workforce with Copilot for Microsoft 365: Challenge Use Case",
+      "description": "This module challenges learners by having them use Copilot for Microsoft 365 to address various business scenarios without the aid of step-by-step instructions. Learners should apply the knowledge they acquired over the previous seven Use Case modules to complete each exercise.",
+      "completedOn": "2026-05-11T00:19:37.547167+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T00:19:19.507331+00:00",
+        "moduleAssessmentUrl": "/training/modules/empower-workforce-copilot-challenge/6-knowledge-check/"
+      },
+      "url": "/training/modules/empower-workforce-copilot-challenge/",
+      "completionDate": "2026-05-11T00:19:37.547167+00:00",
+      "duration": 88,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "business-analyst",
+        "business-user",
+        "data-analyst",
+        "functional-consultant",
+        "security-operations-analyst",
+        "student"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "office-365"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.philanthropies.enhance-nonprofit-volunteer-management-microsoft-copilot",
+      "title": "Enhance nonprofit volunteer management with Microsoft Copilot",
+      "description": "This module demonstrates how to use Copilot to manage volunteers within your nonprofit organization. Learners review several prompts used for generating volunteer recruitment, training, and recognition materials, and then they practice using and generating their own prompts.",
+      "completedOn": "2026-05-11T00:15:44.2270493+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T00:15:41.7176093+00:00",
+        "moduleAssessmentUrl": "/training/modules/enhance-nonprofit-volunteer-management-microsoft-copilot/8-knowledge-check/"
+      },
+      "url": "/training/modules/enhance-nonprofit-volunteer-management-microsoft-copilot/",
+      "completionDate": "2026-05-11T00:15:44.2270493+00:00",
+      "duration": 40,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "functional-consultant",
+        "higher-ed-educator",
+        "school-leader",
+        "k-12-educator",
+        "business-user",
+        "business-owner"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "m365-apps",
+        "ms-copilot"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.empower-workforce-copilot-finance",
+      "title": "Empower your workforce with Copilot for Microsoft 365: Finance Use Case",
+      "description": "This module enables students to perform a series of Use Case exercises that build their Copilot for Microsoft 365 skills in Finance-related business scenarios.",
+      "completedOn": "2026-05-11T00:10:59.6698855+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T00:10:56.1170842+00:00",
+        "moduleAssessmentUrl": "/training/modules/empower-workforce-copilot-finance/12-knowledge-check/"
+      },
+      "url": "/training/modules/empower-workforce-copilot-finance/",
+      "completionDate": "2026-05-11T00:10:59.6698855+00:00",
+      "duration": 78,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "administrator",
+        "business-analyst",
+        "business-user",
+        "data-analyst",
+        "functional-consultant",
+        "security-operations-analyst",
+        "student"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "m365",
+        "office-365"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.introduction-github-packages",
       "title": "Introduction to GitHub Packages",
       "description": "Introduction to GitHub Packages",
@@ -36606,7 +36737,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -39391,7 +39522,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
@@ -39642,8 +39773,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1972625,
-  "totalModulesCompleted": 1647,
+  "totalXp": 1978225,
+  "totalModulesCompleted": 1651,
   "totalLearningPathsCompleted": 390,
-  "totalTrainingMinutes": 75014
+  "totalTrainingMinutes": 75245
 }
