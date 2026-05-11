@@ -4,6 +4,452 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.static-analyzers",
+      "title": "Static analyzers",
+      "description": "Static analyzers",
+      "completedOn": "2026-05-11T02:03:44.6096992+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T02:03:41.5876546+00:00",
+        "moduleAssessmentUrl": "/training/modules/static-analyzers/5-knowledge-check/"
+      },
+      "url": "/training/modules/static-analyzers/",
+      "completionDate": "2026-05-11T02:03:44.6096992+00:00",
+      "duration": 71,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/static-analyzer-introduction.svg",
+      "roles": [
+        "administrator",
+        "developer",
+        "devops-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.security-monitoring-and-governance",
+      "title": "Security Monitoring and Governance",
+      "description": "Security Monitoring and Governance",
+      "completedOn": "2026-05-11T02:02:16.7947619+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T02:02:11.3081207+00:00",
+        "moduleAssessmentUrl": "/training/modules/security-monitoring-and-governance/12-knowledge-check/"
+      },
+      "url": "/training/modules/security-monitoring-and-governance/",
+      "completionDate": "2026-05-11T02:02:16.7947619+00:00",
+      "duration": 120,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-security-center-introduction.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.software-composition-analysis",
+      "title": "Software Composition Analysis",
+      "description": "Software Composition Analysis",
+      "completedOn": "2026-05-11T01:56:45.5314015+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:56:41.6336735+00:00",
+        "moduleAssessmentUrl": "/training/modules/software-composition-analysis/9-knowledge-check/"
+      },
+      "url": "/training/modules/software-composition-analysis/",
+      "completionDate": "2026-05-11T01:56:45.5314015+00:00",
+      "duration": 77,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/5-integrate-license-and-vulnerability-scans.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-open-source-software-azure",
+      "title": "Implement open-source software",
+      "description": "Implement open-source software",
+      "completedOn": "2026-05-11T01:54:27.1947498+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:54:24.1069749+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-open-source-software-azure/8-knowledge-check/"
+      },
+      "url": "/training/modules/implement-open-source-software-azure/",
+      "completionDate": "2026-05-11T01:54:27.1947498+00:00",
+      "duration": 66,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-implement-open-source-software.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.introduction-to-secure-devops",
+      "title": "Introduction to Secure DevOps",
+      "description": "Introduction to Secure DevOps",
+      "completedOn": "2026-05-11T01:51:58.6006385+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:51:51.1670677+00:00",
+        "moduleAssessmentUrl": "/training/modules/introduction-to-secure-devops/9-knowledge-check/"
+      },
+      "url": "/training/modules/introduction-to-secure-devops/",
+      "completionDate": "2026-05-11T01:51:58.6006385+00:00",
+      "duration": 73,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-understand-security-in-the-pipeline.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.manage-alerts-blameless-retrospectives-just-culture",
+      "title": "Manage alerts, blameless retrospectives and a just culture",
+      "description": "Manage alerts, blameless retrospectives and a just culture",
+      "completedOn": "2026-05-11T01:36:13.6998434+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:36:01.3474033+00:00",
+        "moduleAssessmentUrl": "/training/modules/manage-alerts-blameless-retrospectives-just-culture/10-knowledge-check/"
+      },
+      "url": "/training/modules/manage-alerts-blameless-retrospectives-just-culture/",
+      "completionDate": "2026-05-11T01:36:13.6998434+00:00",
+      "duration": 56,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/8-manage-alerts-blameless-retrospectives-and-a-just-culture.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.design-processes-to-automate-application-analytics",
+      "title": "Design processes to automate application analytics",
+      "description": "Design processes to automate application analytics",
+      "completedOn": "2026-05-11T01:32:50.5062583+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:32:46.5506322+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-processes-automate-application-analytics/6-knowledge-check/"
+      },
+      "url": "/training/modules/design-processes-automate-application-analytics/",
+      "completionDate": "2026-05-11T01:32:50.5062583+00:00",
+      "duration": 32,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/7-design-processes-to-automate-application-analytics.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.share-knowledge-within-teams",
+      "title": "Share knowledge within teams",
+      "description": "Share knowledge within teams",
+      "completedOn": "2026-05-11T01:31:30.0873731+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:31:25.8507931+00:00",
+        "moduleAssessmentUrl": "/training/modules/share-knowledge-within-teams/6-knowledge-check/"
+      },
+      "url": "/training/modules/share-knowledge-within-teams/",
+      "completionDate": "2026-05-11T01:31:30.0873731+00:00",
+      "duration": 65,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/4-share-knowledge-within-teams.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-monitor-status-dashboards",
+      "title": "Develop monitor and status dashboards",
+      "description": "Develop monitor and status dashboards",
+      "completedOn": "2026-05-11T01:29:57.42397+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:29:54.6627102+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-monitor-status-dashboards/10-knowledge-check/"
+      },
+      "url": "/training/modules/develop-monitor-status-dashboards/",
+      "completionDate": "2026-05-11T01:29:57.42397+00:00",
+      "duration": 51,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/3-develop-monitoring-and-status-dashboards.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-tools-to-track-usage-flow",
+      "title": "Implement tools to track usage and flow",
+      "description": "Implement tools to track usage and flow",
+      "completedOn": "2026-05-11T01:27:15.1084551+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-11T01:27:11.0656858+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-tools-track-usage-flow/10-knowledge-check/"
+      },
+      "url": "/training/modules/implement-tools-track-usage-flow/",
+      "completionDate": "2026-05-11T01:27:15.1084551+00:00",
+      "duration": 100,
+      "xp": 0,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-implement-tools-to-track-usage-and-flow.svg",
+      "roles": [
+        "administrator",
+        "ai-engineer",
+        "data-engineer",
+        "developer",
+        "devops-engineer",
+        "platform-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "service-adoption-specialist",
+        "solution-architect",
+        "startup-founder",
+        "technology-manager"
+      ],
+      "levels": [
+        "advanced"
+      ],
+      "products": [
+        "azure",
+        "azure-artifacts",
+        "azure-boards",
+        "azure-cloud-services",
+        "azure-devops",
+        "azure-pipelines",
+        "azure-repos",
+        "azure-test-plans",
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.streamline-nonprofit-program-management-with-microsoft-copilot",
       "title": "Streamline nonprofit program management with Microsoft Copilot",
       "description": "This module is aligned to program management and administrative task roles. Learn how AI tools such as Copilot can help to manage everyday tasks to increase efficiency, automate time-consuming tasks, and give time back to your team.",
@@ -33171,86 +33617,6 @@
       "locale": null
     },
     {
-      "uid": "learn.wwl.introduction-to-secure-devops",
-      "title": "Introduction to Secure DevOps",
-      "description": "Introduction to Secure DevOps",
-      "completedOn": "2022-04-16T06:45:21.466456+00:00",
-      "url": "/training/modules/introduction-to-secure-devops/",
-      "completionDate": "2022-04-16T06:45:21.466456+00:00",
-      "duration": 23,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-understand-security-in-the-pipeline.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.security-monitoring-and-governance",
-      "title": "Security Monitoring and Governance",
-      "description": "Security Monitoring and Governance",
-      "completedOn": "2022-04-16T06:42:32.2983383+00:00",
-      "url": "/training/modules/security-monitoring-and-governance/",
-      "completionDate": "2022-04-16T06:42:32.2983383+00:00",
-      "duration": 21,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-security-center-introduction.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.wwl.owasp-and-dynamic-analyzers",
       "title": "OWASP and Dynamic Analyzers",
       "description": "OWASP and Dynamic Analyzers",
@@ -33263,122 +33629,6 @@
       "levels": [],
       "products": [],
       "locale": null
-    },
-    {
-      "uid": "learn.wwl.static-analyzers",
-      "title": "Static analyzers",
-      "description": "Static analyzers",
-      "completedOn": "2022-04-16T06:38:19.2728199+00:00",
-      "url": "/training/modules/static-analyzers/",
-      "completionDate": "2022-04-16T06:38:19.2728199+00:00",
-      "duration": 9,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/static-analyzer-introduction.svg",
-      "roles": [
-        "administrator",
-        "developer",
-        "devops-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.software-composition-analysis",
-      "title": "Software Composition Analysis",
-      "description": "Software Composition Analysis",
-      "completedOn": "2022-04-16T06:36:10.7070066+00:00",
-      "url": "/training/modules/software-composition-analysis/",
-      "completionDate": "2022-04-16T06:36:10.7070066+00:00",
-      "duration": 18,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/5-integrate-license-and-vulnerability-scans.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.implement-open-source-software-azure",
-      "title": "Implement open-source software",
-      "description": "Implement open-source software",
-      "completedOn": "2022-04-16T06:32:39.1676101+00:00",
-      "url": "/training/modules/implement-open-source-software-azure/",
-      "completionDate": "2022-04-16T06:32:39.1676101+00:00",
-      "duration": 13,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-implement-open-source-software.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
     },
     {
       "uid": "learn.wwl.integrate-aks-pipelines",
@@ -33479,86 +33729,6 @@
       "locale": null
     },
     {
-      "uid": "learn.wwl.manage-alerts-blameless-retrospectives-just-culture",
-      "title": "Manage alerts, blameless retrospectives and a just culture",
-      "description": "Manage alerts, blameless retrospectives and a just culture",
-      "completedOn": "2022-04-16T05:35:24.762253+00:00",
-      "url": "/training/modules/manage-alerts-blameless-retrospectives-just-culture/",
-      "completionDate": "2022-04-16T05:35:24.762253+00:00",
-      "duration": 22,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/8-manage-alerts-blameless-retrospectives-and-a-just-culture.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.design-processes-to-automate-application-analytics",
-      "title": "Design processes to automate application analytics",
-      "description": "Design processes to automate application analytics",
-      "completedOn": "2022-04-16T05:30:05.8023301+00:00",
-      "url": "/training/modules/design-processes-automate-application-analytics/",
-      "completionDate": "2022-04-16T05:30:05.8023301+00:00",
-      "duration": 16,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/7-design-processes-to-automate-application-analytics.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.wwl.design-processes-to-capture-analyze-user-feedback",
       "title": "Design processes to capture and analyze user feedback",
       "description": "Design processes to capture and analyze user feedback",
@@ -33587,86 +33757,6 @@
       "locale": null
     },
     {
-      "uid": "learn.wwl.share-knowledge-within-teams",
-      "title": "Share knowledge within teams",
-      "description": "Share knowledge within teams",
-      "completedOn": "2022-04-15T19:51:22.8178226+00:00",
-      "url": "/training/modules/share-knowledge-within-teams/",
-      "completionDate": "2022-04-15T19:51:22.8178226+00:00",
-      "duration": 17,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/4-share-knowledge-within-teams.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.develop-monitor-status-dashboards",
-      "title": "Develop monitor and status dashboards",
-      "description": "Develop monitor and status dashboards",
-      "completedOn": "2022-04-15T19:48:31.7662856+00:00",
-      "url": "/training/modules/develop-monitor-status-dashboards/",
-      "completionDate": "2022-04-15T19:48:31.7662856+00:00",
-      "duration": 13,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/3-develop-monitoring-and-status-dashboards.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.wwl.implement-route-for-mobile-application-crash-report-data",
       "title": "Implement route for mobile application crash report data",
       "description": "Implement route for mobile application crash report data",
@@ -33679,46 +33769,6 @@
       "levels": [],
       "products": [],
       "locale": null
-    },
-    {
-      "uid": "learn.wwl.implement-tools-to-track-usage-flow",
-      "title": "Implement tools to track usage and flow",
-      "description": "Implement tools to track usage and flow",
-      "completedOn": "2022-04-15T19:09:59.3187829+00:00",
-      "url": "/training/modules/implement-tools-track-usage-flow/",
-      "completionDate": "2022-04-15T19:09:59.3187829+00:00",
-      "duration": 33,
-      "xp": 0,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-implement-tools-to-track-usage-and-flow.svg",
-      "roles": [
-        "administrator",
-        "ai-engineer",
-        "data-engineer",
-        "developer",
-        "devops-engineer",
-        "platform-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "service-adoption-specialist",
-        "solution-architect",
-        "startup-founder",
-        "technology-manager"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "azure-artifacts",
-        "azure-boards",
-        "azure-cloud-services",
-        "azure-devops",
-        "azure-pipelines",
-        "azure-repos",
-        "azure-test-plans",
-        "github"
-      ],
-      "locale": "en-us"
     },
     {
       "uid": "learn.wwl.introduction-to-continuous-delivery",
@@ -34262,6 +34312,22 @@
     }
   ],
   "learningPathsCompleted": [
+    {
+      "uid": "learn.wwl.az-400-implement-security-validate-code-basescompliance",
+      "title": "AZ-400: Implement security and validate code bases for compliance",
+      "description": "AZ-400: Implement security and validate code bases for compliance",
+      "completedOn": "2026-05-11T02:02:16.7947631+00:00",
+      "passedOn": "2026-05-11T02:02:11.3926559+00:00",
+      "duration": 336
+    },
+    {
+      "uid": "learn.wwl.az-400-implement-continuous-feedback",
+      "title": "AZ-400: Implement continuous feedback",
+      "description": "AZ-400: Implement continuous feedback",
+      "completedOn": "2026-05-11T01:36:13.6998446+00:00",
+      "passedOn": "2026-05-11T01:36:01.7820586+00:00",
+      "duration": 304
+    },
     {
       "uid": "learn.wwl.az-400-design-implement-dependency-management-strategy",
       "title": "AZ-400: Design and implement a dependency management strategy",
@@ -36953,25 +37019,11 @@
       "duration": 83
     },
     {
-      "uid": "learn.wwl.az-400-implement-security-validate-code-basescompliance",
-      "title": "AZ-400: Implement security and validate code bases for compliance",
-      "description": "AZ-400: Implement security and validate code bases for compliance",
-      "completedOn": "2022-04-16T06:45:21.466459+00:00",
-      "duration": 95
-    },
-    {
       "uid": "learn.wwl.az-400-create-manage-containers-using-docker-kubernetes",
       "title": "AZ-400: Create and manage containers using Docker and Kubernetes",
       "description": "AZ-400: Create and manage containers using Docker and Kubernetes",
       "completedOn": "2022-04-16T06:28:05.0080153+00:00",
       "duration": 80
-    },
-    {
-      "uid": "learn.wwl.az-400-implement-continuous-feedback",
-      "title": "AZ-400: Implement continuous feedback",
-      "description": "AZ-400: Implement continuous feedback",
-      "completedOn": "2022-04-16T05:35:24.7622553+00:00",
-      "duration": 153
     },
     {
       "uid": "learn.wwl.explore-fundamentals-of-knowledge-mining",
@@ -37432,6 +37484,18 @@
     ]
   },
   "trophies": [
+    {
+      "uid": "learn.wwl.az-400-implement-security-validate-code-basescompliance",
+      "title": "AZ-400: Implement security and validate code bases for compliance",
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/implement-security-and-validate-code-bases-for-compliance.svg",
+      "earnedDate": "2026-05-11T02:02:16.7947631+00:00"
+    },
+    {
+      "uid": "learn.wwl.az-400-implement-continuous-feedback",
+      "title": "AZ-400: Implement continuous feedback",
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-implement-continuous-feedback.svg",
+      "earnedDate": "2026-05-11T01:36:13.6998446+00:00"
+    },
     {
       "uid": "learn.wwl.az-400-design-implement-dependency-management-strategy",
       "title": "AZ-400: Design and implement a dependency management strategy",
@@ -39707,22 +39771,10 @@
       "earnedDate": "2022-04-21T04:56:54.2545083+00:00"
     },
     {
-      "uid": "learn.wwl.az-400-implement-security-validate-code-basescompliance",
-      "title": "AZ-400: Implement security and validate code bases for compliance",
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/implement-security-and-validate-code-bases-for-compliance.svg",
-      "earnedDate": "2022-04-16T06:45:21.466459+00:00"
-    },
-    {
       "uid": "learn.wwl.az-400-create-manage-containers-using-docker-kubernetes",
       "title": "AZ-400: Create and manage containers using Docker and Kubernetes",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-16T06:28:05.0080153+00:00"
-    },
-    {
-      "uid": "learn.wwl.az-400-implement-continuous-feedback",
-      "title": "AZ-400: Implement continuous feedback",
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/az-400-implement-continuous-feedback.svg",
-      "earnedDate": "2022-04-16T05:35:24.7622553+00:00"
     },
     {
       "uid": "learn.wwl.explore-fundamentals-of-knowledge-mining",
@@ -39773,8 +39825,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1978225,
+  "totalXp": 1993900,
   "totalModulesCompleted": 1651,
   "totalLearningPathsCompleted": 390,
-  "totalTrainingMinutes": 75245
+  "totalTrainingMinutes": 75771
 }
