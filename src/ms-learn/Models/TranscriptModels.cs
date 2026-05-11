@@ -55,7 +55,7 @@ public class CompletedModule
     public int Duration { get; set; }
 
     [JsonPropertyName("xp")]
-    public int Xp { get; set; }
+    public int? Xp { get; set; }
 
     [JsonPropertyName("iconUrl")]
     public string? IconUrl { get; set; }

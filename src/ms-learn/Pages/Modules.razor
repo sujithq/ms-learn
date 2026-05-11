@@ -64,7 +64,10 @@ else
                         <option value="date-asc">Oldest First</option>
                         <option value="title-asc">Title A–Z</option>
                         <option value="title-desc">Title Z–A</option>
-                        <option value="xp-desc">Most XP</option>
+                        @if (HasModuleXp)
+                        {
+                            <option value="xp-desc">Most XP</option>
+                        }
                         <option value="duration-desc">Longest</option>
                     </select>
                 </div>
@@ -119,7 +122,10 @@ else
                                     </span>
                                 }
                                 <span class="me-3"><i class="bi bi-clock me-1"></i>@module.Duration min</span>
-                                <span><i class="bi bi-star me-1"></i>@module.Xp XP</span>
+                                @if (module.Xp is > 0)
+                                {
+                                    <span><i class="bi bi-star me-1"></i>@module.Xp XP</span>
+                                }
                             </div>
                             <div class="d-flex flex-wrap gap-1">
                                 @foreach (var level in module.Levels)
@@ -226,7 +232,7 @@ else
                 "date-asc"      => q.OrderBy(m => m.CompletionDate),
                 "title-asc"     => q.OrderBy(m => m.Title),
                 "title-desc"    => q.OrderByDescending(m => m.Title),
-                "xp-desc"       => q.OrderByDescending(m => m.Xp),
+                "xp-desc"       => q.OrderByDescending(m => m.Xp ?? 0),
                 "duration-desc" => q.OrderByDescending(m => m.Duration),
                 _               => q.OrderByDescending(m => m.CompletionDate)
             };
@@ -237,6 +243,8 @@ else
 
     private IEnumerable<CompletedModule> PagedModules =>
         FilteredModules.Skip((_currentPage - 1) * PageSize).Take(PageSize);
+
+    private bool HasModuleXp => _transcript?.ModulesCompleted.Any(m => m.Xp is > 0) == true;
 
     private int TotalPages =>
         (int)Math.Ceiling(FilteredModules.Count() / (double)PageSize);

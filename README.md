@@ -6,7 +6,7 @@ A Blazor WebAssembly dashboard that visualises my [Microsoft Learn](https://lear
 
 ## Features
 
-- **Dashboard** — stats cards (modules, training hours, XP, certifications), monthly-progress bar chart, role-distribution doughnut chart, and a recent-modules list
+- **Dashboard** — stats cards (modules, training hours, total XP, certifications), monthly-progress bar chart, role-distribution doughnut chart, and a recent-modules list
 - **Modules page** — searchable, filterable (product / role / level), sortable, paginated list of all completed modules with links back to MS Learn
 - **Achievements page** — certification cards with expiry indicators and a trophy grid
 - Data is fetched daily from the MS Learn transcript API via GitHub Actions
@@ -38,7 +38,7 @@ Then open <http://localhost:5000> (or the port shown in the terminal).
 python scripts/fetch_transcript.py
 ```
 
-This writes the latest transcript JSON to `src/ms-learn/wwwroot/data/transcript.json`.
+This writes the latest transcript JSON to `src/ms-learn/wwwroot/data/transcript.json`. Microsoft Learn currently exposes total profile XP separately from transcript modules, so per-module XP is shown only if the API provides it.
 
 ## GitHub Actions Workflow
 

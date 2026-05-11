@@ -504,7 +504,7 @@ def extract_module_xp(module, catalog_module, existing_xp_by_uid):
     if uid and uid in existing_xp_by_uid:
         return existing_xp_by_uid[uid]
 
-    return 0
+    return None
 
 
 def enrich_completed_modules(data, module_map, existing_xp_by_uid):
@@ -531,8 +531,12 @@ def enrich_completed_modules(data, module_map, existing_xp_by_uid):
             or 0
         )
         module.pop("durationInMinutes", None)
-        module["xp"] = extract_module_xp(module, catalog_module, existing_xp_by_uid)
-        if module["xp"] > 0:
+        xp = extract_module_xp(module, catalog_module, existing_xp_by_uid)
+        if xp is not None:
+            module["xp"] = xp
+        else:
+            module.pop("xp", None)
+        if xp is not None and xp > 0:
             non_zero_xp_count += 1
         module["iconUrl"] = module.get("iconUrl") or catalog_module.get("icon_url")
         module["roles"] = module.get("roles") or catalog_module.get("roles") or []
@@ -545,7 +549,7 @@ def enrich_completed_modules(data, module_map, existing_xp_by_uid):
     print(f"Modules enriched: {enriched_count}")
     print(f"Modules with non-zero XP: {non_zero_xp_count}")
     if enriched_count > 0 and non_zero_xp_count == 0:
-        print("Warning: XP is missing from upstream data; kept as 0 where no fallback exists.")
+        print("Warning: module XP is missing from upstream data; per-module XP will be omitted.")
 
 
 def normalize_learning_path_durations(data):
@@ -740,7 +744,7 @@ def main():
             data["totalXp"] = sum(
                 module.get("xp", 0)
                 for module in data.get("modulesCompleted", [])
-                if isinstance(module, dict)
+                if isinstance(module, dict) and isinstance(module.get("xp"), int)
             )
             print(f"Total XP fallback from module XP: {data['totalXp']}")
 
