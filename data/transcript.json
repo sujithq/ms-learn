@@ -14958,20 +14958,13 @@
       "title": "Design a Modern Data Warehouse using Azure Synapse Analytics",
       "description": "Design a Modern Data Warehouse using Azure Synapse Analytics",
       "completedOn": "2022-04-03T07:11:52.4595419+00:00",
-      "url": "/training/modules/design-modern-data-warehouse-using-azure-synapse-analytics/",
       "completionDate": "2022-04-03T07:11:52.4595419+00:00",
       "duration": 62,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/design-a-modern-data-warehouse-using-azure-synapse-analytics.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-azure-synapse-studio",
@@ -15746,11 +15739,17 @@
       "url": "/training/modules/develop-secure-iot-solutions-azure-sphere-iot-central/",
       "completionDate": "2022-05-09T20:25:08.1612226+00:00",
       "duration": 120,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/develop-secure-iot-solutions-with-azure-sphere.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-iot-central"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn.oxford.develop-secure-iot-solutions-for-azure-sphere-iot-hub",
@@ -31565,11 +31564,21 @@
       "url": "/training/modules/create-image-recognition-solution-iot-edge-cognitive-services/",
       "completionDate": "2022-05-09T20:32:52.6221768+00:00",
       "duration": 62,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-iot-edge",
+        "azure-iot-hub",
+        "azure-custom-vision",
+        "azure-speech",
+        "foundry-tools"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn.wwl.intro-to-iot-central",
