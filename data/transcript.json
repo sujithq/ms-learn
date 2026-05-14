@@ -14429,21 +14429,13 @@
       "title": "Populate slowly changing dimensions in Azure Synapse Analytics pipelines",
       "description": "Populate slowly changing dimensions in Azure Synapse Analytics pipelines",
       "completedOn": "2022-04-02T18:27:05.8197341+00:00",
-      "url": "/training/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/",
       "completionDate": "2022-04-02T18:27:05.8197341+00:00",
       "duration": 29,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-synapse-analytics-pipelines.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-data-factory",
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.design-multidimensional-schema-to-optimize-analytical-workloads",
@@ -14709,20 +14701,13 @@
       "title": "Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics",
       "description": "Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics",
       "completedOn": "2022-04-03T13:35:21.7966158+00:00",
-      "url": "/training/modules/monitor-manage-data-engineering-workloads-apache-spark-azure-synapse-analytics/",
       "completionDate": "2022-04-03T13:35:21.7966158+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/monitor-manage-data-engineering-workloads-apache-spark-azure-synapse.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.transform-data-with-dataframes-apache-spark-pools-azure-synapse-analytics",
@@ -14807,60 +14792,39 @@
       "title": "Understand data warehouse developer features of Azure Synapse Analytics",
       "description": "Understand data warehouse developer features of Azure Synapse Analytics",
       "completedOn": "2022-04-03T13:15:05.301488+00:00",
-      "url": "/training/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics/",
       "completionDate": "2022-04-03T13:15:05.301488+00:00",
       "duration": 57,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/understand-data-warehouse-developer-features-of-azure-synapse-analytics.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.integrate-sql-apache-spark-pools-azure-synapse-analytics",
       "title": "Integrate SQL and Apache Spark pools in Azure Synapse Analytics",
       "description": "Integrate SQL and Apache Spark pools in Azure Synapse Analytics",
       "completedOn": "2022-04-03T13:12:27.342695+00:00",
-      "url": "/training/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/",
       "completionDate": "2022-04-03T13:12:27.342695+00:00",
       "duration": 33,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/integrate-sql-and-apache-spark-pools-in-azure-synapse-analytics.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.optimize-data-warehouse-query-performance-azure-synapse-analytics",
       "title": "Optimize data warehouse query performance in Azure Synapse Analytics",
       "description": "Optimize data warehouse query performance in Azure Synapse Analytics",
       "completedOn": "2022-04-03T13:10:01.14775+00:00",
-      "url": "/training/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/",
       "completionDate": "2022-04-03T13:10:01.14775+00:00",
       "duration": 62,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/optimize-data-warehouse-query-performance-in-azure-synapse-analytics.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.use-data-loading-best-practices-azure-synapse-analytics",
@@ -14971,40 +14935,26 @@
       "title": "Explore Azure Synapse Studio",
       "description": "Explore Azure Synapse Studio",
       "completedOn": "2022-04-03T07:06:04.684731+00:00",
-      "url": "/training/modules/explore-azure-synapse-studio/",
       "completionDate": "2022-04-03T07:06:04.684731+00:00",
       "duration": 43,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/explore-azure-synapse-studio.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.survey-components-of-azure-synapse-analytics",
       "title": "Survey the Components of Azure Synapse Analytics",
       "description": "Survey the Components of Azure Synapse Analytics",
       "completedOn": "2022-04-03T07:03:37.2428695+00:00",
-      "url": "/training/modules/survey-components-of-azure-synapse-analytics/",
       "completionDate": "2022-04-03T07:03:37.2428695+00:00",
       "duration": 65,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/survey-the-components-of-azure-synapse-analytics.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.introduction-to-azure-synapse-analytics",
@@ -15759,11 +15709,17 @@
       "url": "/training/modules/develop-secure-iot-solutions-azure-sphere-iot-hub/",
       "completionDate": "2022-05-09T20:02:30.3097202+00:00",
       "duration": 125,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/develop-secure-iot-solutions-for-azure-sphere-with-iot-hub.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-iot-hub"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn.oxford.image-classification-azure-sphere",
