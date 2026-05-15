@@ -15729,11 +15729,17 @@
       "url": "/training/modules/image-classification-azure-sphere/",
       "completionDate": "2022-05-09T05:51:00.6010615+00:00",
       "duration": 68,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/image-classification-using-azure-sphere.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-iot-edge"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn.oxford.intro-azure-sphere",
@@ -15743,11 +15749,17 @@
       "url": "/training/modules/intro-azure-sphere/",
       "completionDate": "2022-05-08T15:45:40.0109613+00:00",
       "duration": 30,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/introduction-to-azure-sphere.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure-iot-edge"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn.oxford.implement-cicd-iot-edge",
@@ -22635,7 +22647,7 @@
       ],
       "products": [
         "m365",
-        "azure",
+        "defender-identity",
         "microsoft-defender",
         "defender-xdr"
       ],
@@ -35116,7 +35128,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -37899,7 +37911,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
