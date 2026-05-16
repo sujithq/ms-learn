@@ -32509,7 +32509,6 @@
       "title": "Introduction to Azure Data Share",
       "description": "Introduction to Azure Data Share",
       "completedOn": "2022-04-06T20:22:21.8529767+00:00",
-      "url": "/training/modules/introduction-azure-data-share/",
       "completionDate": "2022-04-06T20:22:21.8529767+00:00",
       "duration": 43,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-data-share.svg",
@@ -38140,7 +38139,7 @@
     {
       "uid": "learn.wwl.sharing-data-with-azure-data-share",
       "title": "Share data with Azure Data Share",
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/sharing-data-with-azure-data-share.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-06T20:22:21.8529787+00:00"
     },
     {
