@@ -14584,8 +14584,7 @@
         "intermediate"
       ],
       "products": [
-        "azure-data-factory",
-        "azure-synapse-analytics"
+        "azure-data-factory"
       ],
       "locale": "en-us"
     },
@@ -18810,11 +18809,17 @@
       "url": "/training/modules/introduction-to-iot-hub/",
       "completionDate": "2022-05-07T13:05:50.0087053+00:00",
       "duration": 28,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/introduction-to-iot-hub.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure-iot-hub"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn-wwl.enable-digital-transformation",
@@ -32511,17 +32516,11 @@
       "completedOn": "2022-04-06T20:22:21.8529767+00:00",
       "completionDate": "2022-04-06T20:22:21.8529767+00:00",
       "duration": 43,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-data-share.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-data-share"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.azure-cyclecloud-high-performance-computing",
