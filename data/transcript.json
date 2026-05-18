@@ -31496,11 +31496,17 @@
       "url": "/training/modules/object-detection-iot-edge-live-video-analytics/",
       "completionDate": "2022-05-10T12:26:11.2140465+00:00",
       "duration": 105,
-      "iconUrl": null,
-      "roles": [],
-      "levels": [],
-      "products": [],
-      "locale": null
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/object-detection-iot-edge-live-video-analytics.svg",
+      "roles": [
+        "ai-edge-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-iot-hub"
+      ],
+      "locale": "en-us"
     },
     {
       "uid": "learn.wwl.describe-ediscovery-capabilities-of-microsoft-365",
