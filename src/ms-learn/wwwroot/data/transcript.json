@@ -4,6 +4,386 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.ai-knowledge-mining",
+      "title": "Create a knowledge mining solution with Azure AI Search",
+      "description": "Unlock the hidden insights in your data with Azure AI Search.",
+      "completedOn": "2026-05-20T23:19:24.4664813+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T23:19:20.704221+00:00",
+        "moduleAssessmentUrl": "/training/modules/ai-knowldge-mining/8-knowledge-check/"
+      },
+      "url": "/training/modules/ai-knowldge-mining/",
+      "completionDate": "2026-05-20T23:19:24.4664813+00:00",
+      "duration": 68,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "foundry-tools"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.extract-data-with-document-intelligence",
+      "title": "Extract data with Azure Document Intelligence",
+      "description": "Azure Document Intelligence uses OCR and deep learning to extract text, key-value pairs, tables, and structured data from documents. Learn how to use prebuilt models, train custom models, and build document processing solutions.",
+      "completedOn": "2026-05-20T23:14:56.6368848+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T23:14:50.5634754+00:00",
+        "moduleAssessmentUrl": "/training/modules/extract-data-with-document-intelligence/7-knowledge-check/"
+      },
+      "url": "/training/modules/extract-data-with-document-intelligence/",
+      "completionDate": "2026-05-20T23:14:56.6368848+00:00",
+      "duration": 71,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/extract-data-with-document-intelligence.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "foundry-tools",
+        "document-intelligence",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.analyze-content-ai-api",
+      "title": "Create an Azure AI Content Understanding client application",
+      "description": "Use the Azure AI Content Understanding REST API for multimodal content analysis and information extraction.",
+      "completedOn": "2026-05-20T23:08:24.3040716+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T23:08:21.2217606+00:00",
+        "moduleAssessmentUrl": "/training/modules/analyze-content-ai-api/06-knowledge-check/"
+      },
+      "url": "/training/modules/analyze-content-ai-api/",
+      "completionDate": "2026-05-20T23:08:24.3040716+00:00",
+      "duration": 60,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "foundry-tools",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.translate-text-speech",
+      "title": "Translate text and speech with Microsoft Foundry Tools",
+      "description": "Translate text and speech using Azure Translator and Azure Speech in Foundry Tools",
+      "completedOn": "2026-05-20T23:04:02.6939394+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T23:03:58.5046029+00:00",
+        "moduleAssessmentUrl": "/training/modules/translate-text-speech/6-knowledge-check/"
+      },
+      "url": "/training/modules/translate-text-speech/",
+      "completionDate": "2026-05-20T23:04:02.6939394+00:00",
+      "duration": 48,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry",
+        "foundry-tools"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-voice-live-agent",
+      "title": "Develop an Azure AI Voice Live agent",
+      "description": "Learn how to develop an Azure AI Voice Live Agent using the Voice Live API and SDK.",
+      "completedOn": "2026-05-20T22:57:16.2909281+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T22:57:07.4761425+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-voice-live-agent/5-knowledge-check/"
+      },
+      "url": "/training/modules/develop-voice-live-agent/",
+      "completionDate": "2026-05-20T22:57:16.2909281+00:00",
+      "duration": 52,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry",
+        "foundry-tools"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-speech-agent-speech-mcp",
+      "title": "Develop a Speech Agent with the Azure Speech MCP Server",
+      "description": "Learn how to build an AI agent that uses the Azure Speech MCP server to perform speech-to-text and text-to-speech tasks.",
+      "completedOn": "2026-05-20T22:48:22.5002775+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T22:48:15.3116406+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-speech-agent-speech-mcp/05-knowledge-check/"
+      },
+      "url": "/training/modules/develop-speech-agent-speech-mcp/",
+      "completionDate": "2026-05-20T22:48:22.5002775+00:00",
+      "duration": 52,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry",
+        "azure-speech"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.create-speech-enabled-apps",
+      "title": "Create speech-enabled apps with Azure AI services",
+      "description": "Create speech-enabled apps with Azure AI services.",
+      "completedOn": "2026-05-20T22:19:50.0017922+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T22:19:13.4444476+00:00",
+        "moduleAssessmentUrl": "/training/modules/create-speech-enabled-apps/8-knowledge-check/"
+      },
+      "url": "/training/modules/create-speech-enabled-apps/",
+      "completionDate": "2026-05-20T22:19:50.0017922+00:00",
+      "duration": 53,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/transcribe-speech-input-text.svg",
+      "roles": [
+        "ai-engineer",
+        "data-scientist",
+        "developer",
+        "solution-architect",
+        "student"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-generative-ai-audio-apps",
+      "title": "Develop an audio-enabled generative AI application",
+      "description": "A voice carries meaning beyond words, and audio-enabled generative AI models can interpret spoken input to understand tone, intent, and language. Learn how to build audio-enabled chat apps that listen and respond to audio.",
+      "completedOn": "2026-05-20T22:12:54.5604471+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T22:12:50.5938748+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-generative-ai-audio-apps/5-knowledge-check/"
+      },
+      "url": "/training/modules/develop-generative-ai-audio-apps/",
+      "completionDate": "2026-05-20T22:12:54.5604471+00:00",
+      "duration": 43,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.develop-text-analysis-agent-language-mcp",
+      "title": "Develop a Text Analysis Agent with the Azure Language MCP Server",
+      "description": "Learn how to build an AI agent that uses the Azure Language MCP server to perform text analysis tasks like entity recognition, sentiment analysis, and summarization.",
+      "completedOn": "2026-05-20T22:07:38.5890469+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T22:07:32.5154213+00:00",
+        "moduleAssessmentUrl": "/training/modules/develop-text-analysis-agent-language-mcp/05-knowledge-check/"
+      },
+      "url": "/training/modules/develop-text-analysis-agent-language-mcp/",
+      "completionDate": "2026-05-20T22:07:38.5890469+00:00",
+      "duration": 52,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "language-service",
+        "microsoft-foundry",
+        "foundry-agent-service"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.analyze-content-ai",
+      "title": "Analyze content with Azure AI Content Understanding",
+      "description": "Use Azure AI Content Understanding for multimodal content analysis and information extraction.",
+      "completedOn": "2026-05-20T22:01:15.0253464+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T22:01:11.0811841+00:00",
+        "moduleAssessmentUrl": "/training/modules/analyze-content-ai/06-knowledge-check/"
+      },
+      "url": "/training/modules/analyze-content-ai/",
+      "completionDate": "2026-05-20T22:01:15.0253464+00:00",
+      "duration": 60,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "foundry-tools",
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.analyze-text-ai-language",
+      "title": "Analyze text with Azure AI Language",
+      "description": "Analyze text with Azure AI Language",
+      "completedOn": "2026-05-20T21:58:25.8513754+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T21:58:21.0545723+00:00",
+        "moduleAssessmentUrl": "/training/modules/analyze-text-ai-language/9-knowledge-check/"
+      },
+      "url": "/training/modules/analyze-text-ai-language/",
+      "completionDate": "2026-05-20T21:58:25.8513754+00:00",
+      "duration": 46,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/extract-insights-from-text-with-the-text-analytics-service.svg",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "microsoft-foundry"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.github.agent-tooling-mcp-execution-environments",
+      "title": "Tooling, MCP, and Agent Execution Environments",
+      "description": "This module introduces how modern software agents interact with tools, APIs, and execution environments to perform meaningful tasks. It covers the role of Model Context Protocol (MCP), GitHub Actions, and agentic workflows in enabling scalable and controlled agent execution. You will also learn how GitHub ensures security and governance through defined execution boundaries and safeguards.",
+      "completedOn": "2026-05-20T18:14:09.4484869+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T18:14:01.1761329+00:00",
+        "moduleAssessmentUrl": "/training/modules/agent-tooling-mcp-execution-environments/6-knowledge-check/"
+      },
+      "url": "/training/modules/agent-tooling-mcp-execution-environments/",
+      "completionDate": "2026-05-20T18:14:09.4484869+00:00",
+      "duration": 35,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "devops-engineer",
+        "administrator",
+        "developer",
+        "solution-architect"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.github.design-agent-architecture-integration",
+      "title": "Designing Agent Architecture and SDLC Integration",
+      "description": "Illustration showing how agentic systems use GitHub workflows such as branches, pull requests, checks, and repository rules to safely build and maintain software.",
+      "completedOn": "2026-05-20T17:57:38.6153718+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T17:57:34.4412054+00:00",
+        "moduleAssessmentUrl": "/training/modules/design-agent-architecture-integration/8-knowledge-check/"
+      },
+      "url": "/training/modules/design-agent-architecture-integration/",
+      "completionDate": "2026-05-20T17:57:38.6153718+00:00",
+      "duration": 45,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "devops-engineer",
+        "administrator",
+        "developer",
+        "solution-architect"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.github.foundations-agentic-ai",
+      "title": "Foundations of Agentic AI in GitHub",
+      "description": "Explore how agentic AI changes the developer role from only writing code to guiding, reviewing, and validating systems that can take action across the SDLC. Understand GitHub's role as the system of record and control plane for safe, traceable agent workflows.",
+      "completedOn": "2026-05-20T17:50:58.2891724+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-20T17:50:44.5773815+00:00",
+        "moduleAssessmentUrl": "/training/modules/foundations-agentic-ai/7-knowledge-check/"
+      },
+      "url": "/training/modules/foundations-agentic-ai/",
+      "completionDate": "2026-05-20T17:50:58.2891724+00:00",
+      "duration": 40,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "roles": [
+        "devops-engineer",
+        "administrator",
+        "developer",
+        "solution-architect"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "github"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.static-analyzers",
       "title": "Static analyzers",
       "description": "Static analyzers",
@@ -29593,27 +29973,6 @@
       "locale": "en-us"
     },
     {
-      "uid": "learn.wwl.analyze-text-ai-language",
-      "title": "Analyze text with Azure AI Language",
-      "description": "Analyze text with Azure AI Language",
-      "completedOn": "2023-11-27T22:45:43.4775677+00:00",
-      "url": "/training/modules/analyze-text-ai-language/",
-      "completionDate": "2023-11-27T22:45:43.4775677+00:00",
-      "duration": 54,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/extract-insights-from-text-with-the-text-analytics-service.svg",
-      "roles": [
-        "ai-engineer",
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.build-dotnet-app-azure-cosmos-db-nosql",
       "title": "Guided project - Build a .NET app with Azure Cosmos DB for NoSQL",
       "description": "This module walks through connecting to Azure Cosmos DB for NoSQL to create and query container items from a .NET console application.  ",
@@ -32644,6 +33003,30 @@
     }
   ],
   "learningPathsCompleted": [
+    {
+      "uid": "learn.extract-insights-visual-data-azure",
+      "title": "Extract insights from visual data on Azure",
+      "description": "Use generative AI vision and Content Understanding in Azure to extract insights from visual data.",
+      "completedOn": "2026-05-20T23:19:24.4664826+00:00",
+      "passedOn": "2026-05-20T23:19:20.7932608+00:00",
+      "duration": 426
+    },
+    {
+      "uid": "learn.wwl.develop-language-solutions-azure-ai",
+      "title": "Develop natural language processing solutions with Azure AI Services",
+      "description": "Develop natural language processing solutions with Azure AI Services",
+      "completedOn": "2026-05-20T23:04:02.6939407+00:00",
+      "passedOn": "2026-05-20T23:03:58.590641+00:00",
+      "duration": 346
+    },
+    {
+      "uid": "learn.github.developing-agentic-systems-1",
+      "title": "Developing in Agentic AI Systems Part 1 of 2",
+      "description": "Learn how to design, deploy, and manage agentic AI systems within the software development lifecycle by integrating, orchestrating, and governing autonomous agents using GitHub to ensure safe, reliable, and scalable delivery.",
+      "completedOn": "2026-05-20T18:14:09.4484884+00:00",
+      "passedOn": "2026-05-20T18:14:01.2592946+00:00",
+      "duration": 120
+    },
     {
       "uid": "learn.wwl.az-400-implement-security-validate-code-basescompliance",
       "title": "AZ-400: Implement security and validate code bases for compliance",
@@ -35817,6 +36200,24 @@
   },
   "trophies": [
     {
+      "uid": "learn.extract-insights-visual-data-azure",
+      "title": "Extract insights from visual data on Azure",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+      "earnedDate": "2026-05-20T23:19:24.4664826+00:00"
+    },
+    {
+      "uid": "learn.wwl.develop-language-solutions-azure-ai",
+      "title": "Develop natural language processing solutions with Azure AI Services",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/create-language-solution-azure-cognitive-services.svg",
+      "earnedDate": "2026-05-20T23:04:02.6939407+00:00"
+    },
+    {
+      "uid": "learn.github.developing-agentic-systems-1",
+      "title": "Developing in Agentic AI Systems Part 1 of 2",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/agentic-github-1",
+      "earnedDate": "2026-05-20T18:14:09.4484884+00:00"
+    },
+    {
       "uid": "learn.wwl.az-400-implement-security-validate-code-basescompliance",
       "title": "AZ-400: Implement security and validate code bases for compliance",
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/implement-security-and-validate-code-bases-for-compliance.svg",
@@ -38157,8 +38558,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 1993900,
-  "totalModulesCompleted": 1651,
-  "totalLearningPathsCompleted": 390,
-  "totalTrainingMinutes": 75771
+  "totalXp": 2013950,
+  "totalModulesCompleted": 1664,
+  "totalLearningPathsCompleted": 393,
+  "totalTrainingMinutes": 76442
 }
