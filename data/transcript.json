@@ -4,6 +4,101 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.optimize-query-performance-azure-cosmos-db",
+      "title": "Optimize query performance for Azure Cosmos DB for NoSQL",
+      "description": "Learn how to optimize query performance and reduce costs for Azure Cosmos DB for NoSQL workloads by configuring indexes and selecting consistency levels.",
+      "completedOn": "2026-05-24T13:46:41.2896304+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-24T13:46:35.6811215+00:00",
+        "moduleAssessmentUrl": "/training/modules/optimize-query-performance-azure-cosmos-db/8-knowledge-check/"
+      },
+      "url": "/training/modules/optimize-query-performance-azure-cosmos-db/",
+      "completionDate": "2026-05-24T13:46:41.2896304+00:00",
+      "duration": 96,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-cosmos-db"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.implement-vector-search-azure-cosmos-db",
+      "title": "Implement vector search on Azure Cosmos DB for NoSQL",
+      "description": "Learn how to implement vector search capabilities in Azure Cosmos DB for NoSQL to build AI applications that perform semantic similarity queries.",
+      "completedOn": "2026-05-24T12:17:23.9539409+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-24T12:11:16.6265177+00:00",
+        "moduleAssessmentUrl": "/training/modules/implement-vector-search-azure-cosmos-db/7-knowledge-check/"
+      },
+      "url": "/training/modules/implement-vector-search-azure-cosmos-db/",
+      "completionDate": "2026-05-24T12:17:23.9539409+00:00",
+      "duration": 84,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-cosmos-db"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.build-query-azure-cosmos-db",
+      "title": "Build queries for Azure Cosmos DB for NoSQL",
+      "description": "Learn how to connect to Azure Cosmos DB for NoSQL, use the SDK to perform CRUD operations, and write SQL queries to retrieve document data for AI applications.",
+      "completedOn": "2026-05-24T11:04:42.8497037+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-05-24T11:04:22.1321528+00:00",
+        "moduleAssessmentUrl": "/training/modules/build-query-azure-cosmos-db/6-knowledge-check/"
+      },
+      "url": "/training/modules/build-query-azure-cosmos-db/",
+      "completionDate": "2026-05-24T11:04:42.8497037+00:00",
+      "duration": 72,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-cosmos-db"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.monitor-apps-azure-kubernetes-service",
+      "title": "Monitor and troubleshoot applications on Azure Kubernetes Service",
+      "description": "Monitor application health, debug issues, and verify connectivity for AI workloads running on Azure Kubernetes Service (AKS).",
+      "completedOn": "2026-05-24T10:34:17.3914682+00:00",
+      "url": "/training/modules/monitor-apps-azure-kubernetes-service/",
+      "completionDate": "2026-05-24T10:34:17.3914682+00:00",
+      "duration": 65,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+      "roles": [
+        "developer"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "products": [
+        "azure-kubernetes-service"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.configure-apps-azure-kubernetes-service",
       "title": "Configure applications on AKS",
       "description": "Externalize configuration, secure sensitive settings, and attach persistent storage for applications running on AKS.",
@@ -33174,6 +33269,21 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn.wwl.develop-ai-solutions-azure-cosmos-db",
+      "title": "Develop AI solutions with Azure Cosmos DB for NoSQL",
+      "description": "Learn how to develop AI solutions using Azure Cosmos DB for NoSQL, including vector search and query optimization for RAG pipelines and semantic retrieval.",
+      "completedOn": "2026-05-24T13:46:41.2896322+00:00",
+      "passedOn": "2026-05-24T13:46:35.8007676+00:00",
+      "duration": 252
+    },
+    {
+      "uid": "learn.wwl.deploy-monitor-apps-azure-kubernetes-service",
+      "title": "Deploy and monitor applications on Azure Kubernetes Service",
+      "description": "Learn how to deploy, configure, and troubleshoot apps on Azure Kubernetes Service.",
+      "completedOn": "2026-05-24T10:34:17.3914697+00:00",
+      "duration": 212
+    },
+    {
       "uid": "learn.wwl.deploy-manage-apps-azure-container-apps",
       "title": "Deploy and manage apps on Azure Container Apps",
       "description": "Learn how to deploy, manage, and scale containerized applications on Azure Container Apps.",
@@ -36384,6 +36494,18 @@
   },
   "trophies": [
     {
+      "uid": "learn.wwl.develop-ai-solutions-azure-cosmos-db",
+      "title": "Develop AI solutions with Azure Cosmos DB for NoSQL",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-24T13:46:41.2896322+00:00"
+    },
+    {
+      "uid": "learn.wwl.deploy-monitor-apps-azure-kubernetes-service",
+      "title": "Deploy and monitor applications on Azure Kubernetes Service",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "earnedDate": "2026-05-24T10:34:17.3914697+00:00"
+    },
+    {
       "uid": "learn.wwl.deploy-manage-apps-azure-container-apps",
       "title": "Deploy and manage apps on Azure Container Apps",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -38754,8 +38876,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 2024125,
-  "totalModulesCompleted": 1671,
-  "totalLearningPathsCompleted": 395,
-  "totalTrainingMinutes": 76956
+  "totalXp": 2030175,
+  "totalModulesCompleted": 1675,
+  "totalLearningPathsCompleted": 397,
+  "totalTrainingMinutes": 77273
 }
