@@ -18687,13 +18687,17 @@
       "duration": 62,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/power-virtual-agent-bots.svg",
       "roles": [
+        "functional-consultant",
+        "developer",
         "maker"
       ],
       "levels": [
-        "beginner"
+        "beginner",
+        "intermediate"
       ],
       "products": [
-        "ms-copilot"
+        "ms-copilot",
+        "microsoft-copilot-studio"
       ],
       "locale": "en-us"
     },
