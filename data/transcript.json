@@ -5456,10 +5456,8 @@
       "completedOn": "2026-01-30T11:07:33.9660496+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-30T11:07:31.2364808+00:00",
-        "moduleAssessmentUrl": "/training/modules/develop-multi-agent-azure-ai-foundry/5-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-30T11:07:31.2364808+00:00"
       },
-      "url": "/training/modules/develop-multi-agent-azure-ai-foundry/",
       "completionDate": "2026-01-30T11:07:33.9660496+00:00",
       "duration": 46,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -5514,10 +5512,8 @@
       "completedOn": "2026-01-30T10:52:26.9442402+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-30T10:52:23.4484501+00:00",
-        "moduleAssessmentUrl": "/training/modules/develop-ai-agents-vs-code/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-30T10:52:23.4484501+00:00"
       },
-      "url": "/training/modules/develop-ai-agents-vs-code/",
       "completionDate": "2026-01-30T10:52:26.9442402+00:00",
       "duration": 48,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -5541,10 +5537,8 @@
       "completedOn": "2026-01-30T09:51:34.9515244+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-30T09:51:29.97204+00:00",
-        "moduleAssessmentUrl": "/training/modules/develop-ai-agent-azure/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-30T09:51:29.97204+00:00"
       },
-      "url": "/training/modules/develop-ai-agent-azure/",
       "completionDate": "2026-01-30T09:51:34.9515244+00:00",
       "duration": 55,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -7113,10 +7107,8 @@
       "completedOn": "2025-07-15T10:03:40.2998318+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-07-15T10:03:37.2775284+00:00",
-        "moduleAssessmentUrl": "/training/modules/build-copilot-ai-studio/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-07-15T10:03:37.2775284+00:00"
       },
-      "url": "/training/modules/build-copilot-ai-studio/",
       "completionDate": "2025-07-15T10:03:40.2998318+00:00",
       "duration": 78,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/build-copilot-ai-studio.svg",
@@ -7139,10 +7131,8 @@
       "completedOn": "2025-07-15T09:59:17.3299626+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-07-15T09:59:14.7942284+00:00",
-        "moduleAssessmentUrl": "/training/modules/get-started-prompt-flow-ai-studio/7-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-07-15T09:59:14.7942284+00:00"
       },
-      "url": "/training/modules/get-started-prompt-flow-ai-studio/",
       "completionDate": "2025-07-15T09:59:17.3299626+00:00",
       "duration": 45,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -7184,10 +7174,8 @@
       "completedOn": "2025-07-15T09:53:39.9270661+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-07-15T09:53:34.1900176+00:00",
-        "moduleAssessmentUrl": "/training/modules/explore-models-azure-ai-studio/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-07-15T09:53:34.1900176+00:00"
       },
-      "url": "/training/modules/explore-models-azure-ai-studio/",
       "completionDate": "2025-07-15T09:53:39.9270661+00:00",
       "duration": 40,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -9455,7 +9443,6 @@
       "title": "Analyze video",
       "description": "Analyze video",
       "completedOn": "2023-07-20T06:38:56.9652258+00:00",
-      "url": "/training/modules/analyze-video/",
       "completionDate": "2023-07-20T06:38:56.9652258+00:00",
       "duration": 48,
       "iconUrl": null,
@@ -13588,7 +13575,6 @@
       "title": "Translate text with the Translator service",
       "description": "Translate text with the Translator service",
       "completedOn": "2023-07-20T06:29:46.7809159+00:00",
-      "url": "/training/modules/translate-text-with-translator-service/",
       "completionDate": "2023-07-20T06:29:46.7809159+00:00",
       "duration": 51,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/translate-text-with-the-translator-service.svg",
@@ -15605,7 +15591,6 @@
       "title": "Create a knowledge store with Azure Cognitive Search",
       "description": "Create a knowledge store with Azure Cognitive Search",
       "completedOn": "2024-03-19T21:50:08.0728375+00:00",
-      "url": "/training/modules/create-knowledge-store-azure-cognitive-search/",
       "completionDate": "2024-03-19T21:50:08.0728375+00:00",
       "duration": 46,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implementing-a-knowledge-store.svg",
@@ -15640,7 +15625,6 @@
       "title": "Create an Azure Cognitive Search solution",
       "description": "Create an Azure Cognitive Search solution",
       "completedOn": "2023-11-27T14:23:59.9077882+00:00",
-      "url": "/training/modules/create-azure-cognitive-search-solution/",
       "completionDate": "2023-11-27T14:23:59.9077882+00:00",
       "duration": 63,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/create-an-azure-cognitive-search-solution.svg",
@@ -21957,7 +21941,6 @@
       "title": "Translate speech with the speech service",
       "description": "Translate speech with the speech service",
       "completedOn": "2023-07-20T06:17:02.6617665+00:00",
-      "url": "/training/modules/translate-speech-speech-service/",
       "completionDate": "2023-07-20T06:17:02.6617665+00:00",
       "duration": 47,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/translate-speech-speech-service.svg",
@@ -26272,10 +26255,8 @@
       "completedOn": "2025-10-01T08:54:35.2692367+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-10-01T08:54:30.0728794+00:00",
-        "moduleAssessmentUrl": "/training/modules/finetune-model-copilot-ai-studio/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-10-01T08:54:30.0728794+00:00"
       },
-      "url": "/training/modules/finetune-model-copilot-ai-studio/",
       "completionDate": "2025-10-01T08:54:35.2692367+00:00",
       "duration": 83,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -29781,10 +29762,8 @@
       "completedOn": "2024-03-24T12:29:12.894973+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-28T12:54:05.4024036+00:00",
-        "moduleAssessmentUrl": "/training/modules/work-form-recognizer/10-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-28T12:54:05.4024036+00:00"
       },
-      "url": "/training/modules/work-form-recognizer/",
       "completionDate": "2024-03-24T12:29:12.894973+00:00",
       "duration": 49,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/form-recognizer-extract-data.svg",
@@ -29812,10 +29791,8 @@
       "completedOn": "2024-03-24T12:25:49.0227467+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-28T12:55:45.2266021+00:00",
-        "moduleAssessmentUrl": "/training/modules/use-prebuilt-form-recognizer-models/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-28T12:55:45.2266021+00:00"
       },
-      "url": "/training/modules/use-prebuilt-form-recognizer-models/",
       "completionDate": "2024-03-24T12:25:49.0227467+00:00",
       "duration": 21,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/use-prebuilt-form-recognizer-models.svg",
@@ -29854,7 +29831,6 @@
       "title": "Improve search results using vector search in Azure Cognitive Search\n",
       "description": "Learn how to improve search results using vector search.",
       "completedOn": "2024-03-24T12:15:21.1910317+00:00",
-      "url": "/training/modules/improve-search-results-vector-search/",
       "completionDate": "2024-03-24T12:15:21.1910317+00:00",
       "duration": 21,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -29876,7 +29852,6 @@
       "title": "Use semantic search to get better search results in Azure Cognitive Search",
       "description": "Learn how semantic search can help you to improve your Azure Cognitive Search results.",
       "completedOn": "2024-03-24T12:12:15.8094144+00:00",
-      "url": "/training/modules/use-semantic-search/",
       "completionDate": "2024-03-24T12:12:15.8094144+00:00",
       "duration": 24,
       "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
@@ -29899,7 +29874,6 @@
       "title": "Maintain an Azure Cognitive Search solution",
       "description": "Maintain the performance, cost, and reliability of your Azure Cognitive Search solutions.",
       "completedOn": "2024-03-24T12:08:42.4797809+00:00",
-      "url": "/training/modules/maintain-azure-cognitive-search-solution/",
       "completionDate": "2024-03-24T12:08:42.4797809+00:00",
       "duration": 73,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/maintain-azure-cognitive-search-solution.svg",
@@ -29923,7 +29897,6 @@
       "title": "Search data outside the Azure platform in Azure Cognitive Search using Azure Data Factory",
       "description": "Use Azure Data Factory to add data that resides inside or outside the Azure platform into your search indexes.",
       "completedOn": "2024-03-24T12:01:28.542425+00:00",
-      "url": "/training/modules/search-data-outside-azure-platform-cognitive-search/",
       "completionDate": "2024-03-24T12:01:28.542425+00:00",
       "duration": 37,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/search-data-outside-azure-platform-cognitive-search.svg",
@@ -29960,7 +29933,6 @@
       "title": "Implement advanced search features in Azure Cognitive Search",
       "description": "Use more advanced features of Azure Cognitive Search to improve your existing search solutions. Learn how to change the ranking on documents, boost the most important terms to your organization, and allow searching in multiple languages.",
       "completedOn": "2024-03-19T22:03:36.6293367+00:00",
-      "url": "/training/modules/implement-advanced-search-features-azure-cognitive-search/",
       "completionDate": "2024-03-19T22:03:36.6293367+00:00",
       "duration": 54,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-advanced-search-features-azure-cognitive-search.svg",
@@ -29984,7 +29956,6 @@
       "title": "Enrich a search index using Language Studio",
       "description": "Azure Cognitive Service for language gives you the power of Natural Language Processing (NLP) to automatically understand and analyze text. You can use that power to enhance your search solutions.",
       "completedOn": "2024-03-19T21:57:57.5883057+00:00",
-      "url": "/training/modules/enrich-search-index-using-language-studio/",
       "completionDate": "2024-03-19T21:57:57.5883057+00:00",
       "duration": 52,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/enrich-search-index-using-language-studio.svg",
@@ -30224,7 +30195,6 @@
       "title": "Build a question answering solution",
       "description": "Create question answering solutions with Azure AI Language",
       "completedOn": "2023-11-27T22:51:04.3845258+00:00",
-      "url": "/training/modules/create-question-answer-solution-ai-language/",
       "completionDate": "2023-11-27T22:51:04.3845258+00:00",
       "duration": 46,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/qna-maker-solution.svg",
@@ -30421,7 +30391,6 @@
       "title": "Read Text in Images and Documents with the Computer Vision Service",
       "description": "Azure's Computer Vision service uses advanced algorithms to process images and return information based on the visual features you're interested in. This module teaches you how to use the Azure Computer Vision's OCR API and Read API.",
       "completedOn": "2023-11-27T13:23:16.0749144+00:00",
-      "url": "/training/modules/read-text-images-documents-with-computer-vision-service/",
       "completionDate": "2023-11-27T13:23:16.0749144+00:00",
       "duration": 33,
       "iconUrl": null,
@@ -31581,7 +31550,6 @@
       "title": "Detect, analyze, and recognize faces",
       "description": "Detect, analyze, and recognize faces",
       "completedOn": "2023-07-20T06:48:46.2572115+00:00",
-      "url": "/training/modules/detect-analyze-recognize-faces/",
       "completionDate": "2023-07-20T06:48:46.2572115+00:00",
       "duration": 68,
       "iconUrl": null,
@@ -31595,7 +31563,6 @@
       "title": "Detect objects in images",
       "description": "Detect objects in images",
       "completedOn": "2023-07-20T06:44:51.9514236+00:00",
-      "url": "/training/modules/detect-objects-images/",
       "completionDate": "2023-07-20T06:44:51.9514236+00:00",
       "duration": 55,
       "iconUrl": null,
@@ -31609,7 +31576,6 @@
       "title": "Classify images",
       "description": "Classify images",
       "completedOn": "2023-07-20T06:41:09.6802013+00:00",
-      "url": "/training/modules/classify-images/",
       "completionDate": "2023-07-20T06:41:09.6802013+00:00",
       "duration": 48,
       "iconUrl": null,
@@ -31623,7 +31589,6 @@
       "title": "Analyze images",
       "description": "Analyze images",
       "completedOn": "2023-07-20T06:37:04.5074125+00:00",
-      "url": "/training/modules/analyze-images/",
       "completionDate": "2023-07-20T06:37:04.5074125+00:00",
       "duration": 48,
       "iconUrl": null,
@@ -31663,7 +31628,6 @@
       "title": "Build a Language Understanding model",
       "description": "The Language Understanding service enables you to train a language model that apps can use to extract meaning from natural language.",
       "completedOn": "2023-07-20T06:11:45.3212527+00:00",
-      "url": "/training/modules/build-language-understanding-model/",
       "completionDate": "2023-07-20T06:11:45.3212527+00:00",
       "duration": 59,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/build-language-understanding-model.svg",
