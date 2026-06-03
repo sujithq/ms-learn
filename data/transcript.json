@@ -5460,21 +5460,11 @@
       },
       "completionDate": "2026-01-30T11:07:33.9660496+00:00",
       "duration": 46,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry",
-        "foundry-agent-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.build-agent-with-custom-tools",
@@ -5516,19 +5506,11 @@
       },
       "completionDate": "2026-01-30T10:52:26.9442402+00:00",
       "duration": 48,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "ai-engineer",
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "microsoft-foundry",
-        "foundry-agent-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.develop-ai-agent-azure",
@@ -5541,21 +5523,11 @@
       },
       "completionDate": "2026-01-30T09:51:34.9515244+00:00",
       "duration": 55,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry",
-        "foundry-agent-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.ai-agent-fundamentals",
@@ -7111,18 +7083,11 @@
       },
       "completionDate": "2025-07-15T10:03:40.2998318+00:00",
       "duration": 78,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/build-copilot-ai-studio.svg",
-      "roles": [
-        "data-scientist",
-        "ai-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.get-started-prompt-flow-ai-studio",
@@ -7135,18 +7100,11 @@
       },
       "completionDate": "2025-07-15T09:59:17.3299626+00:00",
       "duration": 45,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "data-scientist",
-        "ai-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.ai-foundry-sdk",
@@ -7178,18 +7136,11 @@
       },
       "completionDate": "2025-07-15T09:53:39.9270661+00:00",
       "duration": 40,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "data-scientist",
-        "ai-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.prepare-azure-ai-development",
@@ -13577,19 +13528,11 @@
       "completedOn": "2023-07-20T06:29:46.7809159+00:00",
       "completionDate": "2023-07-20T06:29:46.7809159+00:00",
       "duration": 51,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/translate-text-with-the-translator-service.svg",
-      "roles": [
-        "ai-engineer",
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools",
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.extract-insights-text-with-text-analytics-service",
@@ -15593,19 +15536,11 @@
       "completedOn": "2024-03-19T21:50:08.0728375+00:00",
       "completionDate": "2024-03-19T21:50:08.0728375+00:00",
       "duration": 46,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implementing-a-knowledge-store.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.create-enrichment-pipeline-with-azure-cognitive-search",
@@ -15627,19 +15562,11 @@
       "completedOn": "2023-11-27T14:23:59.9077882+00:00",
       "completionDate": "2023-11-27T14:23:59.9077882+00:00",
       "duration": 63,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/create-an-azure-cognitive-search-solution.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.logic-apps-and-arm-templates",
@@ -16714,7 +16641,9 @@
       "duration": 55,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/intro-to-site-reliability-engineering-sre.svg",
       "roles": [
-        "administrator"
+        "administrator",
+        "devops-engineer",
+        "developer"
       ],
       "levels": [
         "beginner"
@@ -21943,21 +21872,11 @@
       "completedOn": "2023-07-20T06:17:02.6617665+00:00",
       "completionDate": "2023-07-20T06:17:02.6617665+00:00",
       "duration": 47,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/translate-speech-speech-service.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools",
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.synthesize-text-input-speech",
@@ -26259,18 +26178,11 @@
       },
       "completionDate": "2025-10-01T08:54:35.2692367+00:00",
       "duration": 83,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "data-scientist",
-        "ai-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.dpu.operate-hybrid-infrastructure-with-azure-local",
@@ -29766,23 +29678,11 @@
       },
       "completionDate": "2024-03-24T12:29:12.894973+00:00",
       "duration": 49,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/form-recognizer-extract-data.svg",
-      "roles": [
-        "ai-engineer",
-        "data-scientist",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools",
-        "document-intelligence",
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.use-prebuilt-form-recognizer-models",
@@ -29795,19 +29695,11 @@
       },
       "completionDate": "2024-03-24T12:25:49.0227467+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/use-prebuilt-form-recognizer-models.svg",
-      "roles": [
-        "ai-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools",
-        "document-intelligence",
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.plan-form-recognizer-solution",
@@ -29833,19 +29725,11 @@
       "completedOn": "2024-03-24T12:15:21.1910317+00:00",
       "completionDate": "2024-03-24T12:15:21.1910317+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "developer",
-        "student",
-        "data-scientist"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-cognitive-search"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.use-semantic-search",
@@ -29854,20 +29738,11 @@
       "completedOn": "2024-03-24T12:12:15.8094144+00:00",
       "completionDate": "2024-03-24T12:12:15.8094144+00:00",
       "duration": 24,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "student",
-        "data-scientist"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.maintain-azure-cognitive-search-solution",
@@ -29876,21 +29751,11 @@
       "completedOn": "2024-03-24T12:08:42.4797809+00:00",
       "completionDate": "2024-03-24T12:08:42.4797809+00:00",
       "duration": 73,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/maintain-azure-cognitive-search-solution.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-cognitive-search"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.search-data-outside-azure-platform-cognitive-search",
@@ -29899,21 +29764,11 @@
       "completedOn": "2024-03-24T12:01:28.542425+00:00",
       "completionDate": "2024-03-24T12:01:28.542425+00:00",
       "duration": 37,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/search-data-outside-azure-platform-cognitive-search.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-cognitive-search"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.build-azure-machine-learn-custom-skill-for-azure-cognitive-search",
@@ -29935,21 +29790,11 @@
       "completedOn": "2024-03-19T22:03:36.6293367+00:00",
       "completionDate": "2024-03-19T22:03:36.6293367+00:00",
       "duration": 54,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-advanced-search-features-azure-cognitive-search.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-cognitive-search"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.enrich-search-index-using-language-studio",
@@ -29958,21 +29803,11 @@
       "completedOn": "2024-03-19T21:57:57.5883057+00:00",
       "completionDate": "2024-03-19T21:57:57.5883057+00:00",
       "duration": 52,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/enrich-search-index-using-language-studio.svg",
-      "roles": [
-        "ai-engineer",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "advanced"
-      ],
-      "products": [
-        "azure",
-        "foundry-tools"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.investigate-container-for-use-with-ai-services",
@@ -30197,19 +30032,11 @@
       "completedOn": "2023-11-27T22:51:04.3845258+00:00",
       "completionDate": "2023-11-27T22:51:04.3845258+00:00",
       "duration": 46,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/qna-maker-solution.svg",
-      "roles": [
-        "ai-engineer",
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools",
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.build-dotnet-app-azure-cosmos-db-nosql",
@@ -31630,19 +31457,11 @@
       "completedOn": "2023-07-20T06:11:45.3212527+00:00",
       "completionDate": "2023-07-20T06:11:45.3212527+00:00",
       "duration": 59,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/build-language-understanding-model.svg",
-      "roles": [
-        "ai-engineer",
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "foundry-tools",
-        "microsoft-foundry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-azure-openai",
@@ -37454,7 +37273,7 @@
     {
       "uid": "learn.wwl.implement-knowledge-mining-azure-cognitive-search",
       "title": "Implement knowledge mining with Azure Cognitive Search",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-knowledge-mining-with-azure-cognitive-search.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2024-03-24T12:15:21.1910334+00:00"
     },
     {
