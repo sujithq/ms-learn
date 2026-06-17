@@ -36631,7 +36631,7 @@
     {
       "uid": "learn.researcher-cloud-security-cost-management",
       "title": "Azure for Researchers part 2: Cloud Security and Cost Management",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/researcher-cloud-security-cost-management.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2026-01-20T07:22:41.6533482+00:00"
     },
     {
@@ -36649,7 +36649,7 @@
     {
       "uid": "learn.researcher-introduction-to-cloud-computing",
       "title": "Azure for Researchers part 1: Introduction to Cloud Computing",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/researcher-introduction-to-cloud-computing.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2026-01-20T07:22:41.6532945+00:00"
     },
     {
@@ -36871,7 +36871,7 @@
     {
       "uid": "learn.azure.cna-architect-modern-apps",
       "title": "Create cloud native apps with Azure and open-source software",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/create-cloud-native-apps-with-azure-open-source.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-31T09:03:44.7375177+00:00"
     },
     {
@@ -37375,7 +37375,7 @@
     {
       "uid": "learn.security.implement-host-security",
       "title": "Implement virtual machine host security in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-host-security.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-03T14:32:42.8399521+00:00"
     },
     {
@@ -37435,7 +37435,7 @@
     {
       "uid": "learn.architect-compute-infrastructure",
       "title": "Architect compute infrastructure in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/architect-compute-infrastructure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-02T06:45:51.9653948+00:00"
     },
     {
@@ -37459,7 +37459,7 @@
     {
       "uid": "learn.administer-infrastructure-resources-in-azure",
       "title": "Administer infrastructure resources in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/administer-infrastructure-resources-in-azure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-01T12:17:08.8688838+00:00"
     },
     {
@@ -37549,19 +37549,19 @@
     {
       "uid": "learn.develop-deploy-applications-kubernetes",
       "title": "Develop and deploy applications on Kubernetes",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/develop-and-deploy-applications-on-kubernetes.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-21T11:05:12.9350269+00:00"
     },
     {
       "uid": "learn.intro-to-kubernetes-on-azure",
       "title": "Introduction to Kubernetes on Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/intro-to-kubernetes-on-azure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-21T09:59:11.5875989+00:00"
     },
     {
       "uid": "learn.administer-containers-in-azure",
       "title": "Administer containers in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/administer-containers-in-azure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2024-06-10T08:37:22.3850346+00:00"
     },
     {
@@ -37591,7 +37591,7 @@
     {
       "uid": "learn.architect-network-infrastructure",
       "title": "Architect network infrastructure in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/architect-network-infrastructure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-21T09:50:14.6162766+00:00"
     },
     {
@@ -37735,13 +37735,13 @@
     {
       "uid": "learn.azure-linux",
       "title": "Linux on Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-linux.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2024-11-28T12:22:23.2455883+00:00"
     },
     {
       "uid": "learn.deploy-a-website-with-azure-virtual-machines",
       "title": "Deploy a website with Azure virtual machines",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/deploy-a-website-with-azure-virtual-machines.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-12T16:19:54.0348083+00:00"
     },
     {
@@ -37789,7 +37789,7 @@
     {
       "uid": "learn.architect-modern-apps",
       "title": "Architect modern applications in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/architect-modern-apps.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2024-06-10T08:37:22.3850362+00:00"
     },
     {
@@ -38059,7 +38059,7 @@
     {
       "uid": "learn.store-data-in-azure",
       "title": "Store data in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/store-data-in-azure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-02T18:16:29.3219644+00:00"
     },
     {
