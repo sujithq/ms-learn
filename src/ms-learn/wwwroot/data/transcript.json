@@ -10357,24 +10357,13 @@
       "title": "Introduction to cloud-native apps on Azure",
       "description": "This module teaches concepts and ideas associated with cloud-native apps. We cover selecting Open-Source Software (OSS) components like Kubernetes and PostgreSQL, as well as unique Azure tools like Cosmos DB. We’ll also identify situations that call for building cloud-native apps, and review selecting components in an example scenario.",
       "completedOn": "2022-05-31T08:33:43.7355885+00:00",
-      "url": "/training/modules/introduction-to-cloud-native-apps/",
       "completionDate": "2022-05-31T08:33:43.7355885+00:00",
       "duration": 27,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/intro-to-cloud-native-apps.svg",
-      "roles": [
-        "administrator",
-        "developer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-kubernetes-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.azure-machine-learning-security",
@@ -17520,24 +17509,13 @@
       "title": "Upload, download, and manage data with Azure Storage Explorer",
       "description": "Azure Storage Explorer allows you to quickly view all the storage services under your account. You can browse through, read, and edit data stored in those services through a user-friendly graphical interface.",
       "completedOn": "2022-04-06T19:32:48.9774577+00:00",
-      "url": "/training/modules/upload-download-and-manage-data-with-azure-storage-explorer/",
       "completionDate": "2022-04-06T19:32:48.9774577+00:00",
       "duration": 37,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/upload-download-and-manage-data-with-azure-storage-explorer.svg",
-      "roles": [
-        "solution-architect",
-        "administrator"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-storage",
-        "azure-cosmos-db",
-        "azure-data-lake"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.store-and-share-with-azure-files",
@@ -17645,25 +17623,13 @@
       "title": "Manage virtual machines with the Azure CLI",
       "description": "Learn how to use the cross-platform Azure CLI to create, start, stop, and perform other management tasks related to virtual machines in Azure.",
       "completedOn": "2022-04-02T06:26:17.8752237+00:00",
-      "url": "/training/modules/manage-virtual-machines-with-azure-cli/",
       "completionDate": "2022-04-02T06:26:17.8752237+00:00",
       "duration": 51,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/manage-virtual-machines-with-azure-cli.svg",
-      "roles": [
-        "developer",
-        "administrator",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-virtual-machines",
-        "azure-clis"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "troubleshoot-inbound-network-connectivity-azure-load-balancer",
@@ -18122,7 +18088,6 @@
       "title": "Deploy and manage a stateful application by using Azure Cosmos DB and Azure Kubernetes Service",
       "description": "Create and manage a stateful application with an external storage by using Azure Cosmos DB and Azure Kubernetes Service",
       "completedOn": "2022-04-21T10:04:09.0995011+00:00",
-      "url": "/training/modules/aks-manage-application-state/",
       "completionDate": "2022-04-21T10:04:09.0995011+00:00",
       "duration": 24,
       "iconUrl": null,
@@ -18162,74 +18127,39 @@
       "title": "Deploy a containerized application on Azure Kubernetes Service",
       "description": "Explore how to create and deploy a containerized application by using Azure Kubernetes Service declarative manifest files.",
       "completedOn": "2022-04-21T08:55:02.9702739+00:00",
-      "url": "/training/modules/aks-deploy-container-app/",
       "completionDate": "2022-04-21T08:55:02.9702739+00:00",
       "duration": 64,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/aks-deploy-container-app.svg",
-      "roles": [
-        "solution-architect",
-        "developer",
-        "devops-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-kubernetes-service",
-        "azure-container-registry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.intro-to-kubernetes",
       "title": "Introduction to Kubernetes",
       "description": "Get acquainted with the Kubernetes open-source container-orchestration system for automating application deployment, scaling, and management.",
       "completedOn": "2022-04-21T08:48:35.1920585+00:00",
-      "url": "/training/modules/intro-to-kubernetes/",
       "completionDate": "2022-04-21T08:48:35.1920585+00:00",
       "duration": 53,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-to-kubernetes.svg",
-      "roles": [
-        "developer",
-        "administrator",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-kubernetes-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.intro-to-docker-containers",
       "title": "Introduction to Docker containers",
       "description": "Introduction to Docker containers",
       "completedOn": "2022-04-21T08:43:05.5463705+00:00",
-      "url": "/training/modules/intro-to-docker-containers/",
       "completionDate": "2022-04-21T08:43:05.5463705+00:00",
       "duration": 32,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/intro-to-docker-containers-social.png",
-      "roles": [
-        "developer",
-        "administrator",
-        "devops-engineer",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-container-registry",
-        "azure-container-instances"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.intro-to-hyperscale",
@@ -19807,47 +19737,26 @@
       "title": "Build and run a web application with the MEAN stack on an Azure Linux virtual machine",
       "description": "Learn how to decide if the MEAN stack (MongoDB, Express.js, AngularJS, and Node.js) is a good choice for you and set up a MEAN-based web application on a new Azure Linux virtual machine.",
       "completedOn": "2022-04-12T16:19:54.034806+00:00",
-      "url": "/training/modules/build-a-web-app-with-mean-on-a-linux-vm/",
       "completionDate": "2022-04-12T16:19:54.034806+00:00",
       "duration": 42,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/build-a-web-app-with-mean-on-a-linux-vm.svg",
-      "roles": [
-        "developer",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-virtual-machines",
-        "azure-cloud-shell"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.create-a-windows-vm-in-azure",
       "title": "Create a Windows virtual machine in Azure",
       "description": "Learn to create an Azure virtual machine in minutes that can be used like a local physical desktop or server.",
       "completedOn": "2022-04-12T16:14:27.2920932+00:00",
-      "url": "/training/modules/create-windows-virtual-machine-in-azure/",
       "completionDate": "2022-04-12T16:14:27.2920932+00:00",
       "duration": 51,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/create-windows-virtual-machine-in-azure.svg",
-      "roles": [
-        "administrator",
-        "developer",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-virtual-machines",
-        "azure-virtual-machines-windows"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.create-linux-vm-in-azure",
@@ -20828,24 +20737,13 @@
       "title": "Introduction to Azure Kubernetes Service",
       "description": "Get acquainted with the Azure Kubernetes open-source container-orchestration system for automating application deployment, scaling, and management.",
       "completedOn": "2022-04-21T08:50:24.9058771+00:00",
-      "url": "/training/modules/intro-to-azure-kubernetes-service/",
       "completionDate": "2022-04-21T08:50:24.9058771+00:00",
       "duration": 25,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/intro-to-azure-kubernetes-service.svg",
-      "roles": [
-        "developer",
-        "administrator",
-        "solution-architect",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-kubernetes-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.run-web-app-background-task-with-webjobs",
@@ -20864,23 +20762,13 @@
       "title": "Build and store container images with Azure Container Registry",
       "description": "Learn how to use Docker to build, store, and manage private container images with the Azure Container Registry.",
       "completedOn": "2024-06-10T08:37:22.3850319+00:00",
-      "url": "/training/modules/build-and-store-container-images/",
       "completionDate": "2024-06-10T08:37:22.3850319+00:00",
       "duration": 42,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/build-and-store-container-images.svg",
-      "roles": [
-        "administrator",
-        "solution-architect"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-container-instances",
-        "azure-container-registry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.intro-to-containers",
@@ -22850,23 +22738,13 @@
       "title": "Secure and isolate access to Azure resources by using network security groups and service endpoints",
       "description": "Find out how Azure network security groups and service endpoints help you secure your virtual machines and Azure services from unauthorized network access.",
       "completedOn": "2022-04-21T09:33:47.8744787+00:00",
-      "url": "/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/",
       "completionDate": "2022-04-21T09:33:47.8744787+00:00",
       "duration": 43,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/secure-and-isolate-with-nsg-and-service-endpoints.svg",
-      "roles": [
-        "solution-architect",
-        "administrator",
-        "security-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-virtual-network"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.host-domain-azure-dns",
@@ -24320,25 +24198,13 @@
       "title": "Create an Azure Storage account",
       "description": "Discover ways to use an Azure Storage account to manage your data for billing, access, and storage location of your blobs, files, queues, and tables.",
       "completedOn": "2022-04-02T16:54:20.6992408+00:00",
-      "url": "/training/modules/create-azure-storage-account/",
       "completionDate": "2022-04-02T16:54:20.6992408+00:00",
       "duration": 30,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/create-azure-storage-account.svg",
-      "roles": [
-        "administrator",
-        "developer",
-        "data-engineer",
-        "solution-architect"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-storage",
-        "azure-portal"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.choose-storage-approach-in-azure",
@@ -27369,22 +27235,13 @@
       "title": "Introduction to Linux on Azure",
       "description": "This module introduces the services and platforms that Azure provides for Linux environments.",
       "completedOn": "2024-11-28T12:22:23.2455863+00:00",
-      "url": "/training/modules/intro-to-linux-on-azure/",
       "completionDate": "2024-11-28T12:22:23.2455863+00:00",
       "duration": 44,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "developer",
-        "administrator",
-        "solution-architect"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.introduction-to-ai-security-testing",
@@ -27868,40 +27725,26 @@
       "title": "Provisioning a Linux virtual machine in Microsoft Azure",
       "description": "Learn about different methods of provisioning Linux virtual machines in Microsoft Azure.",
       "completedOn": "2024-06-10T08:43:26.0483236+00:00",
-      "url": "/training/modules/provision-linux-virtual-machine-in-azure/",
       "completionDate": "2024-06-10T08:43:26.0483236+00:00",
       "duration": 79,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.plan-your-linux-environment-in-azure",
       "title": "Plan your Linux environment in Azure",
       "description": "Learn about the most important aspects of planning Linux environments in Azure.",
       "completedOn": "2024-06-10T08:40:52.1387105+00:00",
-      "url": "/training/modules/plan-your-linux-environment-in-azure/",
       "completionDate": "2024-06-10T08:40:52.1387105+00:00",
       "duration": 35,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.student-evangelism.web-development-101-loops-arrays",
@@ -37441,7 +37284,7 @@
     {
       "uid": "learn.architect-storage-infrastructure",
       "title": "Architect storage infrastructure in Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/architect-storage-infrastructure.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-06T19:40:09.8404931+00:00"
     },
     {
