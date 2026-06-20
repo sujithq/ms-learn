@@ -19297,23 +19297,13 @@
       "title": "Enabling digital transformation",
       "description": "Digital transformation is a wave of business innovation fueled by the explosion of technology—data, applications, and devices are everywhere. The cloud, artificial intelligence (AI), and the internet of things (IoT) give organizations new ways to make sense of information and generate insights to transform their business. Realizing the benefits of digital transformation requires business leaders to look beyond technology to reimagine existing business models and embrace a different way of bringing together people, data, and processes to create value for customers.",
       "completedOn": "2021-01-25T23:29:36.8993034+00:00",
-      "url": "/training/modules/enable-digital-transformation/",
       "completionDate": "2021-01-25T23:29:36.8993034+00:00",
       "duration": 32,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/enable-digital-transformation.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "dynamics-365",
-        "m365",
-        "power-platform"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure-introduction-to-azure-search",
@@ -35442,7 +35432,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -38267,7 +38257,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
