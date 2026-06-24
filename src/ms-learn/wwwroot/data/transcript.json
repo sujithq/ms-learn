@@ -4,6 +4,46 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn-bizapps.copilot-tools-online-workshop",
+      "title": "Use tools in Copilot Studio - Online workshop",
+      "description": "Learn how to customize your agent with tools that allow the agent to perform both scripted and generative tasks.",
+      "completedOn": "2026-06-23T13:45:51.5960491+00:00",
+      "url": "/training/modules/copilot-tools-online-workshop/",
+      "completionDate": "2026-06-23T13:45:51.5960491+00:00",
+      "duration": 48,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/copilot-tools-online-workshop.svg",
+      "roles": [
+        "maker"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "ms-copilot"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn-bizapps.create-copilots-copilot-studio",
+      "title": "Build an initial copilot with Microsoft Copilot Studio",
+      "description": "Learn how to build custom copilot by using Microsoft Copilot Studio.",
+      "completedOn": "2026-06-23T13:43:12.8387018+00:00",
+      "url": "/training/modules/create-copilots-copilot-studio/",
+      "completionDate": "2026-06-23T13:43:12.8387018+00:00",
+      "duration": 39,
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/create-copilots-copilot-studio.svg",
+      "roles": [
+        "maker"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "ms-copilot"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn.wwl.optimize-query-performance-azure-cosmos-db",
       "title": "Optimize query performance for Azure Cosmos DB for NoSQL",
       "description": "Learn how to optimize query performance and reduce costs for Azure Cosmos DB for NoSQL workloads by configuring indexes and selecting consistency levels.",
@@ -32889,6 +32929,13 @@
   ],
   "learningPathsCompleted": [
     {
+      "uid": "learn-bizapps.enhance-autonomous-agents",
+      "title": "Enhance agents with autonomous capabilities",
+      "description": "Learn how to configure agents to behave autonomously.",
+      "completedOn": "2026-06-23T13:45:51.5960509+00:00",
+      "duration": 120
+    },
+    {
       "uid": "learn.wwl.develop-ai-solutions-azure-cosmos-db",
       "title": "Develop AI solutions with Azure Cosmos DB for NoSQL",
       "description": "Learn how to develop AI solutions using Azure Cosmos DB for NoSQL, including vector search and query optimization for RAG pipelines and semantic retrieval.",
@@ -36114,6 +36161,12 @@
   },
   "trophies": [
     {
+      "uid": "learn-bizapps.enhance-autonomous-agents",
+      "title": "Enhance agents with autonomous capabilities",
+      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-trophy.svg",
+      "earnedDate": "2026-06-23T13:45:51.5960509+00:00"
+    },
+    {
       "uid": "learn.wwl.develop-ai-solutions-azure-cosmos-db",
       "title": "Develop AI solutions with Azure Cosmos DB for NoSQL",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
@@ -38496,8 +38549,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 2030175,
-  "totalModulesCompleted": 1675,
-  "totalLearningPathsCompleted": 397,
-  "totalTrainingMinutes": 77273
+  "totalXp": 2033000,
+  "totalModulesCompleted": 1677,
+  "totalLearningPathsCompleted": 398,
+  "totalTrainingMinutes": 77360
 }
