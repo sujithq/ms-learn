@@ -4,6 +4,76 @@
   "docsId": "59b95574-bd7a-487d-a4ce-375f9df81140",
   "modulesCompleted": [
     {
+      "uid": "learn.wwl.plan-with-devops",
+      "title": "Plan with DevOps",
+      "description": "In this module you learn how to plan your software development projects agilely using GitHub Projects boards.",
+      "completedOn": "2026-07-09T22:47:11.1176118+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-07-09T22:46:46.3652359+00:00",
+        "moduleAssessmentUrl": "/training/modules/plan-with-devops/7-knowledge-check/"
+      },
+      "url": "/training/modules/plan-with-devops/",
+      "completionDate": "2026-07-09T22:47:11.1176118+00:00",
+      "duration": 70,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/plan-with-devops.svg",
+      "roles": [
+        "administrator",
+        "developer",
+        "devops-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "solution-architect",
+        "student",
+        "support-engineer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure",
+        "azure-cloud-services",
+        "github",
+        "azure-devops"
+      ],
+      "locale": "en-us"
+    },
+    {
+      "uid": "learn.wwl.discover-devops",
+      "title": "Discover DevOps",
+      "description": "This module explores how DevOps practices optimize application lifecycle management for accelerated time to market and operational stability.",
+      "completedOn": "2026-07-09T22:40:50.1143846+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-07-09T22:40:36.1099396+00:00",
+        "moduleAssessmentUrl": "/training/modules/discover-devops/6-knowledge-check/"
+      },
+      "url": "/training/modules/discover-devops/",
+      "completionDate": "2026-07-09T22:40:50.1143846+00:00",
+      "duration": 26,
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
+      "roles": [
+        "administrator",
+        "developer",
+        "devops-engineer",
+        "security-engineer",
+        "security-operations-analyst",
+        "solution-architect",
+        "student",
+        "support-engineer"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "products": [
+        "azure",
+        "azure-cloud-services",
+        "github",
+        "azure-devops"
+      ],
+      "locale": "en-us"
+    },
+    {
       "uid": "learn-bizapps.copilot-tools-online-workshop",
       "title": "Use tools in Copilot Studio - Online workshop",
       "description": "Learn how to customize your agent with tools that allow the agent to perform both scripted and generative tasks.",
@@ -29095,66 +29165,6 @@
       "locale": "en-us"
     },
     {
-      "uid": "learn.wwl.plan-with-devops",
-      "title": "Plan with DevOps",
-      "description": "In this module you learn how to plan your software development projects agilely using GitHub Projects boards.",
-      "completedOn": "2024-05-07T02:58:20.9517534+00:00",
-      "url": "/training/modules/plan-with-devops/",
-      "completionDate": "2024-05-07T02:58:20.9517534+00:00",
-      "duration": 61,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/plan-with-devops.svg",
-      "roles": [
-        "administrator",
-        "developer",
-        "devops-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "solution-architect",
-        "student",
-        "support-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-cloud-services",
-        "github",
-        "azure-devops"
-      ],
-      "locale": "en-us"
-    },
-    {
-      "uid": "learn.wwl.discover-devops",
-      "title": "Discover DevOps",
-      "description": "This module explores how DevOps practices optimize application lifecycle management for accelerated time to market and operational stability.",
-      "completedOn": "2024-05-07T02:51:30.1930761+00:00",
-      "url": "/training/modules/discover-devops/",
-      "completionDate": "2024-05-07T02:51:30.1930761+00:00",
-      "duration": 15,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
-      "roles": [
-        "administrator",
-        "developer",
-        "devops-engineer",
-        "security-engineer",
-        "security-operations-analyst",
-        "solution-architect",
-        "student",
-        "support-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure",
-        "azure-cloud-services",
-        "github",
-        "azure-devops"
-      ],
-      "locale": "en-us"
-    },
-    {
       "uid": "learn.azure.intro-build-copilots-for-startups",
       "title": "Introduction to building copilots for startups",
       "description": "In the rapidly advancing landscape of generative AI, the technology behind copilots continues to evolve. Understanding their potential and harnessing their capabilities is essential for any forward-looking entrepreneur. Whether you're a technologist, writer, entrepreneur, or innovator, we invite you to embark on an enlightening exploration of copilots and their potential to reshape the future of startups in the realm of generative AI. This module offers a comprehensive exploration of the transformational concept of copilots for startups. Discover how these applications, empowered by modern AI and expansive language models, can revolutionize complex cognitive tasks. Learn how startups can strategically use the Azure OpenAI Service to construct and deploy their own copilot to re-imagine user experiences, elevate content development, and harness the power of generative AI to drive innovation and growth.  Explore the foundational aspects of copilots, their flexible and customizable platforms, and high-quality text and image generation.",
@@ -38549,8 +38559,8 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 2033000,
+  "totalXp": 2035900,
   "totalModulesCompleted": 1677,
   "totalLearningPathsCompleted": 398,
-  "totalTrainingMinutes": 77360
+  "totalTrainingMinutes": 77380
 }
