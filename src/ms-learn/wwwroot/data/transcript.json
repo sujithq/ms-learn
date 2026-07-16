@@ -10130,7 +10130,6 @@
       "title": "Scale container applications in Azure Kubernetes Services (AKS) using KEDA",
       "description": "Explore what your options are for autoscaling Kubernetes resources, earning when to use each and the know-how to implement KEDA",
       "completedOn": "2022-05-31T15:12:59.6681201+00:00",
-      "url": "/training/modules/aks-app-scale-keda/",
       "completionDate": "2022-05-31T15:12:59.6681201+00:00",
       "duration": 41,
       "iconUrl": null,
