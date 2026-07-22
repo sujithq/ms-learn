@@ -13107,21 +13107,13 @@
       "title": "Configure web app settings",
       "description": "Learn how to create and manage application settings, install SSL/TLS certificates to secure web traffic, enable diagnostic logging, and create virtual app to directory mappings.",
       "completedOn": "2022-04-16T08:36:55.8360418+00:00",
-      "url": "/training/modules/configure-web-app-settings/",
       "completionDate": "2022-04-16T08:36:55.8360418+00:00",
       "duration": 27,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/app-service-configure.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-app-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.introduction-to-azure-app-service",
@@ -37048,7 +37040,7 @@
     {
       "uid": "learn.wwl.create-azure-app-service-web-apps",
       "title": "AZ-204: Create Azure App Service web apps",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-app-service-create-web-apps.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-16T08:40:07.7424329+00:00"
     },
     {
