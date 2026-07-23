@@ -13065,21 +13065,13 @@
       "title": "Explore Azure App Service deployment slots",
       "description": "Explore Azure App Service deployment slots",
       "completedOn": "2022-04-16T08:40:07.7424295+00:00",
-      "url": "/training/modules/understand-app-service-deployment-slots/",
       "completionDate": "2022-04-16T08:40:07.7424295+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/app-service-deployment-slots.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-app-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.scale-apps-app-service",
