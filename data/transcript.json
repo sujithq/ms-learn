@@ -13078,21 +13078,13 @@
       "title": "Scale apps in Azure App Service",
       "description": "Scale apps in Azure App Service",
       "completedOn": "2022-04-16T08:38:40.1669038+00:00",
-      "url": "/training/modules/scale-apps-app-service/",
       "completionDate": "2022-04-16T08:38:40.1669038+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/app-service-scale-apps.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-app-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.configure-web-app-settings",
@@ -13112,21 +13104,13 @@
       "title": "Explore Azure App Service",
       "description": "Learn about the key components of Azure App Service and how App Service can help you create, maintain, and deploy web apps more efficiently.",
       "completedOn": "2022-04-16T08:35:22.1201387+00:00",
-      "url": "/training/modules/introduction-to-azure-app-service/",
       "completionDate": "2022-04-16T08:35:22.1201387+00:00",
       "duration": 39,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-app-introduction.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-app-service"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.student-evangelism.practice-active-listening",
