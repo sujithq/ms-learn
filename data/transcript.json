@@ -6647,7 +6647,7 @@
       "products": [
         "azure-app-service",
         "github",
-        "azure-load-testing"
+        "azure-app-testing"
       ],
       "locale": "en-us"
     },
