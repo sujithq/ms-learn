@@ -19712,40 +19712,26 @@
       "title": "Migrate on-premises MySQL databases to Azure Database for MySQL",
       "description": "Migrate on-premises MySQL databases to Azure Database for MySQL",
       "completedOn": "2021-01-25T13:49:28.9890093+00:00",
-      "url": "/training/modules/migrate-on-premises-mysql-databases/",
       "completionDate": "2021-01-25T13:49:28.9890093+00:00",
       "duration": 42,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/migrate-on-premises-mysql-databases-to-azure-database-for-mysql.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.introduction-open-source-database-migration-azure",
       "title": "Introduction to open-source database migration on Azure",
       "description": "Introduction to open-source database migration on Azure",
       "completedOn": "2021-01-25T13:44:33.1368671+00:00",
-      "url": "/training/modules/introduction-open-source-database-migration-azure/",
       "completionDate": "2021-01-25T13:44:33.1368671+00:00",
       "duration": 50,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-to-open-source-database-migration-on-azure.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.azure-architecture-fundamentals",
@@ -37592,7 +37578,7 @@
     {
       "uid": "learn.wwl.migrating-open-source-workloads-to-azure",
       "title": "Migrate open-source databases to Azure",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/migrating-open-source-workloads-to-azure-dp0-70.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2021-01-25T13:59:08.3248833+00:00"
     },
     {
