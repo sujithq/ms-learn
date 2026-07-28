@@ -19672,40 +19672,26 @@
       "title": "Protect, monitor, and tune a migrated database",
       "description": "Protect, monitor, and tune a migrated database",
       "completedOn": "2021-01-25T13:59:08.3248811+00:00",
-      "url": "/training/modules/protect-monitor-tuning-migrated-database/",
       "completionDate": "2021-01-25T13:59:08.3248811+00:00",
       "duration": 46,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/protecting-monitoring-and-tuning-a-migrated-database.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.migrate-premises-postgresql-databases-azure-database-postgresql",
       "title": "Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL",
       "description": "Migrate on-premises PostgreSQL databases to Azure Database for PostgreSQL",
       "completedOn": "2021-01-25T13:52:45.6597798+00:00",
-      "url": "/training/modules/migrate-on-premises-postgresql-databases/",
       "completionDate": "2021-01-25T13:52:45.6597798+00:00",
       "duration": 70,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/migrate-onpremises-postgresql-db-azure-db.svg",
-      "roles": [
-        "data-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.migrate-premises-mysql-databases-azure-database-mysql",
@@ -25942,29 +25928,15 @@
       "completedOn": "2025-11-26T08:44:54.5363354+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-11-26T08:44:49.7012946+00:00",
-        "moduleAssessmentUrl": "/training/modules/ask-analyze-content-with-microsoft-copilot-microsoft-365/7-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-11-26T08:44:49.7012946+00:00"
       },
-      "url": "/training/modules/ask-analyze-content-with-microsoft-copilot-microsoft-365/",
       "completionDate": "2025-11-26T08:44:54.5363354+00:00",
       "duration": 38,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "ms-copilot",
-        "m365",
-        "m365-apps",
-        "office-word",
-        "office-powerpoint",
-        "office-outlook",
-        "office-teams"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.edit-transform-content-with-microsoft-copilot-microsoft-365",
@@ -25973,29 +25945,15 @@
       "completedOn": "2025-11-25T09:32:49.064561+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-11-25T09:32:45.5044415+00:00",
-        "moduleAssessmentUrl": "/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-11-25T09:32:45.5044415+00:00"
       },
-      "url": "/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/",
       "completionDate": "2025-11-25T09:32:49.064561+00:00",
       "duration": 31,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "ms-copilot",
-        "m365",
-        "m365-apps",
-        "office-word",
-        "office-powerpoint",
-        "office-outlook",
-        "office-teams"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.summarize-simplify-information-with-microsoft-copilot-microsoft-365",
@@ -26004,30 +25962,15 @@
       "completedOn": "2025-11-24T13:27:11.2050472+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2025-11-24T13:26:00.1773978+00:00",
-        "moduleAssessmentUrl": "/training/modules/summarize-simplify-information-with-microsoft-copilot-microsoft-365/8-knowledge-check/"
+        "moduleAssessmentPassedOn": "2025-11-24T13:26:00.1773978+00:00"
       },
-      "url": "/training/modules/summarize-simplify-information-with-microsoft-copilot-microsoft-365/",
       "completionDate": "2025-11-24T13:27:11.2050472+00:00",
       "duration": 34,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "ms-copilot",
-        "m365",
-        "m365-apps",
-        "office-word",
-        "office-powerpoint",
-        "office-excel",
-        "office-outlook",
-        "office-teams"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.use-ai-everyday-tasks",
@@ -35724,9 +35667,9 @@
   "certificationData": {
     "mcid": "2159564",
     "legalName": "SUJITH QUINTELIER",
-    "totalActiveCertifications": 30,
+    "totalActiveCertifications": 31,
     "totalHistoricalCertifications": 11,
-    "totalExamsPassed": 34,
+    "totalExamsPassed": 35,
     "totalQualificationsEarned": 0,
     "activeCertifications": [
       {
@@ -35776,6 +35719,14 @@
         "dateEarned": "2025-07-17T07:49:42+00:00",
         "expiration": "2027-07-17T23:59:59+00:00",
         "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-copilot.svg"
+      },
+      {
+        "name": "GitHub Certified: Agentic AI Developer",
+        "certificationNumber": "F552A0-APC645",
+        "status": "Active",
+        "dateEarned": "2026-07-27T15:03:52+00:00",
+        "expiration": "2027-07-27T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/credentials/images/badges/github-agentic-ai-developer.svg"
       },
       {
         "name": "Microsoft Certified: Cybersecurity Architect Expert",
