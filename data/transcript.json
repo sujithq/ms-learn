@@ -4532,29 +4532,15 @@
       "completedOn": "2026-03-10T16:24:44.4884103+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-03-10T16:24:41.6355414+00:00",
-        "moduleAssessmentUrl": "/training/modules/create-draft-content-with-microsoft-copilot-microsoft-365/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-03-10T16:24:41.6355414+00:00"
       },
-      "url": "/training/modules/create-draft-content-with-microsoft-copilot-microsoft-365/",
       "completionDate": "2026-03-10T16:24:44.4884103+00:00",
       "duration": 27,
-      "iconUrl": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "ms-copilot",
-        "m365",
-        "m365-apps",
-        "office-word",
-        "office-powerpoint",
-        "office-outlook",
-        "office-teams"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.get-started-with-ai-in-azure",
@@ -5197,28 +5183,15 @@
       "completedOn": "2026-02-10T14:27:24.6821208+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-02-10T14:27:21.8689596+00:00",
-        "moduleAssessmentUrl": "/training/modules/optimize-and-extend-microsoft-365-copilot/7-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-02-10T14:27:21.8689596+00:00"
       },
-      "url": "/training/modules/optimize-and-extend-microsoft-365-copilot/",
       "completionDate": "2026-02-10T14:27:24.6821208+00:00",
       "duration": 30,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/optimize-and-extend-microsoft-365-copilot.svg",
-      "roles": [
-        "administrator",
-        "business-owner",
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "m365",
-        "office-365",
-        "ms-copilot",
-        "m365-apps"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-fundamentals-of-data-visualization",
@@ -6341,28 +6314,15 @@
       "completedOn": "2026-01-27T08:43:40.9765129+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-27T08:43:35.8855307+00:00",
-        "moduleAssessmentUrl": "/training/modules/explore-possibilities-microsoft-365-copilot/8-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-27T08:43:35.8855307+00:00"
       },
-      "url": "/training/modules/explore-possibilities-microsoft-365-copilot/",
       "completionDate": "2026-01-27T08:43:40.9765129+00:00",
       "duration": 33,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/explore-possibilities-microsoft-365-copilot.svg",
-      "roles": [
-        "administrator",
-        "business-owner",
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "m365",
-        "office-365",
-        "ms-copilot",
-        "m365-apps"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.uncover-new-data-insights-ai",
@@ -6461,28 +6421,15 @@
       "completedOn": "2026-02-12T13:42:37.0696153+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-02-12T13:42:33.57409+00:00",
-        "moduleAssessmentUrl": "/training/modules/introduction-microsoft-365-copilot/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-02-12T13:42:33.57409+00:00"
       },
-      "url": "/training/modules/introduction-microsoft-365-copilot/",
       "completionDate": "2026-02-12T13:42:37.0696153+00:00",
       "duration": 28,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-microsoft-365-copilot.svg",
-      "roles": [
-        "administrator",
-        "business-owner",
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "m365",
-        "office-365",
-        "ms-copilot",
-        "m365-apps"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.draft-impactful-documents-using-ai",
@@ -9287,22 +9234,13 @@
       "title": "Protect against malicious attacks and unauthorized access with Microsoft Edge",
       "description": "Protect against malicious attacks and unauthorized access with Microsoft Edge",
       "completedOn": "2022-08-12T07:29:05.5985487+00:00",
-      "url": "/training/modules/protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge/",
       "completionDate": "2022-08-12T07:29:05.5985487+00:00",
       "duration": 24,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/protect-against-malicious-attacks-and-unauthorized-access-with-microsoft-edge.svg",
-      "roles": [
-        "administrator"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "m365",
-        "office-365",
-        "microsoft-edge"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint",
@@ -35385,7 +35323,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -36353,7 +36291,7 @@
     {
       "uid": "learn.wwl.get-started-with-microsoft-365-copilot",
       "title": "Get started with Microsoft 365 Copilot",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/get-started-with-microsoft-365-copilot.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2026-02-10T14:27:24.6821221+00:00"
     },
     {
@@ -38224,7 +38162,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
