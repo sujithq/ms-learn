@@ -11275,40 +11275,26 @@
       "title": "Implement managed identities",
       "description": "Implement managed identities",
       "completedOn": "2022-05-25T06:31:27.6960314+00:00",
-      "url": "/training/modules/implement-managed-identities/",
       "completionDate": "2022-05-25T06:31:27.6960314+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/manage-identities-implement.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-azure-key-vault",
       "title": "Implement Azure Key Vault",
       "description": "Implement Azure Key Vault",
       "completedOn": "2022-05-25T06:23:58.0683683+00:00",
-      "url": "/training/modules/implement-azure-key-vault/",
       "completionDate": "2022-05-25T06:23:58.0683683+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-key-vault-implement.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-key-vault"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.microsoft-graph",
@@ -11376,21 +11362,13 @@
       "title": "Explore the Microsoft identity platform",
       "description": "Learn the core features and functionality of the Microsoft identity platform which includes authentication service, open-source libraries, and application management tools to enable and control access to resources.",
       "completedOn": "2022-05-24T16:14:24.6180111+00:00",
-      "url": "/training/modules/explore-microsoft-identity-platform/",
       "completionDate": "2022-05-24T16:14:24.6180111+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/identity-platform-explore.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "entra-id",
-        "microsoft-identity-web"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.azure.intro-to-azure-monitor",
@@ -35262,7 +35240,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -36644,13 +36622,13 @@
     {
       "uid": "learn.wwl.az-204-implement-secure-cloud-solutions",
       "title": "AZ-204: Implement secure cloud solutions",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/cloud-solutions-implement.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-25T06:36:47.5789093+00:00"
     },
     {
       "uid": "learn.wwl.az-204-implement-authentication-authorization",
       "title": "AZ-204: Implement user authentication and authorization",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/authentication-authorization.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-25T06:21:11.4235252+00:00"
     },
     {
@@ -38101,7 +38079,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
