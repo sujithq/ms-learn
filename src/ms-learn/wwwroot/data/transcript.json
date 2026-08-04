@@ -11255,20 +11255,13 @@
       "title": "Implement Azure App Configuration",
       "description": "Implement Azure App Configuration",
       "completedOn": "2022-05-25T06:36:47.5789062+00:00",
-      "url": "/training/modules/implement-azure-app-configuration/",
       "completionDate": "2022-05-25T06:36:47.5789062+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-app-implement-configuration.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-app-configuration"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-managed-identities",
@@ -11301,61 +11294,39 @@
       "title": "Explore Microsoft Graph",
       "description": "Learn how Microsoft Graph facilitates the access and flow of data and how to form queries through REST and code.",
       "completedOn": "2022-05-25T06:21:11.4235234+00:00",
-      "url": "/training/modules/microsoft-graph/",
       "completionDate": "2022-05-25T06:21:11.4235234+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/microsoft-graph-explore.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-sdks",
-        "ms-graph"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-shared-access-signatures",
       "title": "Implement shared access signatures",
       "description": "Learn how to use shared access signatures to authorize access to storage resources.",
       "completedOn": "2022-05-25T05:15:27.3758871+00:00",
-      "url": "/training/modules/implement-shared-access-signatures/",
       "completionDate": "2022-05-25T05:15:27.3758871+00:00",
       "duration": 18,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/signatures-shared-access.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-authentication-by-using-microsoft-authentication-library",
       "title": "Implement authentication by using the Microsoft Authentication Library",
       "description": "Learn how to implement authentication by using the Microsoft Authentication Library.",
       "completedOn": "2022-05-24T22:37:22.498446+00:00",
-      "url": "/training/modules/implement-authentication-by-using-microsoft-authentication-library/",
       "completionDate": "2022-05-24T22:37:22.498446+00:00",
       "duration": 25,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/authentication-library.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-sdks"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-microsoft-identity-platform",
@@ -12904,21 +12875,13 @@
       "title": "Explore Azure Cosmos DB",
       "description": "Learn the core features and functionality of Azure Cosmos DB.",
       "completedOn": "2022-04-17T20:19:25.1090549+00:00",
-      "url": "/training/modules/explore-azure-cosmos-db/",
       "completionDate": "2022-04-17T20:19:25.1090549+00:00",
       "duration": 39,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-cosmos-db.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-cosmos-db"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-durable-functions",
@@ -12959,22 +12922,13 @@
       "title": "Explore Azure Functions",
       "description": "Learn how Azure Functions can be a great solution for data processing, systems integration, and building simple APIs and microservices.",
       "completedOn": "2022-04-16T08:42:53.3009999+00:00",
-      "url": "/training/modules/explore-azure-functions/",
       "completionDate": "2022-04-16T08:42:53.3009999+00:00",
       "duration": 18,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-functions.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-functions",
-        "dotnet"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.understand-app-service-deployment-slots",
@@ -36784,7 +36738,7 @@
     {
       "uid": "learn.wwl.az-204-implement-iaas-solutions",
       "title": "AZ-204: Implement infrastructure as a service solutions",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/iaas-implement-solutions.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-17T20:30:12.4233125+00:00"
     },
     {
@@ -36796,13 +36750,13 @@
     {
       "uid": "learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db",
       "title": "AZ-204: Develop solutions that use Azure Cosmos DB",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/az-204-develop-solutions-that-use-azure-cosmos-db.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-17T20:23:39.6244913+00:00"
     },
     {
       "uid": "learn.wwl.implement-azure-functions",
       "title": "AZ-204: Implement Azure Functions",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/az-204-implement-azure-functions.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-16T21:58:37.7195954+00:00"
     },
     {
