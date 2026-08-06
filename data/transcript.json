@@ -11154,101 +11154,65 @@
       "title": "Monitor app performance",
       "description": "Learn how to use the tools offered in Application Insights to enhance the performance and stability of your applications.",
       "completedOn": "2022-05-25T10:21:53.9318796+00:00",
-      "url": "/training/modules/monitor-app-performance/",
       "completionDate": "2022-05-25T10:21:53.9318796+00:00",
       "duration": 27,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/monitoring-app-performance.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-monitor"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.discover-azure-message-queue",
       "title": "Discover Azure message queues",
       "description": "Learn how to integrate Azure Service Bus and Azure Queue storage in to your solution, and how to send and receive message by using .NET.",
       "completedOn": "2022-05-25T10:20:00.581735+00:00",
-      "url": "/training/modules/discover-azure-message-queue/",
       "completionDate": "2022-05-25T10:20:00.581735+00:00",
       "duration": 30,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/discover-message-queue.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-queue-storage",
-        "azure-service-bus"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.azure-event-hubs",
       "title": "Explore Azure Event Hubs",
       "description": "Learn how Azure Event Hubs captures events and how to scale your processing application.",
       "completedOn": "2022-05-25T10:15:01.6157856+00:00",
-      "url": "/training/modules/azure-event-hubs/",
       "completionDate": "2022-05-25T10:15:01.6157856+00:00",
       "duration": 24,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-explore-azure-event-hubs.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-event-hubs"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.azure-event-grid",
       "title": "Explore Azure Event Grid",
       "description": "Learn how to integrate Azure Event Grid in to your solution, implement access control to events, and how to route custom events to web endpoint by using Azure CLI.",
       "completedOn": "2022-05-25T06:58:20.17534+00:00",
-      "url": "/training/modules/azure-event-grid/",
       "completionDate": "2022-05-25T06:58:20.17534+00:00",
       "duration": 30,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-event-grid.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-event-grid"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-api-management",
       "title": "Explore API Management",
       "description": "Learn how the API Management service functions, how to transform and secure APIs, and how to create a backend API.",
       "completedOn": "2022-05-25T06:48:14.506916+00:00",
-      "url": "/training/modules/explore-api-management/",
       "completionDate": "2022-05-25T06:48:14.506916+00:00",
       "duration": 37,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-api-management.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-api-management"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-azure-app-configuration",
@@ -12713,18 +12677,11 @@
       "completedOn": "2022-04-17T20:30:12.4233107+00:00",
       "completionDate": "2022-04-17T20:30:12.4233107+00:00",
       "duration": 31,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-container-instances-images.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-container-instances"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.publish-container-image-to-azure-container-registry",
@@ -12733,18 +12690,11 @@
       "completedOn": "2022-04-17T20:29:16.3807142+00:00",
       "completionDate": "2022-04-17T20:29:16.3807142+00:00",
       "duration": 31,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/azure-container-registry-publish.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-container-registry"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.create-deploy-azure-resource-manager-templates",
@@ -12841,18 +12791,11 @@
       "completedOn": "2022-04-17T20:23:39.6244895+00:00",
       "completionDate": "2022-04-17T20:23:39.6244895+00:00",
       "duration": 35,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/3-work-with-azure-cosmos-db.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-cosmos-db"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-partitioning-azure-cosmos-db",
@@ -12900,18 +12843,11 @@
       "completedOn": "2022-04-16T08:43:44.3556866+00:00",
       "completionDate": "2022-04-16T08:43:44.3556866+00:00",
       "duration": 33,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-develop-azure-functions.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-functions"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-azure-functions",
@@ -28495,17 +28431,11 @@
       "completedOn": "2024-05-08T11:24:27.0708048+00:00",
       "completionDate": "2024-05-08T11:24:27.0708048+00:00",
       "duration": 40,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/implement-azure-container-apps.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-container-apps"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.student-evangelism.bash-introduction",
@@ -35189,7 +35119,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -36547,25 +36477,25 @@
     {
       "uid": "learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging",
       "title": "AZ-204: Instrument solutions to support monitoring and logging",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/monitoring-instrument-solutions.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-25T10:21:53.9318813+00:00"
     },
     {
       "uid": "learn.wwl.az-204-develop-message-based-solutions",
       "title": "AZ-204: Develop message-based solutions",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/message-develop-solutions.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-25T10:20:00.5817375+00:00"
     },
     {
       "uid": "learn.wwl.az-204-develop-event-based-solutions",
       "title": "AZ-204: Develop event-based solutions",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/az-204-develop-event-based-solutions.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-25T10:15:01.6157876+00:00"
     },
     {
       "uid": "learn.wwl.az-204-implement-api-management",
       "title": "AZ-204: Implement API Management",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/az-204-implement-api-management.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-05-25T06:48:14.5069184+00:00"
     },
     {
@@ -38028,7 +37958,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
