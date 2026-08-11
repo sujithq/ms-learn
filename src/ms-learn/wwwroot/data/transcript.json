@@ -4176,14 +4176,14 @@
       "uid": "learn.wwl.introduction-vibe-coding",
       "title": "Introduction to vibe coding",
       "description": "This module examines the vibe coding approach to app development and how to implement a vibe coding process to create and refine an app using GitHub Copilot Agent.",
-      "completedOn": "2026-03-31T09:33:06.4049669+00:00",
+      "completedOn": "2026-08-11T11:52:27.0905036+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-03-31T09:32:59.2763821+00:00",
+        "moduleAssessmentPassedOn": "2026-08-11T11:52:19.1245329+00:00",
         "moduleAssessmentUrl": "/training/modules/introduction-vibe-coding/8-knowledge-check/"
       },
       "url": "/training/modules/introduction-vibe-coding/",
-      "completionDate": "2026-03-31T09:33:06.4049669+00:00",
+      "completionDate": "2026-08-11T11:52:27.0905036+00:00",
       "duration": 80,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
       "roles": [
@@ -35695,8 +35695,20 @@
     ]
   },
   "appliedSkillsData": {
-    "totalAppliedSkills": 18,
+    "totalAppliedSkills": 20,
     "appliedSkillsCredentials": [
+      {
+        "credentialId": "2C3879C11B46C0DA",
+        "title": "Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot",
+        "awardedOn": "2026-08-11T13:20:00+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
+      },
+      {
+        "credentialId": "5C6BCAEDC48C229F",
+        "title": "Microsoft Applied Skills: Manage GitHub secret scanning by using GitHub Copilot",
+        "awardedOn": "2026-08-11T12:44:21+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/credential/badges/applied-skill.svg"
+      },
       {
         "credentialId": "1221041DED706015",
         "title": "Microsoft Applied Skills: Get started with Azure management tasks",
