@@ -4,6 +4,8 @@
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,6 +20,10 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; GitHub Actions transcript fetcher)",
     "Accept": "application/json",
 }
+FETCH_ATTEMPTS = 3
+FETCH_TIMEOUT_SECONDS = 30
+RETRY_DELAY_SECONDS = 5
+RETRYABLE_HTTP_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 
 CATALOG_LEARNING_PATHS_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=learningPaths"
 CATALOG_MODULES_URL = "https://learn.microsoft.com/api/catalog/?locale=en-us&type=modules"
@@ -64,9 +70,24 @@ def fetch_xp_summary(docs_id):
 
 def fetch_json(url):
     """Fetch JSON data from a URL."""
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+    for attempt in range(1, FETCH_ATTEMPTS + 1):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT_SECONDS) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (TimeoutError, urllib.error.URLError) as exc:
+            retryable = not isinstance(exc, urllib.error.HTTPError) or (
+                exc.code in RETRYABLE_HTTP_STATUS_CODES
+            )
+            if not retryable or attempt == FETCH_ATTEMPTS:
+                raise
+
+            delay = RETRY_DELAY_SECONDS * (2 ** (attempt - 1))
+            print(
+                f"  Request failed ({exc}); retrying in {delay} seconds "
+                f"({attempt}/{FETCH_ATTEMPTS})"
+            )
+            time.sleep(delay)
 
 
 def fetch_transcript(transcript_id):

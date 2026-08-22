@@ -42,7 +42,7 @@ This writes the latest transcript JSON to `src/ms-learn/wwwroot/data/transcript.
 
 ## GitHub Actions Workflow
 
-The workflow (`.github/workflows/deploy.yml`) runs on every push to `main`, daily at 06:00 UTC, and on manual dispatch:
+The workflow (`.github/workflows/deploy.yml`) runs on every push to `main`, daily at 08:00 UTC, and on manual dispatch:
 
 1. **`fetch-data`** — Python script fetches the MS Learn transcript API and commits the JSON if it changed.
 2. **`deploy`** — Publishes the Blazor WASM app with `dotnet publish`, patches the base path to `/ms-learn/`, copies `index.html` → `404.html` for client-side routing, and deploys to the `gh-pages` branch using the JamesIves deploy action.
