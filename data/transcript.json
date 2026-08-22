@@ -8264,25 +8264,13 @@
       "title": "Prepare to maintain SQL databases on Azure",
       "description": "Prepare to maintain SQL databases on Azure",
       "completedOn": "2023-03-21T18:10:30.3540566+00:00",
-      "url": "/training/modules/prepare-to-maintain-sql-databases-azure/",
       "completionDate": "2023-03-21T18:10:30.3540566+00:00",
       "duration": 31,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-prepare-to-maintain-databases-on-azure.svg",
-      "roles": [
-        "data-analyst",
-        "data-engineer",
-        "database-administrator"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-sql-database",
-        "azure-sql-managed-instance",
-        "azure-sql-virtual-machines",
-        "sql-server"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.describe-threat-protection-with-microsoft-365-defender",
@@ -24216,14 +24204,16 @@
       "duration": 23,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/data-analytics-and-microsoft.svg",
       "roles": [
-        "data-analyst"
+        "business-user",
+        "data-analyst",
+        "business-analyst"
       ],
       "levels": [
-        "intermediate"
+        "beginner"
       ],
       "products": [
         "power-bi",
-        "power-platform"
+        "fabric"
       ],
       "locale": "en-us"
     },
@@ -26537,26 +26527,15 @@
       "completedOn": "2024-12-31T05:24:16.7299443+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-12-31T05:24:03.9307982+00:00",
-        "moduleAssessmentUrl": "/training/modules/define-microsoft-ai-strategy-sustainability/7-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-12-31T05:24:03.9307982+00:00"
       },
-      "url": "/training/modules/define-microsoft-ai-strategy-sustainability/",
       "completionDate": "2024-12-31T05:24:16.7299443+00:00",
       "duration": 32,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "business-owner",
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-openai",
-        "mscloud-sustainability",
-        "industry-solutions"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.responsible-ai-content-safety",
@@ -36297,7 +36276,7 @@
     {
       "uid": "learn.wwl.introduction-to-azure-database-administration",
       "title": "Introduction to Azure database administration",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/introduction-to-azure-database-administration.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-03-21T18:10:30.3540586+00:00"
     },
     {
