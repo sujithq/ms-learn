@@ -4960,6 +4960,11 @@
       "title": "Leveling up code reviews and pull requests with GitHub Copilot",
       "description": "This module shows how GitHub Copilot supports code reviews with actionable suggestions, auto-fixes, and custom guidelines, while Premium Request Units (PRUs) unlock advanced review capabilities.",
       "completedOn": "2026-02-16T13:28:44.5985821+00:00",
+      "moduleAssessment": {
+        "moduleAssessmentPassed": true,
+        "moduleAssessmentPassedOn": "2026-08-25T10:18:07.7622765+00:00",
+        "moduleAssessmentUrl": "/training/modules/code-reviews-pull-requests-github-copilot/knowledge-check/"
+      },
       "url": "/training/modules/code-reviews-pull-requests-github-copilot/",
       "completionDate": "2026-02-16T13:28:44.5985821+00:00",
       "duration": 35,
@@ -35089,7 +35094,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -37940,7 +37945,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
@@ -38179,7 +38184,7 @@
       "earnedDate": "2021-03-15T13:08:49.9453131+00:00"
     }
   ],
-  "totalXp": 2035900,
+  "totalXp": 2037000,
   "totalModulesCompleted": 1677,
   "totalLearningPathsCompleted": 398,
   "totalTrainingMinutes": 77380
