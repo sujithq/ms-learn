@@ -30654,66 +30654,39 @@
       "title": "Work with environments in GitHub Actions",
       "description": "machine learning operations, MLOps, environments",
       "completedOn": "2023-07-20T08:41:27.7048961+00:00",
-      "url": "/training/modules/work-environments-github-actions/",
       "completionDate": "2023-07-20T08:41:27.7048961+00:00",
       "duration": 36,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/work-environments-github-actions.svg",
-      "roles": [
-        "data-scientist",
-        "devops-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-machine-learning",
-        "github"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.work-linting-unit-test-github-actions",
       "title": "Work with linting and unit testing in GitHub Actions",
       "description": "machine learning operations, MLOps, linter, linting, unit tests, code check",
       "completedOn": "2023-07-20T08:39:31.5811928+00:00",
-      "url": "/training/modules/work-linting-unit-test-github-actions/",
       "completionDate": "2023-07-20T08:39:31.5811928+00:00",
       "duration": 32,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/work-linting-unit-test-github-actions.svg",
-      "roles": [
-        "data-scientist",
-        "devops-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-machine-learning",
-        "github"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.trigger-github-actions-trunk-based-development",
       "title": "Trigger GitHub Actions with trunk-based development",
       "description": "MLOps, machine learning operations, trunk-based development",
       "completedOn": "2023-07-20T08:34:39.0036908+00:00",
-      "url": "/training/modules/trigger-github-actions-trunk-based-development/",
       "completionDate": "2023-07-20T08:34:39.0036908+00:00",
       "duration": 35,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/trigger-github-actions-trunk-based-development.svg",
-      "roles": [
-        "data-scientist",
-        "devops-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-machine-learning",
-        "github"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.trigger-azure-machine-learn-jobs-github-actions",
@@ -30725,11 +30698,10 @@
       "duration": 35,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/trigger-azure-machine-learn-jobs-github-actions.svg",
       "roles": [
-        "data-scientist",
-        "devops-engineer"
+        "data-scientist"
       ],
       "levels": [
-        "intermediate"
+        "beginner"
       ],
       "products": [
         "azure-machine-learning",
@@ -30742,21 +30714,13 @@
       "title": "Use an Azure Machine Learning job for automation",
       "description": "MLOps, machine learning operations",
       "completedOn": "2023-07-20T07:53:50.1890914+00:00",
-      "url": "/training/modules/use-azure-machine-learn-job-for-automation/",
       "completionDate": "2023-07-20T07:53:50.1890914+00:00",
       "duration": 35,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/use-azure-machine-learn-job-for-automation.svg",
-      "roles": [
-        "data-scientist",
-        "devops-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.design-machine-learning-operations-solution",
@@ -35376,9 +35340,9 @@
   "certificationData": {
     "mcid": "2159564",
     "legalName": "SUJITH QUINTELIER",
-    "totalActiveCertifications": 31,
+    "totalActiveCertifications": 32,
     "totalHistoricalCertifications": 11,
-    "totalExamsPassed": 35,
+    "totalExamsPassed": 36,
     "totalQualificationsEarned": 0,
     "activeCertifications": [
       {
@@ -35476,6 +35440,14 @@
         "dateEarned": "2020-08-26T13:54:29+00:00",
         "expiration": "2027-08-26T23:59:59+00:00",
         "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
+      },
+      {
+        "name": "Microsoft Certified: Agentic AI Business Solutions Architect",
+        "certificationNumber": "236661-12WE30",
+        "status": "Active",
+        "dateEarned": "2026-08-28T07:33:32+00:00",
+        "expiration": "2027-08-28T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
         "name": "GitHub Actions",
