@@ -6524,23 +6524,15 @@
       "completedOn": "2026-01-26T12:53:14.7432569+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2026-01-26T12:53:08.7127458+00:00",
-        "moduleAssessmentUrl": "/training/modules/employ-copilot-assistant/5-knowledge-check/"
+        "moduleAssessmentPassedOn": "2026-01-26T12:53:08.7127458+00:00"
       },
-      "url": "/training/modules/employ-copilot-assistant/",
       "completionDate": "2026-01-26T12:53:14.7432569+00:00",
       "duration": 54,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "microsoft-365-copilot"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn-m365.what-generative-ai",
@@ -35058,7 +35050,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -37917,7 +37909,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to Generative AI",
+      "title": "Introduction to generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
