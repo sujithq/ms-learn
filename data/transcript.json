@@ -26560,24 +26560,15 @@
       "completedOn": "2024-11-28T15:22:54.6236581+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-28T15:22:48.6457409+00:00",
-        "moduleAssessmentUrl": "/training/modules/render-api-responses-razor-pages/5-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-28T15:22:48.6457409+00:00"
       },
-      "url": "/training/modules/render-api-responses-razor-pages/",
       "completionDate": "2024-11-28T15:22:54.6236581+00:00",
       "duration": 49,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "aspnet-core",
-        "dotnet"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.implement-http-operations-asp-razor",
@@ -26586,24 +26577,15 @@
       "completedOn": "2024-11-28T15:21:01.2802497+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-28T15:20:57.2092162+00:00",
-        "moduleAssessmentUrl": "/training/modules/implement-http-operations-asp-razor/5-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-28T15:20:57.2092162+00:00"
       },
-      "url": "/training/modules/implement-http-operations-asp-razor/",
       "completionDate": "2024-11-28T15:21:01.2802497+00:00",
       "duration": 52,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "aspnet-core",
-        "dotnet"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.interact-api",
@@ -26612,25 +26594,15 @@
       "completedOn": "2024-11-28T15:18:00.7846888+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-28T15:17:57.4030972+00:00",
-        "moduleAssessmentUrl": "/training/modules/interact-api/5-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-28T15:17:57.4030972+00:00"
       },
-      "url": "/training/modules/interact-api/",
       "completionDate": "2024-11-28T15:18:00.7846888+00:00",
       "duration": 37,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "aspnet-core",
-        "dotnet",
-        "aspnet"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.use-azure-machine-learning-inferencing-azure-database-postgresql",
@@ -28845,24 +28817,15 @@
       "completedOn": "2024-03-27T21:40:46.372408+00:00",
       "moduleAssessment": {
         "moduleAssessmentPassed": true,
-        "moduleAssessmentPassedOn": "2024-11-28T06:53:25.1458623+00:00",
-        "moduleAssessmentUrl": "/training/modules/administer-fabric/6-knowledge-check/"
+        "moduleAssessmentPassedOn": "2024-11-28T06:53:25.1458623+00:00"
       },
-      "url": "/training/modules/administer-fabric/",
       "completionDate": "2024-03-27T21:40:46.372408+00:00",
       "duration": 30,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/administer-microsoft-fabric.svg",
-      "roles": [
-        "administrator",
-        "database-administrator"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "fabric"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn-bizapps.power-bi-deployment-pipelines",
