@@ -5281,21 +5281,13 @@
       "title": "Define the role you want Microsoft 365 Copilot to play in your business workflow",
       "description": "Learn practical applications of Microsoft 365 Copilot in business workflows.",
       "completedOn": "2026-02-02T08:03:41.1558755+00:00",
-      "url": "/training/modules/define-copilot-role-business-workflow/",
       "completionDate": "2026-02-02T08:03:41.1558755+00:00",
       "duration": 49,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
-      "roles": [
-        "business-user"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "m365",
-        "office-365"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn-m365.wwl.manage-meetings-collaboration",
@@ -35013,7 +35005,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -37872,7 +37864,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
