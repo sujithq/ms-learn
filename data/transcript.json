@@ -35301,14 +35301,6 @@
         "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
-        "name": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
-        "certificationNumber": "AE53F7-479AFP",
-        "status": "Active",
-        "dateEarned": "2022-03-10T00:00:00+00:00",
-        "expiration": "2027-03-10T23:59:59+00:00",
-        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg"
-      },
-      {
         "name": "Microsoft Certified: Azure Security Engineer Associate",
         "certificationNumber": "892C07-EE9C31",
         "status": "Active",
@@ -35403,6 +35395,14 @@
         "dateEarned": "2026-02-20T09:26:55+00:00",
         "expiration": "2028-02-20T23:59:59+00:00",
         "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-actions.svg"
+      },
+      {
+        "name": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+        "certificationNumber": "614703-2W96C1",
+        "status": "Active",
+        "dateEarned": "2022-03-10T00:00:00+00:00",
+        "expiration": "2028-03-10T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure AI Fundamentals",
