@@ -12695,62 +12695,39 @@
       "title": "Work with Azure Blob storage",
       "description": "Learn how to use the Azure Blob storage client library to create and update Blob storage resources.",
       "completedOn": "2022-04-17T05:39:10.9241549+00:00",
-      "url": "/training/modules/work-azure-blob-storage/",
       "completionDate": "2022-04-17T05:39:10.9241549+00:00",
       "duration": 33,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/3-work-with-azure-blob-storage.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-blob-storage"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.manage-azure-blob-storage-lifecycle",
       "title": "Manage the Azure Blob storage lifecycle",
       "description": "Learn how to manage data availability throughout the Azure Blob storage lifecycle.",
       "completedOn": "2022-04-16T22:11:44.1104164+00:00",
-      "url": "/training/modules/manage-azure-blob-storage-lifecycle/",
       "completionDate": "2022-04-16T22:11:44.1104164+00:00",
       "duration": 21,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/2-manage-the-azure-blob-storage-lifecycle.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure",
-        "azure-blob-storage"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-azure-blob-storage",
       "title": "Explore Azure Blob storage",
       "description": "Learn the core features and functionality of Azure Blob storage.",
       "completedOn": "2022-04-16T22:03:54.6632783+00:00",
-      "url": "/training/modules/explore-azure-blob-storage/",
       "completionDate": "2022-04-16T22:03:54.6632783+00:00",
       "duration": 31,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-blob-storage.svg",
-      "roles": [
-        "developer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-blob-storage"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.work-with-cosmos-db",
@@ -36575,7 +36552,7 @@
     {
       "uid": "learn.wwl.develop-solutions-that-use-blob-storage",
       "title": "AZ-204: Develop solutions that use Blob storage",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/develop-solutions-that-use-blob-storage.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2022-04-17T05:39:10.9241568+00:00"
     },
     {
