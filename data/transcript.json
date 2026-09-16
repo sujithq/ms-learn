@@ -29468,140 +29468,91 @@
       "title": "Deploy a model to a managed online endpoint",
       "description": "Deploy a model to a managed online endpoint",
       "completedOn": "2023-11-27T13:58:42.2522488+00:00",
-      "url": "/training/modules/deploy-model-managed-online-endpoint/",
       "completionDate": "2023-11-27T13:58:42.2522488+00:00",
       "duration": 45,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/deploy-model-managed-online-endpoint.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.train-models-training-mlflow-jobs",
       "title": "Track model training with MLflow in jobs",
       "description": "Track model training with MLflow in jobs",
       "completedOn": "2023-11-27T13:56:34.556858+00:00",
-      "url": "/training/modules/train-models-training-mlflow-jobs/",
       "completionDate": "2023-11-27T13:56:34.556858+00:00",
       "duration": 34,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/track-model-training-with-mlflow-in-jobs.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.run-training-script-command-job-azure-machine-learning",
       "title": "Run a training script as a command job in Azure Machine Learning",
       "description": "Run a command job with the Azure Machine Learning Python SDK v2",
       "completedOn": "2023-11-27T13:54:56.2859516+00:00",
-      "url": "/training/modules/run-training-script-command-job-azure-machine-learning/",
       "completionDate": "2023-11-27T13:54:56.2859516+00:00",
       "duration": 37,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/run-training-script-command-job-azure-machine-learning.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.work-environments-azure-machine-learning",
       "title": "Work with environments in Azure Machine Learning",
       "description": "Azure Machine Learning environments Python SDK v2",
       "completedOn": "2023-11-27T13:52:25.062282+00:00",
-      "url": "/training/modules/work-environments-azure-machine-learning/",
       "completionDate": "2023-11-27T13:52:25.062282+00:00",
       "duration": 42,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/work-with-environments-in-azure-machine-learning.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.work-compute-resources-azure-machine-learning",
       "title": "Work with compute targets in Azure Machine Learning",
       "description": "Azure Machine Learning Python SDK v2",
       "completedOn": "2023-11-27T13:33:06.3516385+00:00",
-      "url": "/training/modules/work-compute-resources-azure-machine-learning/",
       "completionDate": "2023-11-27T13:33:06.3516385+00:00",
       "duration": 37,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/work-compute-resources-azure-machine-learning.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.make-data-available-azure-machine-learning",
       "title": "Make data available in Azure Machine Learning",
       "description": "Make data available in Azure Machine Learning",
       "completedOn": "2023-11-27T13:29:43.8805463+00:00",
-      "url": "/training/modules/make-data-available-azure-machine-learning/",
       "completionDate": "2023-11-27T13:29:43.8805463+00:00",
       "duration": 39,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/make-data-available-azure-machine-learning.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.register-mlflow-model-azure-machine-learning",
       "title": "Register an MLflow model in Azure Machine Learning",
       "description": "Register an MLflow model in Azure Machine Learning",
       "completedOn": "2023-11-27T13:27:54.2244026+00:00",
-      "url": "/training/modules/register-mlflow-model-azure-machine-learning/",
       "completionDate": "2023-11-27T13:27:54.2244026+00:00",
       "duration": 40,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/register-an-mlflow-model-in-azure-machine-learning.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.get-started-data-science-fabric",
@@ -30651,102 +30602,65 @@
       "title": "Design a machine learning operations solution",
       "description": "Design machine learning operations MLOps solution with Azure Machine Learning Python SDK v2",
       "completedOn": "2023-07-20T07:23:29.3624167+00:00",
-      "url": "/training/modules/design-machine-learning-operations-solution/",
       "completionDate": "2023-07-20T07:23:29.3624167+00:00",
       "duration": 36,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/design-a-machine-learning-operations-solution.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.design-model-deployment-solution",
       "title": "Design a model deployment solution",
       "description": "Azure Machine Learning Python SDK v2",
       "completedOn": "2023-07-20T07:18:58.0655659+00:00",
-      "url": "/training/modules/design-model-deployment-solution/",
       "completionDate": "2023-07-20T07:18:58.0655659+00:00",
       "duration": 27,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/design-model-deployment-solution.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.design-data-ingestion-strategy-for-machine-learning-projects",
       "title": "Design a data ingestion strategy for machine learning projects",
       "description": "Design a data ingestion strategy for machine learning projects",
       "completedOn": "2023-07-20T07:08:10.7369247+00:00",
-      "url": "/training/modules/design-data-ingestion-strategy-for-machine-learning-projects/",
       "completionDate": "2023-07-20T07:08:10.7369247+00:00",
       "duration": 33,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/design-data-ingestion-strategy-for-machine-learning-projects.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-databricks",
-        "azure-machine-learning",
-        "azure-synapse-analytics"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-developer-tools-for-workspace-interaction",
       "title": "Explore developer tools for workspace interaction",
       "description": "Explore developer tools for workspace interaction",
       "completedOn": "2023-07-20T06:57:31.8445155+00:00",
-      "url": "/training/modules/explore-developer-tools-for-workspace-interaction/",
       "completionDate": "2023-07-20T06:57:31.8445155+00:00",
       "duration": 47,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/explore-developer-tools-for-workspace-interaction.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-azure-machine-learning-workspace-resources-assets",
       "title": "Explore Azure Machine Learning workspace resources and assets",
       "description": "Explore Azure Machine Learning workspace resources and assets",
       "completedOn": "2023-07-20T06:54:29.2878176+00:00",
-      "url": "/training/modules/explore-azure-machine-learning-workspace-resources-assets/",
       "completionDate": "2023-07-20T06:54:29.2878176+00:00",
       "duration": 67,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/explore-azure-machine-learning-workspace-resources-assets.svg",
-      "roles": [
-        "data-scientist"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure-machine-learning"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.detect-analyze-recognize-faces",
@@ -34982,7 +34896,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -37841,7 +37755,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
@@ -37920,13 +37834,13 @@
     {
       "uid": "learn.wwl.design-machine-learning-solution",
       "title": "Design a machine learning solution",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/design-machine-learning-solution.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-07-20T07:23:29.3624191+00:00"
     },
     {
       "uid": "learn.wwl.explore-azure-machine-learning-workspace",
       "title": "Explore the Azure Machine Learning workspace",
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/explore-azure-machine-learning-workspace.svg",
+      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-07-20T06:57:31.8445179+00:00"
     },
     {
