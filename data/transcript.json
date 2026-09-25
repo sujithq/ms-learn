@@ -35275,7 +35275,8 @@
         "certificationNumber": "236661-12WE30",
         "status": "Active",
         "dateEarned": "2026-08-28T07:33:32+00:00",
-        "expiration": "2027-08-28T23:59:59+00:00"
+        "expiration": "2027-08-28T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
         "name": "GitHub Actions",
