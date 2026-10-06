@@ -4863,7 +4863,7 @@
       ],
       "products": [
         "foundry-tools",
-        "ai-vision",
+        "azure-vision-foundry-tools",
         "microsoft-365-copilot",
         "microsoft-365-copilot-chat",
         "microsoft-copilot-studio"
