@@ -20153,8 +20153,8 @@
     },
     {
       "uid": "learn.wwl.create-regression-model-azure-machine-learning-designer",
-      "title": "Create a regression model with Azure Machine Learning designer",
-      "description": "Create a regression model with Azure Machine Learning designer",
+      "title": "Create a Regression Model with Azure Machine Learning designer",
+      "description": "Create a Regression Model with Azure Machine Learning designer",
       "completedOn": "2022-04-12T06:38:38.5491387+00:00",
       "completionDate": "2022-04-12T06:38:38.5491387+00:00",
       "duration": 55,
@@ -34895,7 +34895,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -35292,7 +35292,7 @@
         "status": "Active",
         "dateEarned": "2022-03-10T00:00:00+00:00",
         "expiration": "2028-03-10T23:59:59+00:00",
-        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg"
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
       },
       {
         "name": "Microsoft Certified: Azure AI Fundamentals",
@@ -37754,7 +37754,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
