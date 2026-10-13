@@ -32915,7 +32915,7 @@
     {
       "uid": "learn.wwl.deploy-manage-containers-azure-kubernetes-service",
       "title": "Deploy containers by using Azure Kubernetes Service (AKS)",
-      "description": "In this learning path, you practice deploying containers, container orchestration, and managing clusters on Azure Kubernetes Service.  The skills validated include deploying, configuring, and scaling an Azure Kubernetes Service cluster. Also, deploying an Azure Container Registry instance and deploying an application into an Azure Kubernetes Service cluster.",
+      "description": "In this learning path, you practice deploying containers, container orchestration, and managing clusters on Azure Kubernetes Service. The skills validated include deploying, configuring, and scaling an Azure Kubernetes Service cluster. Also, deploying an Azure Container Registry instance and deploying an application into an Azure Kubernetes Service cluster.",
       "completedOn": "2025-09-23T13:33:12.5136407+00:00",
       "passedOn": "2025-09-23T13:18:50.5136445+00:00",
       "duration": 355
@@ -34895,7 +34895,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "description": "Learn",
       "completedOn": "2023-11-27T14:06:37.8967835+00:00",
       "duration": 153
@@ -37754,7 +37754,7 @@
     },
     {
       "uid": "learn.intro-generative-ai",
-      "title": "Introduction to generative AI",
+      "title": "Introduction to Generative AI",
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg",
       "earnedDate": "2023-11-27T14:06:37.8967835+00:00"
     },
