@@ -24316,23 +24316,13 @@
       "title": "Query relational data in Azure",
       "description": "Query relational data in Azure",
       "completedOn": "2020-09-02T07:36:08.5504004+00:00",
-      "url": "/training/modules/query-relational-data/",
       "completionDate": "2020-09-02T07:36:08.5504004+00:00",
       "duration": 40,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/query-relational-data-azure.svg",
-      "roles": [
-        "administrator",
-        "business-user",
-        "data-engineer",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-provision-deploy-relational-database-offerings-azure",
@@ -24388,23 +24378,13 @@
       "title": "Explore concepts of data analytics",
       "description": "Explore concepts of data analytics",
       "completedOn": "2020-09-02T06:12:42.0364759+00:00",
-      "url": "/training/modules/explore-concepts-of-data-analytics/",
       "completionDate": "2020-09-02T06:12:42.0364759+00:00",
       "duration": 16,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/explore-concepts-of-data-analytics.svg",
-      "roles": [
-        "administrator",
-        "business-user",
-        "data-engineer",
-        "student"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-concepts-of-non-relational-data",
@@ -24424,22 +24404,13 @@
       "title": "Describe concepts of relational data",
       "description": "Describe concepts of relational data",
       "completedOn": "2020-09-02T05:55:59.6254902+00:00",
-      "url": "/training/modules/describe-concepts-of-relational-data/",
       "completionDate": "2020-09-02T05:55:59.6254902+00:00",
       "duration": 24,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/describe-concepts-of-relational-data.svg",
-      "roles": [
-        "administrator",
-        "business-user",
-        "data-engineer"
-      ],
-      "levels": [
-        "beginner"
-      ],
-      "products": [
-        "azure"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.wwl.explore-roles-responsibilities-world-of-data",
