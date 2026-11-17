@@ -16107,7 +16107,6 @@
       "title": "Implement CI/CD for IoT Edge",
       "description": "This module implements CICD pipeline for edge devices",
       "completedOn": "2022-05-08T15:39:50.3214379+00:00",
-      "url": "/training/modules/implement-cicd-iot-edge/",
       "completionDate": "2022-05-08T15:39:50.3214379+00:00",
       "duration": 54,
       "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/implement-cicd-for-iot-edge.svg",
