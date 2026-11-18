@@ -16109,24 +16109,17 @@
       "completedOn": "2022-05-08T15:39:50.3214379+00:00",
       "completionDate": "2022-05-08T15:39:50.3214379+00:00",
       "duration": 54,
-      "iconUrl": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/implement-cicd-for-iot-edge.svg",
-      "roles": [
-        "ai-edge-engineer"
-      ],
-      "levels": [
-        "intermediate"
-      ],
-      "products": [
-        "azure-iot-edge"
-      ],
-      "locale": "en-us"
+      "iconUrl": null,
+      "roles": [],
+      "levels": [],
+      "products": [],
+      "locale": null
     },
     {
       "uid": "learn.oxford.intro-mlops-iot-edge",
       "title": "Introduction to MLOps for IoT Edge",
       "description": "University of Oxford",
       "completedOn": "2022-05-07T15:16:35.912404+00:00",
-      "url": "/training/modules/intro-mlops-iot-edge/",
       "completionDate": "2022-05-07T15:16:35.912404+00:00",
       "duration": 36,
       "iconUrl": null,
