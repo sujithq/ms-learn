@@ -35140,9 +35140,9 @@
   "certificationData": {
     "mcid": "2159564",
     "legalName": "SUJITH QUINTELIER",
-    "totalActiveCertifications": 32,
-    "totalHistoricalCertifications": 11,
-    "totalExamsPassed": 36,
+    "totalActiveCertifications": 34,
+    "totalHistoricalCertifications": 12,
+    "totalExamsPassed": 40,
     "totalQualificationsEarned": 0,
     "activeCertifications": [
       {
@@ -35242,6 +35242,14 @@
         "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg"
       },
       {
+        "name": "GitHub Administration",
+        "certificationNumber": "75443G-7E83D4",
+        "status": "Active",
+        "dateEarned": "2023-09-24T11:25:06+00:00",
+        "expiration": "2027-09-24T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-administration.svg"
+      },
+      {
         "name": "GitHub Actions",
         "certificationNumber": "6U3493-9B2936",
         "status": "Active",
@@ -35270,6 +35278,13 @@
         "status": "Active",
         "dateEarned": "2024-05-02T06:10:02+00:00",
         "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+      },
+      {
+        "name": "GitHub Foundations",
+        "certificationNumber": "H4B859-DDA757",
+        "status": "Active",
+        "dateEarned": "2023-10-16T11:38:26+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-foundations.svg"
       },
       {
         "name": "Microsoft® Certified Solutions Expert: Cloud Platform and Infrastructure",
@@ -35371,6 +35386,14 @@
       }
     ],
     "historicalCertifications": [
+      {
+        "name": "GitHub Advanced Security",
+        "certificationNumber": "6FD7E5-Y8F69D",
+        "status": "Expired",
+        "dateEarned": "2023-07-26T08:34:02+00:00",
+        "expiration": "2026-07-26T23:59:59+00:00",
+        "iconUrl": "https://learn.microsoft.com/en-us/media/learn/certification/badges/github-advanced-security.svg"
+      },
       {
         "name": "Microsoft Certified: Azure Solutions Architect Expert (Legacy)",
         "certificationNumber": "221JC5-885D53",
